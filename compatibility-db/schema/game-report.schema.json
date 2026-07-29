@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Super Duper compatibility game record",
+  "type": "object",
+  "required": ["schemaVersion", "bundleId", "title", "version", "overallStatus", "milestones", "updated"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "bundleId": { "type": "string", "minLength": 3 },
+    "title": { "type": "string", "minLength": 1 },
+    "version": { "type": "string", "minLength": 1 },
+    "overallStatus": { "enum": ["unknown", "partial", "verified", "issues", "blocked"] },
+    "milestones": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": { "enum": ["unknown", "partial", "verified", "issues", "blocked"] }
+    },
+    "recommendedProfile": { "type": "string" },
+    "notes": { "type": "string" },
+    "testedOn": { "type": "array" },
+    "updated": { "type": "string", "format": "date" }
+  },
+  "additionalProperties": true
+}

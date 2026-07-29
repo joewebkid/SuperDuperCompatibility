@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.chairentertainment.birthright",
+  "title": "Infinity Blade",
+  "version": "1.4.3",
+  "overallStatus": "partial",
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "partial",
+    "gameplay": "partial",
+    "textures": "issues",
+    "audio": "partial",
+    "input": "partial",
+    "saves": "unknown"
+  },
+  "recommendedProfile": "infinity-blade-ipad2-safe",
+  "notes": "The game reaches its initial flow on the current Android fork. PVRTC texture fallback and frame presentation remain active investigation areas; do not treat this result as a full-playthrough verification.",
+  "testedOn": [
+    {
+      "device": "Android phone with Adreno GPU",
+      "appBuild": "development",
+      "result": "partial"
+    }
+  ],
+  "updated": "2026-07-30"
+}

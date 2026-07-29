@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "project": "Super Duper Compatibility Database",
+  "updated": "2026-07-30",
+  "games": [
+    {
+      "bundleId": "com.chairentertainment.birthright",
+      "title": "Infinity Blade",
+      "latestVersion": "1.4.3",
+      "overallStatus": "partial",
+      "record": "games/com.chairentertainment.birthright/1.4.3.json",
+      "recommendedProfile": "infinity-blade-ipad2-safe"
+    }
+  ]
+}

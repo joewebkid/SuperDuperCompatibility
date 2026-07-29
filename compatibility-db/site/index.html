@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#171a20" />
+    <meta name="description" content="Публичная база совместимости Super Duper." />
+    <title>Super Duper Compatibility</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <p class="eyebrow">SUPER DUPER</p>
+        <h1>Совместимость iOS-игр</h1>
+        <p class="lead">Проверенные статусы, точечные профили и честные заметки по версиям IPA.</p>
+        <p class="notice">Здесь нет IPA, игровых файлов, сохранений или приватных логов.</p>
+      </header>
+
+      <section class="controls" aria-label="Фильтры каталога">
+        <label class="search-label" for="search">Поиск игры или Bundle ID</label>
+        <input id="search" type="search" autocomplete="off" placeholder="Например, Infinity Blade" />
+        <div id="filters" class="filters" aria-label="Статус совместимости"></div>
+      </section>
+
+      <section class="catalogue" aria-live="polite">
+        <div class="catalogue-heading">
+          <h2>Каталог</h2>
+          <span id="count"></span>
+        </div>
+        <div id="games" class="games"></div>
+        <p id="empty" class="empty" hidden>По этому запросу игр пока нет.</p>
+      </section>
+    </main>
+
+    <footer>
+      <a href="https://github.com/joewebkid/SuperDuperCompatibility">Исходные данные и вклад в базу</a>
+    </footer>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
