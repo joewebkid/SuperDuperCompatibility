@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 724,
+    "appUrl": "https://appdb.touchhle.org/apps/724",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Interactive SpongeBob",
+    "releaseYear": "2013",
+    "developerPublisher": "Double A Games & Apps",
+    "firstReported": "2025-01-19T16:19:42Z",
+    "firstReportedBy": {
+      "name": "@Yellowegg785",
+      "url": "https://github.com/Yellowegg785"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.6",
+      "displayName": "SpongeBob",
+      "bundleId": "talkingam.isil.com",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Yellowegg785",
+        "url": "https://github.com/Yellowegg785"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

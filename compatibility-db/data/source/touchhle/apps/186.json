@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 186,
+    "appUrl": "https://appdb.touchhle.org/apps/186",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Pole Position Remix",
+    "releaseYear": null,
+    "developerPublisher": "Namco Networks America Inc.",
+    "firstReported": "2023-12-15T08:18:02Z",
+    "firstReportedBy": {
+      "name": "@AnIcePerson",
+      "url": "https://github.com/AnIcePerson"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Pole Position",
+      "bundleId": "com.namconetworks.PPRemix",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-06-24T21:35:57Z"
+    },
+    {
+      "version": "1.0.3",
+      "displayName": "Pole Position",
+      "bundleId": "com.namconetworks.PPRemix",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@AnIcePerson",
+        "url": "https://github.com/AnIcePerson"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-12-15T08:18:02Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2393",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.3-453-g994e2476",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2026-06-24T21:35:57Z",
+      "reportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "remarks": "Menu works fully, when pressing play, it crashes with the error shown below.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2393/screenshot"
+    },
+    {
+      "sourceReportId": "306",
+      "version": "1.0.3",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 650",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2023-12-15T08:18:02Z",
+      "reportedBy": {
+        "name": "@AnIcePerson",
+        "url": "https://github.com/AnIcePerson"
+      },
+      "remarks": "Panic at src/objc/messages.rs:130:13: Class \"UITextView\" (0x3000af90) is unimplemented. Call to class method \"alloc\".",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

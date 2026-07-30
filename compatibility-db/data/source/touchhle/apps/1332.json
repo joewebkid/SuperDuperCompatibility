@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1332,
+    "appUrl": "https://appdb.touchhle.org/apps/1332",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "A+ Burger",
+    "releaseYear": "2009",
+    "developerPublisher": "Celestial Digital Entertainment",
+    "firstReported": "2026-06-19T16:35:03Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3",
+      "url": "https://github.com/0ldw4r3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "A+ Burger",
+      "bundleId": "cde.090104A",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.2",
+      "displayName": "A+ Burger",
+      "bundleId": "cde.090104A",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

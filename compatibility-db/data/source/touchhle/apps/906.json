@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 906,
+    "appUrl": "https://appdb.touchhle.org/apps/906",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Zic: Knight",
+    "releaseYear": "2009",
+    "developerPublisher": "Nate Games / SJ Games / Mymoins",
+    "firstReported": "2025-06-14T09:37:35Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Zic: Knight",
+      "bundleId": "com.knight.nategames",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-06-14T09:37:35Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1511",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-740-gb448f97",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 4,
+      "reported": "2025-06-14T09:37:35Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1511/screenshot"
+    }
+  ]
+}

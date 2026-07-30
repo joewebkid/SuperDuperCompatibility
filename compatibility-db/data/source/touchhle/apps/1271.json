@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1271,
+    "appUrl": "https://appdb.touchhle.org/apps/1271",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Championship Manager 2011",
+    "releaseYear": "2010",
+    "developerPublisher": "Beautiful Game Studios/Square Enix Europe",
+    "firstReported": "2026-05-26T21:33:06Z",
+    "firstReportedBy": {
+      "name": "@daneddev",
+      "url": "https://github.com/daneddev"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.0.0",
+      "displayName": "CM2011",
+      "bundleId": "com.Eidos.CM2011",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@daneddev",
+        "url": "https://github.com/daneddev"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

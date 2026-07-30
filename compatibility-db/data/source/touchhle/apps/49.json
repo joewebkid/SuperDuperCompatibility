@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 49,
+    "appUrl": "https://appdb.touchhle.org/apps/49",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Gold Miner Joe",
+    "releaseYear": "2010",
+    "developerPublisher": "Donut Games",
+    "firstReported": "2023-10-30T14:13:22Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.00 (Lite)",
+      "displayName": "Gold M LITE",
+      "bundleId": "com.donutgames.goldminerjoe-lite",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Ninja232323",
+        "url": "https://github.com/Ninja232323"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.21",
+      "displayName": "Gold Miner",
+      "bundleId": "com.donutgames.goldminerjoe",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

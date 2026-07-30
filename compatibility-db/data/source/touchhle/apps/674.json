@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 674,
+    "appUrl": "https://appdb.touchhle.org/apps/674",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Paladog",
+    "releaseYear": "2011",
+    "developerPublisher": "FazeCat",
+    "firstReported": "2024-12-26T11:05:35Z",
+    "firstReportedBy": {
+      "name": "@ericswpark",
+      "url": "https://github.com/ericswpark"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.01",
+      "displayName": "Paladog!",
+      "bundleId": "com.fazecat.paladogeng",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@ericswpark",
+        "url": "https://github.com/ericswpark"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

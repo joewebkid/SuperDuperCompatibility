@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1131,
+    "appUrl": "https://appdb.touchhle.org/apps/1131",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Musket & Artillery: American Revolutionary War",
+    "releaseYear": "2010",
+    "developerPublisher": "EASY Inc.",
+    "firstReported": "2026-02-09T04:15:42Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "ARWar",
+      "bundleId": "com.zhangyue.arwar",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-02-09T04:15:42Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1934",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-02-09T04:15:42Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1934/screenshot"
+    }
+  ]
+}

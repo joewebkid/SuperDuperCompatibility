@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 166,
+    "appUrl": "https://appdb.touchhle.org/apps/166",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "PapiJump",
+    "releaseYear": "2008",
+    "developerPublisher": "Sunflat",
+    "firstReported": "2023-12-04T15:57:30Z",
+    "firstReportedBy": {
+      "name": "@Reupload372",
+      "url": "https://github.com/Reupload372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.6.1.0.2",
+      "displayName": "PapiJump",
+      "bundleId": "net.sunflat.iphone.PapiJump",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@Reupload372",
+        "url": "https://github.com/Reupload372"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-12-04T15:57:30Z"
+    },
+    {
+      "version": "1.6.1.0.3",
+      "displayName": "PapiJump",
+      "bundleId": "net.sunflat.iphone.PapiJump",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@TimofeyLednev",
+        "url": "https://github.com/TimofeyLednev"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "259",
+      "version": "1.6.1.0.2",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 11",
+      "gpu": "Galaxy A40",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2023-12-04T15:57:30Z",
+      "reportedBy": {
+        "name": "@Reupload372",
+        "url": "https://github.com/Reupload372"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/259/screenshot"
+    }
+  ]
+}

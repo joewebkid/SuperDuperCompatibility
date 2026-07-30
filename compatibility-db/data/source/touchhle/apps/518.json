@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 518,
+    "appUrl": "https://appdb.touchhle.org/apps/518",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Fluide",
+    "releaseYear": "2009",
+    "developerPublisher": "Fabien Sanglard",
+    "firstReported": "2024-09-15T20:09:34Z",
+    "firstReportedBy": {
+      "name": "@smileboxrevival",
+      "url": "https://github.com/smileboxrevival"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Fluide",
+      "bundleId": "fabiensanglard.net",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@smileboxrevival",
+        "url": "https://github.com/smileboxrevival"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

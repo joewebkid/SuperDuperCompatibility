@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 824,
+    "appUrl": "https://appdb.touchhle.org/apps/824",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Kick Buttowski: Loco Launcho",
+    "releaseYear": "2010",
+    "developerPublisher": "Disney",
+    "firstReported": "2025-03-11T22:19:45Z",
+    "firstReportedBy": {
+      "name": "@RicardoAJP",
+      "url": "https://github.com/RicardoAJP"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.6.0",
+      "displayName": "KB Loco",
+      "bundleId": "com.disney.KickButtowskiIPHONE",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@RicardoAJP",
+        "url": "https://github.com/RicardoAJP"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-03-11T22:19:45Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1387",
+      "version": "1.6.0",
+      "emulatorVersion": "v0.2.2-625-g3550209",
+      "operatingSystem": "Android 13",
+      "gpu": "Adreno(TM) 610",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-03-11T22:19:45Z",
+      "reportedBy": {
+        "name": "@RicardoAJP",
+        "url": "https://github.com/RicardoAJP"
+      },
+      "remarks": "Panic at src/objc/classes.rs:678:13: assertion failed: instance_start >= superclass_instance_size",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1387/screenshot"
+    }
+  ]
+}

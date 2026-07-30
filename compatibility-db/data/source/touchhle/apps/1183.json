@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1183,
+    "appUrl": "https://appdb.touchhle.org/apps/1183",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Zombieville",
+    "releaseYear": "2009",
+    "developerPublisher": "Mika Mobile",
+    "firstReported": "2026-03-29T17:27:57Z",
+    "firstReportedBy": {
+      "name": "@ciciplusplus",
+      "url": "https://github.com/ciciplusplus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Zombieville",
+      "bundleId": "com.KelliNoda.Zombieville",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

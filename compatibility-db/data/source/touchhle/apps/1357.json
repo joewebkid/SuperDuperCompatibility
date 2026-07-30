@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1357,
+    "appUrl": "https://appdb.touchhle.org/apps/1357",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Blocks Classic",
+    "releaseYear": null,
+    "developerPublisher": "bootant.com",
+    "firstReported": "2026-06-21T21:22:06Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3",
+      "url": "https://github.com/0ldw4r3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.9",
+      "displayName": "BClassic",
+      "bundleId": "com.bootant.BreakClassic",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-06-21T21:22:06Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2350",
+      "version": "1.0.9",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-06-21T21:22:06Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Have completed more than 20 levels. Works fully.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2350/screenshot"
+    }
+  ]
+}

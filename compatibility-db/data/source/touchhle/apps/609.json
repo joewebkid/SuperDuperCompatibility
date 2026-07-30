@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 609,
+    "appUrl": "https://appdb.touchhle.org/apps/609",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Aero",
+    "releaseYear": null,
+    "developerPublisher": "Act1 Corporation",
+    "firstReported": "2024-11-09T03:13:03Z",
+    "firstReportedBy": {
+      "name": "@DaCringeyBaka",
+      "url": "https://github.com/DaCringeyBaka"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Aero",
+      "bundleId": "act1.Aero",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-11-09T03:13:03Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "993",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-365-g329f857",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-11-09T03:13:03Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "Seems to be working well. Managed to finish the first level in both the Time Attack and Free Style modes without experiencing crashes. Replay also works.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/993/screenshot"
+    }
+  ]
+}

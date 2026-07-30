@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 625,
+    "appUrl": "https://appdb.touchhle.org/apps/625",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Fantasy Warrior: Good & Evil",
+    "releaseYear": "2009",
+    "developerPublisher": "Digital Chocolate",
+    "firstReported": "2024-11-24T01:01:47Z",
+    "firstReportedBy": {
+      "name": "@kage2051",
+      "url": "https://github.com/kage2051"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.5",
+      "displayName": "FantasyWarrior",
+      "bundleId": "iFantasyPremium",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@kage2051",
+        "url": "https://github.com/kage2051"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-11-24T01:01:47Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1037",
+      "version": "1.0.5",
+      "emulatorVersion": "v0.2.2-401-gd1c9295",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno 642L",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-11-24T01:01:47Z",
+      "reportedBy": {
+        "name": "@kage2051",
+        "url": "https://github.com/kage2051"
+      },
+      "remarks": "Crashes upon load.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

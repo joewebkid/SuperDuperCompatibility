@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1279,
+    "appUrl": "https://appdb.touchhle.org/apps/1279",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Break the Cookie: Sports",
+    "releaseYear": "2012",
+    "developerPublisher": "B&V Games",
+    "firstReported": "2026-06-04T16:01:09Z",
+    "firstReportedBy": {
+      "name": "@sonic1234987s-hue",
+      "url": "https://github.com/sonic1234987s-hue"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "BTC: Sports",
+      "bundleId": "com.bnb.breakthecookiesports",
+      "minimumIosVersion": "4.1",
+      "firstReportedBy": {
+        "name": "@sonic19345698-cloud",
+        "url": "https://github.com/sonic19345698-cloud"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-07-14T14:02:04Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2440",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.3-463-g0f2c1630",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G57",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-07-14T14:02:04Z",
+      "reportedBy": {
+        "name": "@sonic19345698-cloud",
+        "url": "https://github.com/sonic19345698-cloud"
+      },
+      "remarks": "touchHLE crashed with the following error:Call to unimplemented function__dyld_register_func_for_add_image",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1396,
+    "appUrl": "https://appdb.touchhle.org/apps/1396",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Space Out",
+    "releaseYear": "2008",
+    "developerPublisher": "BinarySquare",
+    "firstReported": "2026-06-26T09:52:57Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3",
+      "url": "https://github.com/0ldw4r3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Space Out",
+      "bundleId": "com.binarysquare.SpaceOut",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2026-06-26T09:52:57Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2400",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.3-462-gbcbaaee2",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2026-06-26T09:52:57Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Goes to gameplay but when you double tap, it does not start (comparing to a real iOS device). Going at the settings and pressing the envelope button crashes it as e-mail support is missing.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2400/screenshot"
+    }
+  ]
+}

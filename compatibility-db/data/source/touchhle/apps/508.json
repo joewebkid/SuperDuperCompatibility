@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 508,
+    "appUrl": "https://appdb.touchhle.org/apps/508",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Need for Speed Shift 2 Unleashed",
+    "releaseYear": "2011",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2024-09-03T03:01:18Z",
+    "firstReportedBy": {
+      "name": "@Jpramirez12345",
+      "url": "https://github.com/Jpramirez12345"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "NFS Shift 2",
+      "bundleId": "com.ea.nfss2.bv",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Jpramirez12345",
+        "url": "https://github.com/Jpramirez12345"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-09-03T03:01:18Z"
+    },
+    {
+      "version": "1.2.93",
+      "displayName": "NFS Shift 2",
+      "bundleId": "com.ea.nfss2.inc",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@dgndzxgndxg",
+        "url": "https://github.com/dgndzxgndxg"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "805",
+      "version": "1.0.1",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G68",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-09-03T03:01:18Z",
+      "reportedBy": {
+        "name": "@Jpramirez12345",
+        "url": "https://github.com/Jpramirez12345"
+      },
+      "remarks": "Only shows the ea logo then crashes.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/805/screenshot"
+    }
+  ]
+}

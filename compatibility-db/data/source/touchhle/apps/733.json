@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 733,
+    "appUrl": "https://appdb.touchhle.org/apps/733",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Tetris",
+    "releaseYear": "2008",
+    "developerPublisher": "EA",
+    "firstReported": "2025-01-22T15:35:02Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.55",
+      "displayName": "Tetris",
+      "bundleId": "com.ea.tetris",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@SVadym0245UKR",
+        "url": "https://github.com/SVadym0245UKR"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.86",
+      "displayName": "Tetris",
+      "bundleId": "com.ea.tetris",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@InvertDark",
+        "url": "https://github.com/InvertDark"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

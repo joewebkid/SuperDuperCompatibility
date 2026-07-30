@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 87,
+    "appUrl": "https://appdb.touchhle.org/apps/87",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Star Trigon",
+    "releaseYear": "2008",
+    "developerPublisher": "Namco Networks",
+    "firstReported": "2023-11-03T13:27:22Z",
+    "firstReportedBy": {
+      "name": "@WindowsAero",
+      "url": "https://github.com/WindowsAero"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Star Trigon",
+      "bundleId": "com.namconetworks.startrigon",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@WindowsAero",
+        "url": "https://github.com/WindowsAero"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-06-14T19:14:10Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2277",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2026-06-14T19:14:10Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Opens with sound fully working but when you tap to go to the menu, it crashes.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2277/screenshot"
+    },
+    {
+      "sourceReportId": "138",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 12",
+      "gpu": "Mali G52",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2023-11-03T13:27:22Z",
+      "reportedBy": {
+        "name": "@WindowsAero",
+        "url": "https://github.com/WindowsAero"
+      },
+      "remarks": "Panic at src/objc/messages.rs:130:13: Class \"NSFileHandle\" (0x3000b000) is unimplemented. Call to class method \"fileHandleForReadingAtPath:\".",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

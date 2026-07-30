@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 507,
+    "appUrl": "https://appdb.touchhle.org/apps/507",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sparkle the Game",
+    "releaseYear": "2010",
+    "developerPublisher": "10tons Ltd",
+    "firstReported": "2024-09-01T14:21:52Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.6",
+      "displayName": "Sparkle",
+      "bundleId": "com.mythpeople.Sparkle",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-09-01T14:21:52Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "803",
+      "version": "1.0.6",
+      "emulatorVersion": "0.2.2-246-g1db462f",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-09-01T14:21:52Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "Game Crashed",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/803/screenshot"
+    }
+  ]
+}

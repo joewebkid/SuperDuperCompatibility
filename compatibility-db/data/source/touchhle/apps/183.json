@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 183,
+    "appUrl": "https://appdb.touchhle.org/apps/183",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cubes",
+    "releaseYear": "2008",
+    "developerPublisher": "Manta",
+    "firstReported": "2023-12-11T16:17:50Z",
+    "firstReportedBy": {
+      "name": "@Jerty56",
+      "url": "https://github.com/Jerty56"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Cubes",
+      "bundleId": "com.menta.Cubes",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@Jerty56",
+        "url": "https://github.com/Jerty56"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-12-11T16:17:50Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "299",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 11",
+      "gpu": "Galaxy A40",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2023-12-11T16:17:50Z",
+      "reportedBy": {
+        "name": "@Jerty56",
+        "url": "https://github.com/Jerty56"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/299/screenshot"
+    }
+  ]
+}

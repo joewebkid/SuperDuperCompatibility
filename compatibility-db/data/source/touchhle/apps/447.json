@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 447,
+    "appUrl": "https://appdb.touchhle.org/apps/447",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "New York Nights: Success in the City",
+    "releaseYear": "2009",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-09T10:16:28Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.5",
+      "displayName": "NY Nights",
+      "bundleId": "com.gameloft.NYNights",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-02-18T21:28:57Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1341",
+      "version": "1.1.5",
+      "emulatorVersion": "v0.2.2-594-g024e9b6",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G77 MC9",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2025-02-18T21:28:57Z",
+      "reportedBy": {
+        "name": "@jagotu",
+        "url": "https://github.com/jagotu"
+      },
+      "remarks": "The animations sometimes seem a bit faster than they should be, but the game is fully playable and completable",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1337",
+      "version": "1.1.5",
+      "emulatorVersion": "v0.2.2-594-g024e9b6",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2025-02-17T01:56:34Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "Only known issue is the misposition of the text box as you set up your character.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1337/screenshot"
+    }
+  ]
+}

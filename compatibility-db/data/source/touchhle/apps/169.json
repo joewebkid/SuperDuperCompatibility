@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 169,
+    "appUrl": "https://appdb.touchhle.org/apps/169",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Papi Jump Land",
+    "releaseYear": "2009",
+    "developerPublisher": "Sunflat",
+    "firstReported": "2023-12-04T18:55:38Z",
+    "firstReportedBy": {
+      "name": "@syboxez",
+      "url": "https://github.com/syboxez"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Papi Jump Land",
+      "bundleId": "net.sunflat.iphone.papijumpland",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@syboxez",
+        "url": "https://github.com/syboxez"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-12-04T18:55:38Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "263",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 10",
+      "gpu": "Qualcomm Adreno 630",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2023-12-04T18:55:38Z",
+      "reportedBy": {
+        "name": "@syboxez",
+        "url": "https://github.com/syboxez"
+      },
+      "remarks": "Crashes on load",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1275,
+    "appUrl": "https://appdb.touchhle.org/apps/1275",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Drag Racer: Perfect Run",
+    "releaseYear": "2009",
+    "developerPublisher": "Telf Games",
+    "firstReported": "2026-05-31T06:57:34Z",
+    "firstReportedBy": {
+      "name": "@Bruhd101",
+      "url": "https://github.com/Bruhd101"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "DragRacer",
+      "bundleId": "com.adamtelfer.driphone",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Bruhd101",
+        "url": "https://github.com/Bruhd101"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-05-31T06:57:34Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2222",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G57 MC3",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-05-31T06:57:34Z",
+      "reportedBy": {
+        "name": "@Bruhd101",
+        "url": "https://github.com/Bruhd101"
+      },
+      "remarks": "Panic at src/objc/objects.rs:260:77: called `Option::unwrap()` on a `None` value",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2222/screenshot"
+    }
+  ]
+}

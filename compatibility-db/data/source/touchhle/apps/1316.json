@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1316,
+    "appUrl": "https://appdb.touchhle.org/apps/1316",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Go Go Apocalypse",
+    "releaseYear": null,
+    "developerPublisher": "Louvsion",
+    "firstReported": "2026-06-16T03:29:21Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3",
+      "url": "https://github.com/0ldw4r3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Apocalypse",
+      "bundleId": "2121212121",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-06-16T03:29:21Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2290",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-06-16T03:29:21Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Seems to be working fine but I cannot progress the game to be absolutely sure.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2290/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 60,
+    "appUrl": "https://appdb.touchhle.org/apps/60",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Ice Age: Dawn of the Dinosaurs",
+    "releaseYear": "2009",
+    "developerPublisher": "Chillingo",
+    "firstReported": "2023-10-31T21:28:20Z",
+    "firstReportedBy": {
+      "name": "@Ninja232323",
+      "url": "https://github.com/Ninja232323"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Ice Age",
+      "bundleId": "com.chillingo.iceage3",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Ninja232323",
+        "url": "https://github.com/Ninja232323"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.2.1",
+      "displayName": "Ice Age",
+      "bundleId": "com.chillingo.iceage3ipad",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.4",
+      "displayName": "Ice Age",
+      "bundleId": "com.chillingo.iceage3",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@djedditt",
+        "url": "https://github.com/djedditt"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.5",
+      "displayName": "Ice Age",
+      "bundleId": "com.chillingo.iceage3",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@djedditt",
+        "url": "https://github.com/djedditt"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 523,
+    "appUrl": "https://appdb.touchhle.org/apps/523",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Theresia",
+    "releaseYear": "2009",
+    "developerPublisher": "WORKJAM",
+    "firstReported": "2024-09-17T01:43:42Z",
+    "firstReportedBy": {
+      "name": "@avibodek",
+      "url": "https://github.com/avibodek"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "theresia",
+      "bundleId": "jp.co.workjam.theresia",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@avibodek",
+        "url": "https://github.com/avibodek"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

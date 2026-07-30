@@ -1,0 +1,72 @@
+name: Android compatibility report
+description: Submit a Super Duper Android test report and optional screenshot.
+title: "[Android report]: "
+labels: ["android-report", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing Super Duper. Do not attach an IPA, decrypted app
+        files, account data, save data, or logs containing private paths.
+
+        To add a screenshot, drag it into the **Screenshot** field below.
+        GitHub will upload it and convert it to a link. A maintainer will review
+        the report before adding it to the public compatibility catalogue.
+  - type: input
+    id: app-title
+    attributes:
+      label: App title
+      placeholder: Infinity Blade
+    validations:
+      required: true
+  - type: input
+    id: bundle-id
+    attributes:
+      label: iOS bundle identifier
+      placeholder: com.example.game
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version (CFBundleVersion)
+      placeholder: 1.4.3
+    validations:
+      required: true
+  - type: dropdown
+    id: rating
+    attributes:
+      label: Super Duper Android rating
+      description: Rate the tested version, not touchHLE.
+      options:
+        - "1 — crashes immediately"
+        - "2 — only menu or intro works"
+        - "3 — content works with major issues"
+        - "4 — playable with small issues"
+        - "5 — fully usable"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Android device and GPU
+      placeholder: "Device model — Adreno 740"
+    validations:
+      required: true
+  - type: input
+    id: app-build
+    attributes:
+      label: Super Duper build
+      placeholder: "0.1.0-dev"
+  - type: textarea
+    id: result
+    attributes:
+      label: What works and what does not
+      description: Include the tested milestones, settings/profile and reproducible issues.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (optional)
+      description: Drag a screenshot here or paste an image URL you are allowed to share.

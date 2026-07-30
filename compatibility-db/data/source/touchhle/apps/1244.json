@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1244,
+    "appUrl": "https://appdb.touchhle.org/apps/1244",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Phoenix Wright: Ace Attorney",
+    "releaseYear": "2010",
+    "developerPublisher": "Capcom",
+    "firstReported": "2026-05-04T13:37:22Z",
+    "firstReportedBy": {
+      "name": "@Screvvy",
+      "url": "https://github.com/Screvvy"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.00.00",
+      "displayName": "Ace Attorney",
+      "bundleId": "jp.co.capcom.gspackuall",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Screvvy",
+        "url": "https://github.com/Screvvy"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-05-04T13:37:22Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2166",
+      "version": "1.00.00",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 16",
+      "gpu": "Mali-G615 MC2",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2026-05-04T13:37:22Z",
+      "reportedBy": {
+        "name": "@Screvvy",
+        "url": "https://github.com/Screvvy"
+      },
+      "remarks": "Crashes immediately after NOW LOADING appears, most likely because of app requiring iOS 3.0, final log line reads: Panic at src/mem.rs:357:9: Attempted null-page access at 0x8 (0x4 bytes)",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2166/screenshot"
+    }
+  ]
+}

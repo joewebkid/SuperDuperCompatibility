@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1235,
+    "appUrl": "https://appdb.touchhle.org/apps/1235",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "NinJump Deluxe",
+    "releaseYear": null,
+    "developerPublisher": "Backflip Studios",
+    "firstReported": "2026-05-01T18:18:23Z",
+    "firstReportedBy": {
+      "name": "@zazatree",
+      "url": "https://github.com/zazatree"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "NinJump DX",
+      "bundleId": "com.backflipstudios.ninjumpdeluxe",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@zazatree",
+        "url": "https://github.com/zazatree"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

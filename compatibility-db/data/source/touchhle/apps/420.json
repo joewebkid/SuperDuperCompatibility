@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 420,
+    "appUrl": "https://appdb.touchhle.org/apps/420",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Starfront: Collision",
+    "releaseYear": "2011",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-08T15:53:07Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Starfront",
+      "bundleId": "com.gameloft.StarfrontEMEA",
+      "minimumIosVersion": "3.1.3",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

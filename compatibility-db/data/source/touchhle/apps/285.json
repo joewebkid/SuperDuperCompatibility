@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 285,
+    "appUrl": "https://appdb.touchhle.org/apps/285",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Rolando 2",
+    "releaseYear": "2008",
+    "developerPublisher": "HandCircus",
+    "firstReported": "2024-04-02T11:26:25Z",
+    "firstReportedBy": {
+      "name": "@lukalovre",
+      "url": "https://github.com/lukalovre"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Rolando 2",
+      "bundleId": "com.ngmoco.rolandotwo",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@lukalovre",
+        "url": "https://github.com/lukalovre"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

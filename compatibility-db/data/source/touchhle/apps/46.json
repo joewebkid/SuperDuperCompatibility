@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 46,
+    "appUrl": "https://appdb.touchhle.org/apps/46",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Action Buggy",
+    "releaseYear": "2010",
+    "developerPublisher": "Donut Games",
+    "firstReported": "2023-10-30T13:25:24Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.01",
+      "displayName": "Action Buggy",
+      "bundleId": "com.donutgames.actionbuggy",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2023-11-01T14:08:48Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "111",
+      "version": "1.01",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-G72 MP18 (Samsung Galaxy S9)",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2023-11-01T14:08:48Z",
+      "reportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/111/screenshot"
+    }
+  ]
+}

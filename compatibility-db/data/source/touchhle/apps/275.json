@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 275,
+    "appUrl": "https://appdb.touchhle.org/apps/275",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "The Sims Medieval",
+    "releaseYear": "2011",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2024-03-28T10:17:49Z",
+    "firstReportedBy": {
+      "name": "@tulpenkiste",
+      "url": "https://github.com/tulpenkiste"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "Medieval",
+      "bundleId": "com.ea.simsmedieval.bv",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@tulpenkiste",
+        "url": "https://github.com/tulpenkiste"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

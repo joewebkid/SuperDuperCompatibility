@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 720,
+    "appUrl": "https://appdb.touchhle.org/apps/720",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Rolando",
+    "releaseYear": "2008",
+    "developerPublisher": "HandCircus/Ngmoco",
+    "firstReported": "2025-01-18T08:10:54Z",
+    "firstReportedBy": {
+      "name": "@NothingPerson1234567890",
+      "url": "https://github.com/NothingPerson1234567890"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Rolando",
+      "bundleId": "com.ngmoco.rolando",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@NothingPerson1234567890",
+        "url": "https://github.com/NothingPerson1234567890"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

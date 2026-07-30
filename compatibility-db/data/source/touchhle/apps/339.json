@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 339,
+    "appUrl": "https://appdb.touchhle.org/apps/339",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Doodle Jump",
+    "releaseYear": "2009",
+    "developerPublisher": "Lima Sky LLC",
+    "firstReported": "2024-06-13T09:58:33Z",
+    "firstReportedBy": {
+      "name": "@Nazarennno",
+      "url": "https://github.com/Nazarennno"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "DoodleJump",
+      "bundleId": "com.yourcompany.DoodleJump",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@sunflowers33d",
+        "url": "https://github.com/sunflowers33d"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.3.2",
+      "displayName": "DoodleJump",
+      "bundleId": "com.yourcompany.DoodleJump",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@Nazarennno",
+        "url": "https://github.com/Nazarennno"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-06-13T09:58:33Z"
+    },
+    {
+      "version": "1.2.1",
+      "displayName": "DoodleJump",
+      "bundleId": "comm.yourcompany.DoodleJump",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@PUAyomom",
+        "url": "https://github.com/PUAyomom"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "522",
+      "version": "1.1.3.2",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android",
+      "gpu": "OpenGL ES-CM 1.1 / Qualcomm / Adreno (TM) 610",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-06-13T09:58:33Z",
+      "reportedBy": {
+        "name": "@Nazarennno",
+        "url": "https://github.com/Nazarennno"
+      },
+      "remarks": "The flash screen appears. But after one second, the emulator closes.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/522/screenshot"
+    }
+  ]
+}

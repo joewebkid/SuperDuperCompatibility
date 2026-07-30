@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1373,
+    "appUrl": "https://appdb.touchhle.org/apps/1373",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "SpongeBob SquarePants Bikini Bottom Sports",
+    "releaseYear": "2010",
+    "developerPublisher": "Exosum\\Nickelodeon Interactive",
+    "firstReported": "2026-06-23T10:16:36Z",
+    "firstReportedBy": {
+      "name": "@IrishGamer373",
+      "url": "https://github.com/IrishGamer373"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Bikini Sports",
+      "bundleId": "com.mtvn.sbbikinibottomintl1",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-23T10:16:36Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2373",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MP2",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2026-06-23T10:16:36Z",
+      "reportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "remarks": "If You The App Icon, Then It Crashes With: Call to unimplemented function _strspn",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

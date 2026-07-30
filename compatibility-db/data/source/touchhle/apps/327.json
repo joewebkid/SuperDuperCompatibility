@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 327,
+    "appUrl": "https://appdb.touchhle.org/apps/327",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Gun Bros",
+    "releaseYear": "2010",
+    "developerPublisher": "Glu",
+    "firstReported": "2024-05-16T17:03:47Z",
+    "firstReportedBy": {
+      "name": "@Mark030a",
+      "url": "https://github.com/Mark030a"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Gun Bros.",
+      "bundleId": "com.glu.gunbros",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Mark030a",
+        "url": "https://github.com/Mark030a"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "3.5.0",
+      "displayName": "Gun Bros.",
+      "bundleId": "com.glu.gunbros",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Mark030a",
+        "url": "https://github.com/Mark030a"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

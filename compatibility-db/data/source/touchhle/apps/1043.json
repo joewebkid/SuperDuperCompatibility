@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1043,
+    "appUrl": "https://appdb.touchhle.org/apps/1043",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Reckless Racing",
+    "releaseYear": "2010",
+    "developerPublisher": "Pixelbite / Polarbit",
+    "firstReported": "2026-01-04T00:44:36Z",
+    "firstReportedBy": {
+      "name": "@DaCringeyBaka",
+      "url": "https://github.com/DaCringeyBaka"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.5",
+      "displayName": "Reckless Racing",
+      "bundleId": "com.ea.recklessracing.bv",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-02-07T17:48:24Z"
+    },
+    {
+      "version": "1.1.5",
+      "displayName": "Reckless Racing HD",
+      "bundleId": "com.ea.recklessracing.ipad.inc",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-02-07T17:48:24Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1926",
+      "version": "1.1.5",
+      "emulatorVersion": "v0.2.3-82-g9b6ecec7",
+      "operatingSystem": "Android 12",
+      "gpu": "PowerVR GE8320",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2026-02-07T17:48:24Z",
+      "reportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "remarks": "The iPad version is playable. But you need to use “--landscape-left (or right)”, otherwise it will crash.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1926/screenshot"
+    },
+    {
+      "sourceReportId": "1780",
+      "version": "1.1.5",
+      "emulatorVersion": "v0.2.3-2-g8f46b692",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-01-04T00:44:36Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "Plays very well, though some parts cause the game to crash, most notably Multiplayer.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1780/screenshot"
+    }
+  ]
+}

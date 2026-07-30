@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 497,
+    "appUrl": "https://appdb.touchhle.org/apps/497",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Zenonia 2",
+    "releaseYear": "2010",
+    "developerPublisher": "Gamevil",
+    "firstReported": "2024-08-24T22:08:56Z",
+    "firstReportedBy": {
+      "name": "@KazumaSatoudesu",
+      "url": "https://github.com/KazumaSatoudesu"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.9",
+      "displayName": "ZENONIA2",
+      "bundleId": "com.gamevil.zenonia2",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@KazumaSatoudesu",
+        "url": "https://github.com/KazumaSatoudesu"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-09-30T14:15:13Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "876",
+      "version": "1.9",
+      "emulatorVersion": "v0.2.2-317-gf24a6b5",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 640",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2024-09-30T14:15:13Z",
+      "reportedBy": {
+        "name": "@KazumaSatoudesu",
+        "url": "https://github.com/KazumaSatoudesu"
+      },
+      "remarks": "Panic at src/frameworks/core_foundation/cf_string.rs:57:14: not implemented: Unhandled: CFStringEncoding 0x422",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/876/screenshot"
+    },
+    {
+      "sourceReportId": "780",
+      "version": "1.9",
+      "emulatorVersion": "v.0.2.2",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 640",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-08-24T22:08:56Z",
+      "reportedBy": {
+        "name": "@KazumaSatoudesu",
+        "url": "https://github.com/KazumaSatoudesu"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/780/screenshot"
+    }
+  ]
+}

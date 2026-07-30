@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1297,
+    "appUrl": "https://appdb.touchhle.org/apps/1297",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Brain Fit",
+    "releaseYear": "2010",
+    "developerPublisher": "Mobirate",
+    "firstReported": "2026-06-13T23:00:32Z",
+    "firstReportedBy": {
+      "name": "@DaCringeyBaka",
+      "url": "https://github.com/DaCringeyBaka"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Brain Fit Lite",
+      "bundleId": "com.mobirate.brainfitlite",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

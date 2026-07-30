@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 4,
+    "appUrl": "https://appdb.touchhle.org/apps/4",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Wolfenstein 3D Classic",
+    "releaseYear": "2009",
+    "developerPublisher": "id Software",
+    "firstReported": "2023-10-10T14:13:11Z",
+    "firstReportedBy": {
+      "name": "@hikari-no-yume",
+      "url": "https://github.com/hikari-no-yume"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "wolf3d",
+      "bundleId": "com.idsoftware.wolf3d",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-10-02T06:33:56Z"
+    },
+    {
+      "version": "1.0",
+      "displayName": "Wolf 3D",
+      "bundleId": "com.zodttd.wolf3d",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-10-02T06:33:56Z"
+    },
+    {
+      "version": "1.1",
+      "displayName": "wolf3d",
+      "bundleId": "com.idsoftware.wolf3d",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.2",
+      "displayName": "wolf3d+",
+      "bundleId": "com.idsoftware.wolf3d",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@JCTOTGaming",
+        "url": "https://github.com/JCTOTGaming"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.3",
+      "displayName": "wolf3d+",
+      "bundleId": "com.idsoftware.wolf3d",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "879",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android",
+      "gpu": "Adreno",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2024-10-02T06:33:56Z",
+      "reportedBy": {
+        "name": "@Thetouchedjoe",
+        "url": "https://github.com/Thetouchedjoe"
+      },
+      "remarks": "When I'm try a version 1.0 of Wolfenstein 3D, the screen in game is flashing colors like crazy",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/879/screenshot"
+    }
+  ]
+}

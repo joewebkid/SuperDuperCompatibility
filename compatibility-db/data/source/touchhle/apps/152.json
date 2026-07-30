@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 152,
+    "appUrl": "https://appdb.touchhle.org/apps/152",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Talking Tom Cat",
+    "releaseYear": "2010",
+    "developerPublisher": "Outfit7",
+    "firstReported": "2023-11-24T17:49:43Z",
+    "firstReportedBy": {
+      "name": "@Ninja232323",
+      "url": "https://github.com/Ninja232323"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Talking Tom",
+      "bundleId": "com.outfit7.talkingtom",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@kiratmust-bit",
+        "url": "https://github.com/kiratmust-bit"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-09-06T08:43:03Z"
+    },
+    {
+      "version": "1.7",
+      "displayName": "Talking Tom",
+      "bundleId": "com.outfit.talkingtom",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Ninja232323",
+        "url": "https://github.com/Ninja232323"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1669",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android 12",
+      "gpu": "Mali-G57 MC2",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2025-09-06T08:43:03Z",
+      "reportedBy": {
+        "name": "@kiratmust-bit",
+        "url": "https://github.com/kiratmust-bit"
+      },
+      "remarks": "touchHLE crashed with the following error: Object 0x374f9110 (class \"UIApplication\", 0x374f71d0) does not respond to selector \"setNetworkActivityIndicator Visible:\"!",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

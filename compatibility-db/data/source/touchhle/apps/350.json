@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 350,
+    "appUrl": "https://appdb.touchhle.org/apps/350",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Space Invaders Infinity Gene",
+    "releaseYear": null,
+    "developerPublisher": "Taito",
+    "firstReported": "2024-06-28T22:56:40Z",
+    "firstReportedBy": {
+      "name": "@gRipper-t",
+      "url": "https://github.com/gRipper-t"
+    }
+  },
+  "versions": [
+    {
+      "version": "4.0.2",
+      "displayName": "InfinityGene",
+      "bundleId": "jp.co.taito.infinitygene",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@gRipper-t",
+        "url": "https://github.com/gRipper-t"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-07-25T20:27:38Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2472",
+      "version": "4.0.2",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android 13",
+      "gpu": "Qualcomm Adreno 650",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2026-07-25T20:27:38Z",
+      "reportedBy": {
+        "name": "@Neubulae",
+        "url": "https://github.com/Neubulae"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

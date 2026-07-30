@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 391,
+    "appUrl": "https://appdb.touchhle.org/apps/391",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bruno Mars Revenge",
+    "releaseYear": "2011",
+    "developerPublisher": "Tapulous",
+    "firstReported": "2024-08-03T11:20:14Z",
+    "firstReportedBy": {
+      "name": "@FelipePlayzYT",
+      "url": "https://github.com/FelipePlayzYT"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "Bruno Mars",
+      "bundleId": "com.tapulous.brunomars",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-08-03T11:20:14Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "599",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.2-165-g9ef94a9",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-T830",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-08-03T11:20:14Z",
+      "reportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "remarks": "The log says \"Panic at src/objc/messages.rs:60:13: Class 0x3000a390 (metaclass \"NSBundle\", 0x3000a380) does not respond to selector \"bundleWithPath:\"!\"",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

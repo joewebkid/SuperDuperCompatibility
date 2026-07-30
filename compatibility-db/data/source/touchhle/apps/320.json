@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 320,
+    "appUrl": "https://appdb.touchhle.org/apps/320",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Rogue Planet",
+    "releaseYear": "2009",
+    "developerPublisher": "Agharta Studio / Gameloft",
+    "firstReported": "2024-05-03T09:17:11Z",
+    "firstReportedBy": {
+      "name": "@bbourdel",
+      "url": "https://github.com/bbourdel"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2.1",
+      "displayName": "Rogue Planet",
+      "bundleId": "com.gameloft.rogueplanet",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@bbourdel",
+        "url": "https://github.com/bbourdel"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

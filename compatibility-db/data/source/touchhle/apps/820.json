@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 820,
+    "appUrl": "https://appdb.touchhle.org/apps/820",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Zen Garden",
+    "releaseYear": "2008",
+    "developerPublisher": "Peerium",
+    "firstReported": "2025-03-03T11:13:01Z",
+    "firstReportedBy": {
+      "name": "@DaCringeyBaka",
+      "url": "https://github.com/DaCringeyBaka"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "ZenGarden",
+      "bundleId": "com.peerium.ZenGarden",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

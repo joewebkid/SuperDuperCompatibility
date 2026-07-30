@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 375,
+    "appUrl": "https://appdb.touchhle.org/apps/375",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Blast Off",
+    "releaseYear": "2010",
+    "developerPublisher": "Halfbrick",
+    "firstReported": "2024-07-26T13:44:31Z",
+    "firstReportedBy": {
+      "name": "@rari-teh",
+      "url": "https://github.com/rari-teh"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.01",
+      "displayName": "BlastOff",
+      "bundleId": "com.Halfbrick.BlastOff",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@rari-teh",
+        "url": "https://github.com/rari-teh"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

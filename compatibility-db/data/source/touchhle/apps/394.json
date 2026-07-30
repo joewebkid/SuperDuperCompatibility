@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 394,
+    "appUrl": "https://appdb.touchhle.org/apps/394",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Chuck Norris Bring On The Pain",
+    "releaseYear": "2009",
+    "developerPublisher": "Ludigames",
+    "firstReported": "2024-08-04T20:26:17Z",
+    "firstReportedBy": {
+      "name": "@EDKGames1",
+      "url": "https://github.com/EDKGames1"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.6",
+      "displayName": "Chuck Norris",
+      "bundleId": "com.ludigames.ChuckNorris",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.0.9",
+      "displayName": "Chuck Norris",
+      "bundleId": "com.ludigames.ChuckNorris",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@EDKGames1",
+        "url": "https://github.com/EDKGames1"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-08-04T20:26:17Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "603",
+      "version": "1.0.9",
+      "emulatorVersion": "V0.2.2",
+      "operatingSystem": "Android",
+      "gpu": "Unknown",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2024-08-04T20:26:17Z",
+      "reportedBy": {
+        "name": "@EDKGames1",
+        "url": "https://github.com/EDKGames1"
+      },
+      "remarks": "The entire app crashes upon startup, please look into this, thanks in advance.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

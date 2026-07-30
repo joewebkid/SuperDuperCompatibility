@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 315,
+    "appUrl": "https://appdb.touchhle.org/apps/315",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Chuzzle",
+    "releaseYear": "2009",
+    "developerPublisher": "PopCap",
+    "firstReported": "2024-04-23T05:38:26Z",
+    "firstReportedBy": {
+      "name": "@sunflowers33d",
+      "url": "https://github.com/sunflowers33d"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Chuzzle",
+      "bundleId": "com.popcap.Chuzzle",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@sunflowers33d",
+        "url": "https://github.com/sunflowers33d"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 667,
+    "appUrl": "https://appdb.touchhle.org/apps/667",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Space Bikers",
+    "releaseYear": "2009",
+    "developerPublisher": "Chillingo",
+    "firstReported": "2024-12-21T21:11:41Z",
+    "firstReportedBy": {
+      "name": "@ciciplusplus",
+      "url": "https://github.com/ciciplusplus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Space Bikers",
+      "bundleId": "com.chillingo.spacebikers",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-12-21T21:11:41Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1112",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.2-495-g8d068d6a",
+      "operatingSystem": "Android 13",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2024-12-21T21:11:41Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "First levels are playable. Some secondary menus can crash.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1112/screenshot"
+    }
+  ]
+}

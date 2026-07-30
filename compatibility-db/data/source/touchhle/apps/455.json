@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 455,
+    "appUrl": "https://appdb.touchhle.org/apps/455",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "GT Racing: Motor Academy",
+    "releaseYear": "2010",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-09T10:44:35Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.5.6",
+      "displayName": "GT Racing",
+      "bundleId": "com.gameloft.GTRacing",
+      "minimumIosVersion": "3.1.2",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

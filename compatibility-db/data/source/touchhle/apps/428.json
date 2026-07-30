@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 428,
+    "appUrl": "https://appdb.touchhle.org/apps/428",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Shrek Kart",
+    "releaseYear": "2009",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-09T08:51:13Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.7",
+      "displayName": "ShrekKarting",
+      "bundleId": "com.gameloft.ShrekKarting",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-01-22T15:33:17Z"
+    },
+    {
+      "version": "1.1.0",
+      "displayName": "Shrekkartfree",
+      "bundleId": "com.gameloft.Shrekkartfree",
+      "minimumIosVersion": "3.1.2",
+      "firstReportedBy": {
+        "name": "@LightSpeedDX",
+        "url": "https://github.com/LightSpeedDX"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1217",
+      "version": "1.0.7",
+      "emulatorVersion": "v0.2.2-553-g9d47662",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2025-01-22T15:33:17Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1217/screenshot"
+    }
+  ]
+}

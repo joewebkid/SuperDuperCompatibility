@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 961,
+    "appUrl": "https://appdb.touchhle.org/apps/961",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Neverputt ME",
+    "releaseYear": "2008",
+    "developerPublisher": "Lazrhog Games",
+    "firstReported": "2025-08-05T07:04:00Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Neverputt",
+      "bundleId": "5DC47ESN6Q.Neverputt",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-08-05T07:04:00Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1620",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-821-gb7d4dad",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-08-05T07:04:00Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1620/screenshot"
+    }
+  ]
+}

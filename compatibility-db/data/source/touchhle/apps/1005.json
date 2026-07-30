@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1005,
+    "appUrl": "https://appdb.touchhle.org/apps/1005",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "The Adventures of Tintin: The Secret of the Unicorn",
+    "releaseYear": "2011",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2025-10-24T00:55:54Z",
+    "firstReportedBy": {
+      "name": "@kalmartafqwat",
+      "url": "https://github.com/kalmartafqwat"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Tintin",
+      "bundleId": "com.gameloft.TinTin",
+      "minimumIosVersion": "3.1.3",
+      "firstReportedBy": {
+        "name": "@kalmartafqwat",
+        "url": "https://github.com/kalmartafqwat"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-10-24T00:55:54Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1710",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.2-977-g6b05e9b",
+      "operatingSystem": "Android",
+      "gpu": "ARM Mali-G710",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-10-24T00:55:54Z",
+      "reportedBy": {
+        "name": "@kalmartafqwat",
+        "url": "https://github.com/kalmartafqwat"
+      },
+      "remarks": "Missing implementation for class CADisplayLink!",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

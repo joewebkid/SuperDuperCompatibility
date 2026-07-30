@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1308,
+    "appUrl": "https://appdb.touchhle.org/apps/1308",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "iDaft Jamming",
+    "releaseYear": "2009",
+    "developerPublisher": "Anders Svendsen",
+    "firstReported": "2026-06-15T07:08:10Z",
+    "firstReportedBy": {
+      "name": "@MKFRLEBLAHBLAHBLAH",
+      "url": "https://github.com/MKFRLEBLAHBLAHBLAH"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "iDaft",
+      "bundleId": "com.anderssvendsen.idaft",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@MKFRLEBLAHBLAHBLAH",
+        "url": "https://github.com/MKFRLEBLAHBLAHBLAH"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

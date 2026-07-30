@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 374,
+    "appUrl": "https://appdb.touchhle.org/apps/374",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Geometry Wars Touch",
+    "releaseYear": "2010",
+    "developerPublisher": "Activision",
+    "firstReported": "2024-07-25T22:19:26Z",
+    "firstReportedBy": {
+      "name": "@Generalkidd",
+      "url": "https://github.com/Generalkidd"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2.0",
+      "displayName": "GWars: Touch",
+      "bundleId": "com.activision.gw3pad",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Generalkidd",
+        "url": "https://github.com/Generalkidd"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-07-25T22:19:26Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "576",
+      "version": "1.2.0",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno 750",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-07-25T22:19:26Z",
+      "reportedBy": {
+        "name": "@Generalkidd",
+        "url": "https://github.com/Generalkidd"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

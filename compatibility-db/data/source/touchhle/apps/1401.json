@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1401,
+    "appUrl": "https://appdb.touchhle.org/apps/1401",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "AirHockey",
+    "releaseYear": "2008",
+    "developerPublisher": "Nicoteam",
+    "firstReported": "2026-06-30T03:59:57Z",
+    "firstReportedBy": {
+      "name": "@H8ther",
+      "url": "https://github.com/H8ther"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "AirHockey",
+      "bundleId": "com.nicoteam.AirHockey",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@H8ther",
+        "url": "https://github.com/H8ther"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

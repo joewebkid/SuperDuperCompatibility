@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1236,
+    "appUrl": "https://appdb.touchhle.org/apps/1236",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Smosh iShutUp",
+    "releaseYear": "2010",
+    "developerPublisher": "Defy Media, LLC",
+    "firstReported": "2026-05-02T08:48:27Z",
+    "firstReportedBy": {
+      "name": "@MKFRLEBLAHBLAHBLAH",
+      "url": "https://github.com/MKFRLEBLAHBLAHBLAH"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "iShutUp",
+      "bundleId": "com.smosh.shutup",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@MKFRLEBLAHBLAHBLAH",
+        "url": "https://github.com/MKFRLEBLAHBLAHBLAH"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

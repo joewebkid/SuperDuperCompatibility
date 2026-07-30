@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 992,
+    "appUrl": "https://appdb.touchhle.org/apps/992",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cro-Mag Rally",
+    "releaseYear": "2008",
+    "developerPublisher": "Pangea Software",
+    "firstReported": "2025-09-16T20:10:31Z",
+    "firstReportedBy": {
+      "name": "@ciciplusplus",
+      "url": "https://github.com/ciciplusplus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "Cro-Mag",
+      "bundleId": "com.pangea.cromag",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-09-16T20:10:31Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1682",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-936-gd9b0991b",
+      "operatingSystem": "Android 13.0",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2025-09-16T20:10:31Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "Core gameplay is supported. Some menus can crash.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1682/screenshot"
+    }
+  ]
+}

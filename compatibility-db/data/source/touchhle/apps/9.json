@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 9,
+    "appUrl": "https://appdb.touchhle.org/apps/9",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bookworm",
+    "releaseYear": "2009",
+    "developerPublisher": "PopCap",
+    "firstReported": "2023-10-10T15:33:51Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Bookworm",
+      "bundleId": "com.popcap.Bookworm",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@ShaneWatson33",
+        "url": "https://github.com/ShaneWatson33"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "37",
+      "displayName": "Bookworm",
+      "bundleId": "com.popcap.Bookworm",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

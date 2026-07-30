@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 531,
+    "appUrl": "https://appdb.touchhle.org/apps/531",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Payback",
+    "releaseYear": "2009",
+    "developerPublisher": "Apex Designs",
+    "firstReported": "2024-09-23T01:39:35Z",
+    "firstReportedBy": {
+      "name": "@SeongGino",
+      "url": "https://github.com/SeongGino"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.21",
+      "displayName": "Payback",
+      "bundleId": "JUYB4U94BC.net.apex-designs.payback",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@SeongGino",
+        "url": "https://github.com/SeongGino"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 101,
+    "appUrl": "https://appdb.touchhle.org/apps/101",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Marble Blast Mobile",
+    "releaseYear": "2009",
+    "developerPublisher": "Luma Arcade",
+    "firstReported": "2023-11-05T19:43:33Z",
+    "firstReportedBy": {
+      "name": "@EGNL",
+      "url": "https://github.com/EGNL"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Marble Blast",
+      "bundleId": "com.garagegames.marbleblastmobile",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@EGNL",
+        "url": "https://github.com/EGNL"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-04-03T17:54:06Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "444",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.1-220-g0e60cd1",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali G51 MP4",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-04-03T17:54:06Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Crashes with \"Panic at src/dyld.rs:604:9: Call to unimplemented function _pthread_cond_init\"",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

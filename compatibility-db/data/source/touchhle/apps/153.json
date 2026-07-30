@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 153,
+    "appUrl": "https://appdb.touchhle.org/apps/153",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "The Sims 3 World Adventures",
+    "releaseYear": null,
+    "developerPublisher": "EA Games",
+    "firstReported": "2023-11-24T18:27:45Z",
+    "firstReportedBy": {
+      "name": "@CatalonianPunIntended",
+      "url": "https://github.com/CatalonianPunIntended"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "TheSims3Am",
+      "bundleId": "com.ea.sims3ambition.bv",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@CatalonianPunIntended",
+        "url": "https://github.com/CatalonianPunIntended"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

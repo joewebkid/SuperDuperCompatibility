@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 416,
+    "appUrl": "https://appdb.touchhle.org/apps/416",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Tom Clancy's Splinter Cell: Conviction",
+    "releaseYear": "2010",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-08T14:17:51Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "SplinterCell",
+      "bundleId": "com.gameloft.SplinterCell",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-07-23T21:00:42Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2464",
+      "version": "1.0.2",
+      "emulatorVersion": "touchHLE PREVIEW v0.2.3-466-gda6b2815",
+      "operatingSystem": "Android 12",
+      "gpu": "Mali-G76",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-07-23T21:00:42Z",
+      "reportedBy": {
+        "name": "@theifoneplayer",
+        "url": "https://github.com/theifoneplayer"
+      },
+      "remarks": "Game works perfectly. Was able to enter the first Iraq level succesfully.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2464/screenshot"
+    },
+    {
+      "sourceReportId": "1101",
+      "version": "1.0.2",
+      "emulatorVersion": "TouchHLE PREVIEW v0.2.2-481-g66a8fc9",
+      "operatingSystem": "Android 12",
+      "gpu": "Helio G37",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2024-12-14T12:24:24Z",
+      "reportedBy": {
+        "name": "@random-jack925",
+        "url": "https://github.com/random-jack925"
+      },
+      "remarks": "Most of the game is working. However, during level 3's ending, a preview menu of the weapons you'd like to use during the Iraq level doesn't show, showing only black texture, but it's still there. Also, video playback and multi touch don't work at all.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1101/screenshot"
+    },
+    {
+      "sourceReportId": "996",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-367-gd90e063",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-11-12T15:43:40Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/996/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1166,
+    "appUrl": "https://appdb.touchhle.org/apps/1166",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sea Battle",
+    "releaseYear": "2008",
+    "developerPublisher": "idigger",
+    "firstReported": "2026-03-08T12:35:31Z",
+    "firstReportedBy": {
+      "name": "@j92580498-max",
+      "url": "https://github.com/j92580498-max"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.0",
+      "displayName": "Sea Battle",
+      "bundleId": "ru.idigger.seabattle",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@j92580498-max",
+        "url": "https://github.com/j92580498-max"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-03-08T12:35:31Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2006",
+      "version": "2.0",
+      "emulatorVersion": "v0.2.3-147-gd7668926",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-03-08T12:35:31Z",
+      "reportedBy": {
+        "name": "@j92580498-max",
+        "url": "https://github.com/j92580498-max"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2006/screenshot"
+    }
+  ]
+}

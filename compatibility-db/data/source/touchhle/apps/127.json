@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 127,
+    "appUrl": "https://appdb.touchhle.org/apps/127",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Prince of Persia: Warrior Within",
+    "releaseYear": "2010",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2023-11-13T11:38:13Z",
+    "firstReportedBy": {
+      "name": "@GMPranav",
+      "url": "https://github.com/GMPranav"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "PoP: WW",
+      "bundleId": "com.gameloft.POPiPad",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-01-20T00:50:58Z"
+    },
+    {
+      "version": "1.0.7",
+      "displayName": "PoP: WW",
+      "bundleId": "com.gameloft.POP",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-08-23T07:29:24Z"
+    },
+    {
+      "version": "1.0.8",
+      "displayName": "PoP: WW",
+      "bundleId": "com.gameloft.POP",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@GMPranav",
+        "url": "https://github.com/GMPranav"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1872",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.3-56-gb87d4489",
+      "operatingSystem": "Android 16",
+      "gpu": "Vulkan 1.3.279",
+      "scaleHack": "Partially",
+      "rating": 4,
+      "reported": "2026-01-20T00:50:58Z",
+      "reportedBy": {
+        "name": "@MinhNguyen39",
+        "url": "https://github.com/MinhNguyen39"
+      },
+      "remarks": "Same remarks as for the iPhone version.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "778",
+      "version": "1.0.7",
+      "emulatorVersion": "v0.2.2-208-gaf8a003",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2024-08-23T07:29:24Z",
+      "reportedBy": {
+        "name": "@Xlelight264",
+        "url": "https://github.com/Xlelight264"
+      },
+      "remarks": "The main game works with a few visual glitches.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/778/screenshot"
+    },
+    {
+      "sourceReportId": "568",
+      "version": "1.0.7",
+      "emulatorVersion": "v0.2.2-146-g9a5042f5",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G78 MP20",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2024-07-21T16:52:54Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "Some menus can crash. Video cutscenes are skipped. Besides that, fully playable.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/568/screenshot"
+    }
+  ]
+}

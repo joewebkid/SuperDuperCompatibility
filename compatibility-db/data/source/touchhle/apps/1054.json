@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1054,
+    "appUrl": "https://appdb.touchhle.org/apps/1054",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "KamikazeRace",
+    "releaseYear": "2009",
+    "developerPublisher": "Orb Games",
+    "firstReported": "2026-01-06T04:32:44Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.0",
+      "displayName": "KamikazeRace",
+      "bundleId": "com.tastyplay.KamikazeRace",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-06T04:32:44Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1796",
+      "version": "2.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-01-06T04:32:44Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1796/screenshot"
+    }
+  ]
+}

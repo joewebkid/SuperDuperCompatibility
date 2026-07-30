@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 529,
+    "appUrl": "https://appdb.touchhle.org/apps/529",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Arcade Hoops Basketball",
+    "releaseYear": "2009",
+    "developerPublisher": "Skyworks Interactive",
+    "firstReported": "2024-09-22T17:07:27Z",
+    "firstReportedBy": {
+      "name": "@GamingDucking",
+      "url": "https://github.com/GamingDucking"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "HoopsLite",
+      "bundleId": "com.skyworks.ArcadeHoopsLite",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-10-12T19:41:30Z"
+    },
+    {
+      "version": "1.2",
+      "displayName": "ArcadeHoops",
+      "bundleId": "com.skyworks.ArcadeHoops",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-10-09T10:11:38Z"
+    },
+    {
+      "version": "1.4",
+      "displayName": "ArcadeHoops",
+      "bundleId": "com.skyworks.ArcadeHoops",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-09-22T17:07:27Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "911",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-331-g7bccc7c",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2024-10-12T19:41:30Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "The game crashes upon a game ending or by clicking the i and Hish Scores buttons.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/911/screenshot"
+    },
+    {
+      "sourceReportId": "897",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.2-331-g7bccc7c",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-T830",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2024-10-09T10:11:38Z",
+      "reportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "remarks": "Classic and progressive mode now works, but when the game ends the emulator crashes with Panic at src/objc/messages.rs:60:13: Object 0x374fc840 (class \"NSDate\", 0x374f73e0) does not respond to selector \"description\"!",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/897/screenshot"
+    },
+    {
+      "sourceReportId": "847",
+      "version": "1.4",
+      "emulatorVersion": "v0.2.2-275-g70b2d44",
+      "operatingSystem": "Android",
+      "gpu": "Mali G51-MP4",
+      "scaleHack": "Couldn't test",
+      "rating": 2,
+      "reported": "2024-09-22T17:07:27Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Either \"Classic Game\" or \"Progressive Game\" crashes with: Panic at src/objc/messages.rs:60:13: Object 0x37bbb370 (class \"_touchHLE_NSDictionary\", 0x374f9330) does not respond to selector \"setInteger:forKey:\"!",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/847/screenshot"
+    }
+  ]
+}

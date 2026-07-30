@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 796,
+    "appUrl": "https://appdb.touchhle.org/apps/796",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Centipede",
+    "releaseYear": "2008",
+    "developerPublisher": "Atari / Griptonite Games",
+    "firstReported": "2025-02-23T17:45:03Z",
+    "firstReportedBy": {
+      "name": "@DaCringeyBaka",
+      "url": "https://github.com/DaCringeyBaka"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Centipede",
+      "bundleId": "com.yourcompany.Centipede",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

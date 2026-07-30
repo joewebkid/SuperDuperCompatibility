@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 195,
+    "appUrl": "https://appdb.touchhle.org/apps/195",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Ace Combat Xi",
+    "releaseYear": "2009",
+    "developerPublisher": "Namco Bandai Games",
+    "firstReported": "2023-12-19T21:12:14Z",
+    "firstReportedBy": {
+      "name": "@brokenibrahim32",
+      "url": "https://github.com/brokenibrahim32"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.1",
+      "displayName": "ACE-Xi",
+      "bundleId": "com.namconetworks.AceCombatXi",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@brokenibrahim32",
+        "url": "https://github.com/brokenibrahim32"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.3",
+      "displayName": "ACE-Xi",
+      "bundleId": "com.namconetworks.AceCombatXi",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@alborrajo",
+        "url": "https://github.com/alborrajo"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-04-15T01:55:42Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2060",
+      "version": "1.1.3",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 10",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-04-15T01:55:42Z",
+      "reportedBy": {
+        "name": "@jralt12",
+        "url": "https://github.com/jralt12"
+      },
+      "remarks": "Crashes with: Call to unimplemented function _pthread_attr_setinheritsched",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

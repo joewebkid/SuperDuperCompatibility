@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 161,
+    "appUrl": "https://appdb.touchhle.org/apps/161",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Retro",
+    "releaseYear": null,
+    "developerPublisher": "Big Head Games Ltd",
+    "firstReported": "2023-11-29T18:28:16Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Retro",
+      "bundleId": "com.yourcompany.Retro",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-07-16T11:08:06Z"
+    },
+    {
+      "version": "1.2",
+      "displayName": "Retro",
+      "bundleId": "com.yourcompany.Retro",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-11-03T16:27:39Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1589",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-790-g678d9a7",
+      "operatingSystem": "Android 15",
+      "gpu": "ARM Mali-G57 MC2",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2025-07-16T11:08:06Z",
+      "reportedBy": {
+        "name": "@N0username678",
+        "url": "https://github.com/N0username678"
+      },
+      "remarks": "Mission 1 can be played, but when accessing Mission 2, the app crashes with the next error: \"Attempted null-page access at 0x0 (0x1 bytes)\"",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1589/screenshot"
+    },
+    {
+      "sourceReportId": "978",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.2-360-g5692272",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2024-11-03T16:27:39Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": "Only 1 Level is Work all levels Crashes",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/978/screenshot"
+    }
+  ]
+}

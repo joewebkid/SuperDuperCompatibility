@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 977,
+    "appUrl": "https://appdb.touchhle.org/apps/977",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Texting of the Bread",
+    "releaseYear": "2010",
+    "developerPublisher": "ScrewAttack Games / Controlled Chaos Media",
+    "firstReported": "2025-08-18T10:02:58Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.4.1",
+      "displayName": "TotB",
+      "bundleId": "com.screwattack.totb",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-17T11:19:25Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1849",
+      "version": "1.4.1",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 16",
+      "gpu": "ARM Mali-G57 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-01-17T11:19:25Z",
+      "reportedBy": {
+        "name": "@N0username678",
+        "url": "https://github.com/N0username678"
+      },
+      "remarks": "Completely Playable with no glitches.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1849/screenshot"
+    },
+    {
+      "sourceReportId": "1647",
+      "version": "1.4.1",
+      "emulatorVersion": "v0.2.2-849-g1e1484",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-08-18T10:02:58Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1647/screenshot"
+    }
+  ]
+}

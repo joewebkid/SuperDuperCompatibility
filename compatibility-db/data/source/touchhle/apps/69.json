@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 69,
+    "appUrl": "https://appdb.touchhle.org/apps/69",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Taiko no Tatsujin Popular Song Pack 1",
+    "releaseYear": "2010",
+    "developerPublisher": "Bandai Namco Entertainment",
+    "firstReported": "2023-11-01T11:53:32Z",
+    "firstReportedBy": {
+      "name": "@WindowsAero",
+      "url": "https://github.com/WindowsAero"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.0",
+      "displayName": "太鼓の達人",
+      "bundleId": "NBGI0001",
+      "minimumIosVersion": "3.1.2",
+      "firstReportedBy": {
+        "name": "@WindowsAero",
+        "url": "https://github.com/WindowsAero"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-11-01T11:53:32Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "105",
+      "version": "1.1.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 12",
+      "gpu": "Mali G52",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2023-11-01T11:53:32Z",
+      "reportedBy": {
+        "name": "@WindowsAero",
+        "url": "https://github.com/WindowsAero"
+      },
+      "remarks": "Panic at src/dyld.rs:260:18: not implemented",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

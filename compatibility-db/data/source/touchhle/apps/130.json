@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 130,
+    "appUrl": "https://appdb.touchhle.org/apps/130",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "MLB World Series 2010",
+    "releaseYear": null,
+    "developerPublisher": "Polarbit AB",
+    "firstReported": "2023-11-15T16:07:21Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "MLB WS 10",
+      "bundleId": "com.mlb.worldseries.mlb2010",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2023-11-17T17:16:21Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "209",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.21",
+      "operatingSystem": "Android 11",
+      "gpu": "Adreno",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2023-11-17T17:16:21Z",
+      "reportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "remarks": "Same issue as MLB 2009, but less assets disappear on hit, with the dirt and some more background elements surviving",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/209/screenshot"
+    }
+  ]
+}

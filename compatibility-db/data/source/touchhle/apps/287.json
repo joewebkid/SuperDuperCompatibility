@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 287,
+    "appUrl": "https://appdb.touchhle.org/apps/287",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "TouchSports Tennis",
+    "releaseYear": "2008",
+    "developerPublisher": "Handheld Games",
+    "firstReported": "2024-04-02T22:37:46Z",
+    "firstReportedBy": {
+      "name": "@segadude",
+      "url": "https://github.com/segadude"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.20",
+      "displayName": "TS Tennis",
+      "bundleId": "com.handheldgames.TouchSportsTennis",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@segadude",
+        "url": "https://github.com/segadude"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

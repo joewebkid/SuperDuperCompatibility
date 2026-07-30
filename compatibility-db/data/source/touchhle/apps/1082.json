@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1082,
+    "appUrl": "https://appdb.touchhle.org/apps/1082",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Chaos Rings",
+    "releaseYear": "2010",
+    "developerPublisher": "Square Enix",
+    "firstReported": "2026-01-15T23:05:27Z",
+    "firstReportedBy": {
+      "name": "@Keyaku",
+      "url": "https://github.com/Keyaku"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.2.0",
+      "displayName": "ChaosRings",
+      "bundleId": "com.square-enix.ChaosRings",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Keyaku",
+        "url": "https://github.com/Keyaku"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-01-15T23:05:27Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1847",
+      "version": "2.2.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 16 (crDroid 12.5)",
+      "gpu": "Mali-G715 MP7",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2026-01-15T23:05:27Z",
+      "reportedBy": {
+        "name": "@Keyaku",
+        "url": "https://github.com/Keyaku"
+      },
+      "remarks": "Panic at src/objc/messages.rs:130:13: Class \"NSOperationQueue\" (0x374d8180) is unimplemented. Call to class method \"alloc\".",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

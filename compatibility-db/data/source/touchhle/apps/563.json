@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 563,
+    "appUrl": "https://appdb.touchhle.org/apps/563",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Keepy Uppy",
+    "releaseYear": null,
+    "developerPublisher": "boximo",
+    "firstReported": "2024-10-22T15:40:01Z",
+    "firstReportedBy": {
+      "name": "@TimofeyLednev",
+      "url": "https://github.com/TimofeyLednev"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Keepy Uppy",
+      "bundleId": "8954DHZW4N.BAI.KeepyUppy",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@TimofeyLednev",
+        "url": "https://github.com/TimofeyLednev"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

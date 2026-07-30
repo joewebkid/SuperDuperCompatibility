@@ -4,6 +4,7 @@
   "title": "Infinity Blade",
   "version": "1.4.3",
   "overallStatus": "partial",
+  "androidRating": 3,
   "milestones": {
     "import": "verified",
     "launch": "verified",
@@ -23,5 +24,6 @@
       "result": "partial"
     }
   ],
+  "screenshots": [],
   "updated": "2026-07-30"
 }

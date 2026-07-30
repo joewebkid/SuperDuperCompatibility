@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 10,
+    "appUrl": "https://appdb.touchhle.org/apps/10",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bejeweled 2",
+    "releaseYear": "2008",
+    "developerPublisher": "PopCap",
+    "firstReported": "2023-10-10T15:36:19Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Bejeweled 2",
+      "bundleId": "com.popcap.bejeweled2",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-05-22T11:28:19Z"
+    },
+    {
+      "version": "1.0.1",
+      "displayName": "Bejeweled 2",
+      "bundleId": "com.popcap.bejeweled2",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@JohanBLU",
+        "url": "https://github.com/JohanBLU"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.2",
+      "displayName": "Bejeweled 2",
+      "bundleId": "com.popcap.bejeweled2",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@kevincos5",
+        "url": "https://github.com/kevincos5"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "68",
+      "displayName": "Bejeweled 2",
+      "bundleId": "com.popcap.bejeweled2",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Chandra20171",
+        "url": "https://github.com/Chandra20171"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "509",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android 13",
+      "gpu": "Qualcomm Adreno 610",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-05-22T11:28:19Z",
+      "reportedBy": {
+        "name": "@PatiphonBoonkhum",
+        "url": "https://github.com/PatiphonBoonkhum"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

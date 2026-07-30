@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 25,
+    "appUrl": "https://appdb.touchhle.org/apps/25",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bubble Bash",
+    "releaseYear": "2008",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2023-10-15T10:06:59Z",
+    "firstReportedBy": {
+      "name": "@GamingDucking",
+      "url": "https://github.com/GamingDucking"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "BubbleBash",
+      "bundleId": "com.gameloft.BubbleBash",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-04-08T19:55:08Z"
+    },
+    {
+      "version": "1.0",
+      "displayName": "BubbleBash",
+      "bundleId": "com.gameloft.BubbleBash",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@LuigiMario79",
+        "url": "https://github.com/LuigiMario79"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-04-08T19:55:08Z"
+    },
+    {
+      "version": "1.2.6",
+      "displayName": "BubbleBash",
+      "bundleId": "com.gameloft.BubbleBash",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.29",
+      "displayName": "BubbleBash",
+      "bundleId": "com.gameloft.BubbleBash",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-11-30T10:00:22Z"
+    },
+    {
+      "version": "1.37",
+      "displayName": "BubbleBash",
+      "bundleId": "com.gameloft.BubbleBash",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-02-28T11:02:13Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1357",
+      "version": "1.37",
+      "emulatorVersion": "v0.2.2-626-g70325a4",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno 640",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-02-28T11:02:13Z",
+      "reportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "remarks": "Playable. Some modes, such as “Crab Fever” may crash, but Arcade mode (campaign levels) works fine. For those who use Adreno and have graphical issues, use the “Force Composition” option to fix them.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1050",
+      "version": "1.29",
+      "emulatorVersion": "v0.2.2-437-gbc1a544",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2024-11-30T10:00:22Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "When opening Crab Fever, it crashes with Panic at src/dyld.rs:604:9: Call to unimplemented function _pthread_setcancelstate",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "469",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-11-g97dd720",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali-G57 MC3",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2024-04-08T19:55:08Z",
+      "reportedBy": {
+        "name": "@xn117khdsh",
+        "url": "https://github.com/xn117khdsh"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/469/screenshot"
+    },
+    {
+      "sourceReportId": "461",
+      "version": "1.37",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android 11",
+      "gpu": "Qualcomm Adreno 612",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-04-05T16:23:40Z",
+      "reportedBy": {
+        "name": "@drpatrikking",
+        "url": "https://github.com/drpatrikking"
+      },
+      "remarks": "I was able to complete the first level, but most of the graphics are broken.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/461/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 272,
+    "appUrl": "https://appdb.touchhle.org/apps/272",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Zombie Mansion",
+    "releaseYear": "2008",
+    "developerPublisher": "Sean Cross",
+    "firstReported": "2024-03-26T13:33:39Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "v1.0",
+      "displayName": "Zombie",
+      "bundleId": "com.sourceidsoftware.zombie",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-03-26T13:33:39Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "413",
+      "version": "v1.0",
+      "emulatorVersion": "v0.2.1-190-g6c5a218",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Couldn't test",
+      "rating": 4,
+      "reported": "2024-03-26T13:33:39Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "Game Works fine but when you press continue the game stuck loading, Needs landscape left",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/413/screenshot"
+    }
+  ]
+}

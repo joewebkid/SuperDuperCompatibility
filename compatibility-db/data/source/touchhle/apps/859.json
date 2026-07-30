@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 859,
+    "appUrl": "https://appdb.touchhle.org/apps/859",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Shark Island",
+    "releaseYear": "2009?",
+    "developerPublisher": "?",
+    "firstReported": "2025-04-13T17:24:52Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Shark Island",
+      "bundleId": "Shark",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-04-13T17:24:52Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1444",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-701-g76d77ab",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 2,
+      "reported": "2025-04-13T17:24:52Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1444/screenshot"
+    }
+  ]
+}

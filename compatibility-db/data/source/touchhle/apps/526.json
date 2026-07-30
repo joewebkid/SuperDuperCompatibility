@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 526,
+    "appUrl": "https://appdb.touchhle.org/apps/526",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "AirCoaster Pro",
+    "releaseYear": "Nov/24 2009",
+    "developerPublisher": "Ziconic",
+    "firstReported": "2024-09-20T22:52:39Z",
+    "firstReportedBy": {
+      "name": "@Noimp1",
+      "url": "https://github.com/Noimp1"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "AirCoaster",
+      "bundleId": "com.ziconic.aircoasterpro",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Noimp1",
+        "url": "https://github.com/Noimp1"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-09-20T22:52:39Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "843",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android 11",
+      "gpu": "Adreno 504",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-09-20T22:52:39Z",
+      "reportedBy": {
+        "name": "@Noimp1",
+        "url": "https://github.com/Noimp1"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

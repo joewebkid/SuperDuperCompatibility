@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 120,
+    "appUrl": "https://appdb.touchhle.org/apps/120",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Mass Effect Galaxy",
+    "releaseYear": "2009",
+    "developerPublisher": "BioWare/Electronic Arts",
+    "firstReported": "2023-11-10T08:25:35Z",
+    "firstReportedBy": {
+      "name": "@Blackbird88",
+      "url": "https://github.com/Blackbird88"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "MEGalaxy",
+      "bundleId": "VGR54S52YT.com.ea.masseffectbven",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Blackbird88",
+        "url": "https://github.com/Blackbird88"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

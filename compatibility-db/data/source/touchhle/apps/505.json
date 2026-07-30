@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 505,
+    "appUrl": "https://appdb.touchhle.org/apps/505",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Beer pong U",
+    "releaseYear": null,
+    "developerPublisher": "Closoft",
+    "firstReported": "2024-08-31T17:29:40Z",
+    "firstReportedBy": {
+      "name": "@TouchHLEuser",
+      "url": "https://github.com/TouchHLEuser"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Beer pong U",
+      "bundleId": "com.closoft.BeerPongU",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@TouchHLEuser",
+        "url": "https://github.com/TouchHLEuser"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-08-31T17:29:40Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "799",
+      "version": "1.2",
+      "emulatorVersion": "TouchHLE v0.2.2-246-g1db462f",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali g-52 MC2",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-08-31T17:29:40Z",
+      "reportedBy": {
+        "name": "@TouchHLEuser",
+        "url": "https://github.com/TouchHLEuser"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/799/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1041,
+    "appUrl": "https://appdb.touchhle.org/apps/1041",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Baaaaam",
+    "releaseYear": "2008",
+    "developerPublisher": "Edologic",
+    "firstReported": "2026-01-03T13:04:56Z",
+    "firstReportedBy": {
+      "name": "@j92580498-max",
+      "url": "https://github.com/j92580498-max"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.5",
+      "displayName": "Baaaaam",
+      "bundleId": "de.edologic.SpaceBaaaaam",
+      "minimumIosVersion": "not specified",
+      "firstReportedBy": {
+        "name": "@j92580498-max",
+        "url": "https://github.com/j92580498-max"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2026-01-03T13:04:56Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1777",
+      "version": "1.5",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2026-01-03T13:04:56Z",
+      "reportedBy": {
+        "name": "@j92580498-max",
+        "url": "https://github.com/j92580498-max"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1777/screenshot"
+    }
+  ]
+}

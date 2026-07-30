@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 792,
+    "appUrl": "https://appdb.touchhle.org/apps/792",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Crusade Of Destiny",
+    "releaseYear": "2009",
+    "developerPublisher": "DVide Arts Incorporated",
+    "firstReported": "2025-02-16T21:28:20Z",
+    "firstReportedBy": {
+      "name": "@ciciplusplus",
+      "url": "https://github.com/ciciplusplus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.4.3",
+      "displayName": "Crusade Of Destiny",
+      "bundleId": "com.dvidearts.crusadeofdestiny",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

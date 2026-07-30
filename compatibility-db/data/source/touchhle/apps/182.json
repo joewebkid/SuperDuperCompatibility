@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 182,
+    "appUrl": "https://appdb.touchhle.org/apps/182",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bonsai Blast",
+    "releaseYear": "2008",
+    "developerPublisher": "Glu",
+    "firstReported": "2023-12-11T16:09:11Z",
+    "firstReportedBy": {
+      "name": "@Reupload372",
+      "url": "https://github.com/Reupload372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Bonsai Blast",
+      "bundleId": "com.glu.bonsaiblast",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@Reupload372",
+        "url": "https://github.com/Reupload372"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-01-15T13:55:20Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1181",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-511-g8a1156d",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2025-01-15T13:55:20Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Sound is played for a slight bit, then crashes withPanic at src/dyld.rs:617:9: Call to unimplemented function _mbsrtowcs",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "298",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 11",
+      "gpu": "Galaxy A40",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2023-12-11T16:09:11Z",
+      "reportedBy": {
+        "name": "@Reupload372",
+        "url": "https://github.com/Reupload372"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/298/screenshot"
+    }
+  ]
+}

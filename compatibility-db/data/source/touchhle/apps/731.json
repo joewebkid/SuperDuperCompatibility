@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 731,
+    "appUrl": "https://appdb.touchhle.org/apps/731",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Clue: Unravel the Clues and Crack the Case",
+    "releaseYear": "2009",
+    "developerPublisher": "EA / Hasbro",
+    "firstReported": "2025-01-22T15:17:05Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.87",
+      "displayName": "CLUE",
+      "bundleId": "com.ea.clueinc",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-01-19T13:15:25Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1870",
+      "version": "1.0.87",
+      "emulatorVersion": "v0.2.3-52-g691353af",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-01-19T13:15:25Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1870/screenshot"
+    },
+    {
+      "sourceReportId": "1215",
+      "version": "1.0.87",
+      "emulatorVersion": "v0.2.2-553-g9d47662",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 2,
+      "reported": "2025-01-22T15:17:05Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1215/screenshot"
+    }
+  ]
+}

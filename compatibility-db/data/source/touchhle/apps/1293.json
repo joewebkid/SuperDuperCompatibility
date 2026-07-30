@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1293,
+    "appUrl": "https://appdb.touchhle.org/apps/1293",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Palm Heroes",
+    "releaseYear": "2010",
+    "developerPublisher": "iosoftware",
+    "firstReported": "2026-06-10T21:38:09Z",
+    "firstReportedBy": {
+      "name": "@ciciplusplus",
+      "url": "https://github.com/ciciplusplus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.6",
+      "displayName": "PalmHeroes",
+      "bundleId": "com.palmheroes.PalmHeroes",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

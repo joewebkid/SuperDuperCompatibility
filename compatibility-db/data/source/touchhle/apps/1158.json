@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1158,
+    "appUrl": "https://appdb.touchhle.org/apps/1158",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "DOA BlackJack",
+    "releaseYear": "2009",
+    "developerPublisher": "Koei Tecmo",
+    "firstReported": "2026-03-02T14:56:22Z",
+    "firstReportedBy": {
+      "name": "@apexad",
+      "url": "https://github.com/apexad"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "DOABlackjack",
+      "bundleId": "jp.co.tecmo.DOABlackjack",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@apexad",
+        "url": "https://github.com/apexad"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 312,
+    "appUrl": "https://appdb.touchhle.org/apps/312",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sonic the Hedgehog 2",
+    "releaseYear": "2010",
+    "developerPublisher": "SEGA",
+    "firstReported": "2024-04-17T16:38:32Z",
+    "firstReportedBy": {
+      "name": "@MatijaThe245th",
+      "url": "https://github.com/MatijaThe245th"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2.15",
+      "displayName": "Sonic 2",
+      "bundleId": "com.sega.Sonic2",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@MatijaThe245th",
+        "url": "https://github.com/MatijaThe245th"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-18T23:31:57Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2302",
+      "version": "1.2.15",
+      "emulatorVersion": "v.0.2.3-431-g25ba5501",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G57",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2026-06-18T23:31:57Z",
+      "reportedBy": {
+        "name": "@marinezlimadossantos8-cell",
+        "url": "https://github.com/marinezlimadossantos8-cell"
+      },
+      "remarks": "From touchHLE_log.txt: UIProxyObject replacement for IBFirstResponder (unimplemented) Log panic: src/mem.rs:357:9: Attempted null-page access at 0x0",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "483",
+      "version": "1.2.15",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android 12",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-04-17T16:38:32Z",
+      "reportedBy": {
+        "name": "@MatijaThe245th",
+        "url": "https://github.com/MatijaThe245th"
+      },
+      "remarks": "The game shows the splash screen for a second and then crashes.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/483/screenshot"
+    }
+  ]
+}

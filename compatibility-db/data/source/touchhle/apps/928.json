@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 928,
+    "appUrl": "https://appdb.touchhle.org/apps/928",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Animal Sound Machine",
+    "releaseYear": null,
+    "developerPublisher": "Frizzo1",
+    "firstReported": "2025-06-30T04:08:38Z",
+    "firstReportedBy": {
+      "name": "@N0username678",
+      "url": "https://github.com/N0username678"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Animals",
+      "bundleId": "com.frizzo1.animals",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@N0username678",
+        "url": "https://github.com/N0username678"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-06-30T04:08:38Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1548",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-763-g97fc52f",
+      "operatingSystem": "Android 15",
+      "gpu": "ARM Mali-G57 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-06-30T04:08:38Z",
+      "reportedBy": {
+        "name": "@N0username678",
+        "url": "https://github.com/N0username678"
+      },
+      "remarks": "Crashes at start with panic error: \"Missing implementation for class UICachedDeviceWhiteColor!\"",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

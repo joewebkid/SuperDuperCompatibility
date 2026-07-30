@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 488,
+    "appUrl": "https://appdb.touchhle.org/apps/488",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Rally Master Pro",
+    "releaseYear": "2009",
+    "developerPublisher": "FishLabs Entertainment",
+    "firstReported": "2024-08-14T19:12:30Z",
+    "firstReportedBy": {
+      "name": "@giuskiller995",
+      "url": "https://github.com/giuskiller995"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.0",
+      "displayName": "Rally Master",
+      "bundleId": "www.fishlabs.net.RallyMasterPro3DUS",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@giuskiller995",
+        "url": "https://github.com/giuskiller995"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-08-14T19:12:30Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "760",
+      "version": "1.1.0",
+      "emulatorVersion": "v0.2.2-179-g47a7132",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno 660",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-08-14T19:12:30Z",
+      "reportedBy": {
+        "name": "@giuskiller995",
+        "url": "https://github.com/giuskiller995"
+      },
+      "remarks": "Panic at src/objc/messages.rs:60:13: Object 0x374f7a40 (class \"NSBundle\", 0x374f6340) does not respond to selector \"preferredLocalizations\"!",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/760/screenshot"
+    }
+  ]
+}

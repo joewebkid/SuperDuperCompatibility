@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 344,
+    "appUrl": "https://appdb.touchhle.org/apps/344",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Terminator Salvation",
+    "releaseYear": "2009",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-06-21T04:02:28Z",
+    "firstReportedBy": {
+      "name": "@GhoulUnlimited",
+      "url": "https://github.com/GhoulUnlimited"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.4",
+      "displayName": "Terminator",
+      "bundleId": "com.gameloft.Terminator",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@MinhNguyen39",
+        "url": "https://github.com/MinhNguyen39"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-02-07T22:36:33Z"
+    },
+    {
+      "version": "1.0.7",
+      "displayName": "Terminator",
+      "bundleId": "com.gameloft.Terminator",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@GhoulUnlimited",
+        "url": "https://github.com/GhoulUnlimited"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-02-08T13:16:17Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1297",
+      "version": "1.0.7",
+      "emulatorVersion": "v0.2.2-581-g3b517df2",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno 613",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-02-08T13:16:17Z",
+      "reportedBy": {
+        "name": "@MinhNguyen39",
+        "url": "https://github.com/MinhNguyen39"
+      },
+      "remarks": "Same as version 1.0.4. Game is playble, music playing but most sound is not working.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1289",
+      "version": "1.0.4",
+      "emulatorVersion": "v0.2.2-581-g3b517df2",
+      "operatingSystem": "Android 13",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-02-07T22:36:33Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "First level is playable. Music plays, but most of sounds are not working. Some menus can crash.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1289/screenshot"
+    },
+    {
+      "sourceReportId": "561",
+      "version": "1.0.4",
+      "emulatorVersion": "v0.2.2-105-gfd7a8ea",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno 619",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-07-17T04:29:29Z",
+      "reportedBy": {
+        "name": "@MinhNguyen39",
+        "url": "https://github.com/MinhNguyen39"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "543",
+      "version": "1.0.7",
+      "emulatorVersion": "v0.2.2-104-gbd0ad53f",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno 613",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2024-06-30T12:49:25Z",
+      "reportedBy": {
+        "name": "@renatoudrum",
+        "url": "https://github.com/renatoudrum"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "530",
+      "version": "1.0.7",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android 12",
+      "gpu": "Snapdragon 855",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-06-21T04:02:28Z",
+      "reportedBy": {
+        "name": "@GhoulUnlimited",
+        "url": "https://github.com/GhoulUnlimited"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

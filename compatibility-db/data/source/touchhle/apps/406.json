@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 406,
+    "appUrl": "https://appdb.touchhle.org/apps/406",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "iTD",
+    "releaseYear": "2008",
+    "developerPublisher": "Team Phobic",
+    "firstReported": "2024-08-07T23:29:41Z",
+    "firstReportedBy": {
+      "name": "@rand-dotcom",
+      "url": "https://github.com/rand-dotcom"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "iTD",
+      "bundleId": "com.teamphobic.iTD",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@rand-dotcom",
+        "url": "https://github.com/rand-dotcom"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

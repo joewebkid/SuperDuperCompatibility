@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 607,
+    "appUrl": "https://appdb.touchhle.org/apps/607",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Glyph",
+    "releaseYear": "2008",
+    "developerPublisher": "Astraware/Sandlot Games",
+    "firstReported": "2024-11-08T17:30:43Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Glyph",
+      "bundleId": "com.astraware.Glyph",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-11-08T17:30:43Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "991",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-365-g329f857",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-11-08T17:30:43Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/991/screenshot"
+    }
+  ]
+}

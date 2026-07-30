@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1162,
+    "appUrl": "https://appdb.touchhle.org/apps/1162",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cordy",
+    "releaseYear": "2011",
+    "developerPublisher": "SilverTree Media",
+    "firstReported": "2026-03-05T03:07:24Z",
+    "firstReportedBy": {
+      "name": "@GreenGuy25",
+      "url": "https://github.com/GreenGuy25"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.70.16684",
+      "displayName": "Cordy",
+      "bundleId": "com.silvertree.cordy",
+      "minimumIosVersion": "3.1.2",
+      "firstReportedBy": {
+        "name": "@GreenGuy25",
+        "url": "https://github.com/GreenGuy25"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

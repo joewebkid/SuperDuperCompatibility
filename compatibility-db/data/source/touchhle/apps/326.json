@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 326,
+    "appUrl": "https://appdb.touchhle.org/apps/326",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Baseball Superstars 2011",
+    "releaseYear": "2010",
+    "developerPublisher": "Gamevil",
+    "firstReported": "2024-05-16T13:22:33Z",
+    "firstReportedBy": {
+      "name": "@Jamirus238",
+      "url": "https://github.com/Jamirus238"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Baseball '11",
+      "bundleId": "com.gamevil.BaseBallSuperStars2011",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Jamirus238",
+        "url": "https://github.com/Jamirus238"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

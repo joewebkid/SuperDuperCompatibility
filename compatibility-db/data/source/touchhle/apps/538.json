@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 538,
+    "appUrl": "https://appdb.touchhle.org/apps/538",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Skee-Ball",
+    "releaseYear": "2010",
+    "developerPublisher": "Freeverse",
+    "firstReported": "2024-09-27T07:10:52Z",
+    "firstReportedBy": {
+      "name": "@Driftking60",
+      "url": "https://github.com/Driftking60"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.1",
+      "displayName": "Skee-Ball",
+      "bundleId": "com.freeverse.skeeball",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Driftking60",
+        "url": "https://github.com/Driftking60"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-09-27T07:10:52Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "864",
+      "version": "2.1",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android 7.0",
+      "gpu": "Qualcomm Adreno 430",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-09-27T07:10:52Z",
+      "reportedBy": {
+        "name": "@Driftking60",
+        "url": "https://github.com/Driftking60"
+      },
+      "remarks": "Loads for a couple seconds then crashes",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

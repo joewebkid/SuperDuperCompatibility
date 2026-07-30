@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 466,
+    "appUrl": "https://appdb.touchhle.org/apps/466",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Brain Challenge 2: Think Again!",
+    "releaseYear": "2009",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-09T15:30:01Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.7",
+      "displayName": "BrainChallenge2",
+      "bundleId": "com.gameloft.BrainChallenge2",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-06-13T21:52:52Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2265",
+      "version": "1.0.7",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G68",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-06-13T21:52:52Z",
+      "reportedBy": {
+        "name": "@valeriopipinho02-creator",
+        "url": "https://github.com/valeriopipinho02-creator"
+      },
+      "remarks": "The game runs perfectly without any crashes. High-level Objective-C classes are now fully supported, stable frame rate, and no crashes during gameplay.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2265/screenshot"
+    }
+  ]
+}

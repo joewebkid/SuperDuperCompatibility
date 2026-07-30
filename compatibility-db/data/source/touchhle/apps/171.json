@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 171,
+    "appUrl": "https://appdb.touchhle.org/apps/171",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "2010 FIFA World Cup South Africa",
+    "releaseYear": "2010",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2023-12-06T16:27:03Z",
+    "firstReportedBy": {
+      "name": "@giuskiller995",
+      "url": "https://github.com/giuskiller995"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "2010 FIFA WORLD CUP SOUTH AFRICA™",
+      "bundleId": "com.ea.fifa10wc.bv",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-07-08T21:40:04Z"
+    },
+    {
+      "version": "1.0.2",
+      "displayName": "2010 FIFA WORLD CUP SOUTH AFRICA™",
+      "bundleId": "com.ea.fifa10wc.inc",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@giuskiller995",
+        "url": "https://github.com/giuskiller995"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-07-08T21:40:04Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1573",
+      "version": "1.0.2",
+      "emulatorVersion": "touchHLE v0.2.2-769-gea6eadd9",
+      "operatingSystem": "Android 13.0",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-07-08T21:40:04Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "Game works well. Ball kick sounds plays delayed. Multiplayer doesn't work.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1573/screenshot"
+    },
+    {
+      "sourceReportId": "269",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 660",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2023-12-06T16:27:03Z",
+      "reportedBy": {
+        "name": "@giuskiller995",
+        "url": "https://github.com/giuskiller995"
+      },
+      "remarks": "The app shows EA logo for just a second (even less maybe), then it suddenly crashes without any user interaction.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/269/screenshot"
+    }
+  ]
+}

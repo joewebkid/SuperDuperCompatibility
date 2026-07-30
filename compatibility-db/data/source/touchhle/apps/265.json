@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 265,
+    "appUrl": "https://appdb.touchhle.org/apps/265",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Happy Tree Friends Slap Happy",
+    "releaseYear": "2009",
+    "developerPublisher": "PublisherX",
+    "firstReported": "2024-03-07T23:39:34Z",
+    "firstReportedBy": {
+      "name": "@GGostepoppxd",
+      "url": "https://github.com/GGostepoppxd"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "HappyTreeFriends",
+      "bundleId": "com.publisherX.HappyTreeFriends",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@GGostepoppxd",
+        "url": "https://github.com/GGostepoppxd"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-12-31T11:57:26Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1149",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-510-g596d910",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali-G76 MC4",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-12-31T11:57:26Z",
+      "reportedBy": {
+        "name": "@DanilGames2022",
+        "url": "https://github.com/DanilGames2022"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1149/screenshot"
+    },
+    {
+      "sourceReportId": "403",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 8.1.0",
+      "gpu": "Mali-G51 MP4",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-03-07T23:39:34Z",
+      "reportedBy": {
+        "name": "@GGostepoppxd",
+        "url": "https://github.com/GGostepoppxd"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

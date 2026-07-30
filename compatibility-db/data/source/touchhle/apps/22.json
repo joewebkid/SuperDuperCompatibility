@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 22,
+    "appUrl": "https://appdb.touchhle.org/apps/22",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Brain Challenge",
+    "releaseYear": "2007",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2023-10-13T14:27:04Z",
+    "firstReportedBy": {
+      "name": "@GamingDucking",
+      "url": "https://github.com/GamingDucking"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "BrainChal.",
+      "bundleId": "com.gameloft.BrainChallenge",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@schrmh",
+        "url": "https://github.com/schrmh"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-12-08T14:04:40Z"
+    },
+    {
+      "version": "1.0.6",
+      "displayName": "BrainChal.",
+      "bundleId": "com.gameloft.BrainChallengeLite",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Ninja232323",
+        "url": "https://github.com/Ninja232323"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.4.1",
+      "displayName": "BrainChal.",
+      "bundleId": "com.gameloft.BrainChallenge",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.6.1",
+      "displayName": "BrainChal.",
+      "bundleId": "com.gameloft.BrainChallenge",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1079",
+      "version": "1.0",
+      "emulatorVersion": "0.2.2-460-ga6139d6",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-T830",
+      "scaleHack": "Couldn't test",
+      "rating": 3,
+      "reported": "2024-12-08T14:04:40Z",
+      "reportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "remarks": "Stress test is now playable, however the trainers and countdown sprites are still white.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1079/screenshot"
+    },
+    {
+      "sourceReportId": "856",
+      "version": "1.0",
+      "emulatorVersion": "0.2.2-287-g5b4fadb",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2024-09-25T13:05:25Z",
+      "reportedBy": {
+        "name": "@THETOMGAMING2",
+        "url": "https://github.com/THETOMGAMING2"
+      },
+      "remarks": "Brain test is playable, there are render issues a countdown for games and trainer, if you tap stress test mode you will get closed from emulation",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/856/screenshot"
+    }
+  ]
+}

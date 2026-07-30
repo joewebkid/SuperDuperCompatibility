@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 492,
+    "appUrl": "https://appdb.touchhle.org/apps/492",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Backyard Bounce",
+    "releaseYear": "2012",
+    "developerPublisher": "Clickgamer.com/Chayowo Games",
+    "firstReported": "2024-08-18T08:58:19Z",
+    "firstReportedBy": {
+      "name": "@YellowPerson24",
+      "url": "https://github.com/YellowPerson24"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Bounce",
+      "bundleId": "com.clickgamer.backyardbounce",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@YellowPerson24",
+        "url": "https://github.com/YellowPerson24"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

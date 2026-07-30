@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 278,
+    "appUrl": "https://appdb.touchhle.org/apps/278",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Doom Resurrection",
+    "releaseYear": "2009",
+    "developerPublisher": "ID Software, Escalation Studios",
+    "firstReported": "2024-03-30T10:57:45Z",
+    "firstReportedBy": {
+      "name": "@WarmestKrafter",
+      "url": "https://github.com/WarmestKrafter"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "Resurrection",
+      "bundleId": "com.escalationstudios.ResurrectionDoom",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@WarmestKrafter",
+        "url": "https://github.com/WarmestKrafter"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2026-04-15T22:43:09Z"
+    },
+    {
+      "version": "1.1",
+      "displayName": "Resurrection",
+      "bundleId": "com.escalationstudios.ResurrectionDoom",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@notprogramminggames",
+        "url": "https://github.com/notprogramminggames"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2062",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.3-218-gece12407",
+      "operatingSystem": "Android",
+      "gpu": "Snapdragon 8 Gen 2",
+      "scaleHack": "Couldn't test",
+      "rating": 3,
+      "reported": "2026-04-15T22:43:09Z",
+      "reportedBy": {
+        "name": "@GabrielDenzy",
+        "url": "https://github.com/GabrielDenzy"
+      },
+      "remarks": "The game responds to screen touches and plays sound, but does not display image, black screen.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "420",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android",
+      "gpu": "MediaTek Helio G99",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2024-03-30T10:57:45Z",
+      "reportedBy": {
+        "name": "@WarmestKrafter",
+        "url": "https://github.com/WarmestKrafter"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

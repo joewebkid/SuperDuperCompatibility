@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 70,
+    "appUrl": "https://appdb.touchhle.org/apps/70",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Superstar Chefs",
+    "releaseYear": "2010",
+    "developerPublisher": "Donut Games",
+    "firstReported": "2023-11-01T13:42:41Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.02",
+      "displayName": "Chefs",
+      "bundleId": "com.donutgames.superstarchefs",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2023-11-01T13:44:47Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "109",
+      "version": "1.02",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-G72 MP18 (Samsung Galaxy S9)",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2023-11-01T13:44:47Z",
+      "reportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/109/screenshot"
+    }
+  ]
+}

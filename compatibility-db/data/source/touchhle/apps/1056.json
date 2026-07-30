@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1056,
+    "appUrl": "https://appdb.touchhle.org/apps/1056",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cake Mania 3",
+    "releaseYear": "2009",
+    "developerPublisher": "Sandlot Games",
+    "firstReported": "2026-01-06T09:45:23Z",
+    "firstReportedBy": {
+      "name": "@jorjMush",
+      "url": "https://github.com/jorjMush"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Cake Mania 3",
+      "bundleId": "jp.co.hudson.CakeMania3",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@jorjMush",
+        "url": "https://github.com/jorjMush"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

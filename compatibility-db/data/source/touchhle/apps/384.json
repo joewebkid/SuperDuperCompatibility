@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 384,
+    "appUrl": "https://appdb.touchhle.org/apps/384",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "The Terminator",
+    "releaseYear": "2009",
+    "developerPublisher": "Big Head Games Ltd",
+    "firstReported": "2024-08-01T16:42:34Z",
+    "firstReportedBy": {
+      "name": "@fikritz",
+      "url": "https://github.com/fikritz"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Terminator",
+      "bundleId": "uk.co.bigheadgames.Terminator",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@fikritz",
+        "url": "https://github.com/fikritz"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-08-01T16:42:34Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "592",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-162-gfd1f24e",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-08-01T16:42:34Z",
+      "reportedBy": {
+        "name": "@fikritz",
+        "url": "https://github.com/fikritz"
+      },
+      "remarks": "Everything Works",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/592/screenshot"
+    }
+  ]
+}

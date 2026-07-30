@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 612,
+    "appUrl": "https://appdb.touchhle.org/apps/612",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Balloonacy",
+    "releaseYear": "2008",
+    "developerPublisher": "Mobile Amusements",
+    "firstReported": "2024-11-16T08:31:35Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.0",
+      "displayName": "Balloonacy",
+      "bundleId": "com.mobileamusements.BalloonacyPaid",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-11-16T08:31:35Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1001",
+      "version": "2.0",
+      "emulatorVersion": "v0.2.2-376-g23c219d",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-11-16T08:31:35Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": "Panic at src/objc/selectors.rs:113:50: called `Result::unwrap()` on an `Err` value: [185, 254, 255, 234, 3]",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

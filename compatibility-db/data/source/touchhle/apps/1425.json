@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1425,
+    "appUrl": "https://appdb.touchhle.org/apps/1425",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Stick Sports",
+    "releaseYear": "2010",
+    "developerPublisher": "Robert Szeleney",
+    "firstReported": "2026-07-20T00:16:32Z",
+    "firstReportedBy": {
+      "name": "@mcd-3",
+      "url": "https://github.com/mcd-3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "StickSports",
+      "bundleId": "com.rsz.StickSports",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@mcd-3",
+        "url": "https://github.com/mcd-3"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

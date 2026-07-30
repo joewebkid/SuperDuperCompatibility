@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1370,
+    "appUrl": "https://appdb.touchhle.org/apps/1370",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "William Tale",
+    "releaseYear": "2010",
+    "developerPublisher": "Nebula Soft Inc.",
+    "firstReported": "2026-06-23T01:15:31Z",
+    "firstReportedBy": {
+      "name": "@MKFRLEBLAHBLAHBLAH",
+      "url": "https://github.com/MKFRLEBLAHBLAHBLAH"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "WilliamTale",
+      "bundleId": "com.nebulasoft.applearcher",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@MKFRLEBLAHBLAHBLAH",
+        "url": "https://github.com/MKFRLEBLAHBLAHBLAH"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

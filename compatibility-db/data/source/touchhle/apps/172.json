@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 172,
+    "appUrl": "https://appdb.touchhle.org/apps/172",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Marblenauts",
+    "releaseYear": "2010",
+    "developerPublisher": "Crescent Flare",
+    "firstReported": "2023-12-07T01:24:18Z",
+    "firstReportedBy": {
+      "name": "@Bionic-Dog",
+      "url": "https://github.com/Bionic-Dog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Marblenauts",
+      "bundleId": "com.crescentflare.marblenauts",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Bionic-Dog",
+        "url": "https://github.com/Bionic-Dog"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

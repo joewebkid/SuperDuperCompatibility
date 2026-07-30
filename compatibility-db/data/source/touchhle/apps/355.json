@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 355,
+    "appUrl": "https://appdb.touchhle.org/apps/355",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Spore Creatures",
+    "releaseYear": "2010",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2024-07-03T06:33:01Z",
+    "firstReportedBy": {
+      "name": "@vladjester2020",
+      "url": "https://github.com/vladjester2020"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Creatures",
+      "bundleId": "com.ea.sporecreatures.incj",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-01-18T05:15:11Z"
+    },
+    {
+      "version": "1.0.1",
+      "displayName": "Creatures",
+      "bundleId": "com.ea.sporecreatures.na",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@vladjester2020",
+        "url": "https://github.com/vladjester2020"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1857",
+      "version": "1.0.0",
+      "emulatorVersion": "0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-01-18T05:15:11Z",
+      "reportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "remarks": "Now gets past the first level. With further testing could be a 5 star game",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1857/screenshot"
+    },
+    {
+      "sourceReportId": "1033",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.2-400-ga76f713",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2024-11-23T04:40:52Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "Tutorial level is playable, but the game crashes when entering the next level. Crash: Panic at src/dyld.rs:604:9: Call to unimplemented function _lroundf",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1033/screenshot"
+    }
+  ]
+}

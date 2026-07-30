@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1428,
+    "appUrl": "https://appdb.touchhle.org/apps/1428",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Beach Volleyball Babies",
+    "releaseYear": "2009",
+    "developerPublisher": "Masq",
+    "firstReported": "2026-07-21T20:00:28Z",
+    "firstReportedBy": {
+      "name": "@manlemon2222-byte",
+      "url": "https://github.com/manlemon2222-byte"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Beach Babies",
+      "bundleId": "com.masq.beachvolleyballbabies",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@manlemon2222-byte",
+        "url": "https://github.com/manlemon2222-byte"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-07-21T20:00:28Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2457",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-463-g0f2c1630 PREVIEW",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-07-21T20:00:28Z",
+      "reportedBy": {
+        "name": "@manlemon2222-byte",
+        "url": "https://github.com/manlemon2222-byte"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2457/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1192,
+    "appUrl": "https://appdb.touchhle.org/apps/1192",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Stone Wars Arcade",
+    "releaseYear": "2009",
+    "developerPublisher": "epic force",
+    "firstReported": "2026-04-03T16:24:58Z",
+    "firstReportedBy": {
+      "name": "@wako69420",
+      "url": "https://github.com/wako69420"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.5",
+      "displayName": "Stone Wars",
+      "bundleId": "com.epicforce.stonewars",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@wako69420",
+        "url": "https://github.com/wako69420"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

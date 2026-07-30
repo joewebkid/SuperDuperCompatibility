@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 197,
+    "appUrl": "https://appdb.touchhle.org/apps/197",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "WireWay",
+    "releaseYear": "2010",
+    "developerPublisher": "Now Productions/Konami",
+    "firstReported": "2023-12-22T22:41:45Z",
+    "firstReportedBy": {
+      "name": "@GuiMiTomo",
+      "url": "https://github.com/GuiMiTomo"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Wire Way",
+      "bundleId": "com.konami.wireway",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@GuiMiTomo",
+        "url": "https://github.com/GuiMiTomo"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 37,
+    "appUrl": "https://appdb.touchhle.org/apps/37",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Head2Head",
+    "releaseYear": "2008",
+    "developerPublisher": "Darxun",
+    "firstReported": "2023-10-28T12:02:49Z",
+    "firstReportedBy": {
+      "name": "@sheva2281",
+      "url": "https://github.com/sheva2281"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Head2Head",
+      "bundleId": "com.darxun",
+      "minimumIosVersion": "Not specified",
+      "firstReportedBy": {
+        "name": "@sheva2281",
+        "url": "https://github.com/sheva2281"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2023-11-01T09:32:08Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "100",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android",
+      "gpu": "Mali G52",
+      "scaleHack": "Couldn't test",
+      "rating": 4,
+      "reported": "2023-11-01T09:32:08Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "The FPS is uncapped but otherwise it's playable.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/100/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 878,
+    "appUrl": "https://appdb.touchhle.org/apps/878",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Song Summoner: The Unsung Heroes - Encore",
+    "releaseYear": "2009",
+    "developerPublisher": "Square Enix",
+    "firstReported": "2025-05-08T08:39:58Z",
+    "firstReportedBy": {
+      "name": "@kylemsguy",
+      "url": "https://github.com/kylemsguy"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.4.0",
+      "displayName": "S.S.Encore",
+      "bundleId": "com.square-enix.SongSummonerEncore",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@kylemsguy",
+        "url": "https://github.com/kylemsguy"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 109,
+    "appUrl": "https://appdb.touchhle.org/apps/109",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Finger Piano",
+    "releaseYear": null,
+    "developerPublisher": "jyproduct",
+    "firstReported": "2023-11-06T13:08:04Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.7",
+      "displayName": "FingerPiano",
+      "bundleId": "APP02.jyproduct.FingerPiano",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-12-26T08:17:40Z"
+    },
+    {
+      "version": "2.2",
+      "displayName": "FingerPiano",
+      "bundleId": "APP02.jyproduct.FingerPiano",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1127",
+      "version": "1.7",
+      "emulatorVersion": "v0.2.2-498-g9700a4f",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-12-26T08:17:40Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1127/screenshot"
+    }
+  ]
+}

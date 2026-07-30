@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 920,
+    "appUrl": "https://appdb.touchhle.org/apps/920",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Scarface Last Stand",
+    "releaseYear": "2010",
+    "developerPublisher": "Starwave Mobile",
+    "firstReported": "2025-06-22T01:03:29Z",
+    "firstReportedBy": {
+      "name": "@PhanHongAn0105",
+      "url": "https://github.com/PhanHongAn0105"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Scarface",
+      "bundleId": "com.go.starwave.scarface",
+      "minimumIosVersion": "IOS 2.2.1",
+      "firstReportedBy": {
+        "name": "@PhanHongAn0105",
+        "url": "https://github.com/PhanHongAn0105"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-06-22T01:03:29Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1537",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-748-gd45a395",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno 650",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2025-06-22T01:03:29Z",
+      "reportedBy": {
+        "name": "@PhanHongAn0105",
+        "url": "https://github.com/PhanHongAn0105"
+      },
+      "remarks": "Game always crash at the loading screen as show in the screenshot below with the error: Assertion failed: get_format_char(&env.mem,format_char_idx + 2) == b'd\"",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1537/screenshot"
+    }
+  ]
+}

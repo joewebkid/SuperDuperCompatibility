@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1392,
+    "appUrl": "https://appdb.touchhle.org/apps/1392",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "What Would You Choose?",
+    "releaseYear": "2009",
+    "developerPublisher": "LOLriffic Stuff",
+    "firstReported": "2026-06-25T10:48:24Z",
+    "firstReportedBy": {
+      "name": "@MKFRLEBLAHBLAHBLAH",
+      "url": "https://github.com/MKFRLEBLAHBLAHBLAH"
+    }
+  },
+  "versions": [
+    {
+      "version": "3.5",
+      "displayName": "What?",
+      "bundleId": "com.lolriffic.choosefatefr",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@MKFRLEBLAHBLAHBLAH",
+        "url": "https://github.com/MKFRLEBLAHBLAHBLAH"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

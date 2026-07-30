@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 634,
+    "appUrl": "https://appdb.touchhle.org/apps/634",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Auditorium",
+    "releaseYear": "2008",
+    "developerPublisher": "Cipher Prime/Electronic Arts",
+    "firstReported": "2024-12-03T01:36:24Z",
+    "firstReportedBy": {
+      "name": "@Jpramirez12345",
+      "url": "https://github.com/Jpramirez12345"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Auditorium",
+      "bundleId": "com.ea.auditorium.na",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Jpramirez12345",
+        "url": "https://github.com/Jpramirez12345"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-02-02T14:23:26Z"
+    },
+    {
+      "version": "1.2.77",
+      "displayName": "Auditorium",
+      "bundleId": "com.ea.auditorium.na",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@LimeGuy25",
+        "url": "https://github.com/LimeGuy25"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1271",
+      "version": "1.0.0",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G68",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2025-02-02T14:23:26Z",
+      "reportedBy": {
+        "name": "@Jpramirez12345",
+        "url": "https://github.com/Jpramirez12345"
+      },
+      "remarks": "App is fully playable without any problems",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1271/screenshot"
+    },
+    {
+      "sourceReportId": "1057",
+      "version": "1.0.0",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G68",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2024-12-03T01:36:24Z",
+      "reportedBy": {
+        "name": "@Jpramirez12345",
+        "url": "https://github.com/Jpramirez12345"
+      },
+      "remarks": "It reaches the title screen but after tapping the screen it crashes",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1057/screenshot"
+    }
+  ]
+}

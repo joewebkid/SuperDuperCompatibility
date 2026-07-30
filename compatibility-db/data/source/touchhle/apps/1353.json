@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1353,
+    "appUrl": "https://appdb.touchhle.org/apps/1353",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Aqua Master",
+    "releaseYear": null,
+    "developerPublisher": "?",
+    "firstReported": "2026-06-21T15:47:28Z",
+    "firstReportedBy": {
+      "name": "@0ldw4re",
+      "url": "https://github.com/0ldw4re"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "Aqua Master",
+      "bundleId": "App.AquaMaster",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

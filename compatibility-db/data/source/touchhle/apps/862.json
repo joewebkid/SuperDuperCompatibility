@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 862,
+    "appUrl": "https://appdb.touchhle.org/apps/862",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Facebook",
+    "releaseYear": "2008",
+    "developerPublisher": "Meta",
+    "firstReported": "2025-04-16T20:54:05Z",
+    "firstReportedBy": {
+      "name": "@BlueTHAF",
+      "url": "https://github.com/BlueTHAF"
+    }
+  },
+  "versions": [
+    {
+      "version": "3.11",
+      "displayName": "Facebook",
+      "bundleId": "com.facebook.Facebook",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@BlueTHAF",
+        "url": "https://github.com/BlueTHAF"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-04-16T20:54:05Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1447",
+      "version": "3.11",
+      "emulatorVersion": "v0.2.2-705-g7d6086e",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno 740",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2025-04-16T20:54:05Z",
+      "reportedBy": {
+        "name": "@BlueTHAF",
+        "url": "https://github.com/BlueTHAF"
+      },
+      "remarks": "Crashes at \"not yet implemented: NSSearchPathDirectory 13\"",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1447/screenshot"
+    }
+  ]
+}

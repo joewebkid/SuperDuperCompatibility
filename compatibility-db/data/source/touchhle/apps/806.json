@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 806,
+    "appUrl": "https://appdb.touchhle.org/apps/806",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "PUZZLE COSMOS",
+    "releaseYear": null,
+    "developerPublisher": "PONOS",
+    "firstReported": "2025-02-28T19:23:38Z",
+    "firstReportedBy": {
+      "name": "@Toasterifc",
+      "url": "https://github.com/Toasterifc"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Cosmos",
+      "bundleId": "jp.co.ponos.cosmos",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Toasterifc",
+        "url": "https://github.com/Toasterifc"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-02-28T19:23:38Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1359",
+      "version": "1.0",
+      "emulatorVersion": "0.2.2-625-g3550209",
+      "operatingSystem": "Android 10",
+      "gpu": "Google pixel 3a",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2025-02-28T19:23:38Z",
+      "reportedBy": {
+        "name": "@Toasterifc",
+        "url": "https://github.com/Toasterifc"
+      },
+      "remarks": "Some issues so if you press the button for any of the modes you have not unlocked yet the game will crash. When you enter the app for the first time you must complete a game or else the app will crash. Lastly highscores do not seem to save",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1359/screenshot"
+    }
+  ]
+}

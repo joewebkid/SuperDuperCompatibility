@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1062,
+    "appUrl": "https://appdb.touchhle.org/apps/1062",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "The Corsair",
+    "releaseYear": "2009",
+    "developerPublisher": "PDAMill",
+    "firstReported": "2026-01-08T03:53:08Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Corsair",
+      "bundleId": "c0r5a1r777",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-08T03:53:08Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1814",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-01-08T03:53:08Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1814/screenshot"
+    }
+  ]
+}

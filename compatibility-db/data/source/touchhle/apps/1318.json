@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1318,
+    "appUrl": "https://appdb.touchhle.org/apps/1318",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "SimCity Deluxe",
+    "releaseYear": "2009",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2026-06-16T10:42:52Z",
+    "firstReportedBy": {
+      "name": "@DaCringeyBaka",
+      "url": "https://github.com/DaCringeyBaka"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "SimCity DLX",
+      "bundleId": "com.ea.simcitydeluxe.bv",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2026-06-16T10:42:52Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2292",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "No (broken)",
+      "rating": 3,
+      "reported": "2026-06-16T10:42:52Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "When naming the city or mayor or playing the simulation in action, the game crashes. The buildings don't show up when using scale hack.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2292/screenshot"
+    }
+  ]
+}

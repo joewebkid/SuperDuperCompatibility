@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1074,
+    "appUrl": "https://appdb.touchhle.org/apps/1074",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Burning Tires 3D",
+    "releaseYear": "2009",
+    "developerPublisher": "Deep Silver Fishlabs",
+    "firstReported": "2026-01-11T17:54:29Z",
+    "firstReportedBy": {
+      "name": "@LuigiMario79",
+      "url": "https://github.com/LuigiMario79"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "BurningTires",
+      "bundleId": "www.fishlabs.net.BurningTires3D",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@LuigiMario79",
+        "url": "https://github.com/LuigiMario79"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

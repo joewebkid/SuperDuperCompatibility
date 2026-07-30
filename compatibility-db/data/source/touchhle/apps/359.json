@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 359,
+    "appUrl": "https://appdb.touchhle.org/apps/359",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Motion X Poker",
+    "releaseYear": null,
+    "developerPublisher": "Motion X",
+    "firstReported": "2024-07-09T09:23:11Z",
+    "firstReportedBy": {
+      "name": "@Solstar",
+      "url": "https://github.com/Solstar"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Poker Quest",
+      "bundleId": "com.fullpower.PharaohPoker",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@Solstar",
+        "url": "https://github.com/Solstar"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

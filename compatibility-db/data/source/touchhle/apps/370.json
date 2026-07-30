@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 370,
+    "appUrl": "https://appdb.touchhle.org/apps/370",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "James Cameron's Avatar",
+    "releaseYear": "2009",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-07-22T08:36:42Z",
+    "firstReportedBy": {
+      "name": "@thundergun1",
+      "url": "https://github.com/thundergun1"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.6",
+      "displayName": "AVATAR",
+      "bundleId": "com.gameloft.AVATAR",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-07-22T08:36:42Z"
+    },
+    {
+      "version": "1.2.0",
+      "displayName": "AVATARLITE",
+      "bundleId": "com.gameloft.AvatarFree",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@JasonMaloneStan",
+        "url": "https://github.com/JasonMaloneStan"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-09-22T11:24:43Z"
+    },
+    {
+      "version": "1.4.9",
+      "displayName": "AVATAR",
+      "bundleId": "com.gameloft.AVATAR",
+      "minimumIosVersion": "3.1.3",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1691",
+      "version": "1.2.0",
+      "emulatorVersion": "v0.2.2-914-gb1addaa",
+      "operatingSystem": "Android 15",
+      "gpu": "Adreno 660",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-09-22T11:24:43Z",
+      "reportedBy": {
+        "name": "@JasonMaloneStan",
+        "url": "https://github.com/JasonMaloneStan"
+      },
+      "remarks": "Pressing the buy full version button crashes the emulator.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "571",
+      "version": "1.0.6",
+      "emulatorVersion": "v0.2.2-146-g9a5042f5",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2024-07-22T08:36:42Z",
+      "reportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "remarks": "Works perfectly so far. Got to Chapter 3 without any issues",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/571/screenshot"
+    }
+  ]
+}

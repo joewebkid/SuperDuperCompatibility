@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 602,
+    "appUrl": "https://appdb.touchhle.org/apps/602",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "MarioTD",
+    "releaseYear": "2008 (?)",
+    "developerPublisher": "?",
+    "firstReported": "2024-11-07T19:37:11Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3",
+      "url": "https://github.com/0ldw4r3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "MarioTD",
+      "bundleId": "com.yourcompany.MarioTD",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-12-08T15:27:58Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1081",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-477-g8076ccc",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-12-08T15:27:58Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1081/screenshot"
+    },
+    {
+      "sourceReportId": "985",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-352-g78a4fde",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Couldn't test",
+      "rating": 2,
+      "reported": "2024-11-07T19:37:11Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Sound of the main menu works for a bit, then crashes with Panic at src/objc/messages.rs:60:13: Object 0x3000d9b0 (class \"NSRunLoop\", 0x3000cb30) does not respond to selector \"runUntilDate:\"",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

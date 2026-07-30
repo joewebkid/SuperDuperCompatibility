@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 168,
+    "appUrl": "https://appdb.touchhle.org/apps/168",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "South Park Imaginationland",
+    "releaseYear": "2008",
+    "developerPublisher": "Mr Goodliving",
+    "firstReported": "2023-12-04T18:54:28Z",
+    "firstReportedBy": {
+      "name": "@Jerty56",
+      "url": "https://github.com/Jerty56"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.8",
+      "displayName": "South Park IL",
+      "bundleId": "com.mrgoodliving.SouthParkBlast",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@Jerty56",
+        "url": "https://github.com/Jerty56"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-05-08T06:30:51Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2176",
+      "version": "1.0.8",
+      "emulatorVersion": "v0.2.3-292-g2a8a7162",
+      "operatingSystem": "Android 16",
+      "gpu": "Qualcomm Adreno (TM) 610",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-05-08T06:30:51Z",
+      "reportedBy": {
+        "name": "@theifoneplayer",
+        "url": "https://github.com/theifoneplayer"
+      },
+      "remarks": "Game works perfectly. Was able to complete the first stages.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2176/screenshot"
+    },
+    {
+      "sourceReportId": "262",
+      "version": "1.0.8",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 11",
+      "gpu": "Galaxy A40",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2023-12-04T18:54:28Z",
+      "reportedBy": {
+        "name": "@Jerty56",
+        "url": "https://github.com/Jerty56"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

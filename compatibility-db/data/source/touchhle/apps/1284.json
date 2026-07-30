@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1284,
+    "appUrl": "https://appdb.touchhle.org/apps/1284",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Hangman",
+    "releaseYear": "2009",
+    "developerPublisher": "元 李",
+    "firstReported": "2026-06-06T09:11:49Z",
+    "firstReportedBy": {
+      "name": "@MKFRLEBLAHBLAHBLAH",
+      "url": "https://github.com/MKFRLEBLAHBLAHBLAH"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.9",
+      "displayName": "Hangman",
+      "bundleId": "com.virtuesoft.hangmanlite",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@MKFRLEBLAHBLAHBLAH",
+        "url": "https://github.com/MKFRLEBLAHBLAHBLAH"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

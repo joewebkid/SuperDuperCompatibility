@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 481,
+    "appUrl": "https://appdb.touchhle.org/apps/481",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "3D Gallery",
+    "releaseYear": null,
+    "developerPublisher": "caweb.de",
+    "firstReported": "2024-08-13T12:16:27Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.4.1",
+      "displayName": "3D Gallery",
+      "bundleId": "de.caweb.3DGallery",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-02-10T09:16:40Z"
+    },
+    {
+      "version": "2.4.1",
+      "displayName": "3D Gallery",
+      "bundleId": "de.caweb.3DGallery",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@maksimbodoncoev7-svg",
+        "url": "https://github.com/maksimbodoncoev7-svg"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-04-27T03:57:10Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2103",
+      "version": "2.4.1",
+      "emulatorVersion": "v0.2.3-251-g92674bfd",
+      "operatingSystem": "Android 15",
+      "gpu": "Mediatek helio g85",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-04-27T03:57:10Z",
+      "reportedBy": {
+        "name": "@maksimbodoncoev7-svg",
+        "url": "https://github.com/maksimbodoncoev7-svg"
+      },
+      "remarks": "Full working",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1938",
+      "version": "1.4.1",
+      "emulatorVersion": "v0.2.3-98-g241ea0e0",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 4,
+      "reported": "2026-02-10T09:16:40Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1938/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1260,
+    "appUrl": "https://appdb.touchhle.org/apps/1260",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Galaxy on Fire",
+    "releaseYear": "2009",
+    "developerPublisher": "Fishlabs",
+    "firstReported": "2026-05-15T17:24:56Z",
+    "firstReportedBy": {
+      "name": "@apexad",
+      "url": "https://github.com/apexad"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.5",
+      "displayName": "GalaxyOnFire",
+      "bundleId": "www.fishlabs.net.GalaxyOnFire",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@apexad",
+        "url": "https://github.com/apexad"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

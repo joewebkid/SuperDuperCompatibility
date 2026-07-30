@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 623,
+    "appUrl": "https://appdb.touchhle.org/apps/623",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Nodes",
+    "releaseYear": "2009",
+    "developerPublisher": "Brisk Mobile",
+    "firstReported": "2024-11-23T21:18:51Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.3",
+      "displayName": "Nodes",
+      "bundleId": "com.briskmobile.nodes",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-07-04T21:04:37Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1558",
+      "version": "1.0.3",
+      "emulatorVersion": "v0.2.2-764-g4919aab",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-07-04T21:04:37Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1558/screenshot"
+    },
+    {
+      "sourceReportId": "1164",
+      "version": "1.0.3",
+      "emulatorVersion": "v0.2.2-518-g50338bd",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2025-01-10T04:43:16Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": "Only First Level Work",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1164/screenshot"
+    },
+    {
+      "sourceReportId": "1035",
+      "version": "1.0.3",
+      "emulatorVersion": "v0.2.2-401-gd1c9295",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-11-23T21:18:51Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1035/screenshot"
+    }
+  ]
+}

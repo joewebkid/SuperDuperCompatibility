@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 524,
+    "appUrl": "https://appdb.touchhle.org/apps/524",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Silent Hill: The Escape",
+    "releaseYear": "2007",
+    "developerPublisher": "Konami",
+    "firstReported": "2024-09-19T17:15:10Z",
+    "firstReportedBy": {
+      "name": "@alborrajo",
+      "url": "https://github.com/alborrajo"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "SILENT HILL",
+      "bundleId": "com.konami-europe.silenthillescape",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@alborrajo",
+        "url": "https://github.com/alborrajo"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

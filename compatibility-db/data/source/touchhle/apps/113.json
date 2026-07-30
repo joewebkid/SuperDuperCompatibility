@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 113,
+    "appUrl": "https://appdb.touchhle.org/apps/113",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Jackpot Casino",
+    "releaseYear": null,
+    "developerPublisher": "Chillingo",
+    "firstReported": "2023-11-07T13:49:04Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Jackpot Casino",
+      "bundleId": "com.chillingo.jackpotcasino",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.02",
+      "displayName": "Jackpot Casino",
+      "bundleId": "com.chillingo.jackpotcasino",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.04",
+      "displayName": "jCasino",
+      "bundleId": "com.chillingo.jackpotcasino",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-11-17T09:07:21Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1005",
+      "version": "1.04",
+      "emulatorVersion": "v0.2.2-352-g78a4fde",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2024-11-17T09:07:21Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Works fully. Made report because there is no report for Android. No --landscape required.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1005/screenshot"
+    }
+  ]
+}

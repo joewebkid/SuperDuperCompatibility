@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1365,
+    "appUrl": "https://appdb.touchhle.org/apps/1365",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Small World",
+    "releaseYear": null,
+    "developerPublisher": "Days Of Wonder",
+    "firstReported": "2026-06-22T18:00:22Z",
+    "firstReportedBy": {
+      "name": "@0ldw4re",
+      "url": "https://github.com/0ldw4re"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.1",
+      "displayName": "Small World",
+      "bundleId": "com.daysofwonder.SmallWorld",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 52,
+    "appUrl": "https://appdb.touchhle.org/apps/52",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bricks of Camelot",
+    "releaseYear": null,
+    "developerPublisher": "Donut Games",
+    "firstReported": "2023-10-30T14:59:21Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.21",
+      "displayName": "Camelot",
+      "bundleId": "com.donutgames.bricksofcamelot",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-01-21T19:08:07Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1212",
+      "version": "1.21",
+      "emulatorVersion": "v0.2.2-511-g8a1156d",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2025-01-21T19:08:07Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "(THIS IS THE MOST ACCURATE REPORT FOR NOW!!!) When you finish the first levelpack, the game crashes, meaning you cannot progress.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1027",
+      "version": "1.21",
+      "emulatorVersion": "v0.2.2-399-g3664ce5",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-11-22T18:34:14Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1027/screenshot"
+    },
+    {
+      "sourceReportId": "774",
+      "version": "1.21",
+      "emulatorVersion": "v0.2.2-149-g1f227f6",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno 740",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-08-21T17:12:58Z",
+      "reportedBy": {
+        "name": "@maaaattttt",
+        "url": "https://github.com/maaaattttt"
+      },
+      "remarks": "App working fine, just no music or sound",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/774/screenshot"
+    }
+  ]
+}

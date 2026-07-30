@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 396,
+    "appUrl": "https://appdb.touchhle.org/apps/396",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Super Meat Boy HANDHELD!",
+    "releaseYear": "2010",
+    "developerPublisher": "Team Meat",
+    "firstReported": "2024-08-05T03:00:02Z",
+    "firstReportedBy": {
+      "name": "@Kendrothma",
+      "url": "https://github.com/Kendrothma"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Super Meat Boy",
+      "bundleId": "com.apple.tigerboy",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Kendrothma",
+        "url": "https://github.com/Kendrothma"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 188,
+    "appUrl": "https://appdb.touchhle.org/apps/188",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Real Racing",
+    "releaseYear": "2009",
+    "developerPublisher": "Firemint",
+    "firstReported": "2023-12-17T19:18:34Z",
+    "firstReportedBy": {
+      "name": "@rbperson",
+      "url": "https://github.com/rbperson"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.00",
+      "displayName": "Real Racing",
+      "bundleId": "com.firemint.realracing",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-02-12T15:46:37Z"
+    },
+    {
+      "version": "1.22",
+      "displayName": "Real Racing",
+      "bundleId": "com.firemint.realracing",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@rbperson",
+        "url": "https://github.com/rbperson"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-12-17T19:18:34Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1325",
+      "version": "1.00",
+      "emulatorVersion": "v0.2.2-499-gad6a5df",
+      "operatingSystem": "Android 14/One UI 6.0",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-02-12T15:46:37Z",
+      "reportedBy": {
+        "name": "@zarifahmed2005",
+        "url": "https://github.com/zarifahmed2005"
+      },
+      "remarks": "The game work completely fine. But it doesn't save your progress! so, when i start the game second time it reset itself and erase all my progress data!!! That's the only issue the game have. I think the developers will fix this issue as soon as possible.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1080",
+      "version": "1.00",
+      "emulatorVersion": "v0.2.2-477-g8076ccc4",
+      "operatingSystem": "Android 14",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2024-12-08T15:07:45Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "Playable with sounds and music. Multiplayer and cloud sync doesn't work. Looping music will play only once.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1080/screenshot"
+    },
+    {
+      "sourceReportId": "309",
+      "version": "1.22",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 13",
+      "gpu": "Adreno 740",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2023-12-17T19:18:34Z",
+      "reportedBy": {
+        "name": "@rbperson",
+        "url": "https://github.com/rbperson"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

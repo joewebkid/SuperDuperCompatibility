@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1159,
+    "appUrl": "https://appdb.touchhle.org/apps/1159",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Mr.Aaah!!",
+    "releaseYear": null,
+    "developerPublisher": "PONOS",
+    "firstReported": "2026-03-03T01:03:11Z",
+    "firstReportedBy": {
+      "name": "@Toasterifc",
+      "url": "https://github.com/Toasterifc"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Mr.AaaH!!",
+      "bundleId": "com.ponos.mraahh",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@Toasterifc",
+        "url": "https://github.com/Toasterifc"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

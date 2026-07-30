@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1389,
+    "appUrl": "https://appdb.touchhle.org/apps/1389",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Annie's Wild Shot",
+    "releaseYear": "2009",
+    "developerPublisher": "Koei Tecmo",
+    "firstReported": "2026-06-24T18:30:42Z",
+    "firstReportedBy": {
+      "name": "@apexad",
+      "url": "https://github.com/apexad"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "AnniesWildShot",
+      "bundleId": "jp.co.tecmo.annieswildshot",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@apexad",
+        "url": "https://github.com/apexad"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

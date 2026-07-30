@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1238,
+    "appUrl": "https://appdb.touchhle.org/apps/1238",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Surviving High School",
+    "releaseYear": null,
+    "developerPublisher": "EA Mobile",
+    "firstReported": "2026-05-02T14:54:32Z",
+    "firstReportedBy": {
+      "name": "@zazatree",
+      "url": "https://github.com/zazatree"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.4.3.54",
+      "displayName": "SHS Paid",
+      "bundleId": "com.ea.shs.row",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@zazatree",
+        "url": "https://github.com/zazatree"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

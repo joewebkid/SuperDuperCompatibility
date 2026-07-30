@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 751,
+    "appUrl": "https://appdb.touchhle.org/apps/751",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Dark Raider",
+    "releaseYear": "2009",
+    "developerPublisher": "RockingPocketGames",
+    "firstReported": "2025-01-25T15:57:47Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.6",
+      "displayName": "DarkRaider",
+      "bundleId": "com.RockingPocketGames.DarkRaider",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-07-25T10:55:23Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1602",
+      "version": "1.6",
+      "emulatorVersion": "v0.2.2-805-g4caf79f",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-07-25T10:55:23Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1602/screenshot"
+    },
+    {
+      "sourceReportId": "1243",
+      "version": "1.6",
+      "emulatorVersion": "v0.2.2-553-g9d47662",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2025-01-25T15:57:47Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1243/screenshot"
+    }
+  ]
+}

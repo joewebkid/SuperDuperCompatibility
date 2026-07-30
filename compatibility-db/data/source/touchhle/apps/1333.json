@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1333,
+    "appUrl": "https://appdb.touchhle.org/apps/1333",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "3D Cartoon Land Safari",
+    "releaseYear": null,
+    "developerPublisher": "pjz (?)",
+    "firstReported": "2026-06-19T16:45:03Z",
+    "firstReportedBy": {
+      "name": "@0ldw4re",
+      "url": "https://github.com/0ldw4re"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "3DCL",
+      "bundleId": "com.pjz.3dland",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-06-21T08:36:48Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2332",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-432-g3f30a46b",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2026-06-21T08:36:48Z",
+      "reportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "remarks": "Addon to both platforms (not just the A13 device), pausing works but you cannot unpause after.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "2325",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-06-20T22:02:56Z",
+      "reportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "remarks": "As shown at the screenshot, the game over screen shows fine. Still, the audio used during the gameplay (bgm1.mp3 at least) cannot be played.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2325/screenshot"
+    }
+  ]
+}

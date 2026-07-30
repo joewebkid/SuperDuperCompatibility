@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 238,
+    "appUrl": "https://appdb.touchhle.org/apps/238",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Prey Invasion",
+    "releaseYear": "2009",
+    "developerPublisher": "MachineWorks Northwest, LLC",
+    "firstReported": "2024-01-21T10:10:07Z",
+    "firstReportedBy": {
+      "name": "@dyharlan",
+      "url": "https://github.com/dyharlan"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "Prey Invasion",
+      "bundleId": "prey",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@dyharlan",
+        "url": "https://github.com/dyharlan"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

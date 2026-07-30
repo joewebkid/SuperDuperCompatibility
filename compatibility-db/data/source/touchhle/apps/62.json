@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 62,
+    "appUrl": "https://appdb.touchhle.org/apps/62",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "PAC-MAN",
+    "releaseYear": "2008",
+    "developerPublisher": "Namco Networks",
+    "firstReported": "2023-10-31T22:30:44Z",
+    "firstReportedBy": {
+      "name": "@BigHungryMode",
+      "url": "https://github.com/BigHungryMode"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "PAC-MAN lite",
+      "bundleId": "com.namconetworks.pacmanlite",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@Ninja232323",
+        "url": "https://github.com/Ninja232323"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.0.2",
+      "displayName": "PAC-MAN",
+      "bundleId": "com.namconetworks.pacman",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-06-17T18:21:43Z"
+    },
+    {
+      "version": "1.0.5",
+      "displayName": "PAC-MAN",
+      "bundleId": "com.namconetworks.pacman",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@BigHungryMode",
+        "url": "https://github.com/BigHungryMode"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-10-31T22:30:44Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1519",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-755-gef4555c",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-06-17T18:21:43Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": "Submenus is not work seen the orignal Version",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1519/screenshot"
+    },
+    {
+      "sourceReportId": "93",
+      "version": "1.0.5",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno 619",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2023-10-31T22:30:44Z",
+      "reportedBy": {
+        "name": "@BigHungryMode",
+        "url": "https://github.com/BigHungryMode"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 692,
+    "appUrl": "https://appdb.touchhle.org/apps/692",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Talking Patrick",
+    "releaseYear": "2012",
+    "developerPublisher": "Double A Games & Apps",
+    "firstReported": "2025-01-01T20:07:13Z",
+    "firstReportedBy": {
+      "name": "@Yellowegg785",
+      "url": "https://github.com/Yellowegg785"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.6",
+      "displayName": "Patrick",
+      "bundleId": "com.doubleaapps.aatalkingpa",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Yellowegg785",
+        "url": "https://github.com/Yellowegg785"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-07-13T18:53:58Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2439",
+      "version": "1.6",
+      "emulatorVersion": "v0.2.3-463-g0f2c1630",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 610",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2026-07-13T18:53:58Z",
+      "reportedBy": {
+        "name": "@marinezanfez-spec",
+        "url": "https://github.com/marinezanfez-spec"
+      },
+      "remarks": "unimplemented property ID:'ovrd'",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1199",
+      "version": "1.6",
+      "emulatorVersion": "V0.2.2-545-g016003e",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali-G76 MC4",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-01-18T23:04:23Z",
+      "reportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "remarks": "The game crashes immediately after loading the game",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1199/screenshot"
+    }
+  ]
+}

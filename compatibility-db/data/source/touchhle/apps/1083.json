@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1083,
+    "appUrl": "https://appdb.touchhle.org/apps/1083",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Squish Squash",
+    "releaseYear": "2008",
+    "developerPublisher": "The Dreamhive",
+    "firstReported": "2026-01-17T20:01:16Z",
+    "firstReportedBy": {
+      "name": "@j92580498-max",
+      "url": "https://github.com/j92580498-max"
+    }
+  },
+  "versions": [
+    {
+      "version": "SquishSqu",
+      "displayName": "1.0.1",
+      "bundleId": "com.thedreamhive.squishsquash",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@j92580498-max",
+        "url": "https://github.com/j92580498-max"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2026-01-17T20:01:16Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1854",
+      "version": "SquishSqu",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 12",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2026-01-17T20:01:16Z",
+      "reportedBy": {
+        "name": "@j92580498-max",
+        "url": "https://github.com/j92580498-max"
+      },
+      "remarks": "Touch input is working in menus and UI, but it is not recognized during actual gameplay",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1854/screenshot"
+    }
+  ]
+}

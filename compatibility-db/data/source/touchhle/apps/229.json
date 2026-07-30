@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 229,
+    "appUrl": "https://appdb.touchhle.org/apps/229",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Boxed In",
+    "releaseYear": "2009",
+    "developerPublisher": "Dennis Mengelt",
+    "firstReported": "2024-01-03T15:30:22Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.4",
+      "displayName": "Boxed In",
+      "bundleId": "com.domainname.BoxedIn",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-12-07T21:06:06Z"
+    },
+    {
+      "version": "1.6",
+      "displayName": "Boxed In",
+      "bundleId": "com.domainname.BoxedIn",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-11-26T20:17:39Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1073",
+      "version": "1.4",
+      "emulatorVersion": "v0.2.2-475-g04a30bd",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-12-07T21:06:06Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1073/screenshot"
+    },
+    {
+      "sourceReportId": "1042",
+      "version": "1.6",
+      "emulatorVersion": "v0.2.2-419-g6ffa72c",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-11-26T20:17:39Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1042/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1257,
+    "appUrl": "https://appdb.touchhle.org/apps/1257",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Platypus",
+    "releaseYear": "2008",
+    "developerPublisher": "BitRabbit / iDigiCon / Astraware",
+    "firstReported": "2026-05-12T09:34:59Z",
+    "firstReportedBy": {
+      "name": "@theifoneplayer",
+      "url": "https://github.com/theifoneplayer"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.00",
+      "displayName": "Platypus",
+      "bundleId": "com.yourcompany.Platypus",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@theifoneplayer",
+        "url": "https://github.com/theifoneplayer"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-05-12T09:34:59Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2186",
+      "version": "1.00",
+      "emulatorVersion": "v0.2.3-292-g2a8a7162",
+      "operatingSystem": "Android 16",
+      "gpu": "Qualcomm Adreno (TM) 610",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-05-12T09:34:59Z",
+      "reportedBy": {
+        "name": "@theifoneplayer",
+        "url": "https://github.com/theifoneplayer"
+      },
+      "remarks": "Game works completely fine. Was able to complete the first stage.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2186/screenshot"
+    }
+  ]
+}

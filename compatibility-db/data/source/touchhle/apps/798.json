@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 798,
+    "appUrl": "https://appdb.touchhle.org/apps/798",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Scrabble",
+    "releaseYear": "2008",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2025-02-23T22:08:57Z",
+    "firstReportedBy": {
+      "name": "@DaCringeyBaka",
+      "url": "https://github.com/DaCringeyBaka"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.20",
+      "displayName": "com.ea.scrabble",
+      "bundleId": "Scrabble",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-06-13T08:36:50Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2260",
+      "version": "1.0.20",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-06-13T08:36:50Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "Works excellently in general; the introduction video just doesn't play.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2260/screenshot"
+    }
+  ]
+}

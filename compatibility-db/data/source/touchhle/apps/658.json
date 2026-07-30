@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 658,
+    "appUrl": "https://appdb.touchhle.org/apps/658",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Parking Mania",
+    "releaseYear": "2009",
+    "developerPublisher": "Clickgamer / Mobirate",
+    "firstReported": "2024-12-10T20:13:10Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2.1",
+      "displayName": "Parking Mania",
+      "bundleId": "com.clickgamer.parkingmania",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-06-24T16:40:42Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1539",
+      "version": "1.2.1",
+      "emulatorVersion": "v0.2.2-757-ged9198f",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-06-24T16:40:42Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1539/screenshot"
+    },
+    {
+      "sourceReportId": "1092",
+      "version": "1.2.1",
+      "emulatorVersion": "v0.2.2-479-gbddbb9c",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-12-10T20:13:10Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1092/screenshot"
+    }
+  ]
+}

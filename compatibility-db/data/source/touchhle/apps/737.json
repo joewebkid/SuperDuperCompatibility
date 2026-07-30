@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 737,
+    "appUrl": "https://appdb.touchhle.org/apps/737",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Knock",
+    "releaseYear": null,
+    "developerPublisher": "Mark Gurman",
+    "firstReported": "2025-01-23T06:16:26Z",
+    "firstReportedBy": {
+      "name": "@sunflowers33d",
+      "url": "https://github.com/sunflowers33d"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Knock",
+      "bundleId": "com.markgurman.door",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@sunflowers33d",
+        "url": "https://github.com/sunflowers33d"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "infinity-blade-ipad2-safe",
-  "name": "Infinity Blade — iPad 2 (safe)",
+  "name": "Infinity Blade — iPad 2 (Safe)",
   "description": "Conservative starting profile for Infinity Blade 1.4.3 while texture and presentation compatibility are under investigation.",
   "appliesTo": {
     "bundleId": "com.chairentertainment.birthright",

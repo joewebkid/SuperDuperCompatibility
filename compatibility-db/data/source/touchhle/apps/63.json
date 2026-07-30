@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 63,
+    "appUrl": "https://appdb.touchhle.org/apps/63",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Ms. PAC-MAN",
+    "releaseYear": "2008",
+    "developerPublisher": "Namco Networks",
+    "firstReported": "2023-10-31T23:08:53Z",
+    "firstReportedBy": {
+      "name": "@BigHungryMode",
+      "url": "https://github.com/BigHungryMode"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "Ms. PAC-MAN",
+      "bundleId": "mspacman",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@BigHungryMode",
+        "url": "https://github.com/BigHungryMode"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,14 +1,15 @@
 const labels = {
-  unknown: "не проверено",
-  partial: "частично работает",
-  verified: "проверено",
-  issues: "есть проблемы",
-  blocked: "заблокировано",
+  all: "All apps",
+  unknown: "Untested",
+  partial: "Major issues",
+  verified: "Verified",
+  issues: "Small issues",
+  blocked: "Blocked",
 };
 
-const filters = ["all", "verified", "partial", "issues", "blocked", "unknown"];
+const filters = ["all", "verified", "issues", "partial", "blocked", "unknown"];
 let selectedStatus = "all";
-let games = [];
+let apps = [];
 
 const search = document.querySelector("#search");
 const filtersNode = document.querySelector("#filters");
@@ -16,12 +17,8 @@ const gamesNode = document.querySelector("#games");
 const countNode = document.querySelector("#count");
 const emptyNode = document.querySelector("#empty");
 
-function textFor(status) {
-  return status === "all" ? "все" : labels[status];
-}
-
 function escapeHtml(value) {
-  return String(value)
+  return String(value ?? "")
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
@@ -29,49 +26,74 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
+function statusOf(app) {
+  return app.android?.overallStatus ?? "unknown";
+}
+
+function ratingText(rating) {
+  return Number.isInteger(rating) ? `${"★".repeat(rating)}${"☆".repeat(5 - rating)}` : "Untested";
+}
+
+function resultMarkup(app) {
+  const rating = app.android?.bestRating;
+  const status = statusOf(app);
+  const reports = app.android?.reportCount ?? 0;
+  if (reports === 0) {
+    const references = app.reference?.androidReports ?? 0;
+    return `<span class="status unknown">Untested</span>${references ? `<small>${references} touchHLE Android reference${references === 1 ? "" : "s"}</small>` : ""}`;
+  }
+  return `<span class="rating" aria-label="${escapeHtml(rating ? `${rating} of 5 stars` : labels[status])}">${ratingText(rating)}</span><small><span class="status ${escapeHtml(status)}">${escapeHtml(labels[status])}</span> · ${reports} report${reports === 1 ? "" : "s"}</small>`;
+}
+
 function renderFilters() {
   filtersNode.replaceChildren(...filters.map((status) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.textContent = textFor(status);
+    button.textContent = labels[status];
     button.className = status === selectedStatus ? "selected" : "";
     button.addEventListener("click", () => {
       selectedStatus = status;
       renderFilters();
-      renderGames();
+      renderApps();
     });
     return button;
   }));
 }
 
-function gameCard(game) {
-  const card = document.createElement("article");
-  card.className = "game-card";
-  const profile = game.recommendedProfile
-    ? `<p class="profile">Рекомендуемый профиль: <code>${escapeHtml(game.recommendedProfile)}</code></p>`
-    : "";
-  card.innerHTML = `
-    <div class="card-topline">
-      <span class="badge ${escapeHtml(game.overallStatus)}">${escapeHtml(labels[game.overallStatus])}</span>
-      <span class="version">v${escapeHtml(game.latestVersion)}</span>
-    </div>
-    <h3>${escapeHtml(game.title)}</h3>
-    <p class="bundle-id">${escapeHtml(game.bundleId)}</p>
-    ${profile}
-    <a href="data/${encodeURI(game.record)}">Открыть запись JSON</a>
+function appRow(app) {
+  const row = document.createElement("a");
+  row.className = "catalogue-row";
+  row.href = `game.html?id=${encodeURIComponent(app.id)}`;
+  const release = app.releaseYear || "—";
+  const publisher = app.developerPublisher || "—";
+  const lastUpdated = app.android?.lastUpdated || "—";
+  row.innerHTML = `
+    <span class="app-cell"><strong>${escapeHtml(app.title)}</strong><small>${app.versions} version${app.versions === 1 ? "" : "s"}</small></span>
+    <span data-label="Release">${escapeHtml(release)}</span>
+    <span data-label="Developer / Publisher">${escapeHtml(publisher)}</span>
+    <span class="result-cell" data-label="Android result">${resultMarkup(app)}</span>
+    <span data-label="Last update">${escapeHtml(lastUpdated)}</span>
   `;
-  return card;
+  return row;
 }
 
-function renderGames() {
+function renderApps() {
   const query = search.value.trim().toLocaleLowerCase();
-  const matching = games.filter((game) => {
-    const searchable = `${game.title} ${game.bundleId} ${game.latestVersion}`.toLocaleLowerCase();
-    return (selectedStatus === "all" || game.overallStatus === selectedStatus) && searchable.includes(query);
+  const matching = apps.filter((app) => {
+    const searchable = `${app.title} ${app.developerPublisher ?? ""} ${(app.searchTerms ?? []).join(" ")}`.toLocaleLowerCase();
+    return (selectedStatus === "all" || statusOf(app) === selectedStatus) && searchable.includes(query);
   });
-  gamesNode.replaceChildren(...matching.map(gameCard));
-  countNode.textContent = `${matching.length} из ${games.length}`;
+  gamesNode.replaceChildren(...matching.map(appRow));
+  countNode.textContent = `${matching.length.toLocaleString()} of ${apps.length.toLocaleString()} apps`;
   emptyNode.hidden = matching.length !== 0;
+}
+
+function renderSummary() {
+  const tested = apps.filter((app) => (app.android?.reportCount ?? 0) > 0).length;
+  const references = apps.reduce((total, app) => total + (app.reference?.androidReports ?? 0), 0);
+  document.querySelector("#app-total").textContent = apps.length.toLocaleString();
+  document.querySelector("#tested-total").textContent = tested.toLocaleString();
+  document.querySelector("#reference-total").textContent = references.toLocaleString();
 }
 
 async function load() {
@@ -79,14 +101,15 @@ async function load() {
     const response = await fetch("data/index.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const database = await response.json();
-    games = database.games ?? [];
+    apps = database.apps ?? [];
+    renderSummary();
     renderFilters();
-    renderGames();
+    renderApps();
   } catch (error) {
-    gamesNode.textContent = "Не удалось загрузить базу совместимости.";
+    gamesNode.textContent = "The compatibility database could not be loaded.";
     console.error(error);
   }
 }
 
-search.addEventListener("input", renderGames);
+search.addEventListener("input", renderApps);
 load();

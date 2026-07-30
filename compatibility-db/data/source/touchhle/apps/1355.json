@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1355,
+    "appUrl": "https://appdb.touchhle.org/apps/1355",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Baseball",
+    "releaseYear": "2009",
+    "developerPublisher": "GNV (Global Net V[cut])",
+    "firstReported": "2026-06-21T16:52:25Z",
+    "firstReportedBy": {
+      "name": "@0ldw4re",
+      "url": "https://github.com/0ldw4re"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Baseball",
+      "bundleId": "jp.co.gnv.baseballgame",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

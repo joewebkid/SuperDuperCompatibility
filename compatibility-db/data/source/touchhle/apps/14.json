@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 14,
+    "appUrl": "https://appdb.touchhle.org/apps/14",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cat Physics",
+    "releaseYear": "2010",
+    "developerPublisher": "Donut Games",
+    "firstReported": "2023-10-10T17:41:30Z",
+    "firstReportedBy": {
+      "name": "@ciciplusplus",
+      "url": "https://github.com/ciciplusplus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Cat Physics",
+      "bundleId": "com.donutgames.catphysics",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.01",
+      "displayName": "Cat Physics",
+      "bundleId": "com.donutgames.catphysics",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.10",
+      "displayName": "Cat Physics",
+      "bundleId": "Unknown",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@corped12",
+        "url": "https://github.com/corped12"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.21",
+      "displayName": "Cat Physics",
+      "bundleId": "com.donutgames.catphysics",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

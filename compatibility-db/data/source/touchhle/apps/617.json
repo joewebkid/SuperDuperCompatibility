@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 617,
+    "appUrl": "https://appdb.touchhle.org/apps/617",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "33rd DIVISION",
+    "releaseYear": null,
+    "developerPublisher": "Crane Balls Studios",
+    "firstReported": "2024-11-17T10:29:47Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "33rdDIVISION",
+      "bundleId": "com.craneballs.soldiers",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-02-10T08:21:08Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1316",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.2-589-g6460bad",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-02-10T08:21:08Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1316/screenshot"
+    },
+    {
+      "sourceReportId": "1009",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.2-380-g98e1938",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-11-17T10:29:47Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1009/screenshot"
+    }
+  ]
+}

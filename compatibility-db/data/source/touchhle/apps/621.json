@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 621,
+    "appUrl": "https://appdb.touchhle.org/apps/621",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "X2FootBall 2009",
+    "releaseYear": "2009",
+    "developerPublisher": "X2Games",
+    "firstReported": "2024-11-22T21:12:52Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "X2Football",
+      "bundleId": "com.exient.X2Football",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-02-09T22:01:29Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1313",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-589-g6460bad",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-02-09T22:01:29Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1313/screenshot"
+    },
+    {
+      "sourceReportId": "1032",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-399-g3664ce5",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-11-22T21:12:52Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1032/screenshot"
+    }
+  ]
+}

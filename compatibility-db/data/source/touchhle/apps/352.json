@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 352,
+    "appUrl": "https://appdb.touchhle.org/apps/352",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Noby Noby Boy",
+    "releaseYear": "2010",
+    "developerPublisher": "NAMCO BANDAI Games Inc.",
+    "firstReported": "2024-06-30T13:50:37Z",
+    "firstReportedBy": {
+      "name": "@vladger",
+      "url": "https://github.com/vladger"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "nobynobyboy",
+      "bundleId": "com.namconetworks.nobynobyboy",
+      "minimumIosVersion": "3.1.2",
+      "firstReportedBy": {
+        "name": "@vladger",
+        "url": "https://github.com/vladger"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-06-30T13:50:37Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "544",
+      "version": "1.0",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android",
+      "gpu": "OpenGL ES-CM 1.1 / Qualcomm / Adreno (TM) 508",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-06-30T13:50:37Z",
+      "reportedBy": {
+        "name": "@vladger",
+        "url": "https://github.com/vladger"
+      },
+      "remarks": "A lot of \"Warning: unhandled non-lazy symbol \"FILENAME\" at \"\" in nobynobyboy, crashes with \"__mb_cur_max\" at 0x3f48a654 in \"libstdc++.6.dylib\" Panic at src/mem.rs:337:9: Attempted null-page access at 0x0 (0x4 bytes)",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

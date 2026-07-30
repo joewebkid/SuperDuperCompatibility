@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 6,
+    "appUrl": "https://appdb.touchhle.org/apps/6",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Fastlane Street Racing",
+    "releaseYear": "2008",
+    "developerPublisher": "Atod AB",
+    "firstReported": "2023-10-10T14:26:36Z",
+    "firstReportedBy": {
+      "name": "@hikari-no-yume",
+      "url": "https://github.com/hikari-no-yume"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Fastlane Lite",
+      "bundleId": "com.atodab.fastlanelite",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@neon53-sudo",
+        "url": "https://github.com/neon53-sudo"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-11-30T14:28:36Z"
+    },
+    {
+      "version": "1.2",
+      "displayName": "Fastlane Lite",
+      "bundleId": "com.atodab.fastlanelite",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.7",
+      "displayName": "Fastlane",
+      "bundleId": "com.atodab.actane",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-11-30T16:22:02Z"
+    },
+    {
+      "version": "2.0",
+      "displayName": "Fastlane",
+      "bundleId": "com.atodab.actane",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2023-10-11T09:18:30Z"
+    },
+    {
+      "version": "2.1",
+      "displayName": "Fastlane",
+      "bundleId": "com.atodab.actane",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2023-11-06T10:41:09Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1052",
+      "version": "1.7",
+      "emulatorVersion": "v0.2.2-445-ga11e992",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2024-11-30T16:22:02Z",
+      "reportedBy": {
+        "name": "@neon53-sudo",
+        "url": "https://github.com/neon53-sudo"
+      },
+      "remarks": "Audio is a bit choppy, otherwise it works great",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1051",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-445-ga11e992",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2024-11-30T14:28:36Z",
+      "reportedBy": {
+        "name": "@neon53-sudo",
+        "url": "https://github.com/neon53-sudo"
+      },
+      "remarks": "Audio is a bit choppy, but overall it works great",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "163",
+      "version": "2.1",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-G72 MP18 (Samsung Galaxy S9)",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2023-11-06T10:41:09Z",
+      "reportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "remarks": "Same as 2.0 report",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/163/screenshot"
+    },
+    {
+      "sourceReportId": "21",
+      "version": "2.0",
+      "emulatorVersion": "v0.2.0",
+      "operatingSystem": "Android 8.1.0",
+      "gpu": "Adreno 418",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2023-10-11T09:18:30Z",
+      "reportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "remarks": "The sheen effect on the car bodies when facing the sun works on Android.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/21/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1323,
+    "appUrl": "https://appdb.touchhle.org/apps/1323",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Enigmo 2",
+    "releaseYear": "2009",
+    "developerPublisher": "Pangea Software",
+    "firstReported": "2026-06-18T15:41:54Z",
+    "firstReportedBy": {
+      "name": "@JoneHermer",
+      "url": "https://github.com/JoneHermer"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "Enigmo 2",
+      "bundleId": "com.pangea.enigmo2",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@JoneHermer",
+        "url": "https://github.com/JoneHermer"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-06-18T15:41:54Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2298",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.3-426-g25908483",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 830",
+      "scaleHack": "Partially",
+      "rating": 2,
+      "reported": "2026-06-18T15:41:54Z",
+      "reportedBy": {
+        "name": "@JoneHermer",
+        "url": "https://github.com/JoneHermer"
+      },
+      "remarks": "Crashed after pressing New game or Resume. Press Setting button also has the same problem.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2298/screenshot"
+    }
+  ]
+}

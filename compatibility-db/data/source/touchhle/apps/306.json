@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 306,
+    "appUrl": "https://appdb.touchhle.org/apps/306",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Pocket God",
+    "releaseYear": "2009",
+    "developerPublisher": "Bolt Creative",
+    "firstReported": "2024-04-14T17:02:03Z",
+    "firstReportedBy": {
+      "name": "@Cooliebruv",
+      "url": "https://github.com/Cooliebruv"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.04",
+      "displayName": "Pocket God",
+      "bundleId": "com.boltcreative.pocketgod",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@zazatree",
+        "url": "https://github.com/zazatree"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "v1.0",
+      "displayName": "Pocket God",
+      "bundleId": "com.boltcreative.pocketgod",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@Cooliebruv",
+        "url": "https://github.com/Cooliebruv"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "v1.0.7",
+      "displayName": "Pocket God",
+      "bundleId": "com.boltcreative.pocketgod",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@RichardMcKee",
+        "url": "https://github.com/RichardMcKee"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-03-29T02:25:30Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2031",
+      "version": "v1.0.7",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 16",
+      "gpu": "PowerVR IMG DXT-48-1536 (Tensor G5)",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-03-29T02:25:30Z",
+      "reportedBy": {
+        "name": "@RichardMcKee",
+        "url": "https://github.com/RichardMcKee"
+      },
+      "remarks": "assertion failed: error_string.is_null()",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2031/screenshot"
+    }
+  ]
+}

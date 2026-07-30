@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1286,
+    "appUrl": "https://appdb.touchhle.org/apps/1286",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Batman Arkham City Lockdown",
+    "releaseYear": "December 7, 2011",
+    "developerPublisher": "NetherRealm Studios",
+    "firstReported": "2026-06-08T05:53:07Z",
+    "firstReportedBy": {
+      "name": "@arunmohan751-hue",
+      "url": "https://github.com/arunmohan751-hue"
+    }
+  },
+  "versions": [
+    {
+      "version": "8710.15",
+      "displayName": "Batman: Arkham City Lockdown.",
+      "bundleId": "com.wb.ArkhamCity",
+      "minimumIosVersion": "iOS 3.1.3",
+      "firstReportedBy": {
+        "name": "@arunmohan751-hue",
+        "url": "https://github.com/arunmohan751-hue"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-08T05:53:07Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2245",
+      "version": "8710.15",
+      "emulatorVersion": "touchHLE PREVIEW v0.2.3-408-gd9719fbd",
+      "operatingSystem": "Android 16",
+      "gpu": "Mali-G615 MC2",
+      "scaleHack": "Yes",
+      "rating": 1,
+      "reported": "2026-06-08T05:53:07Z",
+      "reportedBy": {
+        "name": "@arunmohan751-hue",
+        "url": "https://github.com/arunmohan751-hue"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2245/screenshot"
+    }
+  ]
+}

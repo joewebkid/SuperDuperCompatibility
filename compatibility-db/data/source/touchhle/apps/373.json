@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 373,
+    "appUrl": "https://appdb.touchhle.org/apps/373",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "iBeer",
+    "releaseYear": "2008",
+    "developerPublisher": "Hottrix",
+    "firstReported": "2024-07-23T15:05:34Z",
+    "firstReportedBy": {
+      "name": "@thedenbruh",
+      "url": "https://github.com/thedenbruh"
+    }
+  },
+  "versions": [
+    {
+      "version": "3.01",
+      "displayName": "iBeer",
+      "bundleId": "com.hottrix.iBeer",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@thedenbruh",
+        "url": "https://github.com/thedenbruh"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

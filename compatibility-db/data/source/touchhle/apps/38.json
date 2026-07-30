@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 38,
+    "appUrl": "https://appdb.touchhle.org/apps/38",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cybersaurus",
+    "releaseYear": "2008",
+    "developerPublisher": "darxun",
+    "firstReported": "2023-10-28T12:30:28Z",
+    "firstReportedBy": {
+      "name": "@GamingDucking",
+      "url": "https://github.com/GamingDucking"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.6",
+      "displayName": "Cybersaurus",
+      "bundleId": "com.darxun.cybersaurus",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-10-25T18:17:00Z"
+    },
+    {
+      "version": "1.65",
+      "displayName": "Cybersaurus",
+      "bundleId": "com.darxun.cybersaurus",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "938",
+      "version": "1.6",
+      "emulatorVersion": "v0.2.2-357-gaf420e3",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-10-25T18:17:00Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/938/screenshot"
+    }
+  ]
+}

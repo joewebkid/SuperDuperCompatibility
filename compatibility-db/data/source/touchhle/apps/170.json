@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 170,
+    "appUrl": "https://appdb.touchhle.org/apps/170",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Disney's All-Star Cards",
+    "releaseYear": "2008",
+    "developerPublisher": "Disney",
+    "firstReported": "2023-12-05T00:40:40Z",
+    "firstReportedBy": {
+      "name": "@Ninja232323",
+      "url": "https://github.com/Ninja232323"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.3",
+      "displayName": "DisneysAllStarCards",
+      "bundleId": "com.yourcompany.DisneysAllStarCards",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@sunflowers33d",
+        "url": "https://github.com/sunflowers33d"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.9",
+      "displayName": "Disney Cards",
+      "bundleId": "com.yourcompany.DisneysAllStarCards",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Ninja232323",
+        "url": "https://github.com/Ninja232323"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

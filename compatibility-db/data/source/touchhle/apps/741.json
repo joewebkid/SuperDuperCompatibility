@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 741,
+    "appUrl": "https://appdb.touchhle.org/apps/741",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Elasticity",
+    "releaseYear": "2008",
+    "developerPublisher": "Toni Lääveri",
+    "firstReported": "2025-01-24T15:46:47Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "Elasticity",
+      "bundleId": "com.xenquinsw.elasticity",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-06-03T22:09:27Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1490",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.2-722-gf9a28c0",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali-G76 MC4",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2025-06-03T22:09:27Z",
+      "reportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "remarks": "Game Full Working",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1490/screenshot"
+    },
+    {
+      "sourceReportId": "1231",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.2-553-g9d47662",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-01-24T15:46:47Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1231/screenshot"
+    }
+  ]
+}

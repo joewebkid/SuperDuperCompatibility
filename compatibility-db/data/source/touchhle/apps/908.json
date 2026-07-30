@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 908,
+    "appUrl": "https://appdb.touchhle.org/apps/908",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "A-Yo Sushi Master",
+    "releaseYear": "2009",
+    "developerPublisher": "Nate Games / Paladin",
+    "firstReported": "2025-06-14T10:08:33Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "A-Yo Sushi",
+      "bundleId": "com.distributionsushimaster.nategames",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-06-14T10:08:33Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1513",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-740-gb448f97",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 3,
+      "reported": "2025-06-14T10:08:33Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1513/screenshot"
+    }
+  ]
+}

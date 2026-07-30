@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 17,
+    "appUrl": "https://appdb.touchhle.org/apps/17",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "OvenBreak",
+    "releaseYear": "2009",
+    "developerPublisher": "Moblier Corp. (Devsisters)",
+    "firstReported": "2023-10-11T02:18:11Z",
+    "firstReportedBy": {
+      "name": "@sunflowers33d",
+      "url": "https://github.com/sunflowers33d"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "OvenBreak",
+      "bundleId": "com.mobliercorp.OvenBreak",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@sunflowers33d",
+        "url": "https://github.com/sunflowers33d"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-06-28T14:14:27Z"
+    },
+    {
+      "version": "1.0.1",
+      "displayName": "OvenBreak",
+      "bundleId": "com.mobliercorp.OvenBreak",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@zaxel-github",
+        "url": "https://github.com/zaxel-github"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1544",
+      "version": "1.0",
+      "emulatorVersion": "PREVIEW v0.2.2-759-g592057f",
+      "operatingSystem": "Android 15",
+      "gpu": "Mali-G710",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2025-06-28T14:14:27Z",
+      "reportedBy": {
+        "name": "@Bang1338",
+        "url": "https://github.com/Bang1338"
+      },
+      "remarks": "Object 0x3000e900 (class \"AVAudioPlayer\", 0x3000cd20) does not respond to selector \"setMeteringEnabled:\"!",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

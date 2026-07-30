@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1258,
+    "appUrl": "https://appdb.touchhle.org/apps/1258",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Amateur Surgeon",
+    "releaseYear": "2008",
+    "developerPublisher": "Mediatonic",
+    "firstReported": "2026-05-13T02:26:45Z",
+    "firstReportedBy": {
+      "name": "@crystalteal",
+      "url": "https://github.com/crystalteal"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.9",
+      "displayName": "A.Surgeon",
+      "bundleId": "com.turner.AmateurSurgeon",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@crystalteal",
+        "url": "https://github.com/crystalteal"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

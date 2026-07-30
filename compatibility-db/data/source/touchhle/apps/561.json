@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 561,
+    "appUrl": "https://appdb.touchhle.org/apps/561",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Blade Angel",
+    "releaseYear": "2009",
+    "developerPublisher": "Teammsg",
+    "firstReported": "2024-10-21T19:40:06Z",
+    "firstReportedBy": {
+      "name": "@touchhlefan",
+      "url": "https://github.com/touchhlefan"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "BLADEANGEL",
+      "bundleId": "com.teammssg.bladeangel",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@touchhlefan",
+        "url": "https://github.com/touchhlefan"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-02-08T21:09:51Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1303",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-581-g3b517df",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "No (broken)",
+      "rating": 3,
+      "reported": "2025-02-08T21:09:51Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1303/screenshot"
+    },
+    {
+      "sourceReportId": "923",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-335-g63bbe3e",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali g52",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2024-10-21T19:40:06Z",
+      "reportedBy": {
+        "name": "@touchhlefan",
+        "url": "https://github.com/touchhlefan"
+      },
+      "remarks": "Intro work",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/923/screenshot"
+    }
+  ]
+}

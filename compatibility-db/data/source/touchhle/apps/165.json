@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 165,
+    "appUrl": "https://appdb.touchhle.org/apps/165",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Undercroft",
+    "releaseYear": "2010",
+    "developerPublisher": "Rake in Grass/Jagex",
+    "firstReported": "2023-12-04T06:57:57Z",
+    "firstReportedBy": {
+      "name": "@roskelld",
+      "url": "https://github.com/roskelld"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Undercroft",
+      "bundleId": "com.rakeingrass.undercroft",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@Frosty-J",
+        "url": "https://github.com/Frosty-J"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.2",
+      "displayName": "Undercroft",
+      "bundleId": "com.jagex.undercroft",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@roskelld",
+        "url": "https://github.com/roskelld"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

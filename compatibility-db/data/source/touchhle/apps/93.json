@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 93,
+    "appUrl": "https://appdb.touchhle.org/apps/93",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "iFart",
+    "releaseYear": null,
+    "developerPublisher": "infomedia",
+    "firstReported": "2023-11-04T09:54:25Z",
+    "firstReportedBy": {
+      "name": "@thundergun1",
+      "url": "https://github.com/thundergun1"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "iFart",
+      "bundleId": "com.infomedia.ifart",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2023-11-04T09:54:25Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "145",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 11",
+      "gpu": "Adreno",
+      "scaleHack": "Couldn't test",
+      "rating": 2,
+      "reported": "2023-11-04T09:54:25Z",
+      "reportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "remarks": "Doesn't immediately crash. Instead hangs on black screen.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 944,
+    "appUrl": "https://appdb.touchhle.org/apps/944",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Wave Against Every BEAT!",
+    "releaseYear": "2011",
+    "developerPublisher": "Colorbox",
+    "firstReported": "2025-07-12T16:05:22Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "WAVE",
+      "bundleId": "wave.colorbox.com",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-07-12T16:05:22Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1580",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.2-769-gea6eadd",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 2,
+      "reported": "2025-07-12T16:05:22Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1580/screenshot"
+    }
+  ]
+}

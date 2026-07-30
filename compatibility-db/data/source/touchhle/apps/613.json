@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 613,
+    "appUrl": "https://appdb.touchhle.org/apps/613",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "The Crystals Of Atlantis",
+    "releaseYear": "2010",
+    "developerPublisher": "Mass Creation",
+    "firstReported": "2024-11-16T12:14:27Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.3",
+      "displayName": "Crystals",
+      "bundleId": "com.mass-creation.crystal.of.atlantis.full",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-02-08T17:52:46Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1298",
+      "version": "1.3",
+      "emulatorVersion": "v0.2.2-581-g3b517df",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2025-02-08T17:52:46Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1298/screenshot"
+    },
+    {
+      "sourceReportId": "1002",
+      "version": "1.3",
+      "emulatorVersion": "v0.2.2-376-g23c219d",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 2,
+      "reported": "2024-11-16T12:14:27Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": "Starts with Logo Mass Creation Only is Crashes with Panic at src/dyld.rs:604:9: Call to unimplemented function _glReadPixels With tap Again Crashes",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1002/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 68,
+    "appUrl": "https://appdb.touchhle.org/apps/68",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Angry Birds",
+    "releaseYear": "2009",
+    "developerPublisher": "Clickgamer/Rovio Entertainment",
+    "firstReported": "2023-11-01T10:09:09Z",
+    "firstReportedBy": {
+      "name": "@Ninja232323",
+      "url": "https://github.com/Ninja232323"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "AngryBirds",
+      "bundleId": "com.clickgamer.AngryBirds",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Ninja232323",
+        "url": "https://github.com/Ninja232323"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.3.0 (Lite Version)",
+      "displayName": "Angry Birds",
+      "bundleId": "com.clickgamer.AngryBirdsLite",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Ninja232323",
+        "url": "https://github.com/Ninja232323"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-05-10T15:55:54Z"
+    },
+    {
+      "version": "2.2.0",
+      "displayName": "Angry Birds",
+      "bundleId": "com.clickgamer.angrybirds",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@ZtarWorld69",
+        "url": "https://github.com/ZtarWorld69"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-12-01T02:50:42Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2181",
+      "version": "1.3.0 (Lite Version)",
+      "emulatorVersion": "v0.2.3-295-g1f6fb7c6",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-05-10T15:55:54Z",
+      "reportedBy": {
+        "name": "@JuanDaBoi",
+        "url": "https://github.com/JuanDaBoi"
+      },
+      "remarks": "lite version still crashes at Call to unimplemented _CCCrypt",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "253",
+      "version": "2.2.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 9.0",
+      "gpu": "Adreno 530",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2023-12-01T02:50:42Z",
+      "reportedBy": {
+        "name": "@ZtarWorld69",
+        "url": "https://github.com/ZtarWorld69"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

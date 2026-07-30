@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 248,
+    "appUrl": "https://appdb.touchhle.org/apps/248",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Tower Bloxx",
+    "releaseYear": "2009",
+    "developerPublisher": "Digital Chocolate",
+    "firstReported": "2024-02-07T13:29:20Z",
+    "firstReportedBy": {
+      "name": "@Mrjam22",
+      "url": "https://github.com/Mrjam22"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.03",
+      "displayName": "TowerBloxx",
+      "bundleId": "com.digitalchocolate.iHouse",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@Mrjam22",
+        "url": "https://github.com/Mrjam22"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-04-01T16:46:52Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "426",
+      "version": "1.0.03",
+      "emulatorVersion": "v0.2.1-220-g0e60cd1",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-G51 MP4",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-04-01T16:46:52Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Crashes with \"Call to unimplemented function _mach_host_self\"",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

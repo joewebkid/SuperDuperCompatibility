@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 651,
+    "appUrl": "https://appdb.touchhle.org/apps/651",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "iSki",
+    "releaseYear": "2009",
+    "developerPublisher": "?",
+    "firstReported": "2024-12-08T20:32:37Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "iSki",
+      "bundleId": "com.yourcompany.iSki",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-12-29T17:22:11Z"
+    },
+    {
+      "version": "1.0",
+      "displayName": "iSkiLite",
+      "bundleId": "com.yourcompany.iSkiLite",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-12-29T17:22:11Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1137",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-504-gffead6b",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2024-12-29T17:22:11Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1137/screenshot"
+    },
+    {
+      "sourceReportId": "1083",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-479-gbddbb9c",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2024-12-08T20:32:37Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1083/screenshot"
+    }
+  ]
+}

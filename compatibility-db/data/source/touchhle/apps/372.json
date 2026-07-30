@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 372,
+    "appUrl": "https://appdb.touchhle.org/apps/372",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Wave Blazer",
+    "releaseYear": "2008",
+    "developerPublisher": "Polarbit",
+    "firstReported": "2024-07-23T07:52:00Z",
+    "firstReportedBy": {
+      "name": "@DaCringeyBaka",
+      "url": "https://github.com/DaCringeyBaka"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "WaveBlazer",
+      "bundleId": "com.polarbit.waveblazer",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-07-23T07:52:00Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "574",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.2-149-g1f277f6",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2024-07-23T07:52:00Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "Works well in general, but there are a few issues. The most notable one is that multiplayer isn't supported, and tapping the Multiplayer button crashes the game.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/574/screenshot"
+    }
+  ]
+}

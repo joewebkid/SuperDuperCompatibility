@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 279,
+    "appUrl": "https://appdb.touchhle.org/apps/279",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Rayman 2",
+    "releaseYear": "2010",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-04-01T11:14:21Z",
+    "firstReportedBy": {
+      "name": "@ciciplusplus",
+      "url": "https://github.com/ciciplusplus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "Rayman 2",
+      "bundleId": "com.gameloft.Rayman2",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-04-13T09:06:06Z"
+    },
+    {
+      "version": "1.0.1",
+      "displayName": "rayman2free",
+      "bundleId": "com.gameloft.rayman2free",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-04-13T09:06:06Z"
+    },
+    {
+      "version": "1.0.2",
+      "displayName": "Rayman 2",
+      "bundleId": "com.gameloft.Rayman2",
+      "minimumIosVersion": "3.1.2",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "474",
+      "version": "1.0.1",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno (TM) 619",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2024-04-13T09:06:06Z",
+      "reportedBy": {
+        "name": "@gaberilde",
+        "url": "https://github.com/gaberilde"
+      },
+      "remarks": "Graphics are quite broken but runs",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/474/screenshot"
+    }
+  ]
+}

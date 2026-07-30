@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1232,
+    "appUrl": "https://appdb.touchhle.org/apps/1232",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "\"The Melancholy of Suzumiya Haruhi\" Puzzle and Image Viewer App for iPhone Deluxe Edition",
+    "releaseYear": "2011",
+    "developerPublisher": "Kadokawa",
+    "firstReported": "2026-05-01T00:39:46Z",
+    "firstReportedBy": {
+      "name": "@chocolatebiscutesvanilla",
+      "url": "https://github.com/chocolatebiscutesvanilla"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "HaruhiPuzzle",
+      "bundleId": "jp.co.kadokawa.haruhipuzzleiphonedeluxe",
+      "minimumIosVersion": "3.1.2",
+      "firstReportedBy": {
+        "name": "@chocolatebiscutesvanilla",
+        "url": "https://github.com/chocolatebiscutesvanilla"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-05-01T00:39:46Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2124",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 16",
+      "gpu": "Samsung Xclipse 530",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2026-05-01T00:39:46Z",
+      "reportedBy": {
+        "name": "@chocolatebiscutesvanilla",
+        "url": "https://github.com/chocolatebiscutesvanilla"
+      },
+      "remarks": "Crashes after showing the engine's and developer's logo. The error is: \"Object 0x3000d190 (class \"UlActivitylndicatorView\", 0x3000bab0) does not respond to selector \"setActivityIndicatorViewStyle:\"!\"",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

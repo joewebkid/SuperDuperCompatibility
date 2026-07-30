@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 270,
+    "appUrl": "https://appdb.touchhle.org/apps/270",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Puppet War:FPS",
+    "releaseYear": "2010",
+    "developerPublisher": "OREN BEN TOV",
+    "firstReported": "2024-03-22T10:55:11Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "v1.2",
+      "displayName": "PuppetWar",
+      "bundleId": "com.orenbentov.puppetwarfps",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-03-22T10:55:11Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "408",
+      "version": "v1.2",
+      "emulatorVersion": "v0.2.1-190-g6c5a218",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-03-22T10:55:11Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "Only appear a Loading Screen",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/408/screenshot"
+    }
+  ]
+}

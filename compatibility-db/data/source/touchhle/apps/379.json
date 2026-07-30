@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 379,
+    "appUrl": "https://appdb.touchhle.org/apps/379",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bounce On",
+    "releaseYear": "2008",
+    "developerPublisher": "Phobic Studios",
+    "firstReported": "2024-07-28T06:38:26Z",
+    "firstReportedBy": {
+      "name": "@NothingPerson1234567890",
+      "url": "https://github.com/NothingPerson1234567890"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Bounce On",
+      "bundleId": "com.teamphobic.bounceon",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@NothingPerson1234567890",
+        "url": "https://github.com/NothingPerson1234567890"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

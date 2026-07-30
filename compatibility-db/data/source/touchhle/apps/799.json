@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 799,
+    "appUrl": "https://appdb.touchhle.org/apps/799",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Magic Ball 2",
+    "releaseYear": "2009",
+    "developerPublisher": "Alawar Entertainment",
+    "firstReported": "2025-02-24T12:35:57Z",
+    "firstReportedBy": {
+      "name": "@WiS-Cuddles",
+      "url": "https://github.com/WiS-Cuddles"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Magic Ball 2",
+      "bundleId": "com.Alawar.MagicBall2",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-02-24T12:35:57Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1349",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.2-622-g41d994d",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali-G76 MC4",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-02-24T12:35:57Z",
+      "reportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "remarks": "Crashed in launch. Panic at src/dyld.rs:617:9: Call to unimplemented function __NSGetExecutablePath. Register state immediately after panic: R0: 0xfffffa80 R1: 0xfffffe94 R2: 0xfffffe94 R3: 0x00000400 R4: 0xfffffbd4 R5: 0x00000001 R6: 0xfffffee0.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

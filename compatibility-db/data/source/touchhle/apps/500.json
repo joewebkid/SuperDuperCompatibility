@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 500,
+    "appUrl": "https://appdb.touchhle.org/apps/500",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Doom's Knight",
+    "releaseYear": "2010",
+    "developerPublisher": "MOALAB LLC",
+    "firstReported": "2024-08-25T13:06:58Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "DoomsKnight",
+      "bundleId": "5DK56CWGQ3.com.MOALABLLC.2010x12x26xDoomxiPhone",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-08-25T13:06:58Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "783",
+      "version": "1.0",
+      "emulatorVersion": "0.2.2-224-g9f00556",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-08-25T13:06:58Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "game show a vertical then it crashes",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/783/screenshot"
+    }
+  ]
+}

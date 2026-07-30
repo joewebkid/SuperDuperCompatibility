@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1393,
+    "appUrl": "https://appdb.touchhle.org/apps/1393",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Alpine Crawler",
+    "releaseYear": null,
+    "developerPublisher": "3DMagicBox",
+    "firstReported": "2026-06-25T13:29:14Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3-touchhle3",
+      "url": "https://github.com/0ldw4r3-touchhle3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.40",
+      "displayName": "AlpineCrawler",
+      "bundleId": "com.3dmagicbox.AlpineCrawler",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@0ldw4r3-touchhle3",
+        "url": "https://github.com/0ldw4r3-touchhle3"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-06-25T13:29:14Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2396",
+      "version": "1.40",
+      "emulatorVersion": "v0.2.3-453-g994e2476",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2026-06-25T13:29:14Z",
+      "reportedBy": {
+        "name": "@0ldw4r3-touchhle3",
+        "url": "https://github.com/0ldw4r3-touchhle3"
+      },
+      "remarks": "Goes to the loading screen and crashes.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2396/screenshot"
+    }
+  ]
+}

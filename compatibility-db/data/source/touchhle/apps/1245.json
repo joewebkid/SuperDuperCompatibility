@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1245,
+    "appUrl": "https://appdb.touchhle.org/apps/1245",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "ExZeus",
+    "releaseYear": "2009",
+    "developerPublisher": "HyperDevbox Japan",
+    "firstReported": "2026-05-04T19:06:14Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "ExZeus",
+      "bundleId": "com.hyperdevbox.ExZeus",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2026-05-04T19:06:14Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2168",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-290-g6a146e28 PREVIEW",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2026-05-04T19:06:14Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": "The game runs, but there are quite a lot of graphical glitches.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2168/screenshot"
+    }
+  ]
+}

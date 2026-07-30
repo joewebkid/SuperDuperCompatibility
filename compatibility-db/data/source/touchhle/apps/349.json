@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 349,
+    "appUrl": "https://appdb.touchhle.org/apps/349",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Alice in Wonderland - An Adventure Beyond The Mirror",
+    "releaseYear": "2010",
+    "developerPublisher": "Disney",
+    "firstReported": "2024-06-28T01:44:13Z",
+    "firstReportedBy": {
+      "name": "@FranzGsmer",
+      "url": "https://github.com/FranzGsmer"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Alice",
+      "bundleId": "com.disney.AlicePremium",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@FranzGsmer",
+        "url": "https://github.com/FranzGsmer"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-06-28T01:44:13Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "539",
+      "version": "1.0.0",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G57",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-06-28T01:44:13Z",
+      "reportedBy": {
+        "name": "@FranzGsmer",
+        "url": "https://github.com/FranzGsmer"
+      },
+      "remarks": "The game Crashed on launch",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

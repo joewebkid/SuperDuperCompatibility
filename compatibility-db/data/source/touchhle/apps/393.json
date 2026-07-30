@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 393,
+    "appUrl": "https://appdb.touchhle.org/apps/393",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Samurai: Way of the warrior",
+    "releaseYear": "2009",
+    "developerPublisher": "MadFinger Games",
+    "firstReported": "2024-08-04T04:07:24Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Samurai",
+      "bundleId": "com.madfingergames.Samurai",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-05-16T11:01:30Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2194",
+      "version": "1.0",
+      "emulatorVersion": "V0.2.3-290-g6146e28",
+      "operatingSystem": "Android 15",
+      "gpu": "Dimensity",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2026-05-16T11:01:30Z",
+      "reportedBy": {
+        "name": "@abb211",
+        "url": "https://github.com/abb211"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2194/screenshot"
+    },
+    {
+      "sourceReportId": "2155",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-275-gb23bb4f4",
+      "operatingSystem": "Android 12",
+      "gpu": "PowerVR GE8320",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2026-05-03T11:04:02Z",
+      "reportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "remarks": "The game works fine, just has 2 issues. The pause button crashes and doesn't save progress.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2155/screenshot"
+    }
+  ]
+}

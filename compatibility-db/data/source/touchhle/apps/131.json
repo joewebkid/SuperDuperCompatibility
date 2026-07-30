@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 131,
+    "appUrl": "https://appdb.touchhle.org/apps/131",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Korebasi",
+    "releaseYear": "2008",
+    "developerPublisher": "Shinmira",
+    "firstReported": "2023-11-16T02:04:43Z",
+    "firstReportedBy": {
+      "name": "@Ninja232323",
+      "url": "https://github.com/Ninja232323"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "korebasi lite",
+      "bundleId": "com.shinmira.korebasilite",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@Ninja232323",
+        "url": "https://github.com/Ninja232323"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1299,
+    "appUrl": "https://appdb.touchhle.org/apps/1299",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "15 Blocks Lite",
+    "releaseYear": "2009",
+    "developerPublisher": "MadFinger Games",
+    "firstReported": "2026-06-14T08:18:03Z",
+    "firstReportedBy": {
+      "name": "@DaCringeyBaka",
+      "url": "https://github.com/DaCringeyBaka"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "15BlocksLite",
+      "bundleId": "com.madfingergames.15BlocksLite",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2026-06-14T08:18:03Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2269",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2026-06-14T08:18:03Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "Needs --force-composition option for proper display. At some point when I move a block, it crashes with Result::unwrap()` on an `Err` value: NoSpace",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2269/screenshot"
+    }
+  ]
+}

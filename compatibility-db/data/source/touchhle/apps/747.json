@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 747,
+    "appUrl": "https://appdb.touchhle.org/apps/747",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "PaperAirplane",
+    "releaseYear": "2009",
+    "developerPublisher": "LilaSoft",
+    "firstReported": "2025-01-25T07:27:32Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "0.9.4",
+      "displayName": "PaperAirplane",
+      "bundleId": "com.lilasoft.paperairplane",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-01-25T07:27:32Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1238",
+      "version": "0.9.4",
+      "emulatorVersion": "v0.2.2-553-g9d47662",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2025-01-25T07:27:32Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1238/screenshot"
+    }
+  ]
+}

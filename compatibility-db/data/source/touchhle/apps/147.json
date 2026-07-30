@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 147,
+    "appUrl": "https://appdb.touchhle.org/apps/147",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "UNO",
+    "releaseYear": "2009",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2023-11-22T18:19:07Z",
+    "firstReportedBy": {
+      "name": "@conneath",
+      "url": "https://github.com/conneath"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.6",
+      "displayName": "UNO",
+      "bundleId": "com.gameloft.uno",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@conneath",
+        "url": "https://github.com/conneath"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.3.1",
+      "displayName": "unoiPad",
+      "bundleId": "com.gameloft.unoiPad",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-02-14T13:21:03Z"
+    },
+    {
+      "version": "1.5.4",
+      "displayName": "UNO",
+      "bundleId": "com.gameloft.uno",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-11-03T12:33:01Z"
+    },
+    {
+      "version": "1.9.7",
+      "displayName": "UNO",
+      "bundleId": "com.gameloft.uno",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-11-03T15:03:36Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1954",
+      "version": "1.3.1",
+      "emulatorVersion": "v0.2.3-108-g069073e3",
+      "operatingSystem": "Android 12",
+      "gpu": "PowerVR GE8320",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2026-02-14T13:21:03Z",
+      "reportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "remarks": "iPad version works on main menu, but the touchscreen and orientation are inverted. Also, it needs to use \"--landscape-left(or right)\"",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1954/screenshot"
+    },
+    {
+      "sourceReportId": "977",
+      "version": "1.9.7",
+      "emulatorVersion": "v0.2.2-360-g5692272",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-11-03T15:03:36Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/977/screenshot"
+    },
+    {
+      "sourceReportId": "975",
+      "version": "1.5.4",
+      "emulatorVersion": "v0.2.2-360-g5692272",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-11-03T12:33:01Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/975/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 510,
+    "appUrl": "https://appdb.touchhle.org/apps/510",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Doodle Games 9 in 1",
+    "releaseYear": "2010",
+    "developerPublisher": "SK Telecom",
+    "firstReported": "2024-09-06T00:11:30Z",
+    "firstReportedBy": {
+      "name": "@Dyloso",
+      "url": "https://github.com/Dyloso"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "DoodleGames",
+      "bundleId": "com.distributioncartoon.nategames",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Dyloso",
+        "url": "https://github.com/Dyloso"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-09-06T00:11:30Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "809",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android",
+      "gpu": "Qualcomm Snapdragon 695",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-09-06T00:11:30Z",
+      "reportedBy": {
+        "name": "@Dyloso",
+        "url": "https://github.com/Dyloso"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

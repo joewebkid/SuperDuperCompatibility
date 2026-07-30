@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 669,
+    "appUrl": "https://appdb.touchhle.org/apps/669",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Truth or Dare",
+    "releaseYear": null,
+    "developerPublisher": "Feaa",
+    "firstReported": "2024-12-23T22:11:56Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.5.1",
+      "displayName": "Truth or Dare",
+      "bundleId": "com.feaa.truthordaref",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-12-23T22:11:56Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1119",
+      "version": "1.5.1",
+      "emulatorVersion": "v0.2.2-496-gada77ee",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-12-23T22:11:56Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1119/screenshot"
+    }
+  ]
+}

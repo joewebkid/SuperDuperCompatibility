@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 537,
+    "appUrl": "https://appdb.touchhle.org/apps/537",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Fairies Fly",
+    "releaseYear": "2008",
+    "developerPublisher": "Disney",
+    "firstReported": "2024-09-26T17:59:16Z",
+    "firstReportedBy": {
+      "name": "@MrJoe1337",
+      "url": "https://github.com/MrJoe1337"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.4",
+      "displayName": "Fairies Fly",
+      "bundleId": "com.disney.DisneyFairies",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@MrJoe1337",
+        "url": "https://github.com/MrJoe1337"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-09-26T17:59:16Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "862",
+      "version": "1.0.4",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android 12",
+      "gpu": "Mali-G76 MP12",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-09-26T17:59:16Z",
+      "reportedBy": {
+        "name": "@MrJoe1337",
+        "url": "https://github.com/MrJoe1337"
+      },
+      "remarks": "Crashes at Launch",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

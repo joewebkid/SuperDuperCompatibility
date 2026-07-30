@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1386,
+    "appUrl": "https://appdb.touchhle.org/apps/1386",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Trivial Pursuit",
+    "releaseYear": "2009",
+    "developerPublisher": "Electronic Arts / Hasbro",
+    "firstReported": "2026-06-24T07:51:32Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3-touchhle3",
+      "url": "https://github.com/0ldw4r3-touchhle3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "TrivialPursuit",
+      "bundleId": "com.ea.trivialpursuit.inc",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@0ldw4r3-touchhle3",
+        "url": "https://github.com/0ldw4r3-touchhle3"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-06-24T07:51:32Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2388",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-453-g994e2476",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-06-24T07:51:32Z",
+      "reportedBy": {
+        "name": "@0ldw4r3-touchhle3",
+        "url": "https://github.com/0ldw4r3-touchhle3"
+      },
+      "remarks": "Gameplay works fully, even in the rest of the modes. What makes it crash though is attempting to change username and pressing the \"More Games\" option on the menu.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2388/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1291,
+    "appUrl": "https://appdb.touchhle.org/apps/1291",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "DungeonCore",
+    "releaseYear": "2010",
+    "developerPublisher": "GAEWOOL",
+    "firstReported": "2026-06-10T14:03:37Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "v1.0.0 (1.7)",
+      "displayName": "DungeonCore",
+      "bundleId": "com.gaewool.DungeonCore",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-06-10T14:03:37Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2252",
+      "version": "v1.0.0 (1.7)",
+      "emulatorVersion": "v0.2.3-413-g426b6cbb PREVIEW",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-06-10T14:03:37Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2252/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1070,
+    "appUrl": "https://appdb.touchhle.org/apps/1070",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Doodlebug Mini Edition",
+    "releaseYear": "2011",
+    "developerPublisher": "Mobile Amusements",
+    "firstReported": "2026-01-10T12:09:56Z",
+    "firstReportedBy": {
+      "name": "@nekono48",
+      "url": "https://github.com/nekono48"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Doodlebug Mini Edition",
+      "bundleId": "com.mobileamusements.DoodlebugMiniEdition",
+      "minimumIosVersion": "4.0",
+      "firstReportedBy": {
+        "name": "@nekono48",
+        "url": "https://github.com/nekono48"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-10T12:09:56Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1828",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-7-gc9d7b30a",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-01-10T12:09:56Z",
+      "reportedBy": {
+        "name": "@nekono48",
+        "url": "https://github.com/nekono48"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1828/screenshot"
+    }
+  ]
+}

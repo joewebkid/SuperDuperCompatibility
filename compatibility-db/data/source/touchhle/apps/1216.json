@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1216,
+    "appUrl": "https://appdb.touchhle.org/apps/1216",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Warrior Nation-Gunner",
+    "releaseYear": "2011",
+    "developerPublisher": "Park Sun-Woo",
+    "firstReported": "2026-04-25T15:16:37Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "WNGunner",
+      "bundleId": "com.bestsungame.warriornationgunner",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-04-25T15:16:37Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2092",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-250-gf4fc6f65 PREVIEW",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-04-25T15:16:37Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2092/screenshot"
+    }
+  ]
+}

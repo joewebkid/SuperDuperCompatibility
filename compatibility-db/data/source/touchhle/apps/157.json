@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 157,
+    "appUrl": "https://appdb.touchhle.org/apps/157",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sudoku",
+    "releaseYear": "2008",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2023-11-26T20:14:23Z",
+    "firstReportedBy": {
+      "name": "@PirateWill",
+      "url": "https://github.com/PirateWill"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.18",
+      "displayName": "Sudoku",
+      "bundleId": "com.ea.sudoku",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@PirateWill",
+        "url": "https://github.com/PirateWill"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-01-22T15:42:37Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1219",
+      "version": "1.0.18",
+      "emulatorVersion": "v0.2.2-553-g9d47662",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-01-22T15:42:37Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1219/screenshot"
+    }
+  ]
+}

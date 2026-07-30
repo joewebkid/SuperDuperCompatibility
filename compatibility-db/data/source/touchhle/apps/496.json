@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 496,
+    "appUrl": "https://appdb.touchhle.org/apps/496",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "FIFA 10",
+    "releaseYear": "2009",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2024-08-24T20:36:06Z",
+    "firstReportedBy": {
+      "name": "@miguesoum",
+      "url": "https://github.com/miguesoum"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "FIFA 10",
+      "bundleId": "com.ea.fifa10.bv",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@M3tzzz",
+        "url": "https://github.com/M3tzzz"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-06-15T14:48:39Z"
+    },
+    {
+      "version": "1.0.15",
+      "displayName": "FIFA 10",
+      "bundleId": "com.ea.fifa10.bv",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@miguesoum",
+        "url": "https://github.com/miguesoum"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2287",
+      "version": "1.0.1",
+      "emulatorVersion": "0.2.3",
+      "operatingSystem": "Android",
+      "gpu": "Mail-G57 MC2",
+      "scaleHack": "No (broken)",
+      "rating": 4,
+      "reported": "2026-06-15T14:48:39Z",
+      "reportedBy": {
+        "name": "@djjfhfj47-web",
+        "url": "https://github.com/djjfhfj47-web"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1572",
+      "version": "1.0.1",
+      "emulatorVersion": "touchHLE v0.2.2-769-gea6eadd9",
+      "operatingSystem": "Android 13.0",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-07-08T21:34:40Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "Game works well. Ball kick sounds plays delayed. Multiplayer doesn't work.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1572/screenshot"
+    }
+  ]
+}

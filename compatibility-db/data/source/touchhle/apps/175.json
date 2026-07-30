@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 175,
+    "appUrl": "https://appdb.touchhle.org/apps/175",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Need for Speed Undercover",
+    "releaseYear": "2008",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2023-12-08T02:04:20Z",
+    "firstReportedBy": {
+      "name": "@giuskiller995",
+      "url": "https://github.com/giuskiller995"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.28",
+      "displayName": "NFSU",
+      "bundleId": "com.ea.nfsucinc",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@bnmv415",
+        "url": "https://github.com/bnmv415"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-05-04T14:56:33Z"
+    },
+    {
+      "version": "1.2.5",
+      "displayName": "NFSU",
+      "bundleId": "com.ea.nfsucbven",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@giuskiller995",
+        "url": "https://github.com/giuskiller995"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-09-05T19:14:18Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2167",
+      "version": "1.1.28",
+      "emulatorVersion": "Preview_v0.2.3-289-g75433482",
+      "operatingSystem": "Android 16",
+      "gpu": "Qualcomm Adreno (TM) 750",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-05-04T14:56:33Z",
+      "reportedBy": {
+        "name": "@bnmv415",
+        "url": "https://github.com/bnmv415"
+      },
+      "remarks": "After intro logo and short video, the loading stops and crashes with messages.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2167/screenshot"
+    },
+    {
+      "sourceReportId": "1668",
+      "version": "1.2.5",
+      "emulatorVersion": "v0.2.2-899-gde24b73",
+      "operatingSystem": "Android 11",
+      "gpu": "Adreno 540",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2025-09-05T19:14:18Z",
+      "reportedBy": {
+        "name": "@Legend0P",
+        "url": "https://github.com/Legend0P"
+      },
+      "remarks": "Crashes on EA logo with \"Class 0x374f8a70 (metaclass \"UIFont\", 0x374f8a60) does not respond to selector \"systemFontSize\"!",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "286",
+      "version": "1.2.5",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 660",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2023-12-08T02:04:20Z",
+      "reportedBy": {
+        "name": "@giuskiller995",
+        "url": "https://github.com/giuskiller995"
+      },
+      "remarks": "Panic at src/mach_o.rs:458:34: Unexpected symbol kind Some(Prebound { name: Some(\"_OBJC_CLASS_$_CAEAGLLayer\"), external: true, desc: 1024 })",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/286/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1096,
+    "appUrl": "https://appdb.touchhle.org/apps/1096",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Robin Hood",
+    "releaseYear": null,
+    "developerPublisher": "Nord Current",
+    "firstReported": "2026-01-22T20:16:54Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Robin Hood",
+      "bundleId": "com.nordcurrent.robinhood",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2026-06-26T11:43:48Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2401",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-462-gbcbaaee2",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2026-06-26T11:43:48Z",
+      "reportedBy": {
+        "name": "@0ldw4r3-touchhle3",
+        "url": "https://github.com/0ldw4r3-touchhle3"
+      },
+      "remarks": "When you reopen the game; attempting to resume the round makes it crash due to a MemoryError. Also, when it is game over, the game crashes when you attempt to type your username. Gameplay makes progress but at the cost of 1 time\\/gamerun.\"",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2401/screenshot"
+    }
+  ]
+}

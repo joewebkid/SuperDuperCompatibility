@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 670,
+    "appUrl": "https://appdb.touchhle.org/apps/670",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Crash Bandicoot Nitro Kart 2",
+    "releaseYear": "2010",
+    "developerPublisher": "Polarbit/Activision",
+    "firstReported": "2024-12-24T21:42:35Z",
+    "firstReportedBy": {
+      "name": "@SuperGamer18",
+      "url": "https://github.com/SuperGamer18"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.4",
+      "displayName": "CBNK2",
+      "bundleId": "com.activision.CBNK2",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@SuperGamer18",
+        "url": "https://github.com/SuperGamer18"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-07-08T21:30:30Z"
+    },
+    {
+      "version": "1.0.5",
+      "displayName": "CBNK2",
+      "bundleId": "com.activision.CBNK2",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@Slippyu",
+        "url": "https://github.com/Slippyu"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1571",
+      "version": "1.0.4",
+      "emulatorVersion": "touchHLE v0.2.2-769-gea6eadd9",
+      "operatingSystem": "Android",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-07-08T21:30:30Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "Game works well. On low end devices sound can experience stuttering. Multiplayer doesn't work.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1571/screenshot"
+    }
+  ]
+}

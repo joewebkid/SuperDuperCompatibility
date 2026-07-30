@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 727,
+    "appUrl": "https://appdb.touchhle.org/apps/727",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Mini Fighter",
+    "releaseYear": "2010",
+    "developerPublisher": "CJ Internet",
+    "firstReported": "2025-01-20T10:38:13Z",
+    "firstReportedBy": {
+      "name": "@DaCringeyBaka",
+      "url": "https://github.com/DaCringeyBaka"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Mini Fighter",
+      "bundleId": "net.cj.MiniFighter",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-01-20T10:38:13Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1205",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-549-gce0e73a",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2025-01-20T10:38:13Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "Only noticeable issue so far is the playing of the sounds.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1205/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1201,
+    "appUrl": "https://appdb.touchhle.org/apps/1201",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Toki Tori",
+    "releaseYear": "2009",
+    "developerPublisher": "Two Tribes/EA Chillingo",
+    "firstReported": "2026-04-17T00:16:06Z",
+    "firstReportedBy": {
+      "name": "@Ninja232323",
+      "url": "https://github.com/Ninja232323"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Toki Tori",
+      "bundleId": "com.chillingo.tokitori",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@MKFRLEBLAHBLAHBLAH",
+        "url": "https://github.com/MKFRLEBLAHBLAHBLAH"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.2 (iPhone Lite)",
+      "displayName": "Toki Tori",
+      "bundleId": "com.chillingo.tokitorilite",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Ninja232323",
+        "url": "https://github.com/Ninja232323"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

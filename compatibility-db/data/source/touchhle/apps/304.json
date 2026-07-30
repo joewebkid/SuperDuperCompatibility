@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 304,
+    "appUrl": "https://appdb.touchhle.org/apps/304",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "SamuraiGirl",
+    "releaseYear": null,
+    "developerPublisher": "Netmarble",
+    "firstReported": "2024-04-10T13:12:05Z",
+    "firstReportedBy": {
+      "name": "@cendolinside123",
+      "url": "https://github.com/cendolinside123"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "SamuraiGirl",
+      "bundleId": "net.cj.SamuraiGirl",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@cendolinside123",
+        "url": "https://github.com/cendolinside123"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2026-05-24T17:26:27Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2213",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.3-355-gc1f358c8",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali-G76 MC4",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2026-05-24T17:26:27Z",
+      "reportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "remarks": "The app works, but there are some issues with orientation, which can be fixed with the emulator settings. I think it's 4 stars unless there are performance issues, otherwise it's 3 stars.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2213/screenshot"
+    },
+    {
+      "sourceReportId": "472",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "android 11",
+      "gpu": "OpenGL ES-CM 1.1 / Qualcomm / Adreno (TM) 616",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-04-10T13:12:05Z",
+      "reportedBy": {
+        "name": "@cendolinside123",
+        "url": "https://github.com/cendolinside123"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

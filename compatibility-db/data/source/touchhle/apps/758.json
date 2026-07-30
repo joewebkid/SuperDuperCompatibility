@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 758,
+    "appUrl": "https://appdb.touchhle.org/apps/758",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "JellyCar 2",
+    "releaseYear": "2009",
+    "developerPublisher": "Walaber",
+    "firstReported": "2025-01-28T09:36:13Z",
+    "firstReportedBy": {
+      "name": "@YellowPerson24",
+      "url": "https://github.com/YellowPerson24"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "JellyCar2",
+      "bundleId": "com.disney.jellyCar2",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@InvertDark",
+        "url": "https://github.com/InvertDark"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.2.2",
+      "displayName": "JellyCar 2",
+      "bundleId": "com.disney.jellyCar2",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@YellowPerson24",
+        "url": "https://github.com/YellowPerson24"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

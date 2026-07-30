@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 199,
+    "appUrl": "https://appdb.touchhle.org/apps/199",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "KarateChamp",
+    "releaseYear": "2010",
+    "developerPublisher": "Arroyo",
+    "firstReported": "2023-12-23T14:40:43Z",
+    "firstReportedBy": {
+      "name": "@spetterman66",
+      "url": "https://github.com/spetterman66"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Karate Champ",
+      "bundleId": "com.arroyo.KCHAMP-iPad",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-06-14T01:20:33Z"
+    },
+    {
+      "version": "1.0",
+      "displayName": "KarateChamp",
+      "bundleId": "com.arroyo.KarateChamp",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@spetterman66",
+        "url": "https://github.com/spetterman66"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-06-14T01:20:33Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2267",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-06-14T01:20:33Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "I managed to pass a few levels; only issue is the screen being upside down",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2267/screenshot"
+    }
+  ]
+}

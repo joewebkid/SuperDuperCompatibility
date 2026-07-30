@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 103,
+    "appUrl": "https://appdb.touchhle.org/apps/103",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Castlevania Puzzle: Encore of the Night",
+    "releaseYear": "2010",
+    "developerPublisher": "Konami",
+    "firstReported": "2023-11-05T21:55:14Z",
+    "firstReportedBy": {
+      "name": "@aguyfromuranus",
+      "url": "https://github.com/aguyfromuranus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.10",
+      "displayName": "Castlevania Puzzle",
+      "bundleId": "com.konami.CastlevaniaPuzzle",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@aguyfromuranus",
+        "url": "https://github.com/aguyfromuranus"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 55,
+    "appUrl": "https://appdb.touchhle.org/apps/55",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "I Love Katamari",
+    "releaseYear": "2008",
+    "developerPublisher": "Namco Bandai Games",
+    "firstReported": "2023-10-31T15:45:02Z",
+    "firstReportedBy": {
+      "name": "@hikari-no-yume",
+      "url": "https://github.com/hikari-no-yume"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "KataDama",
+      "bundleId": "com.namconetworks.katamari",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2023-10-31T15:45:02Z"
+    },
+    {
+      "version": "1.0.2",
+      "displayName": "KatamariTrial",
+      "bundleId": "com.namconetworks.katamarilite",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-11-17T11:06:42Z"
+    },
+    {
+      "version": "1.0.2",
+      "displayName": "KataDama",
+      "bundleId": "com.namconetworks.katamari",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-11-17T11:06:42Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1010",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-380-g98e1938",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-11-17T11:06:42Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1010/screenshot"
+    },
+    {
+      "sourceReportId": "292",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 13",
+      "gpu": "Adreno 642",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2023-12-09T01:40:44Z",
+      "reportedBy": {
+        "name": "@griffi-gh",
+        "url": "https://github.com/griffi-gh"
+      },
+      "remarks": "Text blending/transparency is seemingly broken",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/292/screenshot"
+    },
+    {
+      "sourceReportId": "83",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 8",
+      "gpu": "Adreno 418",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2023-10-31T15:45:02Z",
+      "reportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "remarks": "Alpha blending is broken for some reason, making various things look ugly and obscuring the screen for a few seconds when the katamari increases in size.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/83/screenshot"
+    }
+  ]
+}

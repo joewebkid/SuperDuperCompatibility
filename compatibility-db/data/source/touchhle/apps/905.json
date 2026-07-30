@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 905,
+    "appUrl": "https://appdb.touchhle.org/apps/905",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Run Or Die",
+    "releaseYear": "2009",
+    "developerPublisher": "Nate Games / ENSony",
+    "firstReported": "2025-06-14T09:29:55Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "RunOrDie",
+      "bundleId": "com.distributionrunordie.nategames",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-06-14T09:29:55Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1510",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-740-gb448f97",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-06-14T09:29:55Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1510/screenshot"
+    }
+  ]
+}

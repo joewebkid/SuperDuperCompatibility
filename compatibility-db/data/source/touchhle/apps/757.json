@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 757,
+    "appUrl": "https://appdb.touchhle.org/apps/757",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Traffic Trouble",
+    "releaseYear": "2009",
+    "developerPublisher": "Photon Creations",
+    "firstReported": "2025-01-28T07:59:17Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "TraffTrouble",
+      "bundleId": "com.photoncreations.TraffMayhem",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-01-28T07:59:17Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1250",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.2-559-gd7e3c9a",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-01-28T07:59:17Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1250/screenshot"
+    }
+  ]
+}

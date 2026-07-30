@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 354,
+    "appUrl": "https://appdb.touchhle.org/apps/354",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "TV Show King",
+    "releaseYear": null,
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-07-01T16:13:45Z",
+    "firstReportedBy": {
+      "name": "@thundergun1",
+      "url": "https://github.com/thundergun1"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "TVSK",
+      "bundleId": "com.gameloft.TVSK",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-07-01T16:13:45Z"
+    },
+    {
+      "version": "1.1.0",
+      "displayName": "TVSK",
+      "bundleId": "com.gameloft.TVSK",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-10-25T10:08:29Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "933",
+      "version": "1.1.0",
+      "emulatorVersion": "v0.2.2-351-g714290e",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-T830",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2024-10-25T10:08:29Z",
+      "reportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "remarks": "The audio now works, however if you try to use the online functions of the game it crashes with 2 errors. Panic at src/mem.rs:341:9: Attempted null-page access at 0x0 (0x4 bytes) Panic at src/environment.rs:787:13: Error during CPU execution: MemoryErro",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/933/screenshot"
+    },
+    {
+      "sourceReportId": "547",
+      "version": "1.0",
+      "emulatorVersion": "v.0.2.2-110-g695d231",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2024-07-01T16:13:45Z",
+      "reportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "remarks": "Same as Asphalt 4, completely playable, but without sound, and crashes when sound is turned on.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/547/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 139,
+    "appUrl": "https://appdb.touchhle.org/apps/139",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Infinity Blade I",
+    "releaseYear": "2010",
+    "developerPublisher": "Chair Entertainment/Epic Games",
+    "firstReported": "2023-11-18T05:56:35Z",
+    "firstReportedBy": {
+      "name": "@Pompsama",
+      "url": "https://github.com/Pompsama"
+    }
+  },
+  "versions": [
+    {
+      "version": "7936.3",
+      "displayName": "Infinity Blade",
+      "bundleId": "com.chairentertainment.birthright",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@Pompsama",
+        "url": "https://github.com/Pompsama"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-11-18T05:56:35Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "212",
+      "version": "7936.3",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android",
+      "gpu": "Qualcomm Adreno 619",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2023-11-18T05:56:35Z",
+      "reportedBy": {
+        "name": "@Pompsama",
+        "url": "https://github.com/Pompsama"
+      },
+      "remarks": "Errors given: mach_o:DyldInfo is not handled. environment: Warning:app binary depends on unexpected dylib \"/usr/lib/libz.1.dylib\".Many dyld:unhandled non-lazy symbol errors.Panic at src/mem.rs:313:9:Attempted null-page access at 0x0(0x4 bytes).",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

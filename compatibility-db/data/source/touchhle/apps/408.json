@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 408,
+    "appUrl": "https://appdb.touchhle.org/apps/408",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Daisy Mae's Alien Buffet",
+    "releaseYear": "2010",
+    "developerPublisher": "IUGO Mobile Entertainment",
+    "firstReported": "2024-08-08T09:02:11Z",
+    "firstReportedBy": {
+      "name": "@rari-teh",
+      "url": "https://github.com/rari-teh"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.1",
+      "displayName": "Daisy Mae",
+      "bundleId": "com.iugo.DaisyMaeAlienBuffet",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@rari-teh",
+        "url": "https://github.com/rari-teh"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1414,
+    "appUrl": "https://appdb.touchhle.org/apps/1414",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "UConnect",
+    "releaseYear": null,
+    "developerPublisher": "BitLogik",
+    "firstReported": "2026-07-12T14:05:06Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3",
+      "url": "https://github.com/0ldw4r3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "UConnect",
+      "bundleId": "com.bitlogik.uconnect",
+      "minimumIosVersion": "3.1.3",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-07-12T14:05:06Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2434",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-07-12T14:05:06Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "With enabled sound, game crashes. Disabling it makes it work fully.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2434/screenshot"
+    }
+  ]
+}

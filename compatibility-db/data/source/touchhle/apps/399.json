@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 399,
+    "appUrl": "https://appdb.touchhle.org/apps/399",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Fallen EP1",
+    "releaseYear": "2009",
+    "developerPublisher": "Youoco/7ThSense",
+    "firstReported": "2024-08-05T20:00:54Z",
+    "firstReportedBy": {
+      "name": "@fikritz",
+      "url": "https://github.com/fikritz"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Fallen EP-1",
+      "bundleId": "com.7thsensestudios.FallenEp1",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@fikritz",
+        "url": "https://github.com/fikritz"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-06-22T19:52:59Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2364",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-453-g994e2476",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-06-22T19:52:59Z",
+      "reportedBy": {
+        "name": "@0ldw4r3-touchhle3",
+        "url": "https://github.com/0ldw4r3-touchhle3"
+      },
+      "remarks": "In menu, the credits button does not take me there. Otherwise, it works fully.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2364/screenshot"
+    },
+    {
+      "sourceReportId": "874",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-307-gf1ad565",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali g-52",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2024-09-30T00:48:35Z",
+      "reportedBy": {
+        "name": "@TouchHLEuser",
+        "url": "https://github.com/TouchHLEuser"
+      },
+      "remarks": "intro Work",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/874/screenshot"
+    },
+    {
+      "sourceReportId": "608",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-165-g9ef94a9",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-08-05T20:00:54Z",
+      "reportedBy": {
+        "name": "@fikritz",
+        "url": "https://github.com/fikritz"
+      },
+      "remarks": "can only be done in the menu after clicking new game, it immediately crashes",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/608/screenshot"
+    }
+  ]
+}

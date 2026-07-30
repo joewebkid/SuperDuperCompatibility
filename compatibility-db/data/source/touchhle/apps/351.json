@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 351,
+    "appUrl": "https://appdb.touchhle.org/apps/351",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Gangstar: West Coast Hustle",
+    "releaseYear": "2009",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-06-29T19:44:00Z",
+    "firstReportedBy": {
+      "name": "@ciciplusplus",
+      "url": "https://github.com/ciciplusplus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.3",
+      "displayName": "Gangstar",
+      "bundleId": "com.gameloft.Gangstar",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-05-03T12:51:16Z"
+    },
+    {
+      "version": "1.1.3",
+      "displayName": "Gangstar",
+      "bundleId": "com.gameloft.Gangstar",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.2.0",
+      "displayName": "Gangstar",
+      "bundleId": "com.gameloft.Gangstar",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.4.8",
+      "displayName": "Gangstar",
+      "bundleId": "com.gameloft.Gangstar",
+      "minimumIosVersion": "3.1.3",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2156",
+      "version": "1.0.3",
+      "emulatorVersion": "0.2.3",
+      "operatingSystem": "Android 13",
+      "gpu": "go search nubia neo 2's gpu",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2026-05-03T12:51:16Z",
+      "reportedBy": {
+        "name": "@gtuyirhtiu",
+        "url": "https://github.com/gtuyirhtiu"
+      },
+      "remarks": "a tiny lag when starting the game and some menus crashed but I still 100%ed the game anyway",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2156/screenshot"
+    }
+  ]
+}

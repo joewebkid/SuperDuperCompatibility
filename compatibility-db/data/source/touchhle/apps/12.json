@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 12,
+    "appUrl": "https://appdb.touchhle.org/apps/12",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sonic the Hedgehog",
+    "releaseYear": "2009",
+    "developerPublisher": "Sega",
+    "firstReported": "2023-10-10T15:43:14Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Sonic 1",
+      "bundleId": "com.sega.sonic1",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.3",
+      "displayName": "Sonic 1",
+      "bundleId": "com.sega.sonic1",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@cldgit",
+        "url": "https://github.com/cldgit"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-04-17T01:03:36Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "480",
+      "version": "1.1.3",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno 750",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-04-17T01:03:36Z",
+      "reportedBy": {
+        "name": "@cldgit",
+        "url": "https://github.com/cldgit"
+      },
+      "remarks": "Shows the boot up screen for the app then crashes immediately",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/480/screenshot"
+    }
+  ]
+}

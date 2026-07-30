@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 176,
+    "appUrl": "https://appdb.touchhle.org/apps/176",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Mirror's Edge",
+    "releaseYear": "2010",
+    "developerPublisher": "IronMonkey Studios/Electronic Arts",
+    "firstReported": "2023-12-08T02:23:58Z",
+    "firstReportedBy": {
+      "name": "@Vipitis",
+      "url": "https://github.com/Vipitis"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.4.72",
+      "displayName": "Mirror's Edge",
+      "bundleId": "com.ea.mirrorsedge.bv",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Vipitis",
+        "url": "https://github.com/Vipitis"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-03-09T12:04:52Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2009",
+      "version": "1.4.72",
+      "emulatorVersion": "v0.2.3-147-gd7668926",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 830",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-03-09T12:04:52Z",
+      "reportedBy": {
+        "name": "@guranu",
+        "url": "https://github.com/guranu"
+      },
+      "remarks": "Panic at src/mem.rs:341:9: Attempted null-page access at 0x0 (0x4 bytes) Panic at src/environment.rs:1034:13: Error during CPU execution: MemoryError",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2009/screenshot"
+    },
+    {
+      "sourceReportId": "1378",
+      "version": "1.4.72",
+      "emulatorVersion": "v0.2.2-647-g474dd15",
+      "operatingSystem": "Android 15",
+      "gpu": "Tensor G1 (Pixel 6 Pro)",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2025-03-03T00:06:07Z",
+      "reportedBy": {
+        "name": "@Shiga200006",
+        "url": "https://github.com/Shiga200006"
+      },
+      "remarks": "Crash upon entry. Loading screen art is seen for a brief moment. Panic at src/objc/messages.rs:130:13: Class \"NSRecursiveLock\" (0x374f7320) is unimplemented. Call to class method \"alloc\".",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1378/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 686,
+    "appUrl": "https://appdb.touchhle.org/apps/686",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Hypnotoad",
+    "releaseYear": null,
+    "developerPublisher": "Oleksii Koval'",
+    "firstReported": "2024-12-30T14:17:07Z",
+    "firstReportedBy": {
+      "name": "@TimofeyLednev",
+      "url": "https://github.com/TimofeyLednev"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Hypnotoad",
+      "bundleId": "ua.com.appmania.HypnoToad",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@TimofeyLednev",
+        "url": "https://github.com/TimofeyLednev"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

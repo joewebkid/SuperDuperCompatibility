@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1239,
+    "appUrl": "https://appdb.touchhle.org/apps/1239",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "PAC-ATTACK",
+    "releaseYear": "2010",
+    "developerPublisher": "Namco Networks",
+    "firstReported": "2026-05-02T15:54:12Z",
+    "firstReportedBy": {
+      "name": "@juney2008",
+      "url": "https://github.com/juney2008"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.0",
+      "displayName": "PacAttack",
+      "bundleId": "com.namconetworks.PacAttack",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@juney2008",
+        "url": "https://github.com/juney2008"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

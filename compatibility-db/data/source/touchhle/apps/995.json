@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 995,
+    "appUrl": "https://appdb.touchhle.org/apps/995",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bugdom 2",
+    "releaseYear": "2008",
+    "developerPublisher": "Pangea Software",
+    "firstReported": "2025-09-19T20:15:17Z",
+    "firstReportedBy": {
+      "name": "@ciciplusplus",
+      "url": "https://github.com/ciciplusplus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Bugdom 2",
+      "bundleId": "com.pangea.bug2",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-09-19T20:15:17Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1686",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.2-941-g9ade82b4",
+      "operatingSystem": "Android 13.0",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2025-09-19T20:15:17Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "First level is playable. Missing affine transforms on some labels. Somae menus are crashing. Pausing deadlocks the game.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1686/screenshot"
+    }
+  ]
+}

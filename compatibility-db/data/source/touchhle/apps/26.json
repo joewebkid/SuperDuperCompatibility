@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 26,
+    "appUrl": "https://appdb.touchhle.org/apps/26",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "The Simpsons Arcade",
+    "releaseYear": "2009",
+    "developerPublisher": "EA",
+    "firstReported": "2023-10-21T14:17:02Z",
+    "firstReportedBy": {
+      "name": "@Jofkos",
+      "url": "https://github.com/Jofkos"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.43",
+      "displayName": "TheSimpsons",
+      "bundleId": "com.ea.simpsonsarcade.bv",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Jofkos",
+        "url": "https://github.com/Jofkos"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

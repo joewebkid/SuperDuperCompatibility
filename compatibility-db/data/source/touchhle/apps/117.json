@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 117,
+    "appUrl": "https://appdb.touchhle.org/apps/117",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sonic Spinball",
+    "releaseYear": "2010",
+    "developerPublisher": "SEGA",
+    "firstReported": "2023-11-09T02:22:01Z",
+    "firstReportedBy": {
+      "name": "@AshthorneGaming",
+      "url": "https://github.com/AshthorneGaming"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "Spinball",
+      "bundleId": "com.sega.spinball",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@AshthorneGaming",
+        "url": "https://github.com/AshthorneGaming"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

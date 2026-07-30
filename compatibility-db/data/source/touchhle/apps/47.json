@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 47,
+    "appUrl": "https://appdb.touchhle.org/apps/47",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Alice Greenfingers",
+    "releaseYear": null,
+    "developerPublisher": "Donut Games",
+    "firstReported": "2023-10-30T13:43:48Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.00",
+      "displayName": "Alice",
+      "bundleId": "com.donutgames.alicegreenfingers",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-11-22T18:36:08Z"
+    },
+    {
+      "version": "1.10",
+      "displayName": "Alice",
+      "bundleId": "com.donutgames.alicegreenfingers",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-05-05T08:34:03Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1028",
+      "version": "1.00",
+      "emulatorVersion": "v0.2.2-399-g3664ce5",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-11-22T18:36:08Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": "Sound and music is Working",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1028/screenshot"
+    },
+    {
+      "sourceReportId": "499",
+      "version": "1.10",
+      "emulatorVersion": "v0.2.2-33-g37b8a04",
+      "operatingSystem": "Android",
+      "gpu": "Mali GPU G51-MP4",
+      "scaleHack": "Couldn't test",
+      "rating": 2,
+      "reported": "2024-05-05T08:34:03Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Crashes with \"Object 0x374fccc0 (class \"NSBundle\", 0x374f6720) does not respond to selector \"localizedStringForKey:value:table:\"!",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/499/screenshot"
+    }
+  ]
+}

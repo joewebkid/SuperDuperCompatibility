@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 313,
+    "appUrl": "https://appdb.touchhle.org/apps/313",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Dungeon Hunter",
+    "releaseYear": "2009",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-04-20T14:57:05Z",
+    "firstReportedBy": {
+      "name": "@ciciplusplus",
+      "url": "https://github.com/ciciplusplus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.4.0",
+      "displayName": "Dungeon Hunter",
+      "bundleId": "com.gameloft.DungeonHunter",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-04-26T16:15:19Z"
+    },
+    {
+      "version": "1.6.1",
+      "displayName": "Dungeon Hunter",
+      "bundleId": "com.gameloft.DungeonHunter",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "491",
+      "version": "1.4.0",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android",
+      "gpu": "Mali g-52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-04-26T16:15:19Z",
+      "reportedBy": {
+        "name": "@marcosemuladores",
+        "url": "https://github.com/marcosemuladores"
+      },
+      "remarks": "the app crashes when I try to open the game",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

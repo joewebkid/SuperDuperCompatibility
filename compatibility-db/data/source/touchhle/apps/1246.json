@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1246,
+    "appUrl": "https://appdb.touchhle.org/apps/1246",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Way of the Samurai 3",
+    "releaseYear": "2009",
+    "developerPublisher": "UFO Interactive Games",
+    "firstReported": "2026-05-05T08:24:28Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.6",
+      "displayName": "Way of the Samurai 3",
+      "bundleId": "com.ufointeractivegames.samurai",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-05-05T08:24:28Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2169",
+      "version": "1.0.6",
+      "emulatorVersion": "v0.2.3-291-gf886c577 PREVIEW",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-05-05T08:24:28Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2169/screenshot"
+    }
+  ]
+}

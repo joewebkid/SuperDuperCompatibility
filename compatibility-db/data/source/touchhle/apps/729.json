@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 729,
+    "appUrl": "https://appdb.touchhle.org/apps/729",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Mental Blocks",
+    "releaseYear": null,
+    "developerPublisher": "Skyworks",
+    "firstReported": "2025-01-20T20:10:45Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "MentalBlocks",
+      "bundleId": "com.skyworks.MentalBlocksLite",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-01-20T20:10:45Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1208",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.2-549-gce0e73a",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2025-01-20T20:10:45Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1208/screenshot"
+    }
+  ]
+}

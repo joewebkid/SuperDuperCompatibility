@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 42,
+    "appUrl": "https://appdb.touchhle.org/apps/42",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sunday Lawn",
+    "releaseYear": "2009",
+    "developerPublisher": "Donut Games",
+    "firstReported": "2023-10-29T14:10:53Z",
+    "firstReportedBy": {
+      "name": "@WindowsAero",
+      "url": "https://github.com/WindowsAero"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.20",
+      "displayName": "Sunday Lawn",
+      "bundleId": "com.donutgames.sundaylawn",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@WindowsAero",
+        "url": "https://github.com/WindowsAero"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2023-10-29T14:10:53Z"
+    },
+    {
+      "version": "1.21",
+      "displayName": "Sunday Lawn",
+      "bundleId": "com.donutgames.sundaylawn",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "58",
+      "version": "1.20",
+      "emulatorVersion": "v0.2.0",
+      "operatingSystem": "Android 12",
+      "gpu": "Mali G52",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2023-10-29T14:10:53Z",
+      "reportedBy": {
+        "name": "@WindowsAero",
+        "url": "https://github.com/WindowsAero"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/58/screenshot"
+    }
+  ]
+}

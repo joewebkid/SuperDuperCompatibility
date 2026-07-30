@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 503,
+    "appUrl": "https://appdb.touchhle.org/apps/503",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bloons",
+    "releaseYear": "2009",
+    "developerPublisher": "Digital Goldfish",
+    "firstReported": "2024-08-25T17:43:06Z",
+    "firstReportedBy": {
+      "name": "@sunflowers33d",
+      "url": "https://github.com/sunflowers33d"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.1",
+      "displayName": "Bloons Lite",
+      "bundleId": "com.yourcompany.BloonsLite",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@TimofeyLednev",
+        "url": "https://github.com/TimofeyLednev"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-06-14T13:14:05Z"
+    },
+    {
+      "version": "2.5",
+      "displayName": "Bloons",
+      "bundleId": "com.yourcompany.Bloons",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@sunflowers33d",
+        "url": "https://github.com/sunflowers33d"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2273",
+      "version": "2.1",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali G52-MC2",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-06-14T13:14:05Z",
+      "reportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "remarks": "The game now works and can load the levels perfectly, didn't test enough after the first level, needs right landscape for game to be rotated right.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2273/screenshot"
+    }
+  ]
+}

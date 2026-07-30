@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 8,
+    "appUrl": "https://appdb.touchhle.org/apps/8",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Resident Evil Degeneration",
+    "releaseYear": "2009",
+    "developerPublisher": "Capcom/Ideaworks",
+    "firstReported": "2023-10-10T15:25:00Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.00.00",
+      "displayName": "Resident Evil DEGENERATION",
+      "bundleId": "jp.co.capcom.residentevil.en",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-05-15T13:32:08Z"
+    },
+    {
+      "version": "1.03.00",
+      "displayName": "resident evil DEGENERATION",
+      "bundleId": "jp.co.capcom.residentevil.en",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2026-05-03T17:10:14Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2191",
+      "version": "1.00.00",
+      "emulatorVersion": "v0.2.3-317-gba9f424d",
+      "operatingSystem": "Android 12",
+      "gpu": "PowerVR GE8320",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2026-05-15T13:32:08Z",
+      "reportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "remarks": "Beatable and works almost perfectly, just some small graphics issues from in-game cutscenes.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "2163",
+      "version": "1.03.00",
+      "emulatorVersion": "v0.2.3-276-g4db38e5c",
+      "operatingSystem": "Android 16",
+      "gpu": "Mali-G710 MP7",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2026-05-03T17:10:14Z",
+      "reportedBy": {
+        "name": "@alborrajo",
+        "url": "https://github.com/alborrajo"
+      },
+      "remarks": "Video intro doesn't play. It seems to get stuck on a black screen on boot sometimes",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

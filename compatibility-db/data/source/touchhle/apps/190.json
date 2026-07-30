@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 190,
+    "appUrl": "https://appdb.touchhle.org/apps/190",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Chicken & Egg",
+    "releaseYear": null,
+    "developerPublisher": "Donut Games",
+    "firstReported": "2023-12-18T12:42:59Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.11",
+      "displayName": "Chicken",
+      "bundleId": "com.donutgames.chickenandegg",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-04-08T03:53:19Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "466",
+      "version": "1.11",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android",
+      "gpu": "Galaxy A40",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-04-08T03:53:19Z",
+      "reportedBy": {
+        "name": "@YellowFace2",
+        "url": "https://github.com/YellowFace2"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/466/screenshot"
+    }
+  ]
+}

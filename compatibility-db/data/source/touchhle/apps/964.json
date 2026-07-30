@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 964,
+    "appUrl": "https://appdb.touchhle.org/apps/964",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Ultranium 4",
+    "releaseYear": "2008",
+    "developerPublisher": "Jade",
+    "firstReported": "2025-08-05T15:21:05Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Ultranium",
+      "bundleId": "com.jadegame.ultranium4",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-08-05T15:21:05Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1624",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.2-821-gb7d4dad",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-08-05T15:21:05Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1624/screenshot"
+    }
+  ]
+}

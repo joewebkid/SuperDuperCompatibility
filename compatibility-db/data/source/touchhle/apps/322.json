@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 322,
+    "appUrl": "https://appdb.touchhle.org/apps/322",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Transformers G1: Awakening",
+    "releaseYear": "2010",
+    "developerPublisher": "Glu",
+    "firstReported": "2024-05-13T14:31:11Z",
+    "firstReportedBy": {
+      "name": "@Jamirus238",
+      "url": "https://github.com/Jamirus238"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.0",
+      "displayName": "G1awakening",
+      "bundleId": "com.glu.transg1",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.1",
+      "displayName": "G1awakening",
+      "bundleId": "com.glu.transg1",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.3",
+      "displayName": "G1awakening",
+      "bundleId": "com.glu.transg1",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Jamirus238",
+        "url": "https://github.com/Jamirus238"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

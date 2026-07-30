@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 163,
+    "appUrl": "https://appdb.touchhle.org/apps/163",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Colorbind",
+    "releaseYear": "2010",
+    "developerPublisher": "Nonverbal",
+    "firstReported": "2023-11-30T21:19:32Z",
+    "firstReportedBy": {
+      "name": "@Dyphen",
+      "url": "https://github.com/Dyphen"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Colorbind",
+      "bundleId": "com.nonverbal.colorbind",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Dyphen",
+        "url": "https://github.com/Dyphen"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

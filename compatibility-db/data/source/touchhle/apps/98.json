@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 98,
+    "appUrl": "https://appdb.touchhle.org/apps/98",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Nescaline",
+    "releaseYear": "2009",
+    "developerPublisher": "Jonathan Zdziarski",
+    "firstReported": "2023-11-05T04:21:07Z",
+    "firstReportedBy": {
+      "name": "@AshthorneGaming",
+      "url": "https://github.com/AshthorneGaming"
+    }
+  },
+  "versions": [
+    {
+      "version": "6.0.1",
+      "displayName": "Nescaline",
+      "bundleId": "com.macbuilder.helloapp",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@AshthorneGaming",
+        "url": "https://github.com/AshthorneGaming"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

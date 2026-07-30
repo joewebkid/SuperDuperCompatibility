@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 868,
+    "appUrl": "https://appdb.touchhle.org/apps/868",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Crystals Deluxe",
+    "releaseYear": "2010",
+    "developerPublisher": "Mass Creation Sp",
+    "firstReported": "2025-04-18T23:03:12Z",
+    "firstReportedBy": {
+      "name": "@KazumaSatoudesu",
+      "url": "https://github.com/KazumaSatoudesu"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.4",
+      "displayName": "CrystalsDeluxe",
+      "bundleId": "com.mass-creation.crystal.of.atlantis.full",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@KazumaSatoudesu",
+        "url": "https://github.com/KazumaSatoudesu"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-04-18T23:03:12Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1453",
+      "version": "1.4",
+      "emulatorVersion": "v0.2.2-706-g4b97b38",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 640",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2025-04-18T23:03:12Z",
+      "reportedBy": {
+        "name": "@KazumaSatoudesu",
+        "url": "https://github.com/KazumaSatoudesu"
+      },
+      "remarks": "Panic at src/mem.rs:350:9: Attempted null-page access at 0x4 (0x4 bytes)",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1453/screenshot"
+    }
+  ]
+}

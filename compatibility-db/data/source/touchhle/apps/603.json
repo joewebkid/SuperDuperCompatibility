@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 603,
+    "appUrl": "https://appdb.touchhle.org/apps/603",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Darkest Fear",
+    "releaseYear": null,
+    "developerPublisher": "Rovio",
+    "firstReported": "2024-11-08T02:27:37Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "DarkestFear",
+      "bundleId": "com.rovio.DarkestFear",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-11-08T02:27:37Z"
+    },
+    {
+      "version": "1.1.0",
+      "displayName": "Darkest Fear",
+      "bundleId": "com.rovio.DarkestFear",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-11-17T10:03:30Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1008",
+      "version": "1.1.0",
+      "emulatorVersion": "v0.2.2-380-g98e1938",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-11-17T10:03:30Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1008/screenshot"
+    },
+    {
+      "sourceReportId": "986",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-365-g329f857",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 5,
+      "reported": "2024-11-08T02:27:37Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": "Is Works Without Crashes Panic at src/dyld.rs:604:9: Call to unimplemented function _pthread_exit",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/986/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 392,
+    "appUrl": "https://appdb.touchhle.org/apps/392",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Ziggurat",
+    "releaseYear": "2012",
+    "developerPublisher": "Action Button Entertainment",
+    "firstReported": "2024-08-03T22:50:38Z",
+    "firstReportedBy": {
+      "name": "@M00nBr1ght",
+      "url": "https://github.com/M00nBr1ght"
+    }
+  },
+  "versions": [
+    {
+      "version": "0001.00.01",
+      "displayName": "ZiGGURAT",
+      "bundleId": "com.freshuu.siggurat",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@M00nBr1ght",
+        "url": "https://github.com/M00nBr1ght"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

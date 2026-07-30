@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 141,
+    "appUrl": "https://appdb.touchhle.org/apps/141",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Hairball",
+    "releaseYear": null,
+    "developerPublisher": "Game Studios",
+    "firstReported": "2023-11-18T08:05:34Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Hairball",
+      "bundleId": "com.yourcompany.Hairball",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-03-25T17:27:33Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "411",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.1-196-g0b91983",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G51 MP4",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2024-03-25T17:27:33Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Goes ingame (like the previous report) but now crashes with \"Panic at src/mem.rs:337:9: Attempted null-page access at 0x28 (0x1 bytes)\"",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/411/screenshot"
+    }
+  ]
+}

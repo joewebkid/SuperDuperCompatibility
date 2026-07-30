@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 282,
+    "appUrl": "https://appdb.touchhle.org/apps/282",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Real Soccer 2009",
+    "releaseYear": "2008",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-04-01T21:25:29Z",
+    "firstReportedBy": {
+      "name": "@thundergun1",
+      "url": "https://github.com/thundergun1"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "RSoccer09",
+      "bundleId": "com.gameloft.RSoccer09",
+      "minimumIosVersion": "(Not Specified)",
+      "firstReportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-04-05T19:25:40Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1426",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-695-g26db6ab",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-04-05T19:25:40Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1426/screenshot"
+    },
+    {
+      "sourceReportId": "427",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-04-01T21:25:29Z",
+      "reportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "remarks": "Music doesn't work but sound effects work fine",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/427/screenshot"
+    }
+  ]
+}

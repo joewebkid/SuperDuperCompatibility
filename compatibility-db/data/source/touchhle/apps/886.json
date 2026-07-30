@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 886,
+    "appUrl": "https://appdb.touchhle.org/apps/886",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cut the Rope: Experiments",
+    "releaseYear": "2011",
+    "developerPublisher": "Zeptolab",
+    "firstReported": "2025-05-29T00:05:00Z",
+    "firstReportedBy": {
+      "name": "@YellowPerson24",
+      "url": "https://github.com/YellowPerson24"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Cut the Rope",
+      "bundleId": "com.zeptolab.ctrexperiments",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@YellowPerson24",
+        "url": "https://github.com/YellowPerson24"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-01-23T09:45:50Z"
+    },
+    {
+      "version": "1.1.1",
+      "displayName": "Cut The Rope",
+      "bundleId": "com.outfit7.ctrexperiments",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@kiratmustafa1100-glitch",
+        "url": "https://github.com/kiratmustafa1100-glitch"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-09-21T14:05:14Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1883",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 16",
+      "gpu": "ARM Mali-G57 MC2",
+      "scaleHack": "No (broken)",
+      "rating": 4,
+      "reported": "2026-01-23T09:45:50Z",
+      "reportedBy": {
+        "name": "@N0username678",
+        "url": "https://github.com/N0username678"
+      },
+      "remarks": "Animation when collecting stars only appears on top left corner and language settings doesn't work, everything else is fine.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1883/screenshot"
+    },
+    {
+      "sourceReportId": "1688",
+      "version": "1.1.1",
+      "emulatorVersion": "touchHLE PREWIEW 0.2.2-942-g06e8302",
+      "operatingSystem": "Android 12",
+      "gpu": "Mali-G57 MC2",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2025-09-21T14:05:14Z",
+      "reportedBy": {
+        "name": "@kiratmustafa1100-glitch",
+        "url": "https://github.com/kiratmustafa1100-glitch"
+      },
+      "remarks": "touchHLE crashed with the following error: Class \"NSUbiquitousKeyValueStore\" (0x3000c800) is unimplemented. Call to class method \"defaultStore\".",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1688/screenshot"
+    },
+    {
+      "sourceReportId": "1671",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-900-g425f989",
+      "operatingSystem": "Android 13",
+      "gpu": "PowerVR GE8320",
+      "scaleHack": "Partially",
+      "rating": 4,
+      "reported": "2025-09-06T12:54:17Z",
+      "reportedBy": {
+        "name": "@TheAwesomeBlue",
+        "url": "https://github.com/TheAwesomeBlue"
+      },
+      "remarks": "Sometimes crashes when clicking some menu options, but the game is playable and the crashes are inconsistent",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1671/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 600,
+    "appUrl": "https://appdb.touchhle.org/apps/600",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "FlyMe2theMoon",
+    "releaseYear": null,
+    "developerPublisher": "miHoYo Co., Ltd.",
+    "firstReported": "2024-11-04T10:32:31Z",
+    "firstReportedBy": {
+      "name": "@fixator10",
+      "url": "https://github.com/fixator10"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Fly2theMoon",
+      "bundleId": "com.mihoyo.flyme2themoon",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@fixator10",
+        "url": "https://github.com/fixator10"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

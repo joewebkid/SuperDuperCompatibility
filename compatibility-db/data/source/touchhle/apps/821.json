@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 821,
+    "appUrl": "https://appdb.touchhle.org/apps/821",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Rock Band",
+    "releaseYear": "2009",
+    "developerPublisher": "EA Montreal, Harmonix / MTV Games, Electronic Arts",
+    "firstReported": "2025-03-08T16:58:37Z",
+    "firstReportedBy": {
+      "name": "@Gabiiofficial",
+      "url": "https://github.com/Gabiiofficial"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.36",
+      "displayName": "Rock Band",
+      "bundleId": "com.ea.rockband.bv",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Gabiiofficial",
+        "url": "https://github.com/Gabiiofficial"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-03-08T16:58:37Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1384",
+      "version": "1.1.36",
+      "emulatorVersion": "v0.2.2-648-gdc75680",
+      "operatingSystem": "Android 13",
+      "gpu": "GPU ARM Mali-G57 MC3",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2025-03-08T16:58:37Z",
+      "reportedBy": {
+        "name": "@Gabiiofficial",
+        "url": "https://github.com/Gabiiofficial"
+      },
+      "remarks": "Panic at src/frameworks/foundation/ns_string.rs:119:68: called `Result::unwrap()` on an `Err` value: FromUtf8Error { bytes: [44, 200, 78, 55, 28, 232, 72, 63], error: Utf8Error { valid_up_to: 1, error_len: Some(1) } }",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1384/screenshot"
+    }
+  ]
+}

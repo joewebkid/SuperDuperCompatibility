@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 713,
+    "appUrl": "https://appdb.touchhle.org/apps/713",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "2XL Supercross Lite",
+    "releaseYear": "2009",
+    "developerPublisher": "2XL Games, Inc.",
+    "firstReported": "2025-01-16T00:17:30Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "2XL SX Lite",
+      "bundleId": "com.twoxlgames.iphone.supercrosslite",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-01-16T00:17:30Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1185",
+      "version": "1.0",
+      "emulatorVersion": "0.2.2-357-gd448875",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-01-16T00:17:30Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "Game Crash when the title name shows",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1185/screenshot"
+    }
+  ]
+}

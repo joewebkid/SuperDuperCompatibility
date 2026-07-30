@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 151,
+    "appUrl": "https://appdb.touchhle.org/apps/151",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "1 vs 100",
+    "releaseYear": null,
+    "developerPublisher": "Gameloft",
+    "firstReported": "2023-11-24T10:36:15Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.1",
+      "displayName": "1 vs 100",
+      "bundleId": "com.gameloft.OneVsHundred",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-11-22T19:39:21Z"
+    },
+    {
+      "version": "1.1.4",
+      "displayName": "1 vs 100",
+      "bundleId": "com.gameloft.OneVsHundred",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1031",
+      "version": "1.1.1",
+      "emulatorVersion": "v0.2.2-399-g3664ce5",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G51 MP4",
+      "scaleHack": "Couldn't test",
+      "rating": 4,
+      "reported": "2024-11-22T19:39:21Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Goes ingame, but strangely it crashes when attempting to play a second time.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1031/screenshot"
+    }
+  ]
+}

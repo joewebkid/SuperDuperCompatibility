@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1103,
+    "appUrl": "https://appdb.touchhle.org/apps/1103",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "iDare",
+    "releaseYear": "2008",
+    "developerPublisher": "the game creators",
+    "firstReported": "2026-01-26T07:37:05Z",
+    "firstReportedBy": {
+      "name": "@koto499-a",
+      "url": "https://github.com/koto499-a"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.3",
+      "displayName": "iDare",
+      "bundleId": "com.thegamecreators.iDare",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@koto499-a",
+        "url": "https://github.com/koto499-a"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-26T07:37:05Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1893",
+      "version": "1.3",
+      "emulatorVersion": "v0.2.3-66-gdcc056a7",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57 MC2",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-01-26T07:37:05Z",
+      "reportedBy": {
+        "name": "@koto499-a",
+        "url": "https://github.com/koto499-a"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1893/screenshot"
+    }
+  ]
+}

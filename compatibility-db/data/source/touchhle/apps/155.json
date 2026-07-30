@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 155,
+    "appUrl": "https://appdb.touchhle.org/apps/155",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "G.I. JOE: THE RISE OF COBRA - BASIC TRAINING",
+    "releaseYear": "2009",
+    "developerPublisher": "Paramount",
+    "firstReported": "2023-11-25T06:00:56Z",
+    "firstReportedBy": {
+      "name": "@gaming-and-other-stuff",
+      "url": "https://github.com/gaming-and-other-stuff"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "GI JOE BT",
+      "bundleId": "com.paramount.GIJOE",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@gaming-and-other-stuff",
+        "url": "https://github.com/gaming-and-other-stuff"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

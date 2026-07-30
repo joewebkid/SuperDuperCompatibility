@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 590,
+    "appUrl": "https://appdb.touchhle.org/apps/590",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "NewTonica",
+    "releaseYear": null,
+    "developerPublisher": "fieldsystem",
+    "firstReported": "2024-10-31T10:07:26Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "newtonica",
+      "bundleId": "com.fieldsystem.newtonica",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-10-31T10:07:26Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "967",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-360-g5692272",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2024-10-31T10:07:26Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": "After Crash Of Game Over",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/967/screenshot"
+    }
+  ]
+}

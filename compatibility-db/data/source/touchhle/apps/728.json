@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 728,
+    "appUrl": "https://appdb.touchhle.org/apps/728",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Watchmen: Justice is Coming",
+    "releaseYear": "2009",
+    "developerPublisher": "Warner Bros / Last Legion Games / DC",
+    "firstReported": "2025-01-20T19:46:27Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Watchmen",
+      "bundleId": "com.wb.WatchmenJIC",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-01-20T19:46:27Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1207",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-549-gce0e73a",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2025-01-20T19:46:27Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1207/screenshot"
+    }
+  ]
+}

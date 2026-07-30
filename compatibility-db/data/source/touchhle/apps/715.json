@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 715,
+    "appUrl": "https://appdb.touchhle.org/apps/715",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Nicky Boom",
+    "releaseYear": "2008",
+    "developerPublisher": "DotEmu / Chillingo",
+    "firstReported": "2025-01-16T15:18:05Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.2",
+      "displayName": "Nicky Boom",
+      "bundleId": "com.chillingo.nickyboom",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-01-16T15:18:05Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1188",
+      "version": "2.2",
+      "emulatorVersion": "v0.2.2-537-gd448875",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2025-01-16T15:18:05Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1188/screenshot"
+    }
+  ]
+}

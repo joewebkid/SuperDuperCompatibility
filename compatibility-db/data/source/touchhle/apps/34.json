@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 34,
+    "appUrl": "https://appdb.touchhle.org/apps/34",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Lucky Coins",
+    "releaseYear": "2010",
+    "developerPublisher": "Donut Games",
+    "firstReported": "2023-10-26T19:52:10Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.00",
+      "displayName": "Lucky Coins",
+      "bundleId": "com.donutgames.luckycoins",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-12-01T08:11:51Z"
+    },
+    {
+      "version": "1.00",
+      "displayName": "Lucky Coins",
+      "bundleId": "com.donutgames.luckycoins",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-12-01T08:11:51Z"
+    },
+    {
+      "version": "1.20",
+      "displayName": "Lucky Coins",
+      "bundleId": "com.donutgames.luckycoins",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.30",
+      "displayName": "Lucky Coins",
+      "bundleId": "com.donutgames.luckycoins",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1054",
+      "version": "1.00",
+      "emulatorVersion": "v0.2.2-448-g66cb080",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2024-12-01T08:11:51Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "Audio now works, but the game still crashes when the high scores display after a game. Crash: Panic at src/objc/objects.rs:263:77: called `Option::unwrap()` on a `None` value",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1054/screenshot"
+    }
+  ]
+}

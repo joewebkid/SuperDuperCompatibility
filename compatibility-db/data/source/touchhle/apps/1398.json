@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1398,
+    "appUrl": "https://appdb.touchhle.org/apps/1398",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Noble Nutlings",
+    "releaseYear": "2013",
+    "developerPublisher": "Boomlagoon",
+    "firstReported": "2026-06-27T02:13:41Z",
+    "firstReportedBy": {
+      "name": "@Mihan741",
+      "url": "https://github.com/Mihan741"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Noble Nutlings",
+      "bundleId": "com.boomlagoon.noblenutlings",
+      "minimumIosVersion": "4.3",
+      "firstReportedBy": {
+        "name": "@Mihan741",
+        "url": "https://github.com/Mihan741"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-06-27T02:13:41Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2404",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "android 16",
+      "gpu": "Adreno (TM) 840",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2026-06-27T02:13:41Z",
+      "reportedBy": {
+        "name": "@Mihan741",
+        "url": "https://github.com/Mihan741"
+      },
+      "remarks": "error: Call to unimplemented function _objc_getClass",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

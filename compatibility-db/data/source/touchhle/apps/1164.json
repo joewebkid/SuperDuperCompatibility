@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1164,
+    "appUrl": "https://appdb.touchhle.org/apps/1164",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Dream Park",
+    "releaseYear": "2011",
+    "developerPublisher": "Beeline Interactive",
+    "firstReported": "2026-03-07T14:33:04Z",
+    "firstReportedBy": {
+      "name": "@JoekeMeijer",
+      "url": "https://github.com/JoekeMeijer"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.3",
+      "displayName": "Dream Park",
+      "bundleId": "com.capcommobile.dreampark",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@JoekeMeijer",
+        "url": "https://github.com/JoekeMeijer"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

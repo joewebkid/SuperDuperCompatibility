@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 714,
+    "appUrl": "https://appdb.touchhle.org/apps/714",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "The Dark Knight: Batmobile Game",
+    "releaseYear": "2008",
+    "developerPublisher": "Glu Snax WB DC",
+    "firstReported": "2025-01-16T01:23:36Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Batmobile",
+      "bundleId": "com.wb.TDKBatmobile",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-01-16T01:23:36Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1186",
+      "version": "1.1",
+      "emulatorVersion": "0.2.2-357-gd448875",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-01-16T01:23:36Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "The app Crash when I press the game",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

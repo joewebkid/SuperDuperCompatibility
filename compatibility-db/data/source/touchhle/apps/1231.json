@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1231,
+    "appUrl": "https://appdb.touchhle.org/apps/1231",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Talking John The Bacteria",
+    "releaseYear": "2010",
+    "developerPublisher": "Outfit7",
+    "firstReported": "2026-04-30T08:17:09Z",
+    "firstReportedBy": {
+      "name": "@maksimbodoncoev7-svg",
+      "url": "https://github.com/maksimbodoncoev7-svg"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Talking john",
+      "bundleId": "com.outfit7.talkingbacteria",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@maksimbodoncoev7-svg",
+        "url": "https://github.com/maksimbodoncoev7-svg"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-04-30T08:17:09Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2119",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-251-g92674bfd",
+      "operatingSystem": "android 15",
+      "gpu": "Mediatek helio g85",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2026-04-30T08:17:09Z",
+      "reportedBy": {
+        "name": "@maksimbodoncoev7-svg",
+        "url": "https://github.com/maksimbodoncoev7-svg"
+      },
+      "remarks": "Call to unimplemented function_freopen",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1150,
+    "appUrl": "https://appdb.touchhle.org/apps/1150",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Archibald's Adventures",
+    "releaseYear": null,
+    "developerPublisher": "Rake in Grass",
+    "firstReported": "2026-02-20T23:26:57Z",
+    "firstReportedBy": {
+      "name": "@bountifulellie",
+      "url": "https://github.com/bountifulellie"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Archibald",
+      "bundleId": "com.rakeingrass.archibaldsadventures",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@bountifulellie",
+        "url": "https://github.com/bountifulellie"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-02-20T23:26:57Z"
+    },
+    {
+      "version": "1.8",
+      "displayName": "Archibald",
+      "bundleId": "com.rakeingrass.archibaldsadventures",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@LuigiMario79",
+        "url": "https://github.com/LuigiMario79"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1974",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.3-123-gacd12df7",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno 710",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-02-20T23:26:57Z",
+      "reportedBy": {
+        "name": "@bountifulellie",
+        "url": "https://github.com/bountifulellie"
+      },
+      "remarks": "Panic at src/frameworks/audio_toolbox/audio_components.rs:130:5: assertion failed: audio_comp_descr.component_manufacturer == kAudioUnitManufacturer_Apple",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

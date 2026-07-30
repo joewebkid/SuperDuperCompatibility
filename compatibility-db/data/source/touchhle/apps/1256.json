@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1256,
+    "appUrl": "https://appdb.touchhle.org/apps/1256",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Crafted",
+    "releaseYear": "2011",
+    "developerPublisher": "MCroft / Transmira",
+    "firstReported": "2026-05-12T02:12:10Z",
+    "firstReportedBy": {
+      "name": "@misaweck",
+      "url": "https://github.com/misaweck"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "Crafted",
+      "bundleId": "com.mcroft.crafted",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@misaweck",
+        "url": "https://github.com/misaweck"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-05-12T02:12:10Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2185",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android",
+      "gpu": "Helio G95",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-05-12T02:12:10Z",
+      "reportedBy": {
+        "name": "@misaweck",
+        "url": "https://github.com/misaweck"
+      },
+      "remarks": "The app crashes on startup with the error: Object (class 'RootViewController') does not respond to selector 'setWantsFullScreenLayout:",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2185/screenshot"
+    }
+  ]
+}

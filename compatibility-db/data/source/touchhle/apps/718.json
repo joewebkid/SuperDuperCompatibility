@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 718,
+    "appUrl": "https://appdb.touchhle.org/apps/718",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Just Run",
+    "releaseYear": "January 27, 2009",
+    "developerPublisher": "Dijiple",
+    "firstReported": "2025-01-16T21:54:29Z",
+    "firstReportedBy": {
+      "name": "@Frik9577",
+      "url": "https://github.com/Frik9577"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Just Run",
+      "bundleId": "com.digiple.justrun",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Frik9577",
+        "url": "https://github.com/Frik9577"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-01-16T21:54:29Z"
+    },
+    {
+      "version": "1.5",
+      "displayName": "JustRun",
+      "bundleId": "com.digiple.justrun",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@j92580498-max",
+        "url": "https://github.com/j92580498-max"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-06T19:41:34Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1804",
+      "version": "1.5",
+      "emulatorVersion": "v0.2.3-2-g8f46b692",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57 MC2",
+      "scaleHack": "No (broken)",
+      "rating": 5,
+      "reported": "2026-01-06T19:41:34Z",
+      "reportedBy": {
+        "name": "@j92580498-max",
+        "url": "https://github.com/j92580498-max"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1804/screenshot"
+    },
+    {
+      "sourceReportId": "1191",
+      "version": "1.0",
+      "emulatorVersion": "v 0.2.2 537 gd448875",
+      "operatingSystem": "Android 8.1.0",
+      "gpu": "ARM Mali-G51 MP4",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-01-16T21:54:29Z",
+      "reportedBy": {
+        "name": "@Frik9577",
+        "url": "https://github.com/Frik9577"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 845,
+    "appUrl": "https://appdb.touchhle.org/apps/845",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "New Bust-A-Move",
+    "releaseYear": "2011",
+    "developerPublisher": "Taito",
+    "firstReported": "2025-04-01T20:21:14Z",
+    "firstReportedBy": {
+      "name": "@Froakiein2022",
+      "url": "https://github.com/Froakiein2022"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.0.2",
+      "displayName": "New Bust-A-Move",
+      "bundleId": "jp.co.taito.NPB-N",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Froakiein2022",
+        "url": "https://github.com/Froakiein2022"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

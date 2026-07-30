@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1436,
+    "appUrl": "https://appdb.touchhle.org/apps/1436",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Transformers 3",
+    "releaseYear": "2011",
+    "developerPublisher": "EA Mobile",
+    "firstReported": "2026-07-25T16:34:14Z",
+    "firstReportedBy": {
+      "name": "@sonic1234987s-hue",
+      "url": "https://github.com/sonic1234987s-hue"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Transformers",
+      "bundleId": "com.ea.transformers3.bv",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@sonic1234987s-hue",
+        "url": "https://github.com/sonic1234987s-hue"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-07-25T16:34:14Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2471",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.3-466-gda6b2815",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G57",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-07-25T16:34:14Z",
+      "reportedBy": {
+        "name": "@sonic1234987s-hue",
+        "url": "https://github.com/sonic1234987s-hue"
+      },
+      "remarks": "Call to unimplemented function_dladdr",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2471/screenshot"
+    }
+  ]
+}

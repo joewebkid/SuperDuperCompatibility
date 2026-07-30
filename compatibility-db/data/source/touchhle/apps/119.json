@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 119,
+    "appUrl": "https://appdb.touchhle.org/apps/119",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Christmas with Weezer",
+    "releaseYear": "2008",
+    "developerPublisher": "Tapulous",
+    "firstReported": "2023-11-10T05:35:37Z",
+    "firstReportedBy": {
+      "name": "@AshthorneGaming",
+      "url": "https://github.com/AshthorneGaming"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Christmas",
+      "bundleId": "com.tapulous.xmas",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@AshthorneGaming",
+        "url": "https://github.com/AshthorneGaming"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

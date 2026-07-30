@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 5,
+    "appUrl": "https://appdb.touchhle.org/apps/5",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Mystery Mania",
+    "releaseYear": "2009",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2023-10-10T14:20:44Z",
+    "firstReportedBy": {
+      "name": "@hikari-no-yume",
+      "url": "https://github.com/hikari-no-yume"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.0",
+      "displayName": "MysteryMania",
+      "bundleId": "com.ea.mysterymania.inc",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.2",
+      "displayName": "MysteryMania",
+      "bundleId": "com.ea.mysterymania.bv",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@JCTOTGaming",
+        "url": "https://github.com/JCTOTGaming"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.26",
+      "displayName": "MysteryMania",
+      "bundleId": "com.ea.mysterymania.inc",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-09-09T12:20:40Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "818",
+      "version": "1.1.26",
+      "emulatorVersion": "v0.2.2-253-ge7539df",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-09-09T12:20:40Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Panic at src/dyld.rs:604:9: Call to unimplemented function _CGContextSetTextDrawingMode",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

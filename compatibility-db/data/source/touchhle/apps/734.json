@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 734,
+    "appUrl": "https://appdb.touchhle.org/apps/734",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Plasma Ball",
+    "releaseYear": "2008",
+    "developerPublisher": "Ludigames",
+    "firstReported": "2025-01-22T17:07:48Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "Plasma Ball",
+      "bundleId": "com.ludigames.PlasmaBall",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-01-22T18:22:59Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1223",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-553-g9d47662",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Partially",
+      "rating": 4,
+      "reported": "2025-01-22T18:22:59Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": "The Sounds doesnt's Work",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1223/screenshot"
+    }
+  ]
+}

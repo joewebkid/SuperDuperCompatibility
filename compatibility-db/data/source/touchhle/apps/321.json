@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 321,
+    "appUrl": "https://appdb.touchhle.org/apps/321",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Rock Band Reloaded",
+    "releaseYear": "2010",
+    "developerPublisher": "Harmonix/MTV Games/EA Mobile",
+    "firstReported": "2024-05-05T07:50:06Z",
+    "firstReportedBy": {
+      "name": "@PemudaBerbadanGelap",
+      "url": "https://github.com/PemudaBerbadanGelap"
+    }
+  },
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "displayName": "RB Reloaded",
+      "bundleId": "com.ea.rockband2.inc",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@PemudaBerbadanGelap",
+        "url": "https://github.com/PemudaBerbadanGelap"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-05-05T07:50:06Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "498",
+      "version": "v1.0.0",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android 9",
+      "gpu": "PowerVR GE8320",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-05-05T07:50:06Z",
+      "reportedBy": {
+        "name": "@PemudaBerbadanGelap",
+        "url": "https://github.com/PemudaBerbadanGelap"
+      },
+      "remarks": "Crashes during launch",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

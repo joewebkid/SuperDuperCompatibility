@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 143,
+    "appUrl": "https://appdb.touchhle.org/apps/143",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Super Yum Yum 3",
+    "releaseYear": "2009",
+    "developerPublisher": "Airplay",
+    "firstReported": "2023-11-18T19:11:38Z",
+    "firstReportedBy": {
+      "name": "@Reupload372",
+      "url": "https://github.com/Reupload372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "SuperYumYum3",
+      "bundleId": "com.airplay.SuperYumYum3",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@Reupload372",
+        "url": "https://github.com/Reupload372"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-11-18T19:11:38Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "217",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 11",
+      "gpu": "Galaxy A40",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2023-11-18T19:11:38Z",
+      "reportedBy": {
+        "name": "@Reupload372",
+        "url": "https://github.com/Reupload372"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/217/screenshot"
+    }
+  ]
+}

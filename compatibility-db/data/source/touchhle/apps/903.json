@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 903,
+    "appUrl": "https://appdb.touchhle.org/apps/903",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Zombie City",
+    "releaseYear": null,
+    "developerPublisher": "Wise Ntive",
+    "firstReported": "2025-06-14T08:59:10Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Zombie_City",
+      "bundleId": "kr.wisentive.zombiecity",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-06-14T08:59:10Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1508",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.2-740-gb448f97",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-06-14T08:59:10Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1508/screenshot"
+    }
+  ]
+}

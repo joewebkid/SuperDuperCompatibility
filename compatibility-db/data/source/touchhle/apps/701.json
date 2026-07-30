@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 701,
+    "appUrl": "https://appdb.touchhle.org/apps/701",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "JellyCar 3",
+    "releaseYear": "2011",
+    "developerPublisher": "Walaber",
+    "firstReported": "2025-01-10T12:16:38Z",
+    "firstReportedBy": {
+      "name": "@NothingPerson1234567890",
+      "url": "https://github.com/NothingPerson1234567890"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "JellyCar 3",
+      "bundleId": "com.disney.JellyCar3",
+      "minimumIosVersion": "3.1.3",
+      "firstReportedBy": {
+        "name": "@NothingPerson1234567890",
+        "url": "https://github.com/NothingPerson1234567890"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

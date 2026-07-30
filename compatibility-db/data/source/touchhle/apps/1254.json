@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1254,
+    "appUrl": "https://appdb.touchhle.org/apps/1254",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Littlest Pet Shop",
+    "releaseYear": "2009",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2026-05-11T08:07:42Z",
+    "firstReportedBy": {
+      "name": "@WiS-Cuddles",
+      "url": "https://github.com/WiS-Cuddles"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "LPS",
+      "bundleId": "com.ea.tlps.row",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-05-11T08:07:42Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2183",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.3-298-g3c585058",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali-G76 MC4",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2026-05-11T08:07:42Z",
+      "reportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "remarks": "touchHLE::libc::posix_io: Warning: read(3, 0x51c50c, 0x2000) read only 0x2cf bytes Panic at src/libc/arpa/inet.rs:29:51: called `Result::unwrap()` on an `Err` value: AddrParseError(Ipv4)",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2183/screenshot"
+    }
+  ]
+}

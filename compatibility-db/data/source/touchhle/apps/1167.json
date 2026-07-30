@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1167,
+    "appUrl": "https://appdb.touchhle.org/apps/1167",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "SPR",
+    "releaseYear": "2009",
+    "developerPublisher": "photoncreations",
+    "firstReported": "2026-03-08T12:42:42Z",
+    "firstReportedBy": {
+      "name": "@Kotolemo",
+      "url": "https://github.com/Kotolemo"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "SPR",
+      "bundleId": "com.photoncreations.SPR",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@Kotolemo",
+        "url": "https://github.com/Kotolemo"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-03-08T12:42:42Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2007",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.3-147-gd7668926",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-03-08T12:42:42Z",
+      "reportedBy": {
+        "name": "@Kotolemo",
+        "url": "https://github.com/Kotolemo"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2007/screenshot"
+    }
+  ]
+}

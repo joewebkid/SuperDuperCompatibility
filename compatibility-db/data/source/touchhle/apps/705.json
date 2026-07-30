@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 705,
+    "appUrl": "https://appdb.touchhle.org/apps/705",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "DizzyMission",
+    "releaseYear": "2009",
+    "developerPublisher": "Robert Gering",
+    "firstReported": "2025-01-11T01:12:02Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "DizzyMission",
+      "bundleId": "de.robertgering.DizzyMission",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-01-11T01:12:02Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1172",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-522-g161136a",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-01-11T01:12:02Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "Game Crash when the title name shows",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1172/screenshot"
+    }
+  ]
+}

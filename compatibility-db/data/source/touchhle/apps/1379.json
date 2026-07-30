@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1379,
+    "appUrl": "https://appdb.touchhle.org/apps/1379",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "iBowl",
+    "releaseYear": "2008",
+    "developerPublisher": "SGN",
+    "firstReported": "2026-06-23T18:16:32Z",
+    "firstReportedBy": {
+      "name": "@IrishGamer373",
+      "url": "https://github.com/IrishGamer373"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.0",
+      "displayName": "iBowl",
+      "bundleId": "com.sgn.iBowl",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-06-23T19:56:48Z"
+    },
+    {
+      "version": "7.20",
+      "displayName": "iBowl",
+      "bundleId": "com.sgn.iBowl",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-23T18:16:32Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2381",
+      "version": "2.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MP2",
+      "scaleHack": "No (broken)",
+      "rating": 2,
+      "reported": "2026-06-23T19:56:48Z",
+      "reportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "remarks": "It Shows Splash Screen, Then It Shows Main Menu, However If You Press Any Words, Then It Crashes With: Object 0x3000b720 (class \"GameController\", 0x22640) does not respond to selector \"presentModalViewController:animated:\"!",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2381/screenshot"
+    },
+    {
+      "sourceReportId": "2380",
+      "version": "7.20",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MP2",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-06-23T18:16:32Z",
+      "reportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "remarks": "It Shows SGN Logo, Then It Crashes With: Object 0x30014510 (class \"_touchHLE_NSMutableDictionary\", 0x30012370) does not respond to selector \"setDictionary:\"!",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2380/screenshot"
+    }
+  ]
+}

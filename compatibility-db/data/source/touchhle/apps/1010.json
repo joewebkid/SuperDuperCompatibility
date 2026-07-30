@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1010,
+    "appUrl": "https://appdb.touchhle.org/apps/1010",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Apocalypse Zombie Fish",
+    "releaseYear": "2009",
+    "developerPublisher": "The Binary Mill",
+    "firstReported": "2025-11-02T04:05:10Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.3",
+      "displayName": "Zombie Fish",
+      "bundleId": "com.nextgenreality.ApocalypseZombieFish",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-11-02T04:05:10Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1718",
+      "version": "1.0.3",
+      "emulatorVersion": "v0.2.2-978-958773d6 PREVIEW",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2025-11-02T04:05:10Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1718/screenshot"
+    }
+  ]
+}

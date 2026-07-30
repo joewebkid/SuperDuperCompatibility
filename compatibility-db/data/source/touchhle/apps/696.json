@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 696,
+    "appUrl": "https://appdb.touchhle.org/apps/696",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Rave Light",
+    "releaseYear": "2009",
+    "developerPublisher": "nuclearelements",
+    "firstReported": "2025-01-05T17:25:04Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Rave Light",
+      "bundleId": "com.nuclearelements.RaveLight",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-01-05T17:25:04Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1158",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-511-g8a1156d",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 5,
+      "reported": "2025-01-05T17:25:04Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1158/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 167,
+    "appUrl": "https://appdb.touchhle.org/apps/167",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Kapsel racer",
+    "releaseYear": null,
+    "developerPublisher": "Spruce Technologies",
+    "firstReported": "2023-12-04T17:27:59Z",
+    "firstReportedBy": {
+      "name": "@omagadsamsa",
+      "url": "https://github.com/omagadsamsa"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.1",
+      "displayName": "KapselRacer",
+      "bundleId": "pl.spruce.KapselRacer",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@omagadsamsa",
+        "url": "https://github.com/omagadsamsa"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-04-06T14:41:42Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "463",
+      "version": "2.1",
+      "emulatorVersion": "v0.2.2-7-g8fd0518",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali G51 MP4",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2024-04-06T14:41:42Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Goes ingame, but when I press the kart, the game crashes with \"Call to unimplemented function _glReadPixels\".",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/463/screenshot"
+    }
+  ]
+}

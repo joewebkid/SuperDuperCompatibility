@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 116,
+    "appUrl": "https://appdb.touchhle.org/apps/116",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Ferrari GT: Evolution",
+    "releaseYear": "2008",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2023-11-08T21:59:24Z",
+    "firstReportedBy": {
+      "name": "@Legend0P",
+      "url": "https://github.com/Legend0P"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.0",
+      "displayName": "Ferrari",
+      "bundleId": "com.gameloft.Ferrari",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-01-21T22:06:39Z"
+    },
+    {
+      "version": "1.3.4",
+      "displayName": "Ferrari",
+      "bundleId": "com.gameloft.Ferrari",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Legend0P",
+        "url": "https://github.com/Legend0P"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-01-26T13:45:24Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1247",
+      "version": "1.3.4",
+      "emulatorVersion": "v0.2.2-553-g9d47662",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Partially",
+      "rating": 4,
+      "reported": "2025-01-26T13:45:24Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1247/screenshot"
+    },
+    {
+      "sourceReportId": "1213",
+      "version": "1.1.0",
+      "emulatorVersion": "v0.2.2-553-g9d476622",
+      "operatingSystem": "Android 13",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Partially",
+      "rating": 4,
+      "reported": "2025-01-21T22:06:39Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "Playable. Videos are skipped. Background music doesn't loop. Sounds are not working.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1213/screenshot"
+    },
+    {
+      "sourceReportId": "457",
+      "version": "1.3.4",
+      "emulatorVersion": "v0.2.2-6-g289f7e7",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali G51 MP4",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-04-05T02:59:53Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Crashes at \"Panic at src/objc/messages.rs:60:13: Object 0x374f82b0 (class \"EAGLView\", 0x148934) does not respond to selector \"setExclusiveTouch:\"!\".",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "177",
+      "version": "1.3.4",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 13",
+      "gpu": "Adreno 660",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2023-11-08T21:59:24Z",
+      "reportedBy": {
+        "name": "@Legend0P",
+        "url": "https://github.com/Legend0P"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

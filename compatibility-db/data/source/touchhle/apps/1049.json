@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1049,
+    "appUrl": "https://appdb.touchhle.org/apps/1049",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Flick Bowling 2",
+    "releaseYear": "2009",
+    "developerPublisher": "Freeverse",
+    "firstReported": "2026-01-04T14:10:52Z",
+    "firstReportedBy": {
+      "name": "@whatisyourname18",
+      "url": "https://github.com/whatisyourname18"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "FlickBowling2",
+      "bundleId": "com.freeverse.flicksports",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@whatisyourname18",
+        "url": "https://github.com/whatisyourname18"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-01-04T14:10:52Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1788",
+      "version": "1.0",
+      "emulatorVersion": "0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2026-01-04T14:10:52Z",
+      "reportedBy": {
+        "name": "@whatisyourname18",
+        "url": "https://github.com/whatisyourname18"
+      },
+      "remarks": "touchHLE crashed with touchHLE crashed with the following error:Class \"NSOperationQueue\" (0x374d5f70) is unimplanted. Call to class method \"alloc\".",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

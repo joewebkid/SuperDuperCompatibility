@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 566,
+    "appUrl": "https://appdb.touchhle.org/apps/566",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Uber Racer 3D: Sandstorm",
+    "releaseYear": null,
+    "developerPublisher": "Mad Processor Games",
+    "firstReported": "2024-10-26T07:12:17Z",
+    "firstReportedBy": {
+      "name": "@RazorDaBoss",
+      "url": "https://github.com/RazorDaBoss"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Uber Racer",
+      "bundleId": "com.madprocessorgames.uberracer",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Einhander111",
+        "url": "https://github.com/Einhander111"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.2",
+      "displayName": "Uber Racer",
+      "bundleId": "com.madprocessorgames.uberracer",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@RazorDaBoss",
+        "url": "https://github.com/RazorDaBoss"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

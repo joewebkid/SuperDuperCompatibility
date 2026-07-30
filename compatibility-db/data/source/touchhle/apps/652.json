@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 652,
+    "appUrl": "https://appdb.touchhle.org/apps/652",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Dark Shrine",
+    "releaseYear": "2010",
+    "developerPublisher": "Devsisters / HotDog Studios",
+    "firstReported": "2024-12-09T15:35:37Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.07",
+      "displayName": "DarkShrine",
+      "bundleId": "com.mobliercorp.DarkShrine",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-12-09T15:35:37Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1084",
+      "version": "1.07",
+      "emulatorVersion": "v0.2.2-479-gbddbb9c",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2024-12-09T15:35:37Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1084/screenshot"
+    }
+  ]
+}

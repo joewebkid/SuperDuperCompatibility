@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 364,
+    "appUrl": "https://appdb.touchhle.org/apps/364",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Platypus",
+    "releaseYear": "2009",
+    "developerPublisher": "Handmark, Inc.",
+    "firstReported": "2024-07-14T17:22:55Z",
+    "firstReportedBy": {
+      "name": "@Cure643",
+      "url": "https://github.com/Cure643"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.00",
+      "displayName": "Platypus",
+      "bundleId": "com.yourcompany.Platypus",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-01-31T13:27:30Z"
+    },
+    {
+      "version": "1.20",
+      "displayName": "Platypus",
+      "bundleId": "com.yourcompany.Platypus",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Cure643",
+        "url": "https://github.com/Cure643"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-07-14T17:22:55Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1259",
+      "version": "1.00",
+      "emulatorVersion": "v0.2.2-561-g968c807",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2025-01-31T13:27:30Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1259/screenshot"
+    },
+    {
+      "sourceReportId": "558",
+      "version": "1.20",
+      "emulatorVersion": "v0.2.2-123-g0283fc2",
+      "operatingSystem": "Android 14",
+      "gpu": "Mediatek Dimensity 7020",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-07-14T17:22:55Z",
+      "reportedBy": {
+        "name": "@Cure643",
+        "url": "https://github.com/Cure643"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/558/screenshot"
+    }
+  ]
+}

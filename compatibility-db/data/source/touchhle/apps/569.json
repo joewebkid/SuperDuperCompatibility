@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 569,
+    "appUrl": "https://appdb.touchhle.org/apps/569",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Raging Thunder II",
+    "releaseYear": null,
+    "developerPublisher": "Polarbit / Pixelbite Games",
+    "firstReported": "2024-10-26T15:13:02Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "R.Thunder 2",
+      "bundleId": "com.polarbit.Raging",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-10-26T15:13:02Z"
+    },
+    {
+      "version": "1.0.2",
+      "displayName": "R.Thunder 2",
+      "bundleId": "com.polarbit.Raging",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@neon53-sudo",
+        "url": "https://github.com/neon53-sudo"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-12-01T11:43:38Z"
+    },
+    {
+      "version": "1.0.3",
+      "displayName": "R. Thunder 2",
+      "bundleId": "com.polarbit.Raging",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@RACING12",
+        "url": "https://github.com/RACING12"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-01-16T14:24:13Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1187",
+      "version": "1.0.3",
+      "emulatorVersion": "v0.2.2-537-gd448875",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-01-16T14:24:13Z",
+      "reportedBy": {
+        "name": "@RACING12",
+        "url": "https://github.com/RACING12"
+      },
+      "remarks": "The game runs well, with a few issues in the engine sounds",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1055",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-457-g71e1b51",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2024-12-01T11:43:38Z",
+      "reportedBy": {
+        "name": "@neon53-sudo",
+        "url": "https://github.com/neon53-sudo"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "944",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.2-359-g7b1b382",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2024-10-26T15:13:02Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/944/screenshot"
+    }
+  ]
+}

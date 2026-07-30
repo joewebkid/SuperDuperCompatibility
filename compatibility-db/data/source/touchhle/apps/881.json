@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 881,
+    "appUrl": "https://appdb.touchhle.org/apps/881",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Castle Fantasy",
+    "releaseYear": "2010",
+    "developerPublisher": "Croquis / SBA",
+    "firstReported": "2025-05-12T10:52:38Z",
+    "firstReportedBy": {
+      "name": "@DaCringeyBaka",
+      "url": "https://github.com/DaCringeyBaka"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.20",
+      "displayName": "C.F.",
+      "bundleId": "Croquisoft.com.CastleFantasy",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-05-12T10:52:38Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1478",
+      "version": "1.20",
+      "emulatorVersion": "v0.2.2-711-gbbe0b8f",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-05-12T10:52:38Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1478/screenshot"
+    }
+  ]
+}

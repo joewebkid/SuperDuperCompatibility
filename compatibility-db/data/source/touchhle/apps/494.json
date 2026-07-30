@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 494,
+    "appUrl": "https://appdb.touchhle.org/apps/494",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Icy Tower",
+    "releaseYear": "2010",
+    "developerPublisher": "Digital Chocolate",
+    "firstReported": "2024-08-18T23:34:17Z",
+    "firstReportedBy": {
+      "name": "@Laserdisc9X",
+      "url": "https://github.com/Laserdisc9X"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Icy Tower",
+      "bundleId": "com.digitalchocolate.IcyTower",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Laserdisc9X",
+        "url": "https://github.com/Laserdisc9X"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-02-02T02:27:15Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1266",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.2-561-g968c807",
+      "operatingSystem": "Android 13",
+      "gpu": "Samsung A12",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2025-02-02T02:27:15Z",
+      "reportedBy": {
+        "name": "@XGRiDEN",
+        "url": "https://github.com/XGRiDEN"
+      },
+      "remarks": "Similar issues from what @Laserdisc9X has found.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

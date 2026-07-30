@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1344,
+    "appUrl": "https://appdb.touchhle.org/apps/1344",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Blocks Touch",
+    "releaseYear": null,
+    "developerPublisher": "bootant.com",
+    "firstReported": "2026-06-20T22:45:13Z",
+    "firstReportedBy": {
+      "name": "@0ldw4re",
+      "url": "https://github.com/0ldw4re"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.9",
+      "displayName": "BlocksTouch",
+      "bundleId": "com.bootant.BreakTouch",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-06-20T22:45:13Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2327",
+      "version": "1.0.9",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-06-20T22:45:13Z",
+      "reportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "remarks": "Seems to work fully.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2327/screenshot"
+    }
+  ]
+}

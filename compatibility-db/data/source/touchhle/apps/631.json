@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 631,
+    "appUrl": "https://appdb.touchhle.org/apps/631",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "2010 World Map",
+    "releaseYear": null,
+    "developerPublisher": "appventions",
+    "firstReported": "2024-11-29T21:14:51Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.6",
+      "displayName": "2010 Map",
+      "bundleId": "com.appventions.worldmap",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-11-29T21:14:51Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1048",
+      "version": "1.6",
+      "emulatorVersion": "v0.2.2-448-g66cb080",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-11-29T21:14:51Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1048/screenshot"
+    }
+  ]
+}

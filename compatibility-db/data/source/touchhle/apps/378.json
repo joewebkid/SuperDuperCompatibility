@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 378,
+    "appUrl": "https://appdb.touchhle.org/apps/378",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "The Impossible Test",
+    "releaseYear": "2009",
+    "developerPublisher": "Pixelcube",
+    "firstReported": "2024-07-28T03:25:02Z",
+    "firstReportedBy": {
+      "name": "@rari-teh",
+      "url": "https://github.com/rari-teh"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.7",
+      "displayName": "Impossible",
+      "bundleId": "com.pixelcubestudios.moronquiz",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@rari-teh",
+        "url": "https://github.com/rari-teh"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

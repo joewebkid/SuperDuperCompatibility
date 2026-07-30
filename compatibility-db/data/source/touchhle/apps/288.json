@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 288,
+    "appUrl": "https://appdb.touchhle.org/apps/288",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Midnight Pool",
+    "releaseYear": "2008",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-04-03T04:51:37Z",
+    "firstReportedBy": {
+      "name": "@GamingDucking",
+      "url": "https://github.com/GamingDucking"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Midnight Pool",
+      "bundleId": "com.gameloft.MidnightPool",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-04-03T04:51:37Z"
+    },
+    {
+      "version": "1.0.5",
+      "displayName": "Midnight Pool",
+      "bundleId": "com.gameloft.MidnightPool",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "437",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.1-220-g0e60cd1",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali G51 MP4",
+      "scaleHack": "Couldn't test",
+      "rating": 4,
+      "reported": "2024-04-03T04:51:37Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Only issue I can see is the game has uncapped FPS.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/437/screenshot"
+    }
+  ]
+}

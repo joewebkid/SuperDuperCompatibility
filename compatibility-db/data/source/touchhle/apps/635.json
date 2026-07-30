@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 635,
+    "appUrl": "https://appdb.touchhle.org/apps/635",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Pinball Inferno",
+    "releaseYear": "2008",
+    "developerPublisher": "Zen Studios/Publisher X",
+    "firstReported": "2024-12-03T02:48:39Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Inferno",
+      "bundleId": "com.zenstudios.Inferno",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-12-03T02:48:39Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1058",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-465-g3ae48b5",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-12-03T02:48:39Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1058/screenshot"
+    }
+  ]
+}

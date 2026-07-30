@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 305,
+    "appUrl": "https://appdb.touchhle.org/apps/305",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "LightBike",
+    "releaseYear": "2009",
+    "developerPublisher": "Pankaku",
+    "firstReported": "2024-04-11T11:59:23Z",
+    "firstReportedBy": {
+      "name": "@NotCaily",
+      "url": "https://github.com/NotCaily"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "LightBike",
+      "bundleId": "com.pankaku.LightBikeFree",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@NotCaily",
+        "url": "https://github.com/NotCaily"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-12-21T12:38:37Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1109",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.2-492-g6841a6e",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-12-21T12:38:37Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1109/screenshot"
+    }
+  ]
+}

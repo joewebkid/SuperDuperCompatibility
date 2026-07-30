@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 542,
+    "appUrl": "https://appdb.touchhle.org/apps/542",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Snowball",
+    "releaseYear": null,
+    "developerPublisher": "Cameron Micka Game",
+    "firstReported": "2024-09-29T05:57:12Z",
+    "firstReportedBy": {
+      "name": "@Doodledash6",
+      "url": "https://github.com/Doodledash6"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Snowball",
+      "bundleId": "com.yourcompany.Snowball",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@Doodledash6",
+        "url": "https://github.com/Doodledash6"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-09-29T05:43:07Z"
+    },
+    {
+      "version": "1.1",
+      "displayName": "Snowball",
+      "bundleId": "com.yourcompany.Snowball",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@smileboxrevival",
+        "url": "https://github.com/smileboxrevival"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "872",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-309",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2024-09-29T05:43:07Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/872/screenshot"
+    }
+  ]
+}

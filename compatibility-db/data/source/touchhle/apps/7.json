@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 7,
+    "appUrl": "https://appdb.touchhle.org/apps/7",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Monkey Flight",
+    "releaseYear": "2009",
+    "developerPublisher": "Donut Games",
+    "firstReported": "2023-10-10T14:42:52Z",
+    "firstReportedBy": {
+      "name": "@hikari-no-yume",
+      "url": "https://github.com/hikari-no-yume"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.00",
+      "displayName": "Monkey",
+      "bundleId": "com.donutgames.monkeyflight",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.20",
+      "displayName": "Monkey LITE",
+      "bundleId": "com.donutgames.monkeyflight-lite",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.43",
+      "displayName": "Monkey",
+      "bundleId": "com.donutgames.monkeyflight",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.50",
+      "displayName": "Monkey",
+      "bundleId": "com.donutgames.monkeyflight",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

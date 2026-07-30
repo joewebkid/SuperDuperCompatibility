@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1403,
+    "appUrl": "https://appdb.touchhle.org/apps/1403",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Tales Weaver",
+    "releaseYear": "2010",
+    "developerPublisher": "NEXON",
+    "firstReported": "2026-07-01T12:57:42Z",
+    "firstReportedBy": {
+      "name": "@Carspoin",
+      "url": "https://github.com/Carspoin"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Tales Weaver",
+      "bundleId": "com.distributiontalesweaver.nategames",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Carspoin",
+        "url": "https://github.com/Carspoin"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-07-01T12:57:42Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2412",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.3-463-g0f2c1630",
+      "operatingSystem": "Android 16",
+      "gpu": "Adreno 830",
+      "scaleHack": "No (broken)",
+      "rating": 2,
+      "reported": "2026-07-01T12:57:42Z",
+      "reportedBy": {
+        "name": "@Carspoin",
+        "url": "https://github.com/Carspoin"
+      },
+      "remarks": "No crash: boots to title + BGM, but totally unresponsive to touch, so \"TOUCH THE SCREEN\" never advances. App uses a standard RootView:UIView touchesBegan:. (v0.2.3 crashes earlier on missing ___memcpy_chk; trunk fixes that.)",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2412/screenshot"
+    }
+  ]
+}

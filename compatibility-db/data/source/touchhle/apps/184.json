@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 184,
+    "appUrl": "https://appdb.touchhle.org/apps/184",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sparta 301",
+    "releaseYear": null,
+    "developerPublisher": "Wangyijun",
+    "firstReported": "2023-12-12T11:11:03Z",
+    "firstReportedBy": {
+      "name": "@omagadsamsa",
+      "url": "https://github.com/omagadsamsa"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Sparta 301",
+      "bundleId": "com.wangyijun.sparta301",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@omagadsamsa",
+        "url": "https://github.com/omagadsamsa"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-03-01T19:31:44Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1363",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-634-g01825be",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 4,
+      "reported": "2025-03-01T19:31:44Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1363/screenshot"
+    }
+  ]
+}

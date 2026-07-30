@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 454,
+    "appUrl": "https://appdb.touchhle.org/apps/454",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Gangstar: Miami Vindication",
+    "releaseYear": "2010",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-09T10:41:54Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Gangstar2",
+      "bundleId": "com.gameloft.Gangstar2",
+      "minimumIosVersion": "3.1.2",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-05-03T15:22:13Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2159",
+      "version": "1.0.0",
+      "emulatorVersion": "Preview v0.2.3-281-gad5ce73b",
+      "operatingSystem": "Android 16",
+      "gpu": "Qualcomm Adreno (TM) 750",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-05-03T15:22:13Z",
+      "reportedBy": {
+        "name": "@bnmv415",
+        "url": "https://github.com/bnmv415"
+      },
+      "remarks": "Crashes with messages: Attempted null-page access at 0x0 (0x4 bytes)",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2159/screenshot"
+    }
+  ]
+}

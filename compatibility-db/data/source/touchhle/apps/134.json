@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 134,
+    "appUrl": "https://appdb.touchhle.org/apps/134",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Tiny Wings",
+    "releaseYear": "2011",
+    "developerPublisher": "Andreas Illiger",
+    "firstReported": "2023-11-17T00:48:51Z",
+    "firstReportedBy": {
+      "name": "@NolwenB",
+      "url": "https://github.com/NolwenB"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.0",
+      "displayName": "Tiny Wings",
+      "bundleId": "com.andreasilliger.tinywings",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@NolwenB",
+        "url": "https://github.com/NolwenB"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

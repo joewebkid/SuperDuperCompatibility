@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 140,
+    "appUrl": "https://appdb.touchhle.org/apps/140",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Boxes",
+    "releaseYear": null,
+    "developerPublisher": "Xiotex studios Ltd.",
+    "firstReported": "2023-11-18T08:02:07Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Boxes",
+      "bundleId": "com.yourcompany.Boxes",
+      "minimumIosVersion": "(i dont know)",
+      "firstReportedBy": {
+        "name": "@HamHamHappy",
+        "url": "https://github.com/HamHamHappy"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-03-16T08:08:26Z"
+    },
+    {
+      "version": "1.7",
+      "displayName": "Boxes",
+      "bundleId": "com.yourcompany.Boxes",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2017",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali-G71 MP2",
+      "scaleHack": "No (broken)",
+      "rating": 5,
+      "reported": "2026-03-16T08:08:26Z",
+      "reportedBy": {
+        "name": "@HamHamHappy",
+        "url": "https://github.com/HamHamHappy"
+      },
+      "remarks": "It works fine, but when I exit the game and come back, it reverts to level 1.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2017/screenshot"
+    }
+  ]
+}

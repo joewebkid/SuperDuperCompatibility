@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 44,
+    "appUrl": "https://appdb.touchhle.org/apps/44",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Paracute",
+    "releaseYear": "2010",
+    "developerPublisher": "Donut Games",
+    "firstReported": "2023-10-30T07:24:49Z",
+    "firstReportedBy": {
+      "name": "@WindowsAero",
+      "url": "https://github.com/WindowsAero"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.02",
+      "displayName": "Paracute",
+      "bundleId": "com.donutgames.paracute",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@WindowsAero",
+        "url": "https://github.com/WindowsAero"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2023-10-30T07:24:49Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "62",
+      "version": "1.02",
+      "emulatorVersion": "v0.2.0",
+      "operatingSystem": "Android 12",
+      "gpu": "Mali G52",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2023-10-30T07:24:49Z",
+      "reportedBy": {
+        "name": "@WindowsAero",
+        "url": "https://github.com/WindowsAero"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/62/screenshot"
+    }
+  ]
+}

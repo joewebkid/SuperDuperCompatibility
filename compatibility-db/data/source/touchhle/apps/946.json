@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 946,
+    "appUrl": "https://appdb.touchhle.org/apps/946",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Tap Tap Revenge 2",
+    "releaseYear": "2009",
+    "developerPublisher": "Tapulous",
+    "firstReported": "2025-07-13T03:46:04Z",
+    "firstReportedBy": {
+      "name": "@InvertDark",
+      "url": "https://github.com/InvertDark"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.0",
+      "displayName": "Tap Tap",
+      "bundleId": "com.tapulous.taptaprevengeII",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@InvertDark",
+        "url": "https://github.com/InvertDark"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

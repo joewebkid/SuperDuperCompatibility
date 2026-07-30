@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1311,
+    "appUrl": "https://appdb.touchhle.org/apps/1311",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Skullpogo",
+    "releaseYear": null,
+    "developerPublisher": "TigSource (?, developer is not specific)",
+    "firstReported": "2026-06-15T12:58:26Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3",
+      "url": "https://github.com/0ldw4r3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.2",
+      "displayName": "Skullpogo",
+      "bundleId": "SKULLPOGO",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-06-15T12:58:26Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2284",
+      "version": "1.1.2",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-06-15T12:58:26Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Works fully. Openfeint button does nothing. Scores button opens after you play a game, although this seems like an in-game issue.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2284/screenshot"
+    }
+  ]
+}

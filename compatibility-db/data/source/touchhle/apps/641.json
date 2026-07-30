@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 641,
+    "appUrl": "https://appdb.touchhle.org/apps/641",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Totomi",
+    "releaseYear": "2009",
+    "developerPublisher": "Rovio",
+    "firstReported": "2024-12-06T15:43:55Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Totomi",
+      "bundleId": "com.rovio.Totomi",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-12-06T15:43:55Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1066",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.2-471-gc258fc4",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-12-06T15:43:55Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1066/screenshot"
+    }
+  ]
+}

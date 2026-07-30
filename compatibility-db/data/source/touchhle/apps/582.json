@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 582,
+    "appUrl": "https://appdb.touchhle.org/apps/582",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "BallMazingLE",
+    "releaseYear": "2009",
+    "developerPublisher": "Cantasoft",
+    "firstReported": "2024-10-28T02:36:51Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "BallMazingLE",
+      "bundleId": "com.cantasoft.ballmazingle",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-10-28T02:36:51Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "958",
+      "version": "1.1",
+      "emulatorVersion": "0.2.2-359-g7b1b382",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-10-28T02:36:51Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "Game Crash when the logo shows",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/958/screenshot"
+    }
+  ]
+}

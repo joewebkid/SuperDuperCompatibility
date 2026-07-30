@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1374,
+    "appUrl": "https://appdb.touchhle.org/apps/1374",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Chopper",
+    "releaseYear": null,
+    "developerPublisher": "Magic Jungle Software",
+    "firstReported": "2026-06-23T12:41:53Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3-touchhle3",
+      "url": "https://github.com/0ldw4r3-touchhle3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Chopper",
+      "bundleId": "com.majicjungle.chopper",
+      "minimumIosVersion": "(not specified but likely 2.0)",
+      "firstReportedBy": {
+        "name": "@0ldw4r3-touchhle3",
+        "url": "https://github.com/0ldw4r3-touchhle3"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-06-23T12:41:53Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2374",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-453-g994e2476",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2026-06-23T12:41:53Z",
+      "reportedBy": {
+        "name": "@0ldw4r3-touchhle3",
+        "url": "https://github.com/0ldw4r3-touchhle3"
+      },
+      "remarks": "Menu works fully, after pressing a difficulty it crashes.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2374/screenshot"
+    }
+  ]
+}

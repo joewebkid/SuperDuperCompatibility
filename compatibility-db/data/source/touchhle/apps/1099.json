@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1099,
+    "appUrl": "https://appdb.touchhle.org/apps/1099",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Defence Hero",
+    "releaseYear": "2010",
+    "developerPublisher": "NATE Games / Paladin",
+    "firstReported": "2026-01-25T17:41:20Z",
+    "firstReportedBy": {
+      "name": "@busik0877-hash",
+      "url": "https://github.com/busik0877-hash"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Defence Hero",
+      "bundleId": "com.distributiondefencehero1.nategames",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@busik0877-hash",
+        "url": "https://github.com/busik0877-hash"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-01-25T17:41:20Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1889",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.3-63-gbb166f71",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-01-25T17:41:20Z",
+      "reportedBy": {
+        "name": "@busik0877-hash",
+        "url": "https://github.com/busik0877-hash"
+      },
+      "remarks": "Audio (.mmf) not decoded, MPMoviePlayerController unimplemented",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1889/screenshot"
+    }
+  ]
+}

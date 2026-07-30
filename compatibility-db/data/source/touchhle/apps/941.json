@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 941,
+    "appUrl": "https://appdb.touchhle.org/apps/941",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "The Day Of Sagittarius III",
+    "releaseYear": "2010",
+    "developerPublisher": "Kadokawa Shoten",
+    "firstReported": "2025-07-08T23:20:13Z",
+    "firstReportedBy": {
+      "name": "@WiIIiam278",
+      "url": "https://github.com/WiIIiam278"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.02",
+      "displayName": "TDOS3",
+      "bundleId": "com.kbmj.tdos3",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@WiIIiam278",
+        "url": "https://github.com/WiIIiam278"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

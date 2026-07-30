@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 290,
+    "appUrl": "https://appdb.touchhle.org/apps/290",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Final Fantasy",
+    "releaseYear": "2010",
+    "developerPublisher": "Square Enix",
+    "firstReported": "2024-04-03T15:49:50Z",
+    "firstReportedBy": {
+      "name": "@notprogramminggames",
+      "url": "https://github.com/notprogramminggames"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Final Fantasy",
+      "bundleId": "com.square-enix.FinalFantasy",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@notprogramminggames",
+        "url": "https://github.com/notprogramminggames"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

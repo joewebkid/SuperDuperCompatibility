@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 64,
+    "appUrl": "https://appdb.touchhle.org/apps/64",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "PAC-MAN Remix",
+    "releaseYear": "2009",
+    "developerPublisher": "Namco Networks",
+    "firstReported": "2023-10-31T23:32:35Z",
+    "firstReportedBy": {
+      "name": "@BigHungryMode",
+      "url": "https://github.com/BigHungryMode"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "pacmanremix",
+      "bundleId": "com.namconetworks.yellow",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@BigHungryMode",
+        "url": "https://github.com/BigHungryMode"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-10-31T23:32:35Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "95",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno 619",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2023-10-31T23:32:35Z",
+      "reportedBy": {
+        "name": "@BigHungryMode",
+        "url": "https://github.com/BigHungryMode"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

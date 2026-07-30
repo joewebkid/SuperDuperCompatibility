@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1375,
+    "appUrl": "https://appdb.touchhle.org/apps/1375",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Twirlex",
+    "releaseYear": "2009",
+    "developerPublisher": "Ben Taylor",
+    "firstReported": "2026-06-23T12:58:21Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Twirlex",
+      "bundleId": "com.bensgames.Twirlex",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-06-23T12:58:21Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2376",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-458-gd4c2ccfc PREVIEW",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-06-23T12:58:21Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2376/screenshot"
+    }
+  ]
+}

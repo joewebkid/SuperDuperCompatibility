@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 78,
+    "appUrl": "https://appdb.touchhle.org/apps/78",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "World Of Tunes",
+    "releaseYear": "2009",
+    "developerPublisher": "Com2us",
+    "firstReported": "2023-11-02T10:31:46Z",
+    "firstReportedBy": {
+      "name": "@erikiorai",
+      "url": "https://github.com/erikiorai"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "Tuney",
+      "bundleId": "com.com2us.musicworld",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@erikiorai",
+        "url": "https://github.com/erikiorai"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

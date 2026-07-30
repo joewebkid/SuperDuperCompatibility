@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1319,
+    "appUrl": "https://appdb.touchhle.org/apps/1319",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Archer 3D",
+    "releaseYear": "2011",
+    "developerPublisher": "Triniti Interactive Limited",
+    "firstReported": "2026-06-16T13:50:24Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Archer 3D",
+      "bundleId": "com.trinitigame.archor",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-06-16T13:50:24Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2293",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.3-426-g25908483 PREVIEW",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-06-16T13:50:24Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2293/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 80,
+    "appUrl": "https://appdb.touchhle.org/apps/80",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Mr. Driller",
+    "releaseYear": "2009",
+    "developerPublisher": "Namco",
+    "firstReported": "2023-11-02T15:02:34Z",
+    "firstReportedBy": {
+      "name": "@childishbeat",
+      "url": "https://github.com/childishbeat"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Mr. DRILLER",
+      "bundleId": "com.namconetworks.idriller",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@JesseTheLamest",
+        "url": "https://github.com/JesseTheLamest"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.0",
+      "displayName": "Mr. DRILLER",
+      "bundleId": "com.namconetworks.idriller",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@childishbeat",
+        "url": "https://github.com/childishbeat"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

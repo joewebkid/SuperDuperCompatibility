@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 774,
+    "appUrl": "https://appdb.touchhle.org/apps/774",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Devil Hunter X",
+    "releaseYear": "2010",
+    "developerPublisher": "Corefran technologies Ltd.",
+    "firstReported": "2025-02-07T23:57:21Z",
+    "firstReportedBy": {
+      "name": "@random-jack925",
+      "url": "https://github.com/random-jack925"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "DevilHunterX",
+      "bundleId": "devilhunterx",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@random-jack925",
+        "url": "https://github.com/random-jack925"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-02-07T23:57:21Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1291",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.2-581-g3b517df",
+      "operatingSystem": "Android 12",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "No (broken)",
+      "rating": 4,
+      "reported": "2025-02-07T23:57:21Z",
+      "reportedBy": {
+        "name": "@random-jack925",
+        "url": "https://github.com/random-jack925"
+      },
+      "remarks": "Apart from the fact that Scale Hack makes the game display nothing apart from a black screen on level gameplay, I see no other issues with this game.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1291/screenshot"
+    }
+  ]
+}

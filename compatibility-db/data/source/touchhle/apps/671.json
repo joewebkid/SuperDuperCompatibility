@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 671,
+    "appUrl": "https://appdb.touchhle.org/apps/671",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Arvale - Journey Of Illusion",
+    "releaseYear": "2008",
+    "developerPublisher": "Nav N Go Kft.",
+    "firstReported": "2024-12-25T01:38:30Z",
+    "firstReportedBy": {
+      "name": "@MrKingMichael",
+      "url": "https://github.com/MrKingMichael"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Arvale",
+      "bundleId": "4rv4l3j0ur",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-02-22T23:22:31Z"
+    },
+    {
+      "version": "1.6",
+      "displayName": "Arvale",
+      "bundleId": "4rv4l3jOur",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@MrKingMichael",
+        "url": "https://github.com/MrKingMichael"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-12-25T01:38:30Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1345",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-622-g41d994d6",
+      "operatingSystem": "Android 13",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-02-22T23:22:31Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "Everything works in the intro and first levels. Potentially 5 stars game.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1345/screenshot"
+    },
+    {
+      "sourceReportId": "1123",
+      "version": "1.6",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 620",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-12-25T01:38:30Z",
+      "reportedBy": {
+        "name": "@MrKingMichael",
+        "url": "https://github.com/MrKingMichael"
+      },
+      "remarks": "Game briefly shows a splash screen and crashes. Tested on Windows and Android.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

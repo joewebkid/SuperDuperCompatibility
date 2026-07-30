@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1288,
+    "appUrl": "https://appdb.touchhle.org/apps/1288",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Lumines Touch Fusion",
+    "releaseYear": "2009",
+    "developerPublisher": "Q Entertainment",
+    "firstReported": "2026-06-09T01:22:56Z",
+    "firstReportedBy": {
+      "name": "@Yordimix",
+      "url": "https://github.com/Yordimix"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Lumines",
+      "bundleId": "com.qentertainment.LUMINESTF",
+      "minimumIosVersion": "3.1.2",
+      "firstReportedBy": {
+        "name": "@Yordimix",
+        "url": "https://github.com/Yordimix"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-09T01:22:56Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2247",
+      "version": "1.1",
+      "emulatorVersion": "touchHLE PREVIEW v0.2.3-402-g54d0ebeb",
+      "operatingSystem": "Android 16",
+      "gpu": "Qualcomm Adreno 830",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2026-06-09T01:22:56Z",
+      "reportedBy": {
+        "name": "@Yordimix",
+        "url": "https://github.com/Yordimix"
+      },
+      "remarks": "touchHLE crashed with the following error: Call to unimplemented function SCNetworkReachabilityScheduleWithRunLoop",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2247/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1325,
+    "appUrl": "https://appdb.touchhle.org/apps/1325",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Blade Of Betrayal",
+    "releaseYear": "2009",
+    "developerPublisher": "Conjured Realms LLC",
+    "firstReported": "2026-06-19T02:33:09Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Bob",
+      "bundleId": "com.conjuredrealms.bladeofbetrayal",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-06-19T02:33:09Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2303",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.3-432-g3f30a46b PREVIEW",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-06-19T02:33:09Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2303/screenshot"
+    }
+  ]
+}

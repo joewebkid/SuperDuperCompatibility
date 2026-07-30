@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1358,
+    "appUrl": "https://appdb.touchhle.org/apps/1358",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "15 Super Cars",
+    "releaseYear": null,
+    "developerPublisher": "Yablosoft",
+    "firstReported": "2026-06-21T21:27:26Z",
+    "firstReportedBy": {
+      "name": "@0ldw4re",
+      "url": "https://github.com/0ldw4re"
+    }
+  },
+  "versions": [
+    {
+      "version": "4.1",
+      "displayName": "15SuperCars",
+      "bundleId": "com.yablosoft.15SuperCars",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-06-21T21:27:26Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2351",
+      "version": "4.1",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2026-06-21T21:27:26Z",
+      "reportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "remarks": "Pressing any car crashes it. With scale hack, the error is different.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2351/screenshot"
+    }
+  ]
+}

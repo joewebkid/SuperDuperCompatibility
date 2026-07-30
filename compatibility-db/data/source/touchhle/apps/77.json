@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 77,
+    "appUrl": "https://appdb.touchhle.org/apps/77",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Crystal Defenders",
+    "releaseYear": "2008",
+    "developerPublisher": "Square Enix",
+    "firstReported": "2023-11-02T07:18:02Z",
+    "firstReportedBy": {
+      "name": "@alekxeyuk",
+      "url": "https://github.com/alekxeyuk"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.02",
+      "displayName": "CrystalDef",
+      "bundleId": "com.square-enix.CrystalDefenders",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@alekxeyuk",
+        "url": "https://github.com/alekxeyuk"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

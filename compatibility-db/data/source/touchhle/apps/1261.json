@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1261,
+    "appUrl": "https://appdb.touchhle.org/apps/1261",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Astraware Boardgames",
+    "releaseYear": "2008",
+    "developerPublisher": "Astraware/Handmark",
+    "firstReported": "2026-05-18T20:17:45Z",
+    "firstReportedBy": {
+      "name": "@Quochieu0211",
+      "url": "https://github.com/Quochieu0211"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.00",
+      "displayName": "Board Games",
+      "bundleId": "com.astraware.boardgames",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@Quochieu0211",
+        "url": "https://github.com/Quochieu0211"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

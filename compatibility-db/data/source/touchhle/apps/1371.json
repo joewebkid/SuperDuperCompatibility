@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1371,
+    "appUrl": "https://appdb.touchhle.org/apps/1371",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Chain3",
+    "releaseYear": null,
+    "developerPublisher": "Shawn Mcgrath",
+    "firstReported": "2026-06-23T04:23:23Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3-touchhle3",
+      "url": "https://github.com/0ldw4r3-touchhle3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.Awesome",
+      "displayName": "chain3",
+      "bundleId": "com.rsblsb.com.c3",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@0ldw4r3-touchhle3",
+        "url": "https://github.com/0ldw4r3-touchhle3"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2026-06-23T04:23:23Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2370",
+      "version": "1.Awesome",
+      "emulatorVersion": "v0.2.3-453-g994e2476",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2026-06-23T04:23:23Z",
+      "reportedBy": {
+        "name": "@0ldw4r3-touchhle3",
+        "url": "https://github.com/0ldw4r3-touchhle3"
+      },
+      "remarks": "By pressing \"free play mode\" or similarly it goes in-game but when you press a block, it crashes. Some menus can crash, others may work but there are major issues regarding a missing audio service.sues regarding",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2370/screenshot"
+    }
+  ]
+}

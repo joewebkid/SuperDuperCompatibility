@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1338,
+    "appUrl": "https://appdb.touchhle.org/apps/1338",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Hanoi Plus",
+    "releaseYear": null,
+    "developerPublisher": "Eeen Machine",
+    "firstReported": "2026-06-20T07:28:01Z",
+    "firstReportedBy": {
+      "name": "@0ldw4re",
+      "url": "https://github.com/0ldw4re"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2.1",
+      "displayName": "Hanoi Plus",
+      "bundleId": "PCGD6424HE.com.eeenmachine.hanoiplus",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-06-20T07:28:01Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2319",
+      "version": "1.2.1",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2026-06-20T07:28:01Z",
+      "reportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "remarks": "Goes to main menu, pressing anything crashes.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2319/screenshot"
+    }
+  ]
+}

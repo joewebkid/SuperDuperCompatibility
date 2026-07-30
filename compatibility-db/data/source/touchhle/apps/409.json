@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 409,
+    "appUrl": "https://appdb.touchhle.org/apps/409",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Hoggy",
+    "releaseYear": "2009",
+    "developerPublisher": "Raptisoft",
+    "firstReported": "2024-08-08T11:03:14Z",
+    "firstReportedBy": {
+      "name": "@WinAero5",
+      "url": "https://github.com/WinAero5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Hoggy",
+      "bundleId": "com.raptisoft.hoggy",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@WinAero5",
+        "url": "https://github.com/WinAero5"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-08-08T11:03:14Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "620",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-175-g4216f68",
+      "operatingSystem": "Android 12",
+      "gpu": "Mali G52",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-08-08T11:03:14Z",
+      "reportedBy": {
+        "name": "@WinAero5",
+        "url": "https://github.com/WinAero5"
+      },
+      "remarks": "Panic at src/dyld.rs:604:9: Call to unimplemented function _strcasestr",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

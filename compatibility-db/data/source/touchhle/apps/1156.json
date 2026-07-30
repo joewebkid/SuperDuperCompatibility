@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1156,
+    "appUrl": "https://appdb.touchhle.org/apps/1156",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Zombie Cookin'",
+    "releaseYear": "2011",
+    "developerPublisher": "Beeline Interactive, Inc",
+    "firstReported": "2026-03-01T22:09:47Z",
+    "firstReportedBy": {
+      "name": "@N0username678",
+      "url": "https://github.com/N0username678"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Cookin'",
+      "bundleId": "com.capcommobile.cookingzombie",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@N0username678",
+        "url": "https://github.com/N0username678"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-03-01T22:09:47Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1990",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 16",
+      "gpu": "ARM Mali-G57 MC2",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-03-01T22:09:47Z",
+      "reportedBy": {
+        "name": "@N0username678",
+        "url": "https://github.com/N0username678"
+      },
+      "remarks": "Crash at start with next error: \"Attempted null-page access at 0x0 (0x4 bytes)\"",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1990/screenshot"
+    }
+  ]
+}

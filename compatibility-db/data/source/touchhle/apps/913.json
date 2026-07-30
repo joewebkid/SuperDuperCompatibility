@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 913,
+    "appUrl": "https://appdb.touchhle.org/apps/913",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Welcome To Hell",
+    "releaseYear": "2010",
+    "developerPublisher": "DVide Arts Incorporated",
+    "firstReported": "2025-06-18T14:22:18Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "WelcomeToHell",
+      "bundleId": "com.dvidearts.welcometohell",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-06-18T14:22:18Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1526",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.2-756-gbe191c2",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-06-18T14:22:18Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1526/screenshot"
+    }
+  ]
+}

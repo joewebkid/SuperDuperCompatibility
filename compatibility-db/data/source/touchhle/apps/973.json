@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 973,
+    "appUrl": "https://appdb.touchhle.org/apps/973",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "My Aquarium",
+    "releaseYear": null,
+    "developerPublisher": "academyofcomputerscience",
+    "firstReported": "2025-08-15T15:21:38Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "My Aquarium",
+      "bundleId": "com.academyofcomputerscience.myaquarium",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-08-15T15:21:38Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1639",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-847-g3c9eb0b",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-08-15T15:21:38Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1639/screenshot"
+    }
+  ]
+}

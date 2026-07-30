@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 422,
+    "appUrl": "https://appdb.touchhle.org/apps/422",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Fantastic Contraption",
+    "releaseYear": "2008",
+    "developerPublisher": "inXile Entertainment",
+    "firstReported": "2024-08-08T17:46:28Z",
+    "firstReportedBy": {
+      "name": "@C4ndyF1sh",
+      "url": "https://github.com/C4ndyF1sh"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Contraption",
+      "bundleId": "com.yourcompany.Contraption",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@C4ndyF1sh",
+        "url": "https://github.com/C4ndyF1sh"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-01-09T06:08:26Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1820",
+      "version": "1.2",
+      "emulatorVersion": "0.2.3",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 730",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-01-09T06:08:26Z",
+      "reportedBy": {
+        "name": "@ImSammy6",
+        "url": "https://github.com/ImSammy6"
+      },
+      "remarks": "Game crashes when pressing the Music button in the options menu. Panic at src/objc/messages.rs:60:13: Object 0x375c9af0 (class \"MPMediaPickerController\", 0x374d80e0) does not respond to selector \"initWithMediaTypes:\"!",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1820/screenshot"
+    }
+  ]
+}

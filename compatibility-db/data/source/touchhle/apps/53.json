@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 53,
+    "appUrl": "https://appdb.touchhle.org/apps/53",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Lemonade Tycoon",
+    "releaseYear": "2009",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2023-10-31T12:13:21Z",
+    "firstReportedBy": {
+      "name": "@WindowsAero",
+      "url": "https://github.com/WindowsAero"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "Lemonade",
+      "bundleId": "com.ea.lemtycpaidinc",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-02-01T07:50:00Z"
+    },
+    {
+      "version": "7.0.43",
+      "displayName": "Lemonade",
+      "bundleId": "com.ea.lemtycpaidbv",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-07-27T00:34:07Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1607",
+      "version": "7.0.43",
+      "emulatorVersion": "v0.2.2-805-g4caf79f",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali-G76 MC4",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2025-07-27T00:34:07Z",
+      "reportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "remarks": "Game works not the first time, but it is not possible to create a new Career or Challenge, because the name is not entered via the on-screen keyboard. Also, the More Games and Eula buttons do not work, and Crashing Game",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1607/screenshot"
+    },
+    {
+      "sourceReportId": "1310",
+      "version": "7.0.43",
+      "emulatorVersion": "v0.2.2-589-g6460bad",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali-G76 MC4",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2025-02-09T21:07:05Z",
+      "reportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "remarks": "Loading load in 1-2 seconds and game crashed with Panic at src/objc/messages.rs:60:13: Object 0x3759c8b0 (class \"EAGLView\", 0x9d8b8) does not respond to selector \"sendSubviewToBack:\"!",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1310/screenshot"
+    },
+    {
+      "sourceReportId": "1262",
+      "version": "1.0.1",
+      "emulatorVersion": "V0.2.2-567-g23b506b",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali-G76 MC4",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2025-02-01T07:50:00Z",
+      "reportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "remarks": "Loading arrived in 1-2 seconds and game crashed with Panic at src/objc/messages.rs:60:13: Object 0x3759bd80 (class \"EAGLView\", 0x939e8) does not respond to selector \"sendSubviewToBack:\"!",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1262/screenshot"
+    },
+    {
+      "sourceReportId": "588",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.2-162-gfd1f24e",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-T830",
+      "scaleHack": "Couldn't test",
+      "rating": 2,
+      "reported": "2024-07-29T16:30:44Z",
+      "reportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "remarks": "The game loads for 1 second before crashing.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/588/screenshot"
+    }
+  ]
+}

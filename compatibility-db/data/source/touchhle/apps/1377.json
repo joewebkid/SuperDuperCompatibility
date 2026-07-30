@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1377,
+    "appUrl": "https://appdb.touchhle.org/apps/1377",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "SpongeBob Kart",
+    "releaseYear": "2010",
+    "developerPublisher": "Nickelodeon",
+    "firstReported": "2026-06-23T16:29:02Z",
+    "firstReportedBy": {
+      "name": "@IrishGamer373",
+      "url": "https://github.com/IrishGamer373"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "SpongeBob Kart",
+      "bundleId": "com.mtvn.SpongeBobKart",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-23T16:29:02Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2378",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MP2",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-06-23T16:29:02Z",
+      "reportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "remarks": "If You Press The App Icon, Then It Crashes With: Class 0x374d7f20 (metaclass \"UIView\", 0x374d7f10) does not respond to selector \"setAnimationsEnabled:\"!",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

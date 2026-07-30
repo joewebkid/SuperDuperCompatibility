@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1223,
+    "appUrl": "https://appdb.touchhle.org/apps/1223",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Time Crisis 2nd Strike",
+    "releaseYear": "September 15, 2010",
+    "developerPublisher": "Namco Networks",
+    "firstReported": "2026-04-27T18:57:34Z",
+    "firstReportedBy": {
+      "name": "@GamingDucking",
+      "url": "https://github.com/GamingDucking"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "TimeCrisis2S",
+      "bundleId": "com.namconetworks.TC2ndStrike",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

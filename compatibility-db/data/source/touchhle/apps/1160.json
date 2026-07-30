@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1160,
+    "appUrl": "https://appdb.touchhle.org/apps/1160",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Brick Breaker Revolution",
+    "releaseYear": "2009",
+    "developerPublisher": "Digital Chocolate",
+    "firstReported": "2026-03-03T04:47:37Z",
+    "firstReportedBy": {
+      "name": "@kyletech101",
+      "url": "https://github.com/kyletech101"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.6",
+      "displayName": "Brick Breaker Revolution",
+      "bundleId": "com.digitalchocolate.iBBR",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@kyletech101",
+        "url": "https://github.com/kyletech101"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

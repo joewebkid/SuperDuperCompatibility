@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 292,
+    "appUrl": "https://appdb.touchhle.org/apps/292",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Guitar Hero",
+    "releaseYear": "2010",
+    "developerPublisher": "Vicarious Visions/Activision",
+    "firstReported": "2024-04-03T19:47:30Z",
+    "firstReportedBy": {
+      "name": "@Gabiiofficial",
+      "url": "https://github.com/Gabiiofficial"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Guitar Hero",
+      "bundleId": "com.activision.guitarhero",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Gabiiofficial",
+        "url": "https://github.com/Gabiiofficial"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-07-29T18:22:37Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "589",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-162-gfd1f24e",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno 642L",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-07-29T18:22:37Z",
+      "reportedBy": {
+        "name": "@Gabiiofficial",
+        "url": "https://github.com/Gabiiofficial"
+      },
+      "remarks": "Panic at src/mach_o.rs:529:25: Unexpected initial thread state in \"GHAspen\": Arm { __r: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], __sp: 788529152, __lr: 0, __pc: 719088, __cpsr: 0 }",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/589/screenshot"
+    },
+    {
+      "sourceReportId": "453",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-4-g83ee4e6",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali G51 MP4",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-04-04T15:42:10Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Crashes at \"Panic at src/mach_o.rs:529:25: Unexpected initial thread state in \"GHAspen\": Arm { __r: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], __sp: 788529152, __lr: 0, __pc: 719088, __cpsr: 0 }\".",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "445",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android",
+      "gpu": "ARM Mali-G57 MC3",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-04-03T19:47:30Z",
+      "reportedBy": {
+        "name": "@Gabiiofficial",
+        "url": "https://github.com/Gabiiofficial"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

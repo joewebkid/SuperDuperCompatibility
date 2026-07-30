@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 58,
+    "appUrl": "https://appdb.touchhle.org/apps/58",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Wolfenstein RPG",
+    "releaseYear": "2009",
+    "developerPublisher": "id Software",
+    "firstReported": "2023-10-31T18:32:31Z",
+    "firstReportedBy": {
+      "name": "@hikari-no-yume",
+      "url": "https://github.com/hikari-no-yume"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "Wolf...RPG",
+      "bundleId": "com.eamobile.wolfbv",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@omagadsamsa",
+        "url": "https://github.com/omagadsamsa"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.1",
+      "displayName": "Wolf...RPG",
+      "bundleId": "com.eamobile.wolfbv",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-07-21T18:12:25Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2456",
+      "version": "1.1.1",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G57",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2026-07-21T18:12:25Z",
+      "reportedBy": {
+        "name": "@vajk326-dev",
+        "url": "https://github.com/vajk326-dev"
+      },
+      "remarks": "Menu buttons are hard to tap, only works after multiple tries, after starting a game it works fine",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

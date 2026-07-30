@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 545,
+    "appUrl": "https://appdb.touchhle.org/apps/545",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Reign of Swords",
+    "releaseYear": "2008",
+    "developerPublisher": "Punch Entertainment",
+    "firstReported": "2024-10-05T00:46:31Z",
+    "firstReportedBy": {
+      "name": "@EltNoobl",
+      "url": "https://github.com/EltNoobl"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Reign",
+      "bundleId": "CCU8RRT36N.punch-entertainment.com",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@EltNoobl",
+        "url": "https://github.com/EltNoobl"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-10-05T00:46:31Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "881",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android OS 14, Samsung Galaxy S22 ultra",
+      "gpu": "Xclipse 920",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-10-05T00:46:31Z",
+      "reportedBy": {
+        "name": "@EltNoobl",
+        "url": "https://github.com/EltNoobl"
+      },
+      "remarks": "Game immediately crashes the entire app on startup. I will be making a another report using my PC soon where it does the same",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

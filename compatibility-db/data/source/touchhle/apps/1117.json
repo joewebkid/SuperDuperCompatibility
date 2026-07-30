@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1117,
+    "appUrl": "https://appdb.touchhle.org/apps/1117",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bloody Rush",
+    "releaseYear": "2010",
+    "developerPublisher": "People And Dream Co.Ltd.",
+    "firstReported": "2026-02-01T10:25:28Z",
+    "firstReportedBy": {
+      "name": "@memenn-dev",
+      "url": "https://github.com/memenn-dev"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.3",
+      "displayName": "Bloody Rush",
+      "bundleId": "kr.peopledream.Bloody-Rush",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@memenn-dev",
+        "url": "https://github.com/memenn-dev"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-02-01T10:25:28Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1914",
+      "version": "1.3",
+      "emulatorVersion": "v0.2.3-70-ga8071972",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-02-01T10:25:28Z",
+      "reportedBy": {
+        "name": "@memenn-dev",
+        "url": "https://github.com/memenn-dev"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1914/screenshot"
+    }
+  ]
+}

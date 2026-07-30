@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1312,
+    "appUrl": "https://appdb.touchhle.org/apps/1312",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Dead Space",
+    "releaseYear": "2011",
+    "developerPublisher": "IronMonkey Studios/Electronic Arts",
+    "firstReported": "2026-06-15T14:02:45Z",
+    "firstReportedBy": {
+      "name": "@elbaut091313-wq",
+      "url": "https://github.com/elbaut091313-wq"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.3.8",
+      "displayName": "Dead Space",
+      "bundleId": "com.ea.deadspace.inc",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@elbaut091313-wq",
+        "url": "https://github.com/elbaut091313-wq"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-06-15T14:02:45Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2285",
+      "version": "1.3.8",
+      "emulatorVersion": "v0.2.3-408-gd9719fbd",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G57 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2026-06-15T14:02:45Z",
+      "reportedBy": {
+        "name": "@elbaut091313-wq",
+        "url": "https://github.com/elbaut091313-wq"
+      },
+      "remarks": "The EA logo appears, then a black screen appears and it never loads",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2285/screenshot"
+    }
+  ]
+}

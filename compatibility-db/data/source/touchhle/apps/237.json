@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 237,
+    "appUrl": "https://appdb.touchhle.org/apps/237",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Fast & Furious",
+    "releaseYear": "2009",
+    "developerPublisher": "Firemint / I-play",
+    "firstReported": "2024-01-21T00:46:31Z",
+    "firstReportedBy": {
+      "name": "@Legend0P",
+      "url": "https://github.com/Legend0P"
+    }
+  },
+  "versions": [
+    {
+      "version": "0.5.1",
+      "displayName": "Fast&Furious",
+      "bundleId": "com.iplay.ff63d",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@Legend0P",
+        "url": "https://github.com/Legend0P"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-01-21T00:46:31Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "370",
+      "version": "0.5.1",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G715",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-01-21T00:46:31Z",
+      "reportedBy": {
+        "name": "@Legend0P",
+        "url": "https://github.com/Legend0P"
+      },
+      "remarks": "Crashes on I-play logo",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 487,
+    "appUrl": "https://appdb.touchhle.org/apps/487",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Angry Birds Rio",
+    "releaseYear": "2011",
+    "developerPublisher": "Rovio Entertainment",
+    "firstReported": "2024-08-14T16:22:55Z",
+    "firstReportedBy": {
+      "name": "@FlPulsar",
+      "url": "https://github.com/FlPulsar"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Angry Birds",
+      "bundleId": "com.rovio.angrybirdsrio",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@FlPulsar",
+        "url": "https://github.com/FlPulsar"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

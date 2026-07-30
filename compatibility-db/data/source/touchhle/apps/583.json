@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 583,
+    "appUrl": "https://appdb.touchhle.org/apps/583",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Game Wave",
+    "releaseYear": null,
+    "developerPublisher": "dreamingame",
+    "firstReported": "2024-10-28T06:17:08Z",
+    "firstReportedBy": {
+      "name": "@TimofeyLednev",
+      "url": "https://github.com/TimofeyLednev"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "Game Wave",
+      "bundleId": "com.dreamingame.gamewave",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@TimofeyLednev",
+        "url": "https://github.com/TimofeyLednev"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

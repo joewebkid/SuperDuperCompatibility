@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 99,
+    "appUrl": "https://appdb.touchhle.org/apps/99",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Labyrinth",
+    "releaseYear": "2008",
+    "developerPublisher": "Illusion Labs",
+    "firstReported": "2023-11-05T05:44:12Z",
+    "firstReportedBy": {
+      "name": "@schrmh",
+      "url": "https://github.com/schrmh"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Labyrinth",
+      "bundleId": "se.codify.labyrinth",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@schrmh",
+        "url": "https://github.com/schrmh"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

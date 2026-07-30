@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1310,
+    "appUrl": "https://appdb.touchhle.org/apps/1310",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Hockey Nations 2010",
+    "releaseYear": "2010",
+    "developerPublisher": "Distinctive Developments",
+    "firstReported": "2026-06-15T12:26:38Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3",
+      "url": "https://github.com/0ldw4r3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "HN 2010",
+      "bundleId": "co.uk.distdevs.HockeyNations2010",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-06-15T12:26:38Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2283",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-06-15T12:26:38Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Seems to work fully.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2283/screenshot"
+    }
+  ]
+}

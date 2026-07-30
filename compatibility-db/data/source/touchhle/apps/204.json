@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 204,
+    "appUrl": "https://appdb.touchhle.org/apps/204",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Zenonia",
+    "releaseYear": "2009",
+    "developerPublisher": "Gamevil",
+    "firstReported": "2024-01-01T01:01:09Z",
+    "firstReportedBy": {
+      "name": "@KazumaSatoudesu",
+      "url": "https://github.com/KazumaSatoudesu"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Zenonia",
+      "bundleId": "com.gamevil.Zenonia",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@KazumaSatoudesu",
+        "url": "https://github.com/KazumaSatoudesu"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-01-01T01:01:09Z"
+    },
+    {
+      "version": "1.4",
+      "displayName": "Zenonia",
+      "bundleId": "com.gamevil.Zenonia",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@jet082",
+        "url": "https://github.com/jet082"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.7",
+      "displayName": "Zenonia",
+      "bundleId": "com.gamevil.Zenonia",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@KazumaSatoudesu",
+        "url": "https://github.com/KazumaSatoudesu"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "332",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 10",
+      "gpu": "Snapdragon 855 Qualcomm Adreno 640",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-01-01T01:01:09Z",
+      "reportedBy": {
+        "name": "@KazumaSatoudesu",
+        "url": "https://github.com/KazumaSatoudesu"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

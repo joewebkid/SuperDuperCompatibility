@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 710,
+    "appUrl": "https://appdb.touchhle.org/apps/710",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Aim for the Brain",
+    "releaseYear": "2008",
+    "developerPublisher": "Westlake interactive",
+    "firstReported": "2025-01-15T02:50:53Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Aim...Brain!",
+      "bundleId": "com.westlakeinteractive.aimforthebrain",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-01-15T02:50:53Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1180",
+      "version": "1.0",
+      "emulatorVersion": "0.2.2-536-g36777a2",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-01-15T02:50:53Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "Game Crash when the title name shows",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1180/screenshot"
+    }
+  ]
+}

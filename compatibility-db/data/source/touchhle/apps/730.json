@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 730,
+    "appUrl": "https://appdb.touchhle.org/apps/730",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sonic The Hedgehog 4: Episode I",
+    "releaseYear": "2010",
+    "developerPublisher": "SEGA",
+    "firstReported": "2025-01-20T22:41:11Z",
+    "firstReportedBy": {
+      "name": "@Raypuia",
+      "url": "https://github.com/Raypuia"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Sonic4 epI",
+      "bundleId": "com.sega.sonic4",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Raypuia",
+        "url": "https://github.com/Raypuia"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-17T15:24:52Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2295",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-426-g25908483",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G57",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2026-06-17T15:24:52Z",
+      "reportedBy": {
+        "name": "@willian19345698-boop",
+        "url": "https://github.com/willian19345698-boop"
+      },
+      "remarks": "Crash with specific unimplemented instruction ID: 2147483649 (0x80000001",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1227",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-553-g9d47662",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 610",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2025-01-23T17:02:39Z",
+      "reportedBy": {
+        "name": "@Raypuia",
+        "url": "https://github.com/Raypuia"
+      },
+      "remarks": "Crashes with: Panic at src/frameworks/foundation/ns_string.rs:702:14: not implemented",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

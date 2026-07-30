@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1241,
+    "appUrl": "https://appdb.touchhle.org/apps/1241",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Pandemonium",
+    "releaseYear": "2009",
+    "developerPublisher": "eidos / Electronic Arts",
+    "firstReported": "2026-05-02T18:33:15Z",
+    "firstReportedBy": {
+      "name": "@alborrajo",
+      "url": "https://github.com/alborrajo"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.1.5",
+      "displayName": "Pandemonium",
+      "bundleId": "com.ea.pandyinc",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@alborrajo",
+        "url": "https://github.com/alborrajo"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-05-02T18:49:25Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2147",
+      "version": "2.1.5",
+      "emulatorVersion": "v0.2.3-276-g4db38e5c",
+      "operatingSystem": "Android 16",
+      "gpu": "Mali-G710 MP7",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-05-02T18:49:25Z",
+      "reportedBy": {
+        "name": "@alborrajo",
+        "url": "https://github.com/alborrajo"
+      },
+      "remarks": "Video intro doesn't play",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

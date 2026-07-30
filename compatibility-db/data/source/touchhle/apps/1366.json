@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1366,
+    "appUrl": "https://appdb.touchhle.org/apps/1366",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "DMX Color Mixer",
+    "releaseYear": null,
+    "developerPublisher": "40ozapps",
+    "firstReported": "2026-06-22T19:58:09Z",
+    "firstReportedBy": {
+      "name": "@0ldw4re",
+      "url": "https://github.com/0ldw4re"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "DMX Color",
+      "bundleId": "com.40ozapps.dmxcolormixer",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-06-22T19:58:09Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2365",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-453-g994e2476",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-06-22T19:58:09Z",
+      "reportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "remarks": "Some textures are missing but it works fully.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2365/screenshot"
+    }
+  ]
+}

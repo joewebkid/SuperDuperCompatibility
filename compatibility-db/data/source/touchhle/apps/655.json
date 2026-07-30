@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 655,
+    "appUrl": "https://appdb.touchhle.org/apps/655",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "iDracula: Undead Awakening",
+    "releaseYear": "2009",
+    "developerPublisher": "Chillingo",
+    "firstReported": "2024-12-10T15:31:51Z",
+    "firstReportedBy": {
+      "name": "@FelipePlayzYT",
+      "url": "https://github.com/FelipePlayzYT"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "iDracula",
+      "bundleId": "com.chillingo.iDracula",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-08-05T06:59:35Z"
+    },
+    {
+      "version": "1.1.1",
+      "displayName": "iDracula",
+      "bundleId": "com.chillingo.iDracula",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-12-25T08:23:57Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1619",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.2-821-gb7d4dad",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-08-05T06:59:35Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1619/screenshot"
+    },
+    {
+      "sourceReportId": "1125",
+      "version": "1.1.1",
+      "emulatorVersion": "v0.2.2-498-g9700a4f",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-12-25T08:23:57Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1125/screenshot"
+    },
+    {
+      "sourceReportId": "1124",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.2-498-g9700a4f",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-12-25T08:22:14Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1124/screenshot"
+    }
+  ]
+}

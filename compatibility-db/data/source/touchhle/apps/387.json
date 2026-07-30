@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 387,
+    "appUrl": "https://appdb.touchhle.org/apps/387",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "DJ Mix Tour",
+    "releaseYear": "2009",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-02T14:36:09Z",
+    "firstReportedBy": {
+      "name": "@fikritz",
+      "url": "https://github.com/fikritz"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "DJ Mix Tour",
+      "bundleId": "com.gameloft.DJMixTour",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@fikritz",
+        "url": "https://github.com/fikritz"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-08-27T18:22:24Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "792",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-240-g026fff4",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno 740",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-08-27T18:22:24Z",
+      "reportedBy": {
+        "name": "@maaaattttt",
+        "url": "https://github.com/maaaattttt"
+      },
+      "remarks": "Game plays fine with no issues, trying to pause crashes the game though",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/792/screenshot"
+    },
+    {
+      "sourceReportId": "787",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-233-ga056b6c",
+      "operatingSystem": "Android",
+      "gpu": "Mali G51-MP4",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-08-25T18:05:25Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Only tested the quick play. But playable.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/787/screenshot"
+    },
+    {
+      "sourceReportId": "595",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-163-g47d07c5",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-08-02T14:36:09Z",
+      "reportedBy": {
+        "name": "@fikritz",
+        "url": "https://github.com/fikritz"
+      },
+      "remarks": "this almost works",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/595/screenshot"
+    }
+  ]
+}

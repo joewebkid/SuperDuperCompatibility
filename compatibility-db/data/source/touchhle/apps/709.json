@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 709,
+    "appUrl": "https://appdb.touchhle.org/apps/709",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "TeachMe: Toddler",
+    "releaseYear": "2009",
+    "developerPublisher": "24x7digital",
+    "firstReported": "2025-01-14T12:12:04Z",
+    "firstReportedBy": {
+      "name": "@Jacob-alt-cell",
+      "url": "https://github.com/Jacob-alt-cell"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "TeachMe",
+      "bundleId": "com.24x7digital.TeachMe",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@Jacob-alt-cell",
+        "url": "https://github.com/Jacob-alt-cell"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

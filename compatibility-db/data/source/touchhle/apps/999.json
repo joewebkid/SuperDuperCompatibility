@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 999,
+    "appUrl": "https://appdb.touchhle.org/apps/999",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Devil May Cry 4 Refrain",
+    "releaseYear": "2011",
+    "developerPublisher": "Capcom",
+    "firstReported": "2025-09-30T18:07:38Z",
+    "firstReportedBy": {
+      "name": "@HunterGM360",
+      "url": "https://github.com/HunterGM360"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.01.00",
+      "displayName": "DevilMayCry4",
+      "bundleId": "jp.co.capcom.devil4us",
+      "minimumIosVersion": "4.1",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.05.01",
+      "displayName": "DevilMayCry4",
+      "bundleId": "jp.co.capcom.devil4us",
+      "minimumIosVersion": "4.1",
+      "firstReportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-02-15T20:56:53Z"
+    },
+    {
+      "version": "1.05.02",
+      "displayName": "DevilMayCry4",
+      "bundleId": "jp.co.capcom.devil4us",
+      "minimumIosVersion": "6.0",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1958",
+      "version": "1.05.01",
+      "emulatorVersion": "v0.2.3-5-gb8180557",
+      "operatingSystem": "ANDROID 16",
+      "gpu": "ARM Mali-G57 MC2",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-02-15T20:56:53Z",
+      "reportedBy": {
+        "name": "@daniilulalao-collab",
+        "url": "https://github.com/daniilulalao-collab"
+      },
+      "remarks": "The game is fully playable, can be completed from start to finish, supports scale hack",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1958/screenshot"
+    },
+    {
+      "sourceReportId": "1696",
+      "version": "1.05.01",
+      "emulatorVersion": "v0.2.2-955-g3983feb",
+      "operatingSystem": "Android 12",
+      "gpu": "PowerVR GE8320",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2025-09-30T18:07:38Z",
+      "reportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "remarks": "Partially works, but with 2 major issues: it stays in portrait orientation and half screen, and the game doesn't save.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1696/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1038,
+    "appUrl": "https://appdb.touchhle.org/apps/1038",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Balloon Pop Plus",
+    "releaseYear": "2009",
+    "developerPublisher": "Ufo Interactive",
+    "firstReported": "2026-01-03T03:51:54Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "BalloonPop+",
+      "bundleId": "com.ufointeractivegames.ballonPlus",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-03T03:51:54Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1772",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-01-03T03:51:54Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1772/screenshot"
+    }
+  ]
+}

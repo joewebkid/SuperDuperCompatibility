@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 614,
+    "appUrl": "https://appdb.touchhle.org/apps/614",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Alert Meteor II",
+    "releaseYear": null,
+    "developerPublisher": "Barry Jones",
+    "firstReported": "2024-11-16T14:22:51Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "AlertMeteor2",
+      "bundleId": "com.bjrandd.AlertMeteor2",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-11-25T20:10:49Z"
+    },
+    {
+      "version": "1.3",
+      "displayName": "AlertMeteor2",
+      "bundleId": "com.bjrandd.AlertMeteor2",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-11-25T20:12:00Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1041",
+      "version": "1.3",
+      "emulatorVersion": "v0.2.2-411-g4c39fd1",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-11-25T20:12:00Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1041/screenshot"
+    },
+    {
+      "sourceReportId": "1040",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-411-g4c39fd1",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-11-25T20:10:49Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1003",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-376-g23c219d",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2024-11-16T14:22:51Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1003/screenshot"
+    }
+  ]
+}

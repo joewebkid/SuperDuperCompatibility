@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 57,
+    "appUrl": "https://appdb.touchhle.org/apps/57",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Doom II RPG",
+    "releaseYear": "2010",
+    "developerPublisher": "id Software",
+    "firstReported": "2023-10-31T18:29:22Z",
+    "firstReportedBy": {
+      "name": "@hikari-no-yume",
+      "url": "https://github.com/hikari-no-yume"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Doom2rpg",
+      "bundleId": "com.idsoftware.Doom2rpg",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2023-11-01T11:10:15Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "103",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-G72 MP18 (Samsung Galaxy S9)",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2023-11-01T11:10:15Z",
+      "reportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "remarks": "Menu buttons are hard to tap, you need to tap many times for them to register (try with three fingers alternating). After choosing New Game and Difficulty, game plays fine.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/103/screenshot"
+    }
+  ]
+}

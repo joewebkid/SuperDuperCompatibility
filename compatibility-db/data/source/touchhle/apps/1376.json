@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1376,
+    "appUrl": "https://appdb.touchhle.org/apps/1376",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "SpongeBob Jellyfish Jam",
+    "releaseYear": "2009",
+    "developerPublisher": "lbxgames Gmbh/MTV Games",
+    "firstReported": "2026-06-23T14:17:31Z",
+    "firstReportedBy": {
+      "name": "@IrishGamer373",
+      "url": "https://github.com/IrishGamer373"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.0",
+      "displayName": "SpongeBob",
+      "bundleId": "com.mtvn.SpongeBobJellyFishJam",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-23T14:17:31Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2377",
+      "version": "2.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MP2",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2026-06-23T14:17:31Z",
+      "reportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "remarks": "It Shows 2009 Nickelodeon Logo In Black Background, Then It Crashes With: Attempted null-page access at 0x0 (0x4 bytes)",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2377/screenshot"
+    }
+  ]
+}

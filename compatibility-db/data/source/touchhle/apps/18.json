@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 18,
+    "appUrl": "https://appdb.touchhle.org/apps/18",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Liquid",
+    "releaseYear": "2008",
+    "developerPublisher": "Robert Casperson",
+    "firstReported": "2023-10-11T08:45:32Z",
+    "firstReportedBy": {
+      "name": "@hikari-no-yume",
+      "url": "https://github.com/hikari-no-yume"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.1",
+      "displayName": "Liquid Lite",
+      "bundleId": "com.yourcompany.LiquidLite",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.5",
+      "displayName": "Liquid",
+      "bundleId": "com.yourcompany.Liquid",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2023-10-11T09:29:42Z"
+    },
+    {
+      "version": "2.1",
+      "displayName": "Liquid",
+      "bundleId": "com.yourcompany.Liquid",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "22",
+      "version": "1.5",
+      "emulatorVersion": "v0.2.0",
+      "operatingSystem": "Android 8.1.0",
+      "gpu": "Adreno 418",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2023-10-11T09:29:42Z",
+      "reportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/22/screenshot"
+    }
+  ]
+}

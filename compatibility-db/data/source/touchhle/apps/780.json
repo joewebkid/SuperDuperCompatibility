@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 780,
+    "appUrl": "https://appdb.touchhle.org/apps/780",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Arfai Ninja Slot",
+    "releaseYear": "2009",
+    "developerPublisher": "Canwetech",
+    "firstReported": "2025-02-10T11:19:10Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Arfai_Ninja_Slot",
+      "bundleId": "com.canwetech.arfaininjaslot",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-02-10T11:19:10Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1318",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-589-g6460bad",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2025-02-10T11:19:10Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1318/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 521,
+    "appUrl": "https://appdb.touchhle.org/apps/521",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "The Hero",
+    "releaseYear": "2010",
+    "developerPublisher": "Chillingo",
+    "firstReported": "2024-09-16T18:16:41Z",
+    "firstReportedBy": {
+      "name": "@oogaboogasushi",
+      "url": "https://github.com/oogaboogasushi"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "The Hero",
+      "bundleId": "com.chillingo.thehero",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@oogaboogasushi",
+        "url": "https://github.com/oogaboogasushi"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 907,
+    "appUrl": "https://appdb.touchhle.org/apps/907",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cosmic Star",
+    "releaseYear": "2009",
+    "developerPublisher": "Nate Games / GNC",
+    "firstReported": "2025-06-14T09:56:12Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Cosmic Star",
+      "bundleId": "com.distributioncosmicstar.nategames",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-06-14T09:56:12Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1512",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.2-740-gb448f97",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-06-14T09:56:12Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1512/screenshot"
+    }
+  ]
+}

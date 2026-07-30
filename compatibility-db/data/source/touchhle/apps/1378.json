@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1378,
+    "appUrl": "https://appdb.touchhle.org/apps/1378",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Tap Tap Revenge",
+    "releaseYear": "2008",
+    "developerPublisher": "Tapulous",
+    "firstReported": "2026-06-23T17:52:39Z",
+    "firstReportedBy": {
+      "name": "@IrishGamer373",
+      "url": "https://github.com/IrishGamer373"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.6",
+      "displayName": "Tap Tap",
+      "bundleId": "com.tapulous.TapTap",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-23T17:52:39Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2379",
+      "version": "1.6",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MP2",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-06-23T17:52:39Z",
+      "reportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "remarks": "It Shows Splash Screen, Then It Crashes With: Class \"NSNetServiceBrowser\" (0x3000a510) is unimplemented. Call to class method \"alloc\".",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2379/screenshot"
+    }
+  ]
+}

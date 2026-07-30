@@ -1,40 +1,60 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#171a20" />
-    <meta name="description" content="Публичная база совместимости Super Duper." />
-    <title>Super Duper Compatibility</title>
+    <meta name="theme-color" content="#12151c" />
+    <meta name="description" content="Android compatibility database for the Super Duper iPhone app emulator." />
+    <title>Super Duper Android Compatibility</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="shell">
       <header class="hero">
-        <p class="eyebrow">SUPER DUPER</p>
-        <h1>Совместимость iOS-игр</h1>
-        <p class="lead">Проверенные статусы, точечные профили и честные заметки по версиям IPA.</p>
-        <p class="notice">Здесь нет IPA, игровых файлов, сохранений или приватных логов.</p>
+        <p class="eyebrow">SUPER DUPER · ANDROID</p>
+        <div class="hero-title-row">
+          <div>
+            <h1>Compatibility Database</h1>
+            <p class="lead">App, version and Android report records for Super Duper. A catalogue is not a guarantee: each IPA revision is tested separately.</p>
+          </div>
+          <a class="primary-action" href="https://github.com/joewebkid/SuperDuperCompatibility/issues/new?template=android-compatibility-report.yml">Submit Android report</a>
+        </div>
+        <p class="notice">No IPA archives, game assets, private saves, account data or private logs are stored here.</p>
       </header>
 
-      <section class="controls" aria-label="Фильтры каталога">
-        <label class="search-label" for="search">Поиск игры или Bundle ID</label>
-        <input id="search" type="search" autocomplete="off" placeholder="Например, Infinity Blade" />
-        <div id="filters" class="filters" aria-label="Статус совместимости"></div>
+      <section class="summary" aria-label="Database summary">
+        <div><strong id="app-total">—</strong><span>apps</span></div>
+        <div><strong id="tested-total">—</strong><span>tested on Super Duper</span></div>
+        <div><strong id="reference-total">—</strong><span>touchHLE Android references</span></div>
+      </section>
+
+      <section class="controls" aria-label="Catalogue filters">
+        <label class="search-label" for="search">Search by app name, bundle identifier, developer or version</label>
+        <input id="search" type="search" autocomplete="off" placeholder="For example, Infinity Blade" />
+        <div id="filters" class="filters" aria-label="Android compatibility status"></div>
       </section>
 
       <section class="catalogue" aria-live="polite">
         <div class="catalogue-heading">
-          <h2>Каталог</h2>
+          <div>
+            <p class="section-kicker">CATALOGUE</p>
+            <h2>Android compatibility</h2>
+          </div>
           <span id="count"></span>
         </div>
-        <div id="games" class="games"></div>
-        <p id="empty" class="empty" hidden>По этому запросу игр пока нет.</p>
+        <div class="table-shell">
+          <div class="catalogue-table catalogue-table-head" aria-hidden="true">
+            <span>App</span><span>Release</span><span>Developer / Publisher</span><span>Android result</span><span>Last update</span>
+          </div>
+          <div id="games" class="catalogue-table"></div>
+        </div>
+        <p id="empty" class="empty" hidden>No apps match the current filters.</p>
       </section>
     </main>
 
     <footer>
-      <a href="https://github.com/joewebkid/SuperDuperCompatibility">Исходные данные и вклад в базу</a>
+      <p>Imported touchHLE data is an Android reference only, not a Super Duper verification. Source content is attributed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; source screenshots are not mirrored.</p>
+      <p><a href="https://github.com/joewebkid/SuperDuperCompatibility">Source data, contribution guide and attribution</a></p>
     </footer>
     <script type="module" src="app.js"></script>
   </body>

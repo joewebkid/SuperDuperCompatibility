@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1336,
+    "appUrl": "https://appdb.touchhle.org/apps/1336",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "SpaceHop",
+    "releaseYear": null,
+    "developerPublisher": "?",
+    "firstReported": "2026-06-19T20:26:32Z",
+    "firstReportedBy": {
+      "name": "@masterfanaedoodledash-cmd",
+      "url": "https://github.com/masterfanaedoodledash-cmd"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "SpaceHop",
+      "bundleId": "73CLWWPUJQ.com.Company.SpaceHop",
+      "minimumIosVersion": "3.1.3",
+      "firstReportedBy": {
+        "name": "@masterfanaedoodledash-cmd",
+        "url": "https://github.com/masterfanaedoodledash-cmd"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-06-19T20:26:32Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2316",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-432-g3f30a46b",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 4,
+      "reported": "2026-06-19T20:26:32Z",
+      "reportedBy": {
+        "name": "@masterfanaedoodledash-cmd",
+        "url": "https://github.com/masterfanaedoodledash-cmd"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2316/screenshot"
+    }
+  ]
+}

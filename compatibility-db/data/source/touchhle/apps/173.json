@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 173,
+    "appUrl": "https://appdb.touchhle.org/apps/173",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Tiki Towers",
+    "releaseYear": "2008",
+    "developerPublisher": "Mr Goodliving",
+    "firstReported": "2023-12-07T16:17:23Z",
+    "firstReportedBy": {
+      "name": "@Reupload372",
+      "url": "https://github.com/Reupload372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Tiki Towers",
+      "bundleId": "com.mrgoodliving.TikiTowers",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@Reupload372",
+        "url": "https://github.com/Reupload372"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-12-07T16:17:23Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "280",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 11",
+      "gpu": "Galaxy A40",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2023-12-07T16:17:23Z",
+      "reportedBy": {
+        "name": "@Reupload372",
+        "url": "https://github.com/Reupload372"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/280/screenshot"
+    }
+  ]
+}

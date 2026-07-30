@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 912,
+    "appUrl": "https://appdb.touchhle.org/apps/912",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Fish Kabob",
+    "releaseYear": null,
+    "developerPublisher": "Konami",
+    "firstReported": "2025-06-18T12:16:01Z",
+    "firstReportedBy": {
+      "name": "@N0username678",
+      "url": "https://github.com/N0username678"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.0",
+      "displayName": "Fish Kabob",
+      "bundleId": "com.konami.FryingNemo",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@N0username678",
+        "url": "https://github.com/N0username678"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-06-18T12:16:01Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1524",
+      "version": "2.0",
+      "emulatorVersion": "v0.2.2-756-gbe191c2",
+      "operatingSystem": "Android 15",
+      "gpu": "ARM Mali-G57 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-06-18T12:16:01Z",
+      "reportedBy": {
+        "name": "@N0username678",
+        "url": "https://github.com/N0username678"
+      },
+      "remarks": "Game shows Konami logo, then the music menu can be heard for a second before crashing with error: \"Object 0x3003ef30 (class \"ActionManager\", 0x80b60) does not respond to selector \"methodForSelector:\"!\"",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1524/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 137,
+    "appUrl": "https://appdb.touchhle.org/apps/137",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Kamikazerobots",
+    "releaseYear": "2009",
+    "developerPublisher": "Digital chocolate",
+    "firstReported": "2023-11-17T17:53:54Z",
+    "firstReportedBy": {
+      "name": "@Jerty56",
+      "url": "https://github.com/Jerty56"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "KamikazeBot",
+      "bundleId": "com.digitalchocolate.DCBolt",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@Jerty56",
+        "url": "https://github.com/Jerty56"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-11-17T17:53:54Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "210",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 11",
+      "gpu": "Galaxy A40",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2023-11-17T17:53:54Z",
+      "reportedBy": {
+        "name": "@Jerty56",
+        "url": "https://github.com/Jerty56"
+      },
+      "remarks": "Crash at launch",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

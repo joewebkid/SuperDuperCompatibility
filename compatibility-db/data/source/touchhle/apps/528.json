@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 528,
+    "appUrl": "https://appdb.touchhle.org/apps/528",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "iBomber",
+    "releaseYear": "2009",
+    "developerPublisher": "Cobramobile",
+    "firstReported": "2024-09-22T04:36:29Z",
+    "firstReportedBy": {
+      "name": "@GamingDucking",
+      "url": "https://github.com/GamingDucking"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.4",
+      "displayName": "iBomber",
+      "bundleId": "com.cobra.BombaAway",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-09-22T04:36:29Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "845",
+      "version": "1.4",
+      "emulatorVersion": "v0.2.2-270-gb57c773",
+      "operatingSystem": "Android",
+      "gpu": "Mali G51-MP4",
+      "scaleHack": "Couldn't test",
+      "rating": 2,
+      "reported": "2024-09-22T04:36:29Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Goes to menu, but crashes when entering the level. \"New Content\" also crashes.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/845/screenshot"
+    }
+  ]
+}

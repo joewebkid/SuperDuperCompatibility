@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 465,
+    "appUrl": "https://appdb.touchhle.org/apps/465",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bridge Odyssey",
+    "releaseYear": "2009",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-09T15:26:14Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.9",
+      "displayName": "Bridge O",
+      "bundleId": "com.gameloft.BridgeOdyssey",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.7",
+      "displayName": "Bridge O",
+      "bundleId": "com.gameloft.BridgeOdyssey",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@KazumaSatoudesu",
+        "url": "https://github.com/KazumaSatoudesu"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.8",
+      "displayName": "Bridge O",
+      "bundleId": "com.gameloft.BridgeOdyssey",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-02-06T19:54:06Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1286",
+      "version": "1.1.8",
+      "emulatorVersion": "v0.2.2-579-g23f12cf",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno 640",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-02-06T19:54:06Z",
+      "reportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

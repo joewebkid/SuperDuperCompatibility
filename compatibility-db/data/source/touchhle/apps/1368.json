@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1368,
+    "appUrl": "https://appdb.touchhle.org/apps/1368",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "QBeez",
+    "releaseYear": "2008",
+    "developerPublisher": "Skunk Studios",
+    "firstReported": "2026-06-22T20:50:33Z",
+    "firstReportedBy": {
+      "name": "@IrishGamer373",
+      "url": "https://github.com/IrishGamer373"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "QBeez",
+      "bundleId": "com.skunkstudios.games.QBeez",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-22T20:50:33Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2367",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MP2",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2026-06-22T20:50:33Z",
+      "reportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "remarks": "It Shows Splash Screen, Then It Crashes With: Missing implementation for class TitleWindow!",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2367/screenshot"
+    }
+  ]
+}

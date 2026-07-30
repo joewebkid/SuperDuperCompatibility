@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 534,
+    "appUrl": "https://appdb.touchhle.org/apps/534",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "100 vs 100 - Large Scale War",
+    "releaseYear": "2010",
+    "developerPublisher": "pjz",
+    "firstReported": "2024-09-25T18:25:23Z",
+    "firstReportedBy": {
+      "name": "@GamingDucking",
+      "url": "https://github.com/GamingDucking"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "100 vs 100 - Large Scale War",
+      "bundleId": "com.pjz.doodlecraft",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-09-25T18:25:23Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "858",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.2-287-g5b4fadb",
+      "operatingSystem": "Android",
+      "gpu": "Mali G51-MP4",
+      "scaleHack": "Couldn't test",
+      "rating": 3,
+      "reported": "2024-09-25T18:25:23Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Goes ingame for a few seconds before crashing with: Call to unimplemented function _AudioServicesCreateSystemSoundID. Almost all menu function isn't working.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/858/screenshot"
+    }
+  ]
+}

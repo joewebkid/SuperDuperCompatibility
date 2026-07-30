@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 296,
+    "appUrl": "https://appdb.touchhle.org/apps/296",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Beer",
+    "releaseYear": "2008",
+    "developerPublisher": "Chudigi",
+    "firstReported": "2024-04-04T09:48:52Z",
+    "firstReportedBy": {
+      "name": "@FelipePlayzYT",
+      "url": "https://github.com/FelipePlayzYT"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Beer",
+      "bundleId": "com.chudigi.Beer",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

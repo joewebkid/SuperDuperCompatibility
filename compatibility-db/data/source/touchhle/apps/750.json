@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 750,
+    "appUrl": "https://appdb.touchhle.org/apps/750",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Blue Skies Air Force Academy",
+    "releaseYear": "2008",
+    "developerPublisher": "RockingPocketGames",
+    "firstReported": "2025-01-25T15:46:26Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.6",
+      "displayName": "BlueSkies",
+      "bundleId": "com.RockingPocketGames.BlueSkies",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-01-25T15:46:26Z"
+    },
+    {
+      "version": "4.0",
+      "displayName": "BlueSkies",
+      "bundleId": "com.RockingPocketGames.BlueSkies",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-07-25T10:51:40Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1600",
+      "version": "4.0",
+      "emulatorVersion": "v0.2.2-805-g4caf79f",
+      "operatingSystem": "Android",
+      "gpu": "Galaxy A30s",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2025-07-25T10:51:40Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1600/screenshot"
+    },
+    {
+      "sourceReportId": "1242",
+      "version": "1.6",
+      "emulatorVersion": "v0.2.2-553-g9d47662",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2025-01-25T15:46:26Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1242/screenshot"
+    }
+  ]
+}

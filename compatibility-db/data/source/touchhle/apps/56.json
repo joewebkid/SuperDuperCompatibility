@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 56,
+    "appUrl": "https://appdb.touchhle.org/apps/56",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Doom",
+    "releaseYear": "2009",
+    "developerPublisher": "id Software",
+    "firstReported": "2023-10-31T17:07:34Z",
+    "firstReportedBy": {
+      "name": "@ciciplusplus",
+      "url": "https://github.com/ciciplusplus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Doom",
+      "bundleId": "com.idsoftware.Doom",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2023-10-31T17:40:28Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "87",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 13",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2023-10-31T17:40:28Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "No music, Shooting cancels movements",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/87/screenshot"
+    }
+  ]
+}

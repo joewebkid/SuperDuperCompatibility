@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1322,
+    "appUrl": "https://appdb.touchhle.org/apps/1322",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Death Dragon",
+    "releaseYear": "2011",
+    "developerPublisher": "1Games",
+    "firstReported": "2026-06-17T18:10:17Z",
+    "firstReportedBy": {
+      "name": "@zazatree",
+      "url": "https://github.com/zazatree"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Death Dragon",
+      "bundleId": "co.kr.1games.DeathDragon",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@zazatree",
+        "url": "https://github.com/zazatree"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

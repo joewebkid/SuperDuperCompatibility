@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 911,
+    "appUrl": "https://appdb.touchhle.org/apps/911",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Space Invaders",
+    "releaseYear": null,
+    "developerPublisher": "Taito",
+    "firstReported": "2025-06-18T06:59:30Z",
+    "firstReportedBy": {
+      "name": "@N0username678",
+      "url": "https://github.com/N0username678"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Invaders",
+      "bundleId": "J39RVBR353.jp.co.taito.spaceinvaders",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@N0username678",
+        "url": "https://github.com/N0username678"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-09-07T08:30:29Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1673",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-902-g5da510a",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 5,
+      "reported": "2025-09-07T08:30:29Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1673/screenshot"
+    },
+    {
+      "sourceReportId": "1521",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-756-gbe191c2",
+      "operatingSystem": "Android 15",
+      "gpu": "ARM Mali-G57 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-06-18T06:59:30Z",
+      "reportedBy": {
+        "name": "@N0username678",
+        "url": "https://github.com/N0username678"
+      },
+      "remarks": "Crashes at start up with error: \"assertion failed: orig_class != nil\"",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1521/screenshot"
+    }
+  ]
+}

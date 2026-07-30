@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 291,
+    "appUrl": "https://appdb.touchhle.org/apps/291",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Magic Balls Island",
+    "releaseYear": "2010",
+    "developerPublisher": "Colorbox",
+    "firstReported": "2024-04-03T16:47:34Z",
+    "firstReportedBy": {
+      "name": "@GamingDucking",
+      "url": "https://github.com/GamingDucking"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Lines Deluxe",
+      "bundleId": "Com.ColorboxSoftware.LinesDeluxe",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-02-09T15:23:38Z"
+    },
+    {
+      "version": "1.2",
+      "displayName": "Balls Island",
+      "bundleId": "Com.ColorboxSoftware.LinesDeluxeFree",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.3",
+      "displayName": "Magic Balls Island",
+      "bundleId": "Com.ColorboxSoftware.LinesDeluxe",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-04-03T16:47:34Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1307",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.2-576-gae2515f",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-T830",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2025-02-09T15:23:38Z",
+      "reportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "remarks": "Crashes on the loading screen because of 'NSNumber' not having the selector \"NumberWwithUnsignedInt\" currently.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "442",
+      "version": "1.3",
+      "emulatorVersion": "v2.0.1-220-g0e60cd1",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali G51 MP4",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2024-04-03T16:47:34Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "During loading, it crashed with \"Panic at src/objc/messages.rs:130:13: Class \"NSMutableDictionary\" (0x374f6600) is unimplemented. Call to class method \"alloc\".\"",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/442/screenshot"
+    }
+  ]
+}

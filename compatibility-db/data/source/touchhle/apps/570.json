@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 570,
+    "appUrl": "https://appdb.touchhle.org/apps/570",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Toonwarz",
+    "releaseYear": "2009",
+    "developerPublisher": "Polarbit",
+    "firstReported": "2024-10-27T01:12:00Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.,0",
+      "displayName": "ToonWarz",
+      "bundleId": "com.polarbit.toonwarz",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-01-10T17:03:20Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1168",
+      "version": "1.0.,0",
+      "emulatorVersion": "v0.2.2-518-g50338bd",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-01-10T17:03:20Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1168/screenshot"
+    },
+    {
+      "sourceReportId": "945",
+      "version": "1.0.,0",
+      "emulatorVersion": "0.2.2-359-g7b1b382",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-10-27T01:12:00Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "Game Crash",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 626,
+    "appUrl": "https://appdb.touchhle.org/apps/626",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Boxed In 2",
+    "releaseYear": "2009",
+    "developerPublisher": "Dennis Mengelt",
+    "firstReported": "2024-11-26T20:51:10Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Boxed In 2",
+      "bundleId": "com.domainname.BoxedIn2",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-11-26T20:51:10Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1043",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.2-419-g6ffa72c",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-11-26T20:51:10Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1043/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 240,
+    "appUrl": "https://appdb.touchhle.org/apps/240",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Mega Man II",
+    "releaseYear": "2009",
+    "developerPublisher": "Capcom",
+    "firstReported": "2024-01-25T04:23:37Z",
+    "firstReportedBy": {
+      "name": "@xn117khdsh",
+      "url": "https://github.com/xn117khdsh"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Mega Man II",
+      "bundleId": "com.yourcompany.MegaMan2",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@RicardoAJP",
+        "url": "https://github.com/RicardoAJP"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.5.0",
+      "displayName": "Mega Man II",
+      "bundleId": "com.yourcompany.MegaMan2",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@xn117khdsh",
+        "url": "https://github.com/xn117khdsh"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

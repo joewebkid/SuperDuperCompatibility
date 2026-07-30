@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 553,
+    "appUrl": "https://appdb.touchhle.org/apps/553",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Talking Carl (Original Version)",
+    "releaseYear": "2009",
+    "developerPublisher": "Awyse",
+    "firstReported": "2024-10-10T04:14:38Z",
+    "firstReportedBy": {
+      "name": "@Ninja232323",
+      "url": "https://github.com/Ninja232323"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "TalkingCarl",
+      "bundleId": "com.awyse.talkingcarl",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Ninja232323",
+        "url": "https://github.com/Ninja232323"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-02-26T22:51:16Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1983",
+      "version": "1.2",
+      "emulatorVersion": "0.2.3",
+      "operatingSystem": "Android 11",
+      "gpu": "I dont know",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2026-02-26T22:51:16Z",
+      "reportedBy": {
+        "name": "@HamuMomoSter",
+        "url": "https://github.com/HamuMomoSter"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1983/screenshot"
+    },
+    {
+      "sourceReportId": "1434",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.2-696-g1136bad",
+      "operatingSystem": "Android 14",
+      "gpu": "Xclipse 940",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2025-04-10T09:02:53Z",
+      "reportedBy": {
+        "name": "@BMRK409",
+        "url": "https://github.com/BMRK409"
+      },
+      "remarks": "Crashes after a few seconds after opening",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1434/screenshot"
+    }
+  ]
+}

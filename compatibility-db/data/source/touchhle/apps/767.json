@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 767,
+    "appUrl": "https://appdb.touchhle.org/apps/767",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Escape: The Room",
+    "releaseYear": "2011",
+    "developerPublisher": "MocoGame",
+    "firstReported": "2025-02-02T09:00:49Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Escape: The Room",
+      "bundleId": "jp.mapp.ZEscapeE",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-02-02T09:00:49Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1269",
+      "version": "1.0",
+      "emulatorVersion": "0.2.2-574-g2b626b4",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-02-02T09:00:49Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "The game crash with 1 second",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

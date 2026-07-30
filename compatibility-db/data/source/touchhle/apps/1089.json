@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1089,
+    "appUrl": "https://appdb.touchhle.org/apps/1089",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Loot Master",
+    "releaseYear": "2008",
+    "developerPublisher": "digconcepts",
+    "firstReported": "2026-01-18T10:04:00Z",
+    "firstReportedBy": {
+      "name": "@busik0877-hash",
+      "url": "https://github.com/busik0877-hash"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.7",
+      "displayName": "LootMaster",
+      "bundleId": "AY945Z3FTH.com.digconcepts.LootMaster",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@busik0877-hash",
+        "url": "https://github.com/busik0877-hash"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-18T10:04:00Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1864",
+      "version": "1.7",
+      "emulatorVersion": "v0.2.3-45-ga3a5caf7",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-01-18T10:04:00Z",
+      "reportedBy": {
+        "name": "@busik0877-hash",
+        "url": "https://github.com/busik0877-hash"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1864/screenshot"
+    }
+  ]
+}

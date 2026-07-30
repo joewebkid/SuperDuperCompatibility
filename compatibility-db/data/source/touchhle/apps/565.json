@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 565,
+    "appUrl": "https://appdb.touchhle.org/apps/565",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Power Pros Touch",
+    "releaseYear": null,
+    "developerPublisher": "Konami",
+    "firstReported": "2024-10-24T20:06:33Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Powerpros",
+      "bundleId": "com.konami.pawapuro",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-10-24T20:06:33Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "929",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.2-352-g78a4fde",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 2,
+      "reported": "2024-10-24T20:06:33Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/929/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 390,
+    "appUrl": "https://appdb.touchhle.org/apps/390",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Minigore",
+    "releaseYear": "2009",
+    "developerPublisher": "Mountain Sheep / Chillingo",
+    "firstReported": "2024-08-03T07:46:17Z",
+    "firstReportedBy": {
+      "name": "@JPC16",
+      "url": "https://github.com/JPC16"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Minigore",
+      "bundleId": "com.chillingo.minigore",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@JPC16",
+        "url": "https://github.com/JPC16"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

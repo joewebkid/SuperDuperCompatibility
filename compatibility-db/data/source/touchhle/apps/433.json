@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 433,
+    "appUrl": "https://appdb.touchhle.org/apps/433",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Real Tennis",
+    "releaseYear": "2009",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-09T09:08:47Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.2",
+      "displayName": "RealTennis2009",
+      "bundleId": "com.gameloft.RealTennis2009",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-01-23T07:09:38Z"
+    },
+    {
+      "version": "1.5.2",
+      "displayName": "RealTennis2009",
+      "bundleId": "com.gameloft.RealTennis2009",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-11-10T07:41:22Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1882",
+      "version": "1.1.2",
+      "emulatorVersion": "v0.2.3-48-gd8cbe801",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-01-23T07:09:38Z",
+      "reportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "remarks": "Finally gets in game. Music works fine but no sound effects. Also weird artifacting on the rackets.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1882/screenshot"
+    },
+    {
+      "sourceReportId": "1395",
+      "version": "1.1.2",
+      "emulatorVersion": "v0.2.2-656-g7862a9b",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2025-03-15T05:59:57Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1395/screenshot"
+    },
+    {
+      "sourceReportId": "994",
+      "version": "1.5.2",
+      "emulatorVersion": "v0.2.2-365-g329f857",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-11-10T07:41:22Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/994/screenshot"
+    },
+    {
+      "sourceReportId": "914",
+      "version": "1.1.2",
+      "emulatorVersion": "v0.2.2-346",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-10-14T14:09:10Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/914/screenshot"
+    }
+  ]
+}

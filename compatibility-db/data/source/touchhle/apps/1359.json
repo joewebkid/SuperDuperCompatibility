@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1359,
+    "appUrl": "https://appdb.touchhle.org/apps/1359",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Fighters1944",
+    "releaseYear": "2009",
+    "developerPublisher": "DumbGames.net",
+    "firstReported": "2026-06-22T03:20:35Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.2",
+      "displayName": "Fighters1944",
+      "bundleId": "com.dumbgames.FighterPilot1944",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-06-22T03:20:35Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2352",
+      "version": "1.1.2",
+      "emulatorVersion": "v0.2.3-451-ge7790a83 PREVIEW",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-06-22T03:20:35Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2352/screenshot"
+    }
+  ]
+}

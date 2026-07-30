@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 79,
+    "appUrl": "https://appdb.touchhle.org/apps/79",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Peggle Classic",
+    "releaseYear": "2009",
+    "developerPublisher": "PopCap",
+    "firstReported": "2023-11-02T10:39:47Z",
+    "firstReportedBy": {
+      "name": "@FelipePlayzYT",
+      "url": "https://github.com/FelipePlayzYT"
+    }
+  },
+  "versions": [
+    {
+      "version": "6",
+      "displayName": "Peggle",
+      "bundleId": "com.popcap.Peggle",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-11-02T10:39:47Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "125",
+      "version": "6",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android",
+      "gpu": "Mali-T830",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2023-11-02T10:39:47Z",
+      "reportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "remarks": "Crashes due to keyboard applet not existing on touchHLE.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

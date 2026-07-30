@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 160,
+    "appUrl": "https://appdb.touchhle.org/apps/160",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "iFoosball",
+    "releaseYear": null,
+    "developerPublisher": "Spruce Technologies",
+    "firstReported": "2023-11-29T18:22:17Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.1",
+      "displayName": "iFoosball",
+      "bundleId": "pl.spruce.iFoosball",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-12-03T07:44:39Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1742",
+      "version": "2.1",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android 10",
+      "gpu": "PowerVR Rogue GE8300",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2025-12-03T07:44:39Z",
+      "reportedBy": {
+        "name": "@dachim654-stack",
+        "url": "https://github.com/dachim654-stack"
+      },
+      "remarks": "Main game works, the powerups don't.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "465",
+      "version": "2.1",
+      "emulatorVersion": "v0.2.2-7-g8fd0518",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali G51 MP4",
+      "scaleHack": "Couldn't test",
+      "rating": 5,
+      "reported": "2024-04-07T13:53:42Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "The game is now playable.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/465/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 843,
+    "appUrl": "https://appdb.touchhle.org/apps/843",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Straw Ninja Just Run",
+    "releaseYear": null,
+    "developerPublisher": "Digital Play",
+    "firstReported": "2025-03-30T07:23:00Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.5",
+      "displayName": "JustRun",
+      "bundleId": "com.digiple.justrun",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-03-30T07:23:00Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1417",
+      "version": "1.5",
+      "emulatorVersion": "v0.2.2-682-gd7ac037",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "No (broken)",
+      "rating": 5,
+      "reported": "2025-03-30T07:23:00Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1417/screenshot"
+    }
+  ]
+}

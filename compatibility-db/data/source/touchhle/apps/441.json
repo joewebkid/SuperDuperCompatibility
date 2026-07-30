@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 441,
+    "appUrl": "https://appdb.touchhle.org/apps/441",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Platinum Solitaire",
+    "releaseYear": "2008",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-09T09:54:35Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.4.3",
+      "displayName": "P.Solitaire",
+      "bundleId": "com.gameloft.PSolitaire",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-04-30T21:40:02Z"
+    },
+    {
+      "version": "1.5.4",
+      "displayName": "P.Solitaire",
+      "bundleId": "com.gameloft.PSolitaire",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.6.0",
+      "displayName": "P.Solitaire",
+      "bundleId": "com.gameloft.PSolitaire",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2122",
+      "version": "1.4.3",
+      "emulatorVersion": "v0.2.3-251-g92674bfd",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-04-30T21:40:02Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "Ah, I was wrong about the logo being off-position; it was intended to happen when I tilt my device.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2122/screenshot"
+    },
+    {
+      "sourceReportId": "2116",
+      "version": "1.4.3",
+      "emulatorVersion": "v0.2.3-251-g92674bfd",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2026-04-30T00:24:20Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "Works very well in general; only known issue is the logo in the title screen being off-position.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2116/screenshot"
+    }
+  ]
+}

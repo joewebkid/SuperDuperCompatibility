@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 575,
+    "appUrl": "https://appdb.touchhle.org/apps/575",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Oh My Egg!",
+    "releaseYear": "2008",
+    "developerPublisher": "SG Game",
+    "firstReported": "2024-10-27T13:49:05Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "OhMyEgg free",
+      "bundleId": "com.sggame.ohmyeggfree",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-10-27T13:49:05Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "950",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.2-359-g7b1b382",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 5,
+      "reported": "2024-10-27T13:49:05Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/950/screenshot"
+    }
+  ]
+}

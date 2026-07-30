@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 129,
+    "appUrl": "https://appdb.touchhle.org/apps/129",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "MLB World Series 2009",
+    "releaseYear": "2009",
+    "developerPublisher": "Polarbit AB",
+    "firstReported": "2023-11-15T16:00:56Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.1",
+      "displayName": "MLB WS 09",
+      "bundleId": "com.mlb.mlb2009",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2023-11-17T09:52:02Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "205",
+      "version": "1.1.1",
+      "emulatorVersion": "v0.21",
+      "operatingSystem": "Android 11",
+      "gpu": "Adreno",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2023-11-17T09:52:02Z",
+      "reportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "remarks": "When pitch is hit, the stadium and dirt disappear, leaving only the grass, players, and other misc assets, fixed when camera resets",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/205/screenshot"
+    }
+  ]
+}

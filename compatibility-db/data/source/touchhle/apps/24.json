@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 24,
+    "appUrl": "https://appdb.touchhle.org/apps/24",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Rat On A Scooter XL",
+    "releaseYear": "2010",
+    "developerPublisher": "Donut Games",
+    "firstReported": "2023-10-14T17:32:11Z",
+    "firstReportedBy": {
+      "name": "@skiesofravens",
+      "url": "https://github.com/skiesofravens"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.00",
+      "displayName": "Scooter XL",
+      "bundleId": "com.donutgames.ratonascooterxl",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.10",
+      "displayName": "Scooter XL",
+      "bundleId": "com.donutgames.ratonascooterxl",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.11",
+      "displayName": "Scooter XL",
+      "bundleId": "com.donutgames.ratonascooterxl",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.12",
+      "displayName": "Scooter XL",
+      "bundleId": "com.donutgames.ratonascooterxl",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@skiesofravens",
+        "url": "https://github.com/skiesofravens"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

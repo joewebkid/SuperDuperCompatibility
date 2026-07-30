@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 82,
+    "appUrl": "https://appdb.touchhle.org/apps/82",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Tickle Tap Toddler Pack - Preschool Learning Games",
+    "releaseYear": "2010",
+    "developerPublisher": "Tickle Tap Apps/zinc Roe Inc.",
+    "firstReported": "2023-11-02T19:15:04Z",
+    "firstReportedBy": {
+      "name": "@Ninja232323",
+      "url": "https://github.com/Ninja232323"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.3 (1.3.1382)",
+      "displayName": "Tickle Tap",
+      "bundleId": "com.zincroe.tickletap.bundle1",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Ninja232323",
+        "url": "https://github.com/Ninja232323"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

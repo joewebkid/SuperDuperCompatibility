@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 451,
+    "appUrl": "https://appdb.touchhle.org/apps/451",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Iron Man 2",
+    "releaseYear": "2010",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-09T10:32:29Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "IronMan2",
+      "bundleId": "com.gameloft.IronMan2",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-18T21:00:17Z"
+    },
+    {
+      "version": "1.0.0",
+      "displayName": "IronMan2Lite",
+      "bundleId": "com.gameloft.IronMan2Lite",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-18T21:00:17Z"
+    },
+    {
+      "version": "1.0.0",
+      "displayName": "IronMan2",
+      "bundleId": "com.gameloft.IronMan2iPad",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-18T21:00:17Z"
+    },
+    {
+      "version": "1.0.1",
+      "displayName": "IronMan2",
+      "bundleId": "com.gameloft.IronMan2",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-11-17T13:20:35Z"
+    },
+    {
+      "version": "1.0.3",
+      "displayName": "IronMan2",
+      "bundleId": "com.gameloft.IronMan2",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1869",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.3-48-gd8cbe801",
+      "operatingSystem": "Android 12",
+      "gpu": "PowerVR GE8320",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2026-01-18T21:00:17Z",
+      "reportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "remarks": "The iPad version works great. However, you need to use “--landscape-left (or right)”, otherwise it will crash.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1869/screenshot"
+    },
+    {
+      "sourceReportId": "1867",
+      "version": "1.0.0",
+      "emulatorVersion": "0.2.3",
+      "operatingSystem": "Android",
+      "gpu": "Mali",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-01-18T18:41:01Z",
+      "reportedBy": {
+        "name": "@witalobiel14-eng",
+        "url": "https://github.com/witalobiel14-eng"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1350",
+      "version": "1.0.0",
+      "emulatorVersion": "0.2.2-625-g3550209",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-02-25T00:43:14Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "The Game is work perfectly now no skip button >> crash and audio is fixed, even the Lite Version too",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1292",
+      "version": "1.0.0",
+      "emulatorVersion": "0.2.2-579-g23f12cf",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2025-02-08T02:16:45Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "The Game is work perfectly now no skip button >> crash and audio is fixed, even the Full Version too",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1292/screenshot"
+    },
+    {
+      "sourceReportId": "1011",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.2-380-g98e1938",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2024-11-17T13:20:35Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1011/screenshot"
+    },
+    {
+      "sourceReportId": "949",
+      "version": "1.0.0",
+      "emulatorVersion": "0.2.2-359-g7b1b382",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2024-10-27T12:53:40Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "Game crash when you press Tap to Continue",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/949/screenshot"
+    }
+  ]
+}

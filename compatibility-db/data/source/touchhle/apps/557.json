@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 557,
+    "appUrl": "https://appdb.touchhle.org/apps/557",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Arcade Bowling Skee Ball",
+    "releaseYear": "2009",
+    "developerPublisher": "SkyWorks",
+    "firstReported": "2024-10-12T11:00:51Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.4",
+      "displayName": "ArcadeBowl",
+      "bundleId": "com.skyworks.ArcadeBowling",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-10-12T11:00:51Z"
+    },
+    {
+      "version": "1.5",
+      "displayName": "ArcadeBowl",
+      "bundleId": "com.skyworks.ArcadeBowling",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-10-27T13:57:48Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "952",
+      "version": "1.5",
+      "emulatorVersion": "v0.2.2-359-g7b1b382",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2024-10-27T13:57:48Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/952/screenshot"
+    },
+    {
+      "sourceReportId": "909",
+      "version": "1.4",
+      "emulatorVersion": "v0.2.2-336",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-10-12T11:00:51Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/909/screenshot"
+    }
+  ]
+}

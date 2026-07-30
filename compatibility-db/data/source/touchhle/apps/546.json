@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 546,
+    "appUrl": "https://appdb.touchhle.org/apps/546",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Glyder",
+    "releaseYear": "2009",
+    "developerPublisher": "Glu",
+    "firstReported": "2024-10-06T16:05:00Z",
+    "firstReportedBy": {
+      "name": "@Snakeynaut",
+      "url": "https://github.com/Snakeynaut"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.3.0",
+      "displayName": "Glyder",
+      "bundleId": "com.glu.glyder",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Snakeynaut",
+        "url": "https://github.com/Snakeynaut"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

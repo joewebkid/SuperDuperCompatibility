@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 504,
+    "appUrl": "https://appdb.touchhle.org/apps/504",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "The Treasures of Montezuma",
+    "releaseYear": "2009",
+    "developerPublisher": "Visual Shape Games / Alawar Entertainment",
+    "firstReported": "2024-08-26T13:27:54Z",
+    "firstReportedBy": {
+      "name": "@NikSavchenk0",
+      "url": "https://github.com/NikSavchenk0"
+    }
+  },
+  "versions": [
+    {
+      "version": "v1.2",
+      "displayName": "Montezuma",
+      "bundleId": "com.Alawar.Montezuma",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@NikSavchenk0",
+        "url": "https://github.com/NikSavchenk0"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-08-26T13:27:54Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "791",
+      "version": "v1.2",
+      "emulatorVersion": "v0.2.2-237-gb0f50d3",
+      "operatingSystem": "Android 8.0.0",
+      "gpu": "Qualcomm Snapdragon 430 / Adreno 505",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-08-26T13:27:54Z",
+      "reportedBy": {
+        "name": "@NikSavchenk0",
+        "url": "https://github.com/NikSavchenk0"
+      },
+      "remarks": "Crashes at launch",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/791/screenshot"
+    }
+  ]
+}

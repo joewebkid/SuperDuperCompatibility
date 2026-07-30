@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1266,
+    "appUrl": "https://appdb.touchhle.org/apps/1266",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Real Racing 2",
+    "releaseYear": "2012",
+    "developerPublisher": "Firemint",
+    "firstReported": "2026-05-20T11:05:56Z",
+    "firstReportedBy": {
+      "name": "@nurfandicahyono-code",
+      "url": "https://github.com/nurfandicahyono-code"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Real Racing 2",
+      "bundleId": "1.0.0",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@nurfandicahyono-code",
+        "url": "https://github.com/nurfandicahyono-code"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-05-20T11:05:56Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2204",
+      "version": "1.0.0",
+      "emulatorVersion": "0.2.3",
+      "operatingSystem": "Android",
+      "gpu": "Mali",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2026-05-20T11:05:56Z",
+      "reportedBy": {
+        "name": "@nurfandicahyono-code",
+        "url": "https://github.com/nurfandicahyono-code"
+      },
+      "remarks": "Only Showing Real Racing 2 logo before crashes",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

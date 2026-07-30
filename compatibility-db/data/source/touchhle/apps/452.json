@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 452,
+    "appUrl": "https://appdb.touchhle.org/apps/452",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Hero of Sparta",
+    "releaseYear": "2008",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-09T10:36:02Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Hero Of Sparta",
+      "bundleId": "com.gameloft.HeroOfSparta",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-02-02T12:41:33Z"
+    },
+    {
+      "version": "1.30",
+      "displayName": "Hero Of Sparta",
+      "bundleId": "com.gameloft.HeroOfSparta",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1270",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-575-g6cd74dda",
+      "operatingSystem": "Android 13",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Partially",
+      "rating": 4,
+      "reported": "2025-02-02T12:41:33Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "Playable. Sounds are not playing, music doesn't loop properly. Videos are skipped. Some secondary menus could crash.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1270/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1146,
+    "appUrl": "https://appdb.touchhle.org/apps/1146",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Ragdoll Blaster 2",
+    "releaseYear": "2010",
+    "developerPublisher": "BlackFlip Studios",
+    "firstReported": "2026-02-16T16:34:11Z",
+    "firstReportedBy": {
+      "name": "@BoredSpaghetti68",
+      "url": "https://github.com/BoredSpaghetti68"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.01",
+      "displayName": "Ragdoll 2 HD",
+      "bundleId": "com.backflipstudios.RagdollBlaster2HD",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@BoredSpaghetti68",
+        "url": "https://github.com/BoredSpaghetti68"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

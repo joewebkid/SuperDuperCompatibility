@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 111,
+    "appUrl": "https://appdb.touchhle.org/apps/111",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Worms Defense",
+    "releaseYear": null,
+    "developerPublisher": "bestsungame",
+    "firstReported": "2023-11-06T14:30:22Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Worms Defense",
+      "bundleId": "com.bestsungame.wormsdefense",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2023-11-06T16:30:37Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "170",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-G72 MP18 (Samsung Galaxy S9)",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2023-11-06T16:30:37Z",
+      "reportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/170/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 882,
+    "appUrl": "https://appdb.touchhle.org/apps/882",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Mega Jump",
+    "releaseYear": "2010",
+    "developerPublisher": "Get Set Games",
+    "firstReported": "2025-05-12T11:39:20Z",
+    "firstReportedBy": {
+      "name": "@biggamer145",
+      "url": "https://github.com/biggamer145"
+    }
+  },
+  "versions": [
+    {
+      "version": "12.0.0",
+      "displayName": "Mega Jump",
+      "bundleId": "com.getsetgames.megajump",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@biggamer145",
+        "url": "https://github.com/biggamer145"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

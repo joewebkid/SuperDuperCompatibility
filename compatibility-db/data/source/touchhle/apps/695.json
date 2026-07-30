@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 695,
+    "appUrl": "https://appdb.touchhle.org/apps/695",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sky Force Reloaded",
+    "releaseYear": "2009",
+    "developerPublisher": "Infinite Dreams",
+    "firstReported": "2025-01-03T14:53:37Z",
+    "firstReportedBy": {
+      "name": "@JoneHermer",
+      "url": "https://github.com/JoneHermer"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.06",
+      "displayName": "SkyForce R",
+      "bundleId": "pl.idreams.skyforcereloaded",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@JoneHermer",
+        "url": "https://github.com/JoneHermer"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-01-03T14:53:37Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1157",
+      "version": "1.06",
+      "emulatorVersion": "v0.2.2-511-g8a1156d",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 750",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-01-03T14:53:37Z",
+      "reportedBy": {
+        "name": "@JoneHermer",
+        "url": "https://github.com/JoneHermer"
+      },
+      "remarks": "GFX works perfectly, but always have crack (tick) sound and couldn't detect (show) game logo.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1157/screenshot"
+    }
+  ]
+}

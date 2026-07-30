@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 332,
+    "appUrl": "https://appdb.touchhle.org/apps/332",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bobby Carrot 1: Classic",
+    "releaseYear": "2009",
+    "developerPublisher": "FDG Mobile Games",
+    "firstReported": "2024-05-26T17:21:25Z",
+    "firstReportedBy": {
+      "name": "@leold1975",
+      "url": "https://github.com/leold1975"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Bobby 1",
+      "bundleId": "com.FDGMobileGamesGbR.BobbyCarrot1CLXS",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@leold1975",
+        "url": "https://github.com/leold1975"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

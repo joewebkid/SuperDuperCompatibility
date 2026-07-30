@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 342,
+    "appUrl": "https://appdb.touchhle.org/apps/342",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "3D Brick Breaker Revolution 2",
+    "releaseYear": null,
+    "developerPublisher": "Digital Chocolate",
+    "firstReported": "2024-06-19T01:30:45Z",
+    "firstReportedBy": {
+      "name": "@Siqo53",
+      "url": "https://github.com/Siqo53"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "3D Brick 2",
+      "bundleId": "com.digitalchocolate.iwall3d2",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@Siqo53",
+        "url": "https://github.com/Siqo53"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.0.8",
+      "displayName": "3D Brick 2",
+      "bundleId": "com.digitalchocolate.iwall3d2",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Siqo53",
+        "url": "https://github.com/Siqo53"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

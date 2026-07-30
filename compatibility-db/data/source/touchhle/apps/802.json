@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 802,
+    "appUrl": "https://appdb.touchhle.org/apps/802",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Fireworks Arcade",
+    "releaseYear": "2011",
+    "developerPublisher": "Big Duck Games",
+    "firstReported": "2025-02-27T03:57:54Z",
+    "firstReportedBy": {
+      "name": "@InvertDark",
+      "url": "https://github.com/InvertDark"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Fireworks",
+      "bundleId": "com.mikenewman.fireworks",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@InvertDark",
+        "url": "https://github.com/InvertDark"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

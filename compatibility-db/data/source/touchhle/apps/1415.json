@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1415,
+    "appUrl": "https://appdb.touchhle.org/apps/1415",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cipher Break",
+    "releaseYear": null,
+    "developerPublisher": "George Dimidik",
+    "firstReported": "2026-07-12T16:54:24Z",
+    "firstReportedBy": {
+      "name": "@0ldw4re",
+      "url": "https://github.com/0ldw4re"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "CipherBreak",
+      "bundleId": "com.georgedimidik.PPCB",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-07-12T16:54:24Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2435",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-462-gbcbaaee2",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali G52-MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-07-12T16:54:24Z",
+      "reportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "remarks": "When you open it first time, it crashes due to showing the Info section. When you reopen it though, it works fully unless you open the info section which crashes at the same error.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2435/screenshot"
+    }
+  ]
+}

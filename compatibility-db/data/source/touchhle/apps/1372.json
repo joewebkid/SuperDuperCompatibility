@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1372,
+    "appUrl": "https://appdb.touchhle.org/apps/1372",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Coin Dozer",
+    "releaseYear": "2010",
+    "developerPublisher": "Game Circus LLC",
+    "firstReported": "2026-06-23T06:58:41Z",
+    "firstReportedBy": {
+      "name": "@IrishGamer373",
+      "url": "https://github.com/IrishGamer373"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Coin Dozer",
+      "bundleId": "com.leftover.CoinDozer",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-23T06:58:41Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2371",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MP2",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2026-06-23T06:58:41Z",
+      "reportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "remarks": "It Shows Splash Screen, Then It Crashes With: Attempted null-page access at 0x0 (0x4 bytes)",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2371/screenshot"
+    }
+  ]
+}

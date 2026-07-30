@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1036,
+    "appUrl": "https://appdb.touchhle.org/apps/1036",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Plank",
+    "releaseYear": "2008",
+    "developerPublisher": "freeverse",
+    "firstReported": "2025-12-30T09:41:50Z",
+    "firstReportedBy": {
+      "name": "@j92580498-max",
+      "url": "https://github.com/j92580498-max"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Plank",
+      "bundleId": "com.freeverse.plank",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@j92580498-max",
+        "url": "https://github.com/j92580498-max"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-12-30T09:41:50Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1767",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.2-1021-gf459ec07",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57 MC2",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-12-30T09:41:50Z",
+      "reportedBy": {
+        "name": "@j92580498-max",
+        "url": "https://github.com/j92580498-max"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1767/screenshot"
+    }
+  ]
+}

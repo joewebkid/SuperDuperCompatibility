@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 402,
+    "appUrl": "https://appdb.touchhle.org/apps/402",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bomberman Touch",
+    "releaseYear": "2008",
+    "developerPublisher": "Hudson Soft",
+    "firstReported": "2024-08-07T10:59:58Z",
+    "firstReportedBy": {
+      "name": "@WinAero5",
+      "url": "https://github.com/WinAero5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Bomberman",
+      "bundleId": "jp.co.hudson.BombermanTouch",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@WinAero5",
+        "url": "https://github.com/WinAero5"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-08-07T10:59:58Z"
+    },
+    {
+      "version": "1.0.2",
+      "displayName": "Bomberman",
+      "bundleId": "jp.co.hudson.BombermanTouch",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@BlueTHAF",
+        "url": "https://github.com/BlueTHAF"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2025-09-22T19:48:33Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1693",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-949-gf043029",
+      "operatingSystem": "Android 15",
+      "gpu": "Adreno 740",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2025-09-22T19:48:33Z",
+      "reportedBy": {
+        "name": "@BlueTHAF",
+        "url": "https://github.com/BlueTHAF"
+      },
+      "remarks": "Panic at src/frameworks/uikit/ui_application.rs:57:5: assertion failed: env.framework_state.uikit.ui_application.shared_application.is_none()",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "611",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-165-g9ef94a9",
+      "operatingSystem": "Android",
+      "gpu": "Mali G52",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-08-07T10:59:58Z",
+      "reportedBy": {
+        "name": "@WinAero5",
+        "url": "https://github.com/WinAero5"
+      },
+      "remarks": "Panic at src/frameworks/uikit/ui_application.rs:57:5: assertion failed: env.framework_state.uikit.ui_application.shared_application.is_none()",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

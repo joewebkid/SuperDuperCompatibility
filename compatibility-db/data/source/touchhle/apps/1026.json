@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1026,
+    "appUrl": "https://appdb.touchhle.org/apps/1026",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "I love Strawberries",
+    "releaseYear": "2010",
+    "developerPublisher": "Coffee Stain Studios",
+    "firstReported": "2025-12-16T02:33:46Z",
+    "firstReportedBy": {
+      "name": "@GopherDevGames",
+      "url": "https://github.com/GopherDevGames"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "ILS",
+      "bundleId": "com.atari.mobile.ilovestrawberries",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@GopherDevGames",
+        "url": "https://github.com/GopherDevGames"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

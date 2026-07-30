@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 781,
+    "appUrl": "https://appdb.touchhle.org/apps/781",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Assassin's Creed 2 - Discovery",
+    "releaseYear": "2010",
+    "developerPublisher": "Ubisoft",
+    "firstReported": "2025-02-10T21:41:40Z",
+    "firstReportedBy": {
+      "name": "@HunterGM360",
+      "url": "https://github.com/HunterGM360"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "AC2",
+      "bundleId": "UBI-004-WW",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2026-06-20T07:18:01Z"
+    },
+    {
+      "version": "1.0.1",
+      "displayName": "AC2",
+      "bundleId": "UBI-004-WW",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-02-10T21:41:40Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2318",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2026-06-20T07:18:01Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Goes to main menu, saving to album from gallery crashes and gameplay part too.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2318/screenshot"
+    },
+    {
+      "sourceReportId": "1319",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.2-589-g6460bad",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno 640",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2025-02-10T21:41:40Z",
+      "reportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1319/screenshot"
+    }
+  ]
+}

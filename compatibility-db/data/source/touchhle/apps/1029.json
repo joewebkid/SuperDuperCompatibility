@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1029,
+    "appUrl": "https://appdb.touchhle.org/apps/1029",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "U-Boot",
+    "releaseYear": "2009",
+    "developerPublisher": "Bootant LLC",
+    "firstReported": "2025-12-20T14:24:06Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "UBoot",
+      "bundleId": "com.bootant.uboot",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-12-20T14:24:06Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1754",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-1009-g069621db PREVIEW",
+      "operatingSystem": "Android",
+      "gpu": "618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2025-12-20T14:24:06Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1754/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 576,
+    "appUrl": "https://appdb.touchhle.org/apps/576",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Fresh Water Aquarium",
+    "releaseYear": null,
+    "developerPublisher": "EuiBeam Hwang",
+    "firstReported": "2024-10-27T13:52:55Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.01",
+      "displayName": "FreshWater",
+      "bundleId": "com.yourcompany.FreshWater",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-10-27T13:52:55Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "951",
+      "version": "1.01",
+      "emulatorVersion": "v0.2.2-359-g7b1b382",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-10-27T13:52:55Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/951/screenshot"
+    }
+  ]
+}

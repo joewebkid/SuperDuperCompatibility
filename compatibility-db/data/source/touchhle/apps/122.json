@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 122,
+    "appUrl": "https://appdb.touchhle.org/apps/122",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Metal Gear Solid Touch",
+    "releaseYear": "2009",
+    "developerPublisher": "Kojima Productions/Konami",
+    "firstReported": "2023-11-10T18:42:55Z",
+    "firstReportedBy": {
+      "name": "@Blackbird88",
+      "url": "https://github.com/Blackbird88"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "MGSTouch",
+      "bundleId": "com.konami.mgst",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-01-21T00:24:29Z"
+    },
+    {
+      "version": "2.0.0",
+      "displayName": "METAL GEAR SOLID TOUCH",
+      "bundleId": "com.konami.mgst",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-05-27T03:09:15Z"
+    },
+    {
+      "version": "2.3.0",
+      "displayName": "METAL GEAR SOLID TOUCH",
+      "bundleId": "com.konami.mgst",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@Blackbird88",
+        "url": "https://github.com/Blackbird88"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-03-26T05:24:01Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1875",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Arm Mali-G52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2026-01-21T00:24:29Z",
+      "reportedBy": {
+        "name": "@KxSilver-spec",
+        "url": "https://github.com/KxSilver-spec"
+      },
+      "remarks": "English Version works perfectly but Touch Konami and The Kojima Productions Report don't work",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1875/screenshot"
+    },
+    {
+      "sourceReportId": "1485",
+      "version": "2.0.0",
+      "emulatorVersion": "v0.2.2-714-g3a030da",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 640",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2025-05-27T03:09:15Z",
+      "reportedBy": {
+        "name": "@HunterGM360",
+        "url": "https://github.com/HunterGM360"
+      },
+      "remarks": "Playable, only Japanese language works. Needs to use the “Force Composition” option to fix graphical issues on Adreno users.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "412",
+      "version": "2.3.0",
+      "emulatorVersion": "v0.2.1-196-g0b91983",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G51 MP4",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-03-26T05:24:01Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Crash with \"Panic at src/objc/messages.rs:60:13: Object 0x37505a20 (class \"UIWindow\", 0x374f6770) does not respond to selector \"setAutoresizesSubviews:\"!\"",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

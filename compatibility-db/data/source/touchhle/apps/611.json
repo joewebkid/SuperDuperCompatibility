@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 611,
+    "appUrl": "https://appdb.touchhle.org/apps/611",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Dragon Gems",
+    "releaseYear": null,
+    "developerPublisher": "Mobile Amusements",
+    "firstReported": "2024-11-16T08:29:27Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "DragonGems",
+      "bundleId": "com.mobileamusements.DragonGemsPaid",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-11-16T08:29:27Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1000",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-376-g23c219d",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-11-16T08:29:27Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

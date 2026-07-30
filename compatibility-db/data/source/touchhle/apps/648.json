@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 648,
+    "appUrl": "https://appdb.touchhle.org/apps/648",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Archmage Defense",
+    "releaseYear": "2010",
+    "developerPublisher": "CDE",
+    "firstReported": "2024-12-08T11:07:23Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Archmage",
+      "bundleId": "cde.WizardDefense",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-12-08T11:07:23Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1077",
+      "version": "1.1",
+      "emulatorVersion": "0.2.2-475-g04a30bd",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-12-08T11:07:23Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "Game Crash when the title name shows",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1077/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 385,
+    "appUrl": "https://appdb.touchhle.org/apps/385",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Iron Man: Aerial Assault",
+    "releaseYear": "2008",
+    "developerPublisher": "Paramount Digital Entertainment",
+    "firstReported": "2024-08-02T13:51:37Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "IronMan",
+      "bundleId": "com.paramount.IronMan",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-10-28T00:15:44Z"
+    },
+    {
+      "version": "1.0",
+      "displayName": "Iron Man Lite",
+      "bundleId": "com.paramount.IronManLite",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-10-28T00:15:44Z"
+    },
+    {
+      "version": "1.1",
+      "displayName": "Iron Man",
+      "bundleId": "com.paramount.IronMan",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "957",
+      "version": "1.0",
+      "emulatorVersion": "0.2.2-359-g7b1b382",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Couldn't test",
+      "rating": 4,
+      "reported": "2024-10-28T00:15:44Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "The game need left Orientation instead of Right",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/957/screenshot"
+    },
+    {
+      "sourceReportId": "922",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-351-g714290e",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-10-21T07:27:29Z",
+      "reportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "remarks": "Works perfectly from what levels I played",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/922/screenshot"
+    }
+  ]
+}

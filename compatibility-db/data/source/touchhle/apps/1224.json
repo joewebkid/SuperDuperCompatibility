@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1224,
+    "appUrl": "https://appdb.touchhle.org/apps/1224",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Exploration",
+    "releaseYear": "2011",
+    "developerPublisher": "Andrzej Chomiak",
+    "firstReported": "2026-04-27T20:25:43Z",
+    "firstReportedBy": {
+      "name": "@TimofeyLednev",
+      "url": "https://github.com/TimofeyLednev"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.3.1",
+      "displayName": "Exploration Lite",
+      "bundleId": "com.explorationbase.Exploration-Lite",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@TimofeyLednev",
+        "url": "https://github.com/TimofeyLednev"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-04-27T20:25:43Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2107",
+      "version": "1.3.1",
+      "emulatorVersion": "v0.2.3-251-g92674bfd",
+      "operatingSystem": "Android 16 (Origin OS 6)",
+      "gpu": "Adreno 735",
+      "scaleHack": "Partially",
+      "rating": 5,
+      "reported": "2026-04-27T20:25:43Z",
+      "reportedBy": {
+        "name": "@TimofeyLednev",
+        "url": "https://github.com/TimofeyLednev"
+      },
+      "remarks": "It works perfectly (versions 1.1.2-1.3.1 have been checked), but in 1.3.x there is a bug using the scale hack in the game menu, the scale increases incorrectly, but this is just the background",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2107/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 515,
+    "appUrl": "https://appdb.touchhle.org/apps/515",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cause of Death",
+    "releaseYear": "2010",
+    "developerPublisher": "EA Mobile",
+    "firstReported": "2024-09-10T20:03:30Z",
+    "firstReportedBy": {
+      "name": "@oogaboogasushi",
+      "url": "https://github.com/oogaboogasushi"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.3.4",
+      "displayName": "Cause of Death",
+      "bundleId": "com.ea.causeofdeath.bv",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@oogaboogasushi",
+        "url": "https://github.com/oogaboogasushi"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

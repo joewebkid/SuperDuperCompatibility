@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1416,
+    "appUrl": "https://appdb.touchhle.org/apps/1416",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "3D CUBE PUZZLE 4in1 HD!",
+    "releaseYear": null,
+    "developerPublisher": "eGlobalAgent",
+    "firstReported": "2026-07-12T17:01:26Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3-touchhle3",
+      "url": "https://github.com/0ldw4r3-touchhle3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "3D CUBE PUZZLE 4in1 HD!",
+      "bundleId": "com.eGlobalAgent.MofangiPad",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@0ldw4r3-touchhle3",
+        "url": "https://github.com/0ldw4r3-touchhle3"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-07-12T17:01:26Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2436",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-462-gbcbaaee2",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali G52-MC2",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-07-12T17:01:26Z",
+      "reportedBy": {
+        "name": "@0ldw4r3-touchhle3",
+        "url": "https://github.com/0ldw4r3-touchhle3"
+      },
+      "remarks": "With scale hack it becomes laggier so it's best to try in more powerful devices but it works fully nonetheless.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2436/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 261,
+    "appUrl": "https://appdb.touchhle.org/apps/261",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Fruit Ninja",
+    "releaseYear": null,
+    "developerPublisher": "Halfbrick Studios",
+    "firstReported": "2024-03-01T21:05:02Z",
+    "firstReportedBy": {
+      "name": "@995qa",
+      "url": "https://github.com/995qa"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Fruit Ninja",
+      "bundleId": "com.Halfbrick.Fruit",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@TimofeyLednev",
+        "url": "https://github.com/TimofeyLednev"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-04-25T20:30:44Z"
+    },
+    {
+      "version": "1.01.1",
+      "displayName": "Fruit Ninja",
+      "bundleId": "com.Halfbrick.Fruit",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@ERRORGITYT",
+        "url": "https://github.com/ERRORGITYT"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-07-22T09:35:30Z"
+    },
+    {
+      "version": "1.2",
+      "displayName": "Fruit Ninja",
+      "bundleId": "com.Halfbrick.Fruit",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-04-29T09:54:19Z"
+    },
+    {
+      "version": "1.3",
+      "displayName": "Fruit Ninja",
+      "bundleId": "com.Halfbrick.Fruit",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@vladpetru65",
+        "url": "https://github.com/vladpetru65"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.3.1",
+      "displayName": "Fruit Ninja",
+      "bundleId": "com.Halfbrick.Fruit",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@995qa",
+        "url": "https://github.com/995qa"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-03-01T21:05:02Z"
+    },
+    {
+      "version": "1.6",
+      "displayName": "Fruit Ninja",
+      "bundleId": "com.Halfbrick.Fruit",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@sunflowers33d",
+        "url": "https://github.com/sunflowers33d"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2461",
+      "version": "1.01.1",
+      "emulatorVersion": "v0.2.3-463-g0f2c1630",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-07-22T09:35:30Z",
+      "reportedBy": {
+        "name": "@ERRORGITYT",
+        "url": "https://github.com/ERRORGITYT"
+      },
+      "remarks": "The bomb object is working now properly",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2461/screenshot"
+    },
+    {
+      "sourceReportId": "2111",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.3-257-gcf1ade8a",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2026-04-29T09:54:19Z",
+      "reportedBy": {
+        "name": "@ERRORGITYT",
+        "url": "https://github.com/ERRORGITYT"
+      },
+      "remarks": "Only the bomb object is the small issue (or not?), the bomb object didn't load because the only way is to load a bomb object, if there's a fruit",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "2095",
+      "version": "1.0",
+      "emulatorVersion": "V0.2.3",
+      "operatingSystem": "Android 15 One UI 7.0",
+      "gpu": "Adreno (TM) 619",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2026-04-25T20:30:44Z",
+      "reportedBy": {
+        "name": "@octavianunderwood22",
+        "url": "https://github.com/octavianunderwood22"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2095/screenshot"
+    },
+    {
+      "sourceReportId": "399",
+      "version": "1.3.1",
+      "emulatorVersion": "v0.2.1-163-g518a710",
+      "operatingSystem": "Android 12",
+      "gpu": "PowerVR GE8320",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-03-01T21:05:02Z",
+      "reportedBy": {
+        "name": "@995qa",
+        "url": "https://github.com/995qa"
+      },
+      "remarks": "Shows splash before crashing",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/399/screenshot"
+    }
+  ]
+}

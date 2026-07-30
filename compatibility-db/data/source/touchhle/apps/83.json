@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 83,
+    "appUrl": "https://appdb.touchhle.org/apps/83",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sonic at the Olympic Winter Games",
+    "releaseYear": "2010",
+    "developerPublisher": "SEGA",
+    "firstReported": "2023-11-02T22:06:19Z",
+    "firstReportedBy": {
+      "name": "@grubbyplaya",
+      "url": "https://github.com/grubbyplaya"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.3",
+      "displayName": "Sonic Winter",
+      "bundleId": "com.sega.sonicwintergames",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@grubbyplaya",
+        "url": "https://github.com/grubbyplaya"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-14T11:59:28Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2270",
+      "version": "1.0.3",
+      "emulatorVersion": "v.0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2026-06-14T11:59:28Z",
+      "reportedBy": {
+        "name": "@emerson19345698-debug",
+        "url": "https://github.com/emerson19345698-debug"
+      },
+      "remarks": "touchHLE crashs with the following error: Class\"NsConditionLock\"(0x3020db80) is unimplemeted.Call to class method \"alloc\".",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

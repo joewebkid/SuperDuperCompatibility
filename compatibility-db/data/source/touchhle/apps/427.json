@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 427,
+    "appUrl": "https://appdb.touchhle.org/apps/427",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Shrek Forever After",
+    "releaseYear": "2010",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-09T08:48:30Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Shrek4",
+      "bundleId": "com.gameloft.Shrek4",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-01-05T21:54:45Z"
+    },
+    {
+      "version": "1.0.0",
+      "displayName": "Shrek4Free",
+      "bundleId": "com.gameloft.Shrek4Free",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-01-05T21:54:45Z"
+    },
+    {
+      "version": "1.0.2",
+      "displayName": "Shrek4",
+      "bundleId": "com.gameloft.Shrek4",
+      "minimumIosVersion": "3.1.3",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1794",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 13",
+      "gpu": "Adreno(TM) 610",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-01-05T21:54:45Z",
+      "reportedBy": {
+        "name": "@RicardoAJP",
+        "url": "https://github.com/RicardoAJP"
+      },
+      "remarks": "Exiting the game panics at src/environment/mutex.rs:196:21: Attempted to unlock non-error-checking mutex #5 for thread, already unlocked",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

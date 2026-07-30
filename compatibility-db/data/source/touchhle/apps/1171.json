@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1171,
+    "appUrl": "https://appdb.touchhle.org/apps/1171",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Hello Kitty Parachute Paradise",
+    "releaseYear": "2009",
+    "developerPublisher": "ZIO Interactive, Inc./Sanrio Digital Ltd.",
+    "firstReported": "2026-03-17T00:19:16Z",
+    "firstReportedBy": {
+      "name": "@ScorbunnyEar",
+      "url": "https://github.com/ScorbunnyEar"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Hello Kitty",
+      "bundleId": "com.ZIOInteractive.HelloKittyPP",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@ScorbunnyEar",
+        "url": "https://github.com/ScorbunnyEar"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

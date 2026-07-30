@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 293,
+    "appUrl": "https://appdb.touchhle.org/apps/293",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cooking Mama",
+    "releaseYear": null,
+    "developerPublisher": "Taito",
+    "firstReported": "2024-04-03T21:16:41Z",
+    "firstReportedBy": {
+      "name": "@corped12",
+      "url": "https://github.com/corped12"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "CookingMama",
+      "bundleId": "R29F49NJNY.jp.co.taito.cookingmama",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@A-random-T0uchHL3-Fan",
+        "url": "https://github.com/A-random-T0uchHL3-Fan"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-10-08T18:47:48Z"
+    },
+    {
+      "version": "5.6.0",
+      "displayName": "Cooking Mama",
+      "bundleId": "R29F49NJNY.jp.co.taito.cookingmama",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@corped12",
+        "url": "https://github.com/corped12"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1700",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-962-g4d02890",
+      "operatingSystem": "Android 16",
+      "gpu": "ARM Mali-G57 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2025-10-08T18:47:48Z",
+      "reportedBy": {
+        "name": "@A-random-T0uchHL3-Fan",
+        "url": "https://github.com/A-random-T0uchHL3-Fan"
+      },
+      "remarks": "Goes ingame, but emulator will crash on some mini games.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1700/screenshot"
+    }
+  ]
+}

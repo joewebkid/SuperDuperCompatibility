@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1287,
+    "appUrl": "https://appdb.touchhle.org/apps/1287",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Lego Ninjago Scavenger Hunt",
+    "releaseYear": "April 1 2011",
+    "developerPublisher": "The Lego Group",
+    "firstReported": "2026-06-08T06:46:45Z",
+    "firstReportedBy": {
+      "name": "@RadekParek",
+      "url": "https://github.com/RadekParek"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "NinjagoSpinjitzuScavengerHunt",
+      "bundleId": "com.lego.NinjagoSpinjitzuScavengerHunt",
+      "minimumIosVersion": "4.0",
+      "firstReportedBy": {
+        "name": "@RadekParek",
+        "url": "https://github.com/RadekParek"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-08T06:46:45Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2246",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-408-gd9719fbd",
+      "operatingSystem": "Android 16",
+      "gpu": "Adreno (TM) 740",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2026-06-08T06:46:45Z",
+      "reportedBy": {
+        "name": "@RadekParek",
+        "url": "https://github.com/RadekParek"
+      },
+      "remarks": "Error at start",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2246/screenshot"
+    }
+  ]
+}

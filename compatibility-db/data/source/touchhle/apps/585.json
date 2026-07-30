@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 585,
+    "appUrl": "https://appdb.touchhle.org/apps/585",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Space Rocks",
+    "releaseYear": null,
+    "developerPublisher": "Craic Design",
+    "firstReported": "2024-10-28T13:23:50Z",
+    "firstReportedBy": {
+      "name": "@FelipePlayzYT",
+      "url": "https://github.com/FelipePlayzYT"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "SpaceRocks",
+      "bundleId": "craicdesign",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-02-03T12:47:36Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1274",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-576-gae2515f",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-T830",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-02-03T12:47:36Z",
+      "reportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "remarks": "You can shoot the lasers in the game now, instead of the emulator crashing when doing so.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "961",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-359-g7b1b382",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-T830",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2024-10-28T13:23:50Z",
+      "reportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "remarks": "You can start a game, but seconds later it crashes with Panic at src/frameworks/foundation/ns_object.rs:203:5: Object 0x37507ca0 of class \"_touchHLE_NSMutableDictionary\" (0x374fcf30) does not have a setter for laser (0xfc2c)",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/961/screenshot"
+    }
+  ]
+}

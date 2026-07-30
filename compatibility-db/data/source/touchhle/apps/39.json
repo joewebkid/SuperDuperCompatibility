@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 39,
+    "appUrl": "https://appdb.touchhle.org/apps/39",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Action Hero",
+    "releaseYear": "2009",
+    "developerPublisher": "Donut Games",
+    "firstReported": "2023-10-28T12:54:45Z",
+    "firstReportedBy": {
+      "name": "@WindowsAero",
+      "url": "https://github.com/WindowsAero"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.00",
+      "displayName": "Action Hero",
+      "bundleId": "com.donutgames.actionhero",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@WindowsAero",
+        "url": "https://github.com/WindowsAero"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2023-10-28T12:54:45Z"
+    },
+    {
+      "version": "1.01",
+      "displayName": "Action Hero",
+      "bundleId": "com.donutgames.actionhero",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "53",
+      "version": "1.00",
+      "emulatorVersion": "v0.2.0",
+      "operatingSystem": "Android 12",
+      "gpu": "Mali G52",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2023-10-28T12:54:45Z",
+      "reportedBy": {
+        "name": "@WindowsAero",
+        "url": "https://github.com/WindowsAero"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/53/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 71,
+    "appUrl": "https://appdb.touchhle.org/apps/71",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Low Grav Racer",
+    "releaseYear": "2009",
+    "developerPublisher": "Cobramobile",
+    "firstReported": "2023-11-01T14:25:51Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Low Grav Lite",
+      "bundleId": "com.cobra.LowGravRacingLite",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.0",
+      "displayName": "Low Grav",
+      "bundleId": "com.cobra.LowGravRacing",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.2",
+      "displayName": "Low Grav",
+      "bundleId": "com.cobra.LowGravRacing",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-04-02T20:20:22Z"
+    },
+    {
+      "version": "1.4",
+      "displayName": "Low Grav",
+      "bundleId": "com.cobra.LowGravRacing",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "434",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2024-04-02T20:20:22Z",
+      "reportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/434/screenshot"
+    }
+  ]
+}

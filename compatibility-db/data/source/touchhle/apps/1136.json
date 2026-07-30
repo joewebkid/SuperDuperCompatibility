@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1136,
+    "appUrl": "https://appdb.touchhle.org/apps/1136",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "TruckJam",
+    "releaseYear": null,
+    "developerPublisher": "invictus",
+    "firstReported": "2026-02-10T13:27:01Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.3",
+      "displayName": "TruckJam",
+      "bundleId": "com.invictus.truckjam",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-02-10T13:27:01Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1941",
+      "version": "1.3",
+      "emulatorVersion": "v0.2.3-98-g241ea0e0",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-02-10T13:27:01Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1941/screenshot"
+    }
+  ]
+}

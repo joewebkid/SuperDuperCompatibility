@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 589,
+    "appUrl": "https://appdb.touchhle.org/apps/589",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Jared",
+    "releaseYear": "2008",
+    "developerPublisher": "Freeverse, Inc.",
+    "firstReported": "2024-10-31T09:03:56Z",
+    "firstReportedBy": {
+      "name": "@dippergaming",
+      "url": "https://github.com/dippergaming"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Jared",
+      "bundleId": "com.freeverse.jared",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@dippergaming",
+        "url": "https://github.com/dippergaming"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-02-09T14:44:34Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1306",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-581-g3b517df",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-02-09T14:44:34Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1306/screenshot"
+    }
+  ]
+}

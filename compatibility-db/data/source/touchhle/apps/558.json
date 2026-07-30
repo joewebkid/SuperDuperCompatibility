@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 558,
+    "appUrl": "https://appdb.touchhle.org/apps/558",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Abacus",
+    "releaseYear": "2009 (?)",
+    "developerPublisher": "PixioTech",
+    "firstReported": "2024-10-12T19:07:02Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3",
+      "url": "https://github.com/0ldw4r3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Abacus",
+      "bundleId": "com.pixiotech.Abacus",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-10-12T19:07:02Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "910",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-318-g4b52ce5",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-10-12T19:07:02Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "It does have an interesting error. Panic at src/mem.rs:341:9: Attempted null-page access at 0x0 (0x4 bytes)",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

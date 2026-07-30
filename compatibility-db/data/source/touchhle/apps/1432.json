@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1432,
+    "appUrl": "https://appdb.touchhle.org/apps/1432",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sky Force",
+    "releaseYear": "2004-2009",
+    "developerPublisher": "Infinite Dreams",
+    "firstReported": "2026-07-24T15:29:01Z",
+    "firstReportedBy": {
+      "name": "@JoneHermer",
+      "url": "https://github.com/JoneHermer"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.27",
+      "displayName": "SkyForce",
+      "bundleId": "pl.idreams.skyforce",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@JoneHermer",
+        "url": "https://github.com/JoneHermer"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-07-24T15:29:01Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2466",
+      "version": "1.27",
+      "emulatorVersion": "v0.2.3-426-g25908483",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 830",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-07-24T15:29:01Z",
+      "reportedBy": {
+        "name": "@JoneHermer",
+        "url": "https://github.com/JoneHermer"
+      },
+      "remarks": "Graphic perfect. Except the sound bug (tick) sound always happen in game.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2466/screenshot"
+    }
+  ]
+}

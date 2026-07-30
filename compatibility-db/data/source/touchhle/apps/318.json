@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 318,
+    "appUrl": "https://appdb.touchhle.org/apps/318",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Paper Toss",
+    "releaseYear": "2009",
+    "developerPublisher": "backflip studios",
+    "firstReported": "2024-04-29T11:59:19Z",
+    "firstReportedBy": {
+      "name": "@vfbfdbdbdfbd",
+      "url": "https://github.com/vfbfdbdbdfbd"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Paper Toss",
+      "bundleId": "com.backflipstudios.PaperToss",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@vfbfdbdbdfbd",
+        "url": "https://github.com/vfbfdbdbdfbd"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

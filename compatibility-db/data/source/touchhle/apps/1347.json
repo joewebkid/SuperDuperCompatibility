@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1347,
+    "appUrl": "https://appdb.touchhle.org/apps/1347",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Magic Gem",
+    "releaseYear": "2010",
+    "developerPublisher": "Wuzla",
+    "firstReported": "2026-06-21T10:41:44Z",
+    "firstReportedBy": {
+      "name": "@manlemon223-prog",
+      "url": "https://github.com/manlemon223-prog"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Magic Gem",
+      "bundleId": "com.Wuzla.MagicGem",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-06-21T10:41:44Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2333",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-442-gc6f73adf PREVIEW",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-06-21T10:41:44Z",
+      "reportedBy": {
+        "name": "@manlemon223-prog",
+        "url": "https://github.com/manlemon223-prog"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2333/screenshot"
+    }
+  ]
+}

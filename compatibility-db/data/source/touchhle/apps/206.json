@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 206,
+    "appUrl": "https://appdb.touchhle.org/apps/206",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Spy Mouse",
+    "releaseYear": "2011",
+    "developerPublisher": "Firemint",
+    "firstReported": "2024-01-01T15:38:13Z",
+    "firstReportedBy": {
+      "name": "@dsasdo",
+      "url": "https://github.com/dsasdo"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "SPYmouse",
+      "bundleId": "com.ea.spymouse.bv",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@MZV-17",
+        "url": "https://github.com/MZV-17"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.0.2",
+      "displayName": "SPYmouse",
+      "bundleId": "com.ea.spymouse.inc",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@MZV-17",
+        "url": "https://github.com/MZV-17"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.1",
+      "displayName": "SPYmouse",
+      "bundleId": "com.ea.spymouse.bv",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@dsasdo",
+        "url": "https://github.com/dsasdo"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-04-04T07:54:48Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "450",
+      "version": "1.1.1",
+      "emulatorVersion": "v0.2.2-4-g83ee4e6",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali G51 MP4",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-04-04T07:54:48Z",
+      "reportedBy": {
+        "name": "@GamingDucking",
+        "url": "https://github.com/GamingDucking"
+      },
+      "remarks": "Crashes with \"Panic at src/mem.rs:337:9: Attempted null-page access at 0x0 (0x4 bytes)\".",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

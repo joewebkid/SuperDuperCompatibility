@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 550,
+    "appUrl": "https://appdb.touchhle.org/apps/550",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Air Drummer",
+    "releaseYear": "2008",
+    "developerPublisher": "Chudigi",
+    "firstReported": "2024-10-09T11:16:28Z",
+    "firstReportedBy": {
+      "name": "@FelipePlayzYT",
+      "url": "https://github.com/FelipePlayzYT"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "AirDrum",
+      "bundleId": "com.chudigi.AirDrum",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-10-09T11:16:28Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "898",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-331-g7bccc7c",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-T830",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-10-09T11:16:28Z",
+      "reportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "remarks": "Game works fine as intended.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/898/screenshot"
+    }
+  ]
+}

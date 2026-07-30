@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 852,
+    "appUrl": "https://appdb.touchhle.org/apps/852",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Stick Skater",
+    "releaseYear": "2010",
+    "developerPublisher": "Traction Games",
+    "firstReported": "2025-04-11T11:30:37Z",
+    "firstReportedBy": {
+      "name": "@thedenbruh",
+      "url": "https://github.com/thedenbruh"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2.1",
+      "displayName": "Stick Skater",
+      "bundleId": "com.tractiongames.StickSkater",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@thedenbruh",
+        "url": "https://github.com/thedenbruh"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

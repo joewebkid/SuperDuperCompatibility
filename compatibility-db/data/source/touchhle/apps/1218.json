@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1218,
+    "appUrl": "https://appdb.touchhle.org/apps/1218",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Monster Trucks Nitro",
+    "releaseYear": "2009",
+    "developerPublisher": "Redlynx/Miniclip",
+    "firstReported": "2026-04-26T07:07:27Z",
+    "firstReportedBy": {
+      "name": "@KxSilver-spec",
+      "url": "https://github.com/KxSilver-spec"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "MonsterTN",
+      "bundleId": "com.redlynx.MonsterTN",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@KxSilver-spec",
+        "url": "https://github.com/KxSilver-spec"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1,
+    "appUrl": "https://appdb.touchhle.org/apps/1",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Super Monkey Ball",
+    "releaseYear": "2008",
+    "developerPublisher": "Other Ocean Interactive / SEGA",
+    "firstReported": "2023-10-10T13:29:23Z",
+    "firstReportedBy": {
+      "name": "@hikari-no-yume",
+      "url": "https://github.com/hikari-no-yume"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "SMB Lite",
+      "bundleId": "smblite",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.0.2",
+      "displayName": "Monkey Ball",
+      "bundleId": "com.ooi.supermonkeybal",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@Very-Funny-Man",
+        "url": "https://github.com/Very-Funny-Man"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-02-20T14:46:49Z"
+    },
+    {
+      "version": "1.3",
+      "displayName": "Monkey Ball",
+      "bundleId": "com.ooi.supermonkeyball",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@hikari-no-yume",
+        "url": "https://github.com/hikari-no-yume"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1973",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-02-20T14:46:49Z",
+      "reportedBy": {
+        "name": "@Very-Funny-Man",
+        "url": "https://github.com/Very-Funny-Man"
+      },
+      "remarks": "The game runs perfectly, including scale hack and tilt controls.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1973/screenshot"
+    }
+  ]
+}

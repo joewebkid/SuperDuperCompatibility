@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 76,
+    "appUrl": "https://appdb.touchhle.org/apps/76",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Baseball Superstars 2009",
+    "releaseYear": "2009",
+    "developerPublisher": "Gamevil",
+    "firstReported": "2023-11-02T05:43:33Z",
+    "firstReportedBy": {
+      "name": "@DJATaylor",
+      "url": "https://github.com/DJATaylor"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "BS2009",
+      "bundleId": "com.gamevil.BS2009",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@DJATaylor",
+        "url": "https://github.com/DJATaylor"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

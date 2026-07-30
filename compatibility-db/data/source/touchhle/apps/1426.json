@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1426,
+    "appUrl": "https://appdb.touchhle.org/apps/1426",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Hamtaro",
+    "releaseYear": "2011",
+    "developerPublisher": "Egg Ball Games",
+    "firstReported": "2026-07-20T06:23:22Z",
+    "firstReportedBy": {
+      "name": "@JulienJeon77",
+      "url": "https://github.com/JulienJeon77"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.0",
+      "displayName": "Hamtaro",
+      "bundleId": "com.viz.ipad.hamtaro",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@JulienJeon77",
+        "url": "https://github.com/JulienJeon77"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

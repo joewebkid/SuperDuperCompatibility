@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 382,
+    "appUrl": "https://appdb.touchhle.org/apps/382",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Boggle",
+    "releaseYear": "2009",
+    "developerPublisher": "EA Mobile/Hasbro",
+    "firstReported": "2024-07-30T08:45:33Z",
+    "firstReportedBy": {
+      "name": "@fikritz",
+      "url": "https://github.com/fikritz"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Boggle",
+      "bundleId": "com.ea.boggle.inc",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@fikritz",
+        "url": "https://github.com/fikritz"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-08-17T10:44:39Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "768",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-189-g5864a06",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-08-17T10:44:39Z",
+      "reportedBy": {
+        "name": "@Thetouchedjoe",
+        "url": "https://github.com/Thetouchedjoe"
+      },
+      "remarks": "Idk somehow when I'm try Boggle, it's like have weird stuff such when Shake, the dice are like making fumbling illusion, and the main menu are broken and we're tab beside the icon are gone magically",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/768/screenshot"
+    },
+    {
+      "sourceReportId": "590",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-162-gfd1f24e",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-07-30T08:45:33Z",
+      "reportedBy": {
+        "name": "@fikritz",
+        "url": "https://github.com/fikritz"
+      },
+      "remarks": "everything works",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/590/screenshot"
+    }
+  ]
+}

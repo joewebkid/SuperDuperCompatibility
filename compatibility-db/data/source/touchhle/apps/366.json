@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 366,
+    "appUrl": "https://appdb.touchhle.org/apps/366",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Critter Crunch",
+    "releaseYear": "2008",
+    "developerPublisher": "Capybara Games/Publisher X",
+    "firstReported": "2024-07-20T21:38:03Z",
+    "firstReportedBy": {
+      "name": "@mistydemeo",
+      "url": "https://github.com/mistydemeo"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "CritterCrunch",
+      "bundleId": "com.capybaragames.CritterCrunch",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-09-06T10:48:04Z"
+    },
+    {
+      "version": "1.0.5",
+      "displayName": "CritterCrunch",
+      "bundleId": "com.capybaragames.CritterCrunch",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@mistydemeo",
+        "url": "https://github.com/mistydemeo"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1670",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-899-gde24b73",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2025-09-06T10:48:04Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1670/screenshot"
+    }
+  ]
+}

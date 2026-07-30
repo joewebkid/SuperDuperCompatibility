@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 274,
+    "appUrl": "https://appdb.touchhle.org/apps/274",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Orions: Legend of Wizards",
+    "releaseYear": "2008",
+    "developerPublisher": "Chillingo",
+    "firstReported": "2024-03-27T22:45:28Z",
+    "firstReportedBy": {
+      "name": "@SolitudeSF",
+      "url": "https://github.com/SolitudeSF"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Orions",
+      "bundleId": "com.chillingo.Orions",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@SolitudeSF",
+        "url": "https://github.com/SolitudeSF"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-01-21T04:44:19Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1210",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.2-549-gce0e73a",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2025-01-21T04:44:19Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1210/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 684,
+    "appUrl": "https://appdb.touchhle.org/apps/684",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Edge",
+    "releaseYear": null,
+    "developerPublisher": "MobiGames",
+    "firstReported": "2024-12-29T19:51:44Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Edge",
+      "bundleId": "net.mobigame.Edge",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-05-05T10:35:20Z"
+    },
+    {
+      "version": "1.51",
+      "displayName": "Edge",
+      "bundleId": "net.mobigame.Edge",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@SplaatSites",
+        "url": "https://github.com/SplaatSites"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1468",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-711-gbbe0b8f",
+      "operatingSystem": "Android 15",
+      "gpu": "Snapdragon 685 Octa-core Max 2.80GHz",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-05-05T10:35:20Z",
+      "reportedBy": {
+        "name": "@YellowPerson24",
+        "url": "https://github.com/YellowPerson24"
+      },
+      "remarks": "Also needs --force-composition. Levels are working properly. The game crashes when you click anywhere when completing a level. You must re-open the app to go to the next level.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1468/screenshot"
+    },
+    {
+      "sourceReportId": "1141",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-504-gffead6b",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2024-12-29T19:53:59Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1141/screenshot"
+    },
+    {
+      "sourceReportId": "1140",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-504-gffead6b",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-12-29T19:51:44Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1140/screenshot"
+    }
+  ]
+}

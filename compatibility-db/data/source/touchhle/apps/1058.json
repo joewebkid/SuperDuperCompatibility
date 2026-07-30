@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1058,
+    "appUrl": "https://appdb.touchhle.org/apps/1058",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bouncedown",
+    "releaseYear": "2009",
+    "developerPublisher": "Jagex",
+    "firstReported": "2026-01-06T18:55:54Z",
+    "firstReportedBy": {
+      "name": "@Frosty-J",
+      "url": "https://github.com/Frosty-J"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.00",
+      "displayName": "Bouncedown",
+      "bundleId": "com.jagex.bouncedown",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Frosty-J",
+        "url": "https://github.com/Frosty-J"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.50",
+      "displayName": "Bouncedown",
+      "bundleId": "com.jagex.bouncedown",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Frosty-J",
+        "url": "https://github.com/Frosty-J"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

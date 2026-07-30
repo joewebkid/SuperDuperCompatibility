@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 358,
+    "appUrl": "https://appdb.touchhle.org/apps/358",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Galaxy On Fire 2",
+    "releaseYear": "2009",
+    "developerPublisher": "Fishlabs",
+    "firstReported": "2024-07-09T01:22:21Z",
+    "firstReportedBy": {
+      "name": "@Mahmterencnbas",
+      "url": "https://github.com/Mahmterencnbas"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "GOF 2",
+      "bundleId": "www.fishlabs.net.gof2",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Mahmterencnbas",
+        "url": "https://github.com/Mahmterencnbas"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

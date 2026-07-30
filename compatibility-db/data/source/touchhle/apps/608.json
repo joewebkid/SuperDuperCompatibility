@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 608,
+    "appUrl": "https://appdb.touchhle.org/apps/608",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "StoneLoops of Jurassica",
+    "releaseYear": "2009",
+    "developerPublisher": "CodeMinion/PlayCreek",
+    "firstReported": "2024-11-08T17:46:59Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.01",
+      "displayName": "StoneLoops!",
+      "bundleId": "com.playcreek.stoneloops",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-11-08T17:46:59Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "992",
+      "version": "1.01",
+      "emulatorVersion": "v0.2.2-365-g329f857",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-11-08T17:46:59Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/992/screenshot"
+    }
+  ]
+}

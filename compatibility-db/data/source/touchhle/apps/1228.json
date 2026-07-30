@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1228,
+    "appUrl": "https://appdb.touchhle.org/apps/1228",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Blingy",
+    "releaseYear": "2008",
+    "developerPublisher": "WebGames3D.com",
+    "firstReported": "2026-04-29T11:03:18Z",
+    "firstReportedBy": {
+      "name": "@andrewcolton5041",
+      "url": "https://github.com/andrewcolton5041"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Blingy",
+      "bundleId": "com.webgames3d.Blingy",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@andrewcolton5041",
+        "url": "https://github.com/andrewcolton5041"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

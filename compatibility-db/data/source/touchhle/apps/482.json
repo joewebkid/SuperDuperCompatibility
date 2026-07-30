@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 482,
+    "appUrl": "https://appdb.touchhle.org/apps/482",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "AC-130",
+    "releaseYear": "2011",
+    "developerPublisher": "Triniti Interactive Limited",
+    "firstReported": "2024-08-13T12:45:09Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "AC-130",
+      "bundleId": "com.trinitigame.ac130",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-01-31T23:46:51Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1261",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.2-561-g968c807",
+      "operatingSystem": "Android",
+      "gpu": "Samsung A12",
+      "scaleHack": "No (broken)",
+      "rating": 5,
+      "reported": "2025-01-31T23:46:51Z",
+      "reportedBy": {
+        "name": "@XGRiDEN",
+        "url": "https://github.com/XGRiDEN"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1261/screenshot"
+    },
+    {
+      "sourceReportId": "1070",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.2-471-gc258fc4",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-12-07T12:47:04Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1070/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 381,
+    "appUrl": "https://appdb.touchhle.org/apps/381",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Rail adventures",
+    "releaseYear": null,
+    "developerPublisher": "Exosyphen",
+    "firstReported": "2024-07-29T14:44:34Z",
+    "firstReportedBy": {
+      "name": "@marcosemuladores",
+      "url": "https://github.com/marcosemuladores"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "RailaAdv",
+      "bundleId": "com.exosyphen.railadv",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@marcosemuladores",
+        "url": "https://github.com/marcosemuladores"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-07-29T14:44:34Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "587",
+      "version": "1.0",
+      "emulatorVersion": "0.2.2-162-gfd1f24e",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali g-52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2024-07-29T14:44:34Z",
+      "reportedBy": {
+        "name": "@marcosemuladores",
+        "url": "https://github.com/marcosemuladores"
+      },
+      "remarks": "the fire button is not working",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/587/screenshot"
+    }
+  ]
+}

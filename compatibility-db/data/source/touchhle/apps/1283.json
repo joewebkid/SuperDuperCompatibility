@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1283,
+    "appUrl": "https://appdb.touchhle.org/apps/1283",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sonic 20th Anniversary",
+    "releaseYear": "2011",
+    "developerPublisher": "SEGA",
+    "firstReported": "2026-06-05T11:48:36Z",
+    "firstReportedBy": {
+      "name": "@sonic1234987s-hue",
+      "url": "https://github.com/sonic1234987s-hue"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Sonic 20th Anniversary",
+      "bundleId": "com.sega.sonic20thanniversary",
+      "minimumIosVersion": "4.0",
+      "firstReportedBy": {
+        "name": "@sonic1234987s-hue",
+        "url": "https://github.com/sonic1234987s-hue"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-05T11:48:36Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2238",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G57",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2026-06-05T11:48:36Z",
+      "reportedBy": {
+        "name": "@sonic1234987s-hue",
+        "url": "https://github.com/sonic1234987s-hue"
+      },
+      "remarks": "touchHLE crashs with the following error:Call to unimplemented fuction:_CC_SHA1",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2238/screenshot"
+    }
+  ]
+}

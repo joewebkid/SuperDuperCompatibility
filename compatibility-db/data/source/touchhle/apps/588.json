@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 588,
+    "appUrl": "https://appdb.touchhle.org/apps/588",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Pinch 'n Pop!",
+    "releaseYear": null,
+    "developerPublisher": "Chaotic Box",
+    "firstReported": "2024-10-31T06:49:15Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.1",
+      "displayName": "Pinch 'n Pop!",
+      "bundleId": "com.chaoticbox.PinchnPop",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-02-09T21:50:13Z"
+    },
+    {
+      "version": "1.3.2",
+      "displayName": "Pinch 'n Pop!",
+      "bundleId": "com.chaoticbox.PinchnPop",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-02-09T21:56:05Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1312",
+      "version": "1.3.2",
+      "emulatorVersion": "v0.2.2-589-g6460bad",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-02-09T21:56:05Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1312/screenshot"
+    },
+    {
+      "sourceReportId": "1311",
+      "version": "1.1.1",
+      "emulatorVersion": "v0.2.2-589-g6460bad",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-02-09T21:50:13Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1311/screenshot"
+    },
+    {
+      "sourceReportId": "965",
+      "version": "1.1.1",
+      "emulatorVersion": "v0.2.2-360-g5692272",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2024-10-31T06:49:15Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/965/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 663,
+    "appUrl": "https://appdb.touchhle.org/apps/663",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Billy Frontier",
+    "releaseYear": "2008",
+    "developerPublisher": "Pangea",
+    "firstReported": "2024-12-15T10:41:38Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3",
+      "url": "https://github.com/0ldw4r3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "Billy Frontier",
+      "bundleId": "com.pangea.billyfrontier",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-12-15T10:41:38Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1103",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-481-g66a8fc9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-12-15T10:41:38Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Crashes with Panic at src/mem.rs:350:9: Attempted null-page access at 0x0 (0x4 bytes)",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

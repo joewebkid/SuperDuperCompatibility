@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 801,
+    "appUrl": "https://appdb.touchhle.org/apps/801",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "House Of Mice",
+    "releaseYear": "2011",
+    "developerPublisher": "Delusion Studio",
+    "firstReported": "2025-02-26T09:55:32Z",
+    "firstReportedBy": {
+      "name": "@WiS-Cuddles",
+      "url": "https://github.com/WiS-Cuddles"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.2",
+      "displayName": "HouseOfMice",
+      "bundleId": "net.delusionstudio.houseofmice",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-22T17:17:07Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2359",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.3-453-g994e2476",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali-G76 MC4",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2026-06-22T17:17:07Z",
+      "reportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "remarks": "Panic at src/objc/messages.rs:214:13: Object 0x302134e0 (class \"CCSprite\", 0xe2528) does not respond to selector \"methodForSelector:\"!",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2359/screenshot"
+    },
+    {
+      "sourceReportId": "1353",
+      "version": "1.0.2",
+      "emulatorVersion": "v0.2.2-626-g70325a4",
+      "operatingSystem": "Android 11",
+      "gpu": "Mali-G76 MC4",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2025-02-26T09:55:32Z",
+      "reportedBy": {
+        "name": "@WiS-Cuddles",
+        "url": "https://github.com/WiS-Cuddles"
+      },
+      "remarks": "Game crashed in launch. Panic at src/objc/messages.rs:60:13: Object 0x374f9bd0 (class \"RootViewController\", 0xdfe90) does not respond to selector \"setWantsFullScreenLayout:\"!",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1353/screenshot"
+    }
+  ]
+}

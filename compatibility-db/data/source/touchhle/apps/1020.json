@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1020,
+    "appUrl": "https://appdb.touchhle.org/apps/1020",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Luxor",
+    "releaseYear": "2010",
+    "developerPublisher": "MumboJumbo",
+    "firstReported": "2025-11-24T15:25:25Z",
+    "firstReportedBy": {
+      "name": "@oofio756",
+      "url": "https://github.com/oofio756"
+    }
+  },
+  "versions": [
+    {
+      "version": "v1.0",
+      "displayName": "Luxor",
+      "bundleId": "com.mumbojumbo.Luxor",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@oofio756",
+        "url": "https://github.com/oofio756"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

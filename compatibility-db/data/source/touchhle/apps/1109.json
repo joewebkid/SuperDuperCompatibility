@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1109,
+    "appUrl": "https://appdb.touchhle.org/apps/1109",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Tamagotchi: Round The World",
+    "releaseYear": "2009",
+    "developerPublisher": "Namco Bandai Games",
+    "firstReported": "2026-01-27T12:21:22Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": null,
+      "bundleId": "com.namconetworks.tamagotchi",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-27T12:21:22Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1900",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.3-67-g5d4f119a",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-01-27T12:21:22Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1900/screenshot"
+    }
+  ]
+}

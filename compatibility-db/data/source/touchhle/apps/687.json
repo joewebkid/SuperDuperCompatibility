@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 687,
+    "appUrl": "https://appdb.touchhle.org/apps/687",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Adrenaline Poker",
+    "releaseYear": "2008(?)",
+    "developerPublisher": "Quattroplay",
+    "firstReported": "2024-12-30T20:52:50Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3",
+      "url": "https://github.com/0ldw4r3"
+    }
+  },
+  "versions": [
+    {
+      "version": "v1.2",
+      "displayName": "AdrPoker",
+      "bundleId": "com.quattroplay.AdrenalinePokerOnline",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-12-30T20:52:50Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1145",
+      "version": "v1.2",
+      "emulatorVersion": "v0.2.2-481-g66a8fc9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-12-30T20:52:50Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Crashes with Panic at src/dyld.rs:604:9: Call to unimplemented function _localeconv",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

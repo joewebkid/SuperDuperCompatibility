@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 645,
+    "appUrl": "https://appdb.touchhle.org/apps/645",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Serpents",
+    "releaseYear": "2008",
+    "developerPublisher": "Imak Creations",
+    "firstReported": "2024-12-07T19:32:32Z",
+    "firstReportedBy": {
+      "name": "@0ldw4r3",
+      "url": "https://github.com/0ldw4r3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Serpents",
+      "bundleId": "com.imakcreations.Serpents",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2024-12-07T19:32:32Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1072",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-437-gbc1a544",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2024-12-07T19:32:32Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Gets stuck on a white screen",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 567,
+    "appUrl": "https://appdb.touchhle.org/apps/567",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Ridge Racer Accelerated",
+    "releaseYear": "2009",
+    "developerPublisher": "Namco Networks",
+    "firstReported": "2024-10-26T09:17:56Z",
+    "firstReportedBy": {
+      "name": "@koudaiNSX",
+      "url": "https://github.com/koudaiNSX"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.5.1",
+      "displayName": "RidgeRacer",
+      "bundleId": "com.namconetworks.RRA",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@koudaiNSX",
+        "url": "https://github.com/koudaiNSX"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-10-26T09:17:56Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "941",
+      "version": "1.5.1",
+      "emulatorVersion": "v0.2.2-359-g7b1b382",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G57 MC2",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-10-26T09:17:56Z",
+      "reportedBy": {
+        "name": "@koudaiNSX",
+        "url": "https://github.com/koudaiNSX"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1304,
+    "appUrl": "https://appdb.touchhle.org/apps/1304",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Collapse! Chaos",
+    "releaseYear": "2007",
+    "developerPublisher": "Mr.Goodliving Ltd.",
+    "firstReported": "2026-06-14T18:58:32Z",
+    "firstReportedBy": {
+      "name": "@mcd-3",
+      "url": "https://github.com/mcd-3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.9",
+      "displayName": "Collapse",
+      "bundleId": "com.mrgoodliving.Collapse",
+      "minimumIosVersion": "2.1",
+      "firstReportedBy": {
+        "name": "@mcd-3",
+        "url": "https://github.com/mcd-3"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

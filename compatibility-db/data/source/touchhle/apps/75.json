@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 75,
+    "appUrl": "https://appdb.touchhle.org/apps/75",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Tony Hawk's Pro Skater 2",
+    "releaseYear": "2010",
+    "developerPublisher": "Activision",
+    "firstReported": "2023-11-02T03:02:46Z",
+    "firstReportedBy": {
+      "name": "@AshthorneGaming",
+      "url": "https://github.com/AshthorneGaming"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.02",
+      "displayName": "THPS2",
+      "bundleId": "com.activision.thps2",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-03T15:24:36Z"
+    },
+    {
+      "version": "1.2.1",
+      "displayName": "THPS2",
+      "bundleId": "com.activision.thps2",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@AshthorneGaming",
+        "url": "https://github.com/AshthorneGaming"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1778",
+      "version": "1.02",
+      "emulatorVersion": "0.2.3",
+      "operatingSystem": "Android (Moto G Stylus 2022)",
+      "gpu": "Adreno",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2026-01-03T15:24:36Z",
+      "reportedBy": {
+        "name": "@DidSomeoneSayPerfect",
+        "url": "https://github.com/DidSomeoneSayPerfect"
+      },
+      "remarks": "Game crashes at Marseille France and game models and controls start disappearing in and out",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1778/screenshot"
+    },
+    {
+      "sourceReportId": "1104",
+      "version": "1.02",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android 12",
+      "gpu": "Mali-G76 MC4",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-12-16T11:43:08Z",
+      "reportedBy": {
+        "name": "@atmgameplays",
+        "url": "https://github.com/atmgameplays"
+      },
+      "remarks": "No problems, game fully works as the touch too",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1104/screenshot"
+    },
+    {
+      "sourceReportId": "773",
+      "version": "1.02",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-08-21T12:22:01Z",
+      "reportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "remarks": "Skate Heaven and Chopper Drop can be unlocked if 100% save file from PC version is copied over to sandbox folder",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/773/screenshot"
+    },
+    {
+      "sourceReportId": "449",
+      "version": "1.02",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android 11",
+      "gpu": "Adreno",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-04-04T05:44:06Z",
+      "reportedBy": {
+        "name": "@R3Zed78",
+        "url": "https://github.com/R3Zed78"
+      },
+      "remarks": "When in the game always lags and has a small glitch",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/449/screenshot"
+    }
+  ]
+}

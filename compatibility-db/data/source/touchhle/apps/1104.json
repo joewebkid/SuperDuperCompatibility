@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1104,
+    "appUrl": "https://appdb.touchhle.org/apps/1104",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Viking Slice",
+    "releaseYear": null,
+    "developerPublisher": "FromTheAttic",
+    "firstReported": "2026-01-26T10:01:06Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.0",
+      "displayName": "VikingSlice",
+      "bundleId": "com.FromTheAttic.Thor",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-01-26T10:01:06Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1895",
+      "version": "2.0",
+      "emulatorVersion": "v0.2.3-66-gdcc056a7",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Partially",
+      "rating": 5,
+      "reported": "2026-01-26T10:01:06Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1895/screenshot"
+    }
+  ]
+}

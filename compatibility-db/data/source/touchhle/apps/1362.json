@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1362,
+    "appUrl": "https://appdb.touchhle.org/apps/1362",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Simon's Cat in 'Purrfect Pitch'",
+    "releaseYear": "2009",
+    "developerPublisher": "Simon's Cat Ltd.",
+    "firstReported": "2026-06-22T13:42:34Z",
+    "firstReportedBy": {
+      "name": "@IrishGamer373",
+      "url": "https://github.com/IrishGamer373"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Simon's Cat",
+      "bundleId": "com.tandem.SimonsCat",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2026-06-22T13:42:34Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2357",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MP2",
+      "scaleHack": "No (broken)",
+      "rating": 1,
+      "reported": "2026-06-22T13:42:34Z",
+      "reportedBy": {
+        "name": "@IrishGamer373",
+        "url": "https://github.com/IrishGamer373"
+      },
+      "remarks": "It Shows Splash Screen, Then It Crashes With: Missing implementation for class UINavigationBar!",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2357/screenshot"
+    }
+  ]
+}

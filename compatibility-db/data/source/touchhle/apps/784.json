@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 784,
+    "appUrl": "https://appdb.touchhle.org/apps/784",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sid Meier's Civilization Revolution",
+    "releaseYear": "2009",
+    "developerPublisher": "2kchina / Firaxis Games",
+    "firstReported": "2025-02-11T11:35:23Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "Civ Rev",
+      "bundleId": "com.2kchina.civilization",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-07-21T21:44:11Z"
+    },
+    {
+      "version": "1.5.1",
+      "displayName": "Civ Rev",
+      "bundleId": "com.2kchina.civilization",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-06-22T03:52:35Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2458",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.3",
+      "operatingSystem": "Android 15",
+      "gpu": "Qualcomm Adreno 643",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2026-07-21T21:44:11Z",
+      "reportedBy": {
+        "name": "@martcraft",
+        "url": "https://github.com/martcraft"
+      },
+      "remarks": "Crashes at title (before main menu appears): touchHLE crashed with the following error: Call to unimplemented function _AudioServices CreateSystemSoundID",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "2353",
+      "version": "1.5.1",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-06-22T03:52:35Z",
+      "reportedBy": {
+        "name": "@0ldw4r3",
+        "url": "https://github.com/0ldw4r3"
+      },
+      "remarks": "Same as 1.0.1",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2353/screenshot"
+    },
+    {
+      "sourceReportId": "2315",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.3-415-gfc5b56b9",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-06-19T20:04:32Z",
+      "reportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "remarks": "Requires --force-composition, else font/border rendering is broken. Options button makes it crash. Otherwise fully working.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2315/screenshot"
+    },
+    {
+      "sourceReportId": "1322",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.2-589-g6460bad",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2025-02-11T11:35:23Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1322/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 501,
+    "appUrl": "https://appdb.touchhle.org/apps/501",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Zenonia 3",
+    "releaseYear": "2011",
+    "developerPublisher": "Gamevil",
+    "firstReported": "2024-08-25T13:28:16Z",
+    "firstReportedBy": {
+      "name": "@KazumaSatoudesu",
+      "url": "https://github.com/KazumaSatoudesu"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "ZENONIA3",
+      "bundleId": "com.gamevil.zenonia3",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@KazumaSatoudesu",
+        "url": "https://github.com/KazumaSatoudesu"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-09-07T15:31:14Z"
+    },
+    {
+      "version": "1.2.1",
+      "displayName": "ZENONIA3",
+      "bundleId": "com.gamevil.zenonia3",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@KazumaSatoudesu",
+        "url": "https://github.com/KazumaSatoudesu"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-08-25T13:28:16Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "812",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.2-251-g6690b5c",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 640",
+      "scaleHack": "Yes",
+      "rating": 1,
+      "reported": "2024-09-07T15:31:14Z",
+      "reportedBy": {
+        "name": "@KazumaSatoudesu",
+        "url": "https://github.com/KazumaSatoudesu"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "784",
+      "version": "1.2.1",
+      "emulatorVersion": "v0.2.2",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 640",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-08-25T13:28:16Z",
+      "reportedBy": {
+        "name": "@KazumaSatoudesu",
+        "url": "https://github.com/KazumaSatoudesu"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/784/screenshot"
+    }
+  ]
+}

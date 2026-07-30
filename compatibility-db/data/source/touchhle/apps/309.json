@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 309,
+    "appUrl": "https://appdb.touchhle.org/apps/309",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "iDroidsMania",
+    "releaseYear": "2009",
+    "developerPublisher": "Artificial Life, Inc.",
+    "firstReported": "2024-04-16T22:36:26Z",
+    "firstReportedBy": {
+      "name": "@Matomo2",
+      "url": "https://github.com/Matomo2"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.8",
+      "displayName": "iDroidsMania",
+      "bundleId": "com.alife.idroids",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Matomo2",
+        "url": "https://github.com/Matomo2"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

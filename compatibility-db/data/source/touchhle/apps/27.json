@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 27,
+    "appUrl": "https://appdb.touchhle.org/apps/27",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "PapiJump Cave",
+    "releaseYear": null,
+    "developerPublisher": "Sunflat",
+    "firstReported": "2023-10-21T18:46:59Z",
+    "firstReportedBy": {
+      "name": "@SergioFLS",
+      "url": "https://github.com/SergioFLS"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "PapiJ. Cave",
+      "bundleId": "net.sunflat.iphone.PapiJumpCave",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@SergioFLS",
+        "url": "https://github.com/SergioFLS"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

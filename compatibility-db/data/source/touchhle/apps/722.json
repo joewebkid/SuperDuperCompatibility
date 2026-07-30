@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 722,
+    "appUrl": "https://appdb.touchhle.org/apps/722",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Yumsters! 2",
+    "releaseYear": "2009",
+    "developerPublisher": "G5 Entertainment AB",
+    "firstReported": "2025-01-18T20:55:16Z",
+    "firstReportedBy": {
+      "name": "@Mazen671",
+      "url": "https://github.com/Mazen671"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.3",
+      "displayName": "Yumsters2",
+      "bundleId": "com.kranx.yumsters2",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@Mazen671",
+        "url": "https://github.com/Mazen671"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

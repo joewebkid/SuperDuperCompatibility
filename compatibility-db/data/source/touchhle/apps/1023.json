@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1023,
+    "appUrl": "https://appdb.touchhle.org/apps/1023",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "iGotchi",
+    "releaseYear": null,
+    "developerPublisher": "SmackFu Productions",
+    "firstReported": "2025-12-09T15:43:57Z",
+    "firstReportedBy": {
+      "name": "@oogaboogasushi",
+      "url": "https://github.com/oogaboogasushi"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.4",
+      "displayName": "iGotchi",
+      "bundleId": "com.smackfumaster",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@oogaboogasushi",
+        "url": "https://github.com/oogaboogasushi"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

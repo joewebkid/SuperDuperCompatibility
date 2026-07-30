@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 303,
+    "appUrl": "https://appdb.touchhle.org/apps/303",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sky Burger",
+    "releaseYear": "2009",
+    "developerPublisher": "NimbleBit",
+    "firstReported": "2024-04-08T08:52:58Z",
+    "firstReportedBy": {
+      "name": "@ShAsh051",
+      "url": "https://github.com/ShAsh051"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2.2",
+      "displayName": "SkyBurger",
+      "bundleId": "com.eeenmachine.SkyBurger",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@ShAsh051",
+        "url": "https://github.com/ShAsh051"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

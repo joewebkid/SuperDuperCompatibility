@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 764,
+    "appUrl": "https://appdb.touchhle.org/apps/764",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Candy Candy Match",
+    "releaseYear": "2009",
+    "developerPublisher": "Playrun",
+    "firstReported": "2025-01-31T10:04:28Z",
+    "firstReportedBy": {
+      "name": "@FelipePlayzYT",
+      "url": "https://github.com/FelipePlayzYT"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.4",
+      "displayName": "CandyCandyMatchLite",
+      "bundleId": "com.daltong.CandyCandyMatchLite",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-01-31T10:04:28Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1258",
+      "version": "1.4",
+      "emulatorVersion": "v0.2.2-561-g968c807",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali-T830",
+      "scaleHack": "No (broken)",
+      "rating": 2,
+      "reported": "2025-01-31T10:04:28Z",
+      "reportedBy": {
+        "name": "@FelipePlayzYT",
+        "url": "https://github.com/FelipePlayzYT"
+      },
+      "remarks": "Graphics doesn't show and if you tap on one of the buttons (which you can't see) sends you to the game, however if you try to tap on it again the emulator crashes, there's another button that crashes as soon as you press it, probably the Purchase button.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1258/screenshot"
+    }
+  ]
+}

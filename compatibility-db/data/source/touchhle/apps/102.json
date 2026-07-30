@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 102,
+    "appUrl": "https://appdb.touchhle.org/apps/102",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Bike or Die 2",
+    "releaseYear": "2008",
+    "developerPublisher": "Toyspring",
+    "firstReported": "2023-11-05T19:59:40Z",
+    "firstReportedBy": {
+      "name": "@Lulech23",
+      "url": "https://github.com/Lulech23"
+    }
+  },
+  "versions": [
+    {
+      "version": "2.0.1",
+      "displayName": "Bike or Die!",
+      "bundleId": "com.chillingo.bikeordie",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "2.1.2",
+      "displayName": "Bike or Die!",
+      "bundleId": "com.chillingo.bikeordie",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@Lulech23",
+        "url": "https://github.com/Lulech23"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

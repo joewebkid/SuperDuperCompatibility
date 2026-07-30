@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1406,
+    "appUrl": "https://appdb.touchhle.org/apps/1406",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Crystal Clear",
+    "releaseYear": "2009",
+    "developerPublisher": "Fractal Softworks",
+    "firstReported": "2026-07-05T11:34:49Z",
+    "firstReportedBy": {
+      "name": "@manlemon2222-byte",
+      "url": "https://github.com/manlemon2222-byte"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Crystal Clear",
+      "bundleId": "com.fractalsoftworks.crystalclear",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@manlemon2222-byte",
+        "url": "https://github.com/manlemon2222-byte"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-07-05T11:34:49Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2420",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-463-g0f2c1630 PREVIEW",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 618",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2026-07-05T11:34:49Z",
+      "reportedBy": {
+        "name": "@manlemon2222-byte",
+        "url": "https://github.com/manlemon2222-byte"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2420/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 930,
+    "appUrl": "https://appdb.touchhle.org/apps/930",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Kitten Jump",
+    "releaseYear": "2009",
+    "developerPublisher": "Mark Sergienko",
+    "firstReported": "2025-07-01T12:46:52Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.3",
+      "displayName": "Kitten Jump",
+      "bundleId": "com.marksergienko.KittenApp",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-07-01T12:46:52Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1551",
+      "version": "1.3",
+      "emulatorVersion": "v0.2.2-762-g1d26407",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2025-07-01T12:46:52Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1551/screenshot"
+    }
+  ]
+}

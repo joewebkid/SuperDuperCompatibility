@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 548,
+    "appUrl": "https://appdb.touchhle.org/apps/548",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cut the Rope Holiday Gift",
+    "releaseYear": "2010",
+    "developerPublisher": "Chillingo",
+    "firstReported": "2024-10-07T22:09:34Z",
+    "firstReportedBy": {
+      "name": "@thundergun1",
+      "url": "https://github.com/thundergun1"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Cut the Rope",
+      "bundleId": "com.chillingo.cuttheropexmas",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-10-07T22:09:34Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "887",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-331-g7bccc7c",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-10-07T22:09:34Z",
+      "reportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "remarks": "Same as the original CTR, perfectly playable but skips intro vid (if there is one)",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/887/screenshot"
+    }
+  ]
+}

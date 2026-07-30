@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1388,
+    "appUrl": "https://appdb.touchhle.org/apps/1388",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cartoon Wars",
+    "releaseYear": "2009",
+    "developerPublisher": "BLUE G&C",
+    "firstReported": "2026-06-24T18:16:33Z",
+    "firstReportedBy": {
+      "name": "@mcd-3",
+      "url": "https://github.com/mcd-3"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Cartoon-Wars",
+      "bundleId": "Cartoon-Wars",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@mcd-3",
+        "url": "https://github.com/mcd-3"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

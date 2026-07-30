@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 509,
+    "appUrl": "https://appdb.touchhle.org/apps/509",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Funky Hoops!",
+    "releaseYear": "2009",
+    "developerPublisher": "Solus Games",
+    "firstReported": "2024-09-05T21:10:22Z",
+    "firstReportedBy": {
+      "name": "@TouchHLEuser",
+      "url": "https://github.com/TouchHLEuser"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "FunkyHOOPS",
+      "bundleId": "com.yourcompany.FunkyHOOPS",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@TouchHLEuser",
+        "url": "https://github.com/TouchHLEuser"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-09-05T21:10:22Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "807",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-246-g1db462f",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali g-52 MC2",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2024-09-05T21:10:22Z",
+      "reportedBy": {
+        "name": "@TouchHLEuser",
+        "url": "https://github.com/TouchHLEuser"
+      },
+      "remarks": "the leagues mode is not working, only the tutorial and the \"play ball\" mode",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/807/screenshot"
+    }
+  ]
+}

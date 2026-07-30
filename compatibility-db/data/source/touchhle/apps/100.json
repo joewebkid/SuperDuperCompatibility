@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 100,
+    "appUrl": "https://appdb.touchhle.org/apps/100",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Crystal Defenders: Vanguard Storm",
+    "releaseYear": "2009",
+    "developerPublisher": "MSF/Winds / Square Enix",
+    "firstReported": "2023-11-05T14:38:12Z",
+    "firstReportedBy": {
+      "name": "@Derfas13",
+      "url": "https://github.com/Derfas13"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Vanguard",
+      "bundleId": "com.square-enix.VanguardSM",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@BMRK409",
+        "url": "https://github.com/BMRK409"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-06-06T07:27:26Z"
+    },
+    {
+      "version": "1.0.1",
+      "displayName": "Vanguard",
+      "bundleId": "com.square-enix.VanguardSM",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@Derfas13",
+        "url": "https://github.com/Derfas13"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-07-16T23:44:33Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1592",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.2-1515-97fc52f",
+      "operatingSystem": "Android 15",
+      "gpu": "Adreno",
+      "scaleHack": "Couldn't test",
+      "rating": 3,
+      "reported": "2025-07-16T23:44:33Z",
+      "reportedBy": {
+        "name": "@Derfas13",
+        "url": "https://github.com/Derfas13"
+      },
+      "remarks": "Wave 3 intro freeze the game. Also options UI looks wrong.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1592/screenshot"
+    },
+    {
+      "sourceReportId": "1493",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-723-g3207e84",
+      "operatingSystem": "Android 15",
+      "gpu": "Exynos",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-06-06T07:27:26Z",
+      "reportedBy": {
+        "name": "@BMRK409",
+        "url": "https://github.com/BMRK409"
+      },
+      "remarks": "Played a few stages and everything went smoothly",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1493/screenshot"
+    }
+  ]
+}

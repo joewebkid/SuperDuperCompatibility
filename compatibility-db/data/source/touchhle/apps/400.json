@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 400,
+    "appUrl": "https://appdb.touchhle.org/apps/400",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Mappy",
+    "releaseYear": "2011",
+    "developerPublisher": "Namco Networks America",
+    "firstReported": "2024-08-05T23:27:44Z",
+    "firstReportedBy": {
+      "name": "@rari-teh",
+      "url": "https://github.com/rari-teh"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Mappy",
+      "bundleId": "com.namconetworks.mappy",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@rari-teh",
+        "url": "https://github.com/rari-teh"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

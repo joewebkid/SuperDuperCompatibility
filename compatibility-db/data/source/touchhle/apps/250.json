@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 250,
+    "appUrl": "https://appdb.touchhle.org/apps/250",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "SimCity",
+    "releaseYear": "2008",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2024-02-12T19:30:45Z",
+    "firstReportedBy": {
+      "name": "@jontowry",
+      "url": "https://github.com/jontowry"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "SimCity",
+      "bundleId": "com.ea.simcitybv",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-08-31T16:53:56Z"
+    },
+    {
+      "version": "1.5.0",
+      "displayName": "SimCity",
+      "bundleId": "com.ea.simcitybv",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@fikritz",
+        "url": "https://github.com/fikritz"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-08-31T20:31:44Z"
+    },
+    {
+      "version": "1.5.0",
+      "displayName": "SimCity",
+      "bundleId": "com.ea.simcityinc",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@jontowry",
+        "url": "https://github.com/jontowry"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2024-08-31T20:31:44Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "802",
+      "version": "1.5.0",
+      "emulatorVersion": "v0.2.2-246-g1db462f",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57 MC2",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2024-08-31T20:31:44Z",
+      "reportedBy": {
+        "name": "@fikritz",
+        "url": "https://github.com/fikritz"
+      },
+      "remarks": "App works but music and sound don't work",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/802/screenshot"
+    },
+    {
+      "sourceReportId": "798",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.2-245-g91a83bd",
+      "operatingSystem": "Android 13",
+      "gpu": "ARM Mali-G71 MP2, 770 MHz, Core 2",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2024-08-31T16:53:56Z",
+      "reportedBy": {
+        "name": "@MuzakyGood",
+        "url": "https://github.com/MuzakyGood"
+      },
+      "remarks": "The game works normally, just without music and sound and a strange input display, when entering the city name and mayor name.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/798/screenshot"
+    }
+  ]
+}

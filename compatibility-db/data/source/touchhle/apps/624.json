@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 624,
+    "appUrl": "https://appdb.touchhle.org/apps/624",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Raging Thunder",
+    "releaseYear": "2008",
+    "developerPublisher": "Polarbit",
+    "firstReported": "2024-11-23T22:12:20Z",
+    "firstReportedBy": {
+      "name": "@neon53-sudo",
+      "url": "https://github.com/neon53-sudo"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "R.Thunder",
+      "bundleId": "com.polarbit.ragingthunder",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@neon53-sudo",
+        "url": "https://github.com/neon53-sudo"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-11-23T22:12:20Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1036",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.2-400-ga76f713",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G52 MC2",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-11-23T22:12:20Z",
+      "reportedBy": {
+        "name": "@neon53-sudo",
+        "url": "https://github.com/neon53-sudo"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 273,
+    "appUrl": "https://appdb.touchhle.org/apps/273",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Circulate",
+    "releaseYear": "2008",
+    "developerPublisher": "LemonQuest",
+    "firstReported": "2024-03-27T12:29:13Z",
+    "firstReportedBy": {
+      "name": "@yudr2372",
+      "url": "https://github.com/yudr2372"
+    }
+  },
+  "versions": [
+    {
+      "version": "0.0.1",
+      "displayName": "Circulate",
+      "bundleId": "com.lemonquest.circulatefull",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-02-15T17:09:27Z"
+    },
+    {
+      "version": "v1.0.2",
+      "displayName": "Circulate P.",
+      "bundleId": "com.lemonquest.CirculatePrologue",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-07-06T12:06:59Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1566",
+      "version": "v1.0.2",
+      "emulatorVersion": "v0.2.2-764-g4919aab",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-07-06T12:06:59Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1566/screenshot"
+    },
+    {
+      "sourceReportId": "1332",
+      "version": "0.0.1",
+      "emulatorVersion": "v0.2.2-594-g024e9b6",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Didn't test",
+      "rating": 3,
+      "reported": "2025-02-15T17:09:27Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "Only Death Match and the first level of Puzzle are playable. The game crashes when attempting to play later levels of Puzzle, erase your profile, or at some point while viewing the Help screen.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1332/screenshot"
+    },
+    {
+      "sourceReportId": "418",
+      "version": "0.0.1",
+      "emulatorVersion": "v0.2.1-190-g6c5a218",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2024-03-30T03:03:19Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": "Only appear intro logo then few seconds it crashes",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/418/screenshot"
+    },
+    {
+      "sourceReportId": "414",
+      "version": "v1.0.2",
+      "emulatorVersion": "v0.2.1-190-g6c5a218",
+      "operatingSystem": "Android 12",
+      "gpu": "Mail-G57",
+      "scaleHack": "Didn't test",
+      "rating": 2,
+      "reported": "2024-03-27T12:29:13Z",
+      "reportedBy": {
+        "name": "@yudr2372",
+        "url": "https://github.com/yudr2372"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/414/screenshot"
+    }
+  ]
+}

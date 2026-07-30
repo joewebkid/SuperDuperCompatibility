@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 126,
+    "appUrl": "https://appdb.touchhle.org/apps/126",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Caramella Girls Game",
+    "releaseYear": "2009",
+    "developerPublisher": "Remixed Record Games",
+    "firstReported": "2023-11-13T11:13:05Z",
+    "firstReportedBy": {
+      "name": "@Heyimfranco",
+      "url": "https://github.com/Heyimfranco"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.1",
+      "displayName": "Caramella",
+      "bundleId": "com.caramella.game",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@Heyimfranco",
+        "url": "https://github.com/Heyimfranco"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2023-11-13T11:13:05Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "191",
+      "version": "1.0.1",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android",
+      "gpu": "PowerVr",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2023-11-13T11:13:05Z",
+      "reportedBy": {
+        "name": "@Heyimfranco",
+        "url": "https://github.com/Heyimfranco"
+      },
+      "remarks": "When the game it's opened, it just show the loading screen and the game just crash",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/191/screenshot"
+    }
+  ]
+}

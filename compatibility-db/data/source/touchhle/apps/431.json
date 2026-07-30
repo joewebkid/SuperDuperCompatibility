@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 431,
+    "appUrl": "https://appdb.touchhle.org/apps/431",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Sacred Odyssey: Rise of Ayden",
+    "releaseYear": "2011",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-09T09:02:45Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "S. Odyssey",
+      "bundleId": "com.gameloft.KnightOdysseyFullEU",
+      "minimumIosVersion": "3.1.3",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-09-03T22:15:24Z"
+    },
+    {
+      "version": "1.0.0",
+      "displayName": "S. Odyssey",
+      "bundleId": "com.gameloft.KnightOdysseyUK",
+      "minimumIosVersion": "3.1.3",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-09-03T22:15:24Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1667",
+      "version": "1.0.0",
+      "emulatorVersion": "v0.2.2-899-gde24b733",
+      "operatingSystem": "Android 16.0",
+      "gpu": "OpenGL ES-CM 1.1 v1.r51p0-00eac0.20897de31e8026c4063960e040e2e9ba / ARM / Mali-G78",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2025-09-03T22:15:24Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "First parts of the game are playable. Videos are skipped, audiable stuttering in playing the music. The game can softlock if a new game started with an existing save.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1667/screenshot"
+    }
+  ]
+}

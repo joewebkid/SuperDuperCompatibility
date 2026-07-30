@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 410,
+    "appUrl": "https://appdb.touchhle.org/apps/410",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Guitar Rock Tour 2",
+    "releaseYear": "2009",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-08T12:06:03Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.5",
+      "displayName": "Guitar2 FREE",
+      "bundleId": "com.gameloft.GuitarRockTour2Free",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-07-19T02:27:13Z"
+    },
+    {
+      "version": "1.0.6",
+      "displayName": "Guitar2 FREE",
+      "bundleId": "com.gameloft.GuitarRockTour2Free",
+      "minimumIosVersion": "3.1.3",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "2.0.1",
+      "displayName": "Guitar Rock2",
+      "bundleId": "com.gameloft.GuitarRockTour2",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-10-14T14:18:11Z"
+    },
+    {
+      "version": "2.0.7",
+      "displayName": "Guitar Rock2",
+      "bundleId": "com.gameloft.GuitarRockTour2",
+      "minimumIosVersion": "3.1.2",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1596",
+      "version": "1.0.5",
+      "emulatorVersion": "v0.2.2-763-g97fc52f",
+      "operatingSystem": "Android 10",
+      "gpu": "Mali",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2025-07-19T02:27:13Z",
+      "reportedBy": {
+        "name": "@AlexLikesChips3",
+        "url": "https://github.com/AlexLikesChips3"
+      },
+      "remarks": "- music glitches a bit",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1596/screenshot"
+    },
+    {
+      "sourceReportId": "915",
+      "version": "2.0.1",
+      "emulatorVersion": "v0.2.2-346-g6b23294",
+      "operatingSystem": "Android 12",
+      "gpu": "Adreno",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-10-14T14:18:11Z",
+      "reportedBy": {
+        "name": "@thundergun1",
+        "url": "https://github.com/thundergun1"
+      },
+      "remarks": "Title screen has rendering issues, but rest of game seems to work",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/915/screenshot"
+    }
+  ]
+}

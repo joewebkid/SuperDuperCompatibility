@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 511,
+    "appUrl": "https://appdb.touchhle.org/apps/511",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "SolaRola",
+    "releaseYear": "2012",
+    "developerPublisher": "Square Enix",
+    "firstReported": "2024-09-08T11:49:08Z",
+    "firstReportedBy": {
+      "name": "@YellowPerson24",
+      "url": "https://github.com/YellowPerson24"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "SolaRola",
+      "bundleId": "com.squareenix.solarola",
+      "minimumIosVersion": "3.1",
+      "firstReportedBy": {
+        "name": "@YellowPerson24",
+        "url": "https://github.com/YellowPerson24"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

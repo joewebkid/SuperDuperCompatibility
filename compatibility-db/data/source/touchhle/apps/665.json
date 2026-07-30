@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 665,
+    "appUrl": "https://appdb.touchhle.org/apps/665",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Flexis",
+    "releaseYear": "2008 (?)",
+    "developerPublisher": "VisualMedia",
+    "firstReported": "2024-12-21T01:32:09Z",
+    "firstReportedBy": {
+      "name": "@HelloKittyFan64",
+      "url": "https://github.com/HelloKittyFan64"
+    }
+  },
+  "versions": [
+    {
+      "version": "v1.0",
+      "displayName": "Flexis",
+      "bundleId": "com.vmmobile.flexis",
+      "minimumIosVersion": "2.0",
+      "firstReportedBy": {
+        "name": "@HelloKittyFan64",
+        "url": "https://github.com/HelloKittyFan64"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

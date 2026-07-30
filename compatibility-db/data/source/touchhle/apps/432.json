@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 432,
+    "appUrl": "https://appdb.touchhle.org/apps/432",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Rise of the Lost Empires",
+    "releaseYear": "2009",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-08-09T09:06:18Z",
+    "firstReportedBy": {
+      "name": "@nighto",
+      "url": "https://github.com/nighto"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.6",
+      "displayName": "RTS",
+      "bundleId": "com.gameloft.RTS",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2024-09-06T17:40:11Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "810",
+      "version": "1.0.6",
+      "emulatorVersion": "v0.2.2-250-gd30465f",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali g-52 MC2",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2024-09-06T17:40:11Z",
+      "reportedBy": {
+        "name": "@TouchHLEuser",
+        "url": "https://github.com/TouchHLEuser"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/810/screenshot"
+    }
+  ]
+}

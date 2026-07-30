@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 601,
+    "appUrl": "https://appdb.touchhle.org/apps/601",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Hi Lo",
+    "releaseYear": null,
+    "developerPublisher": "unknown",
+    "firstReported": "2024-11-07T15:44:04Z",
+    "firstReportedBy": {
+      "name": "@TimofeyLednev",
+      "url": "https://github.com/TimofeyLednev"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "Hi Lo",
+      "bundleId": "com.yourcompany.hilo",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@TimofeyLednev",
+        "url": "https://github.com/TimofeyLednev"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

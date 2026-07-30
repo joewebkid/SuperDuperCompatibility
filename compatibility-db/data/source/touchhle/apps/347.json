@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 347,
+    "appUrl": "https://appdb.touchhle.org/apps/347",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Zombie Infection",
+    "releaseYear": "2008",
+    "developerPublisher": "Gameloft",
+    "firstReported": "2024-06-22T14:26:39Z",
+    "firstReportedBy": {
+      "name": "@ciciplusplus",
+      "url": "https://github.com/ciciplusplus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "ZombieInfection",
+      "bundleId": "com.gameloft.ZombieInfection",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-02-17T15:37:14Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1964",
+      "version": "1.0.0",
+      "emulatorVersion": "0.2.3",
+      "operatingSystem": "Android 16",
+      "gpu": "ARM Mali-G68 MP2",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2026-02-17T15:37:14Z",
+      "reportedBy": {
+        "name": "@thehollowedempress",
+        "url": "https://github.com/thehollowedempress"
+      },
+      "remarks": "Game is playable from start to finish. Some buttons on the menu crash the game. Two cutscenes cause the game to crash; In it's .app bundle, two .m4v files can be found that play out said cutscenes however.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "1144",
+      "version": "1.0.0",
+      "emulatorVersion": "Preview 0.2.2-504-gffead6b",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G68 MC4",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-12-30T16:39:35Z",
+      "reportedBy": {
+        "name": "@MamaMo223",
+        "url": "https://github.com/MamaMo223"
+      },
+      "remarks": "Game crashes after killing final boss, no cutscenes, directly crashes to home screen. But overall, game is playable from start to finish, only that it crashes when we kill the final boss.",
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    },
+    {
+      "sourceReportId": "534",
+      "version": "1.0.0",
+      "emulatorVersion": "touchHLE v0.2.2-87-g9394a342",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G78 MP20",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-06-22T14:26:39Z",
+      "reportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "remarks": "Multiplayer is not supported. Some menus can crash (e.g. More games). Otherwise fully playable, I was able to play through first few levels.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/534/screenshot"
+    }
+  ]
+}

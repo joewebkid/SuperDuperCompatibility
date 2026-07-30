@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 263,
+    "appUrl": "https://appdb.touchhle.org/apps/263",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "The Sims 3",
+    "releaseYear": "2009",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2024-03-03T11:51:34Z",
+    "firstReportedBy": {
+      "name": "@Estem01",
+      "url": "https://github.com/Estem01"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.84",
+      "displayName": "The Sims 3",
+      "bundleId": "com.ea.sims3bv",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@Estem01",
+        "url": "https://github.com/Estem01"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-03-03T11:51:34Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "401",
+      "version": "1.0.84",
+      "emulatorVersion": "v0.2.1",
+      "operatingSystem": "Android",
+      "gpu": "Snapdragon 855 Adreno 640",
+      "scaleHack": "Didn't test",
+      "rating": 1,
+      "reported": "2024-03-03T11:51:34Z",
+      "reportedBy": {
+        "name": "@Estem01",
+        "url": "https://github.com/Estem01"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": false,
+      "sourceScreenshotUrl": null
+    }
+  ]
+}

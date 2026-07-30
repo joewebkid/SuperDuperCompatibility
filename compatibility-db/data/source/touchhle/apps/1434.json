@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1434,
+    "appUrl": "https://appdb.touchhle.org/apps/1434",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Opps",
+    "releaseYear": null,
+    "developerPublisher": "Autokrator",
+    "firstReported": "2026-07-25T14:28:12Z",
+    "firstReportedBy": {
+      "name": "@0ldw4re",
+      "url": "https://github.com/0ldw4re"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.2",
+      "displayName": "Opps",
+      "bundleId": "com.autokrator.Opps",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2026-07-25T14:28:12Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "2469",
+      "version": "1.2",
+      "emulatorVersion": "v0.2.3-462-gbcbaaee2",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali G52-MC2",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2026-07-25T14:28:12Z",
+      "reportedBy": {
+        "name": "@0ldw4re",
+        "url": "https://github.com/0ldw4re"
+      },
+      "remarks": "Seems to work.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/2469/screenshot"
+    }
+  ]
+}

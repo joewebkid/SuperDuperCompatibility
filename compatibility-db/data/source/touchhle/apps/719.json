@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 719,
+    "appUrl": "https://appdb.touchhle.org/apps/719",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cherry Drift",
+    "releaseYear": "2009",
+    "developerPublisher": "G-mode / Mobile & Game Studio",
+    "firstReported": "2025-01-17T04:30:27Z",
+    "firstReportedBy": {
+      "name": "@DaCringeyBaka",
+      "url": "https://github.com/DaCringeyBaka"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "CherryDrift",
+      "bundleId": "jp.co.gmode.CherryDrift.jaJP",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-01-17T04:30:27Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1193",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.2-537-gd448875",
+      "operatingSystem": "Android 13",
+      "gpu": "Mali-G72",
+      "scaleHack": "Yes",
+      "rating": 5,
+      "reported": "2025-01-17T04:30:27Z",
+      "reportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "remarks": "Finished a championship without any problems.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1193/screenshot"
+    }
+  ]
+}

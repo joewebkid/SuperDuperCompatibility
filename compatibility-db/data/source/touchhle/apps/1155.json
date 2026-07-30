@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1155,
+    "appUrl": "https://appdb.touchhle.org/apps/1155",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Creatures",
+    "releaseYear": "2010",
+    "developerPublisher": "?",
+    "firstReported": "2026-02-28T14:17:06Z",
+    "firstReportedBy": {
+      "name": "@koto499-a",
+      "url": "https://github.com/koto499-a"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Creatures",
+      "bundleId": "us.kr.creatures",
+      "minimumIosVersion": "4.0",
+      "firstReportedBy": {
+        "name": "@koto499-a",
+        "url": "https://github.com/koto499-a"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2026-02-28T14:17:06Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1987",
+      "version": "1.0",
+      "emulatorVersion": "v0.2.3-139-geab9f4af",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57",
+      "scaleHack": "Yes",
+      "rating": 3,
+      "reported": "2026-02-28T14:17:06Z",
+      "reportedBy": {
+        "name": "@koto499-a",
+        "url": "https://github.com/koto499-a"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1987/screenshot"
+    }
+  ]
+}

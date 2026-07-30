@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 404,
+    "appUrl": "https://appdb.touchhle.org/apps/404",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Command & Conquer: Red Alert",
+    "releaseYear": "2009",
+    "developerPublisher": "EA",
+    "firstReported": "2024-08-07T17:20:40Z",
+    "firstReportedBy": {
+      "name": "@ciciplusplus",
+      "url": "https://github.com/ciciplusplus"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "displayName": "Red Alert",
+      "bundleId": "com.ea.candcra.ipad.inc",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.0.5",
+      "displayName": "Red Alert",
+      "bundleId": "com.ea.candcra.row",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@xudream2005",
+        "url": "https://github.com/xudream2005"
+      },
+      "androidReferenceBestRating": 2,
+      "androidReferenceLastUpdated": "2025-05-02T09:45:20Z"
+    },
+    {
+      "version": "1.0.6",
+      "displayName": "Red Alert",
+      "bundleId": "com.ea.candcra.row",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.6.8",
+      "displayName": "Red Alert",
+      "bundleId": "com.ea.candcra.row",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-07-10T15:59:20Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1577",
+      "version": "1.6.8",
+      "emulatorVersion": "v0.2.2-769-gea6eadd",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2025-07-10T15:59:20Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1577/screenshot"
+    },
+    {
+      "sourceReportId": "1465",
+      "version": "1.0.5",
+      "emulatorVersion": "touchHLE v0.2.2-711-gbbe0b8f",
+      "operatingSystem": "Android",
+      "gpu": "Adreno (TM) 650",
+      "scaleHack": "Yes",
+      "rating": 2,
+      "reported": "2025-05-02T09:45:20Z",
+      "reportedBy": {
+        "name": "@xudream2005",
+        "url": "https://github.com/xudream2005"
+      },
+      "remarks": "Partial menu support for running game crashes",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1465/screenshot"
+    }
+  ]
+}

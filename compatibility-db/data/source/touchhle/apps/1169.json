@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 1169,
+    "appUrl": "https://appdb.touchhle.org/apps/1169",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Zombie Farm",
+    "releaseYear": "2010",
+    "developerPublisher": "Playforge",
+    "firstReported": "2026-03-10T15:16:09Z",
+    "firstReportedBy": {
+      "name": "@MatijaTodorovic",
+      "url": "https://github.com/MatijaTodorovic"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.19",
+      "displayName": "ZombieFarm",
+      "bundleId": "com.playforge.ZombieFarm",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@MatijaTodorovic",
+        "url": "https://github.com/MatijaTodorovic"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

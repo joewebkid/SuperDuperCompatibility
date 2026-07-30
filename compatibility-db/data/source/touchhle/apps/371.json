@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 371,
+    "appUrl": "https://appdb.touchhle.org/apps/371",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "2XL TROPHYLITE Rally",
+    "releaseYear": "2010",
+    "developerPublisher": "2XL Games",
+    "firstReported": "2024-07-22T15:00:07Z",
+    "firstReportedBy": {
+      "name": "@thedenbruh",
+      "url": "https://github.com/thedenbruh"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1.2",
+      "displayName": "2XL Rally",
+      "bundleId": "com.twoxlgames.trophylite",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@thedenbruh",
+        "url": "https://github.com/thedenbruh"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": []
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 502,
+    "appUrl": "https://appdb.touchhle.org/apps/502",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "OuO",
+    "releaseYear": null,
+    "developerPublisher": "Mike Inel",
+    "firstReported": "2024-08-25T16:41:57Z",
+    "firstReportedBy": {
+      "name": "@Jluanka",
+      "url": "https://github.com/Jluanka"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "OuO",
+      "bundleId": "com.mikeinel.OuO",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Jluanka",
+        "url": "https://github.com/Jluanka"
+      },
+      "androidReferenceBestRating": 1,
+      "androidReferenceLastUpdated": "2024-08-25T16:41:57Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "785",
+      "version": "1.0",
+      "emulatorVersion": "0.2.2",
+      "operatingSystem": "Android",
+      "gpu": "Adreno 640",
+      "scaleHack": "Couldn't test",
+      "rating": 1,
+      "reported": "2024-08-25T16:41:57Z",
+      "reportedBy": {
+        "name": "@Jluanka",
+        "url": "https://github.com/Jluanka"
+      },
+      "remarks": "only shows unity loading screen",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/785/screenshot"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 918,
+    "appUrl": "https://appdb.touchhle.org/apps/918",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "World Cup PingPong",
+    "releaseYear": "2009",
+    "developerPublisher": "Skyworks",
+    "firstReported": "2025-06-21T04:16:03Z",
+    "firstReportedBy": {
+      "name": "@totvrey5",
+      "url": "https://github.com/totvrey5"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.1",
+      "displayName": "PingPong",
+      "bundleId": "com.skyworks.PingPong",
+      "minimumIosVersion": "2.2",
+      "firstReportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "androidReferenceBestRating": 3,
+      "androidReferenceLastUpdated": "2025-06-21T04:16:03Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1534",
+      "version": "1.1",
+      "emulatorVersion": "v0.2.2-756-gbe191c2",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Couldn't test",
+      "rating": 3,
+      "reported": "2025-06-21T04:16:03Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1534/screenshot"
+    }
+  ]
+}

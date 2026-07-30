@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 302,
+    "appUrl": "https://appdb.touchhle.org/apps/302",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Spore Origins",
+    "releaseYear": "2008",
+    "developerPublisher": "Electronic Arts",
+    "firstReported": "2024-04-08T06:21:59Z",
+    "firstReportedBy": {
+      "name": "@vladjester2020",
+      "url": "https://github.com/vladjester2020"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Spore",
+      "bundleId": "com.ea.spore.naj.efigsj",
+      "minimumIosVersion": "(not specified)",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.0.7",
+      "displayName": "Spore",
+      "bundleId": "com.ea.spore.row.efigsj",
+      "minimumIosVersion": "2.2.1",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": 5,
+      "androidReferenceLastUpdated": "2025-05-01T13:58:37Z"
+    },
+    {
+      "version": "1.0.79",
+      "displayName": "Spore",
+      "bundleId": "com.ea.spore.row.efigsj",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@vladjester2020",
+        "url": "https://github.com/vladjester2020"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2025-07-10T15:53:18Z"
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1576",
+      "version": "1.0.79",
+      "emulatorVersion": "v0.2.2-769-gea6eadd",
+      "operatingSystem": "Android",
+      "gpu": "Mali-G71",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2025-07-10T15:53:18Z",
+      "reportedBy": {
+        "name": "@totvrey5",
+        "url": "https://github.com/totvrey5"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1576/screenshot"
+    },
+    {
+      "sourceReportId": "1464",
+      "version": "1.0.7",
+      "emulatorVersion": "v0.2.2-695-g26db6ab",
+      "operatingSystem": "Android 13",
+      "gpu": "PowerVR",
+      "scaleHack": "Didn't test",
+      "rating": 5,
+      "reported": "2025-05-01T13:58:37Z",
+      "reportedBy": {
+        "name": "@Denil222",
+        "url": "https://github.com/Denil222"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1464/screenshot"
+    },
+    {
+      "sourceReportId": "983",
+      "version": "1.0.7",
+      "emulatorVersion": "v0.2.2-361-g2f5a1ea",
+      "operatingSystem": "Android 14",
+      "gpu": "Adreno",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-11-05T07:29:58Z",
+      "reportedBy": {
+        "name": "@Thetouchedjoe",
+        "url": "https://github.com/Thetouchedjoe"
+      },
+      "remarks": "The game is indeed playable on version 1.0.7 after passed the editing creature section without crashing",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/983/screenshot"
+    }
+  ]
+}

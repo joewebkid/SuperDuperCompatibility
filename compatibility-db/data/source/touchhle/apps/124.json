@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "kind": "touchHLE-android-reference",
+  "source": {
+    "name": "touchHLE app compatibility database",
+    "appId": 124,
+    "appUrl": "https://appdb.touchhle.org/apps/124",
+    "retrieved": "2026-07-30",
+    "licence": "CC BY 4.0 International",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "screenshotsMirrored": false
+  },
+  "app": {
+    "title": "Cut the Rope",
+    "releaseYear": "2010",
+    "developerPublisher": "Chillingo",
+    "firstReported": "2023-11-11T22:12:37Z",
+    "firstReportedBy": {
+      "name": "@SpongeVlogger",
+      "url": "https://github.com/SpongeVlogger"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "displayName": "Cut the Rope",
+      "bundleId": "com.chillingo.cuttherope",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@SpongeVlogger",
+        "url": "https://github.com/SpongeVlogger"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.0",
+      "displayName": "Cut the Rope",
+      "bundleId": "com.chillingo.cuttheropelite",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@Ninja232323",
+        "url": "https://github.com/Ninja232323"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.1.1",
+      "displayName": "Cut the Rope",
+      "bundleId": "com.chillingo.cuttherope",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@gyattedass",
+        "url": "https://github.com/gyattedass"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-12-24T08:19:12Z"
+    },
+    {
+      "version": "1.1.2",
+      "displayName": "Cut the Rope",
+      "bundleId": "com.chillingo.cuttheropelite",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@DaCringeyBaka",
+        "url": "https://github.com/DaCringeyBaka"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.2.1",
+      "displayName": "Cut The Rope",
+      "bundleId": "com.chillingo.cuttherope",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@JuanDaBoi",
+        "url": "https://github.com/JuanDaBoi"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-02-01T10:15:43Z"
+    },
+    {
+      "version": "1.2.1",
+      "displayName": "Cut the Rope",
+      "bundleId": "com.chillingo.cuttheropehd",
+      "minimumIosVersion": "3.2",
+      "firstReportedBy": {
+        "name": "@hr56g45678888eh-arch",
+        "url": "https://github.com/hr56g45678888eh-arch"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2026-02-01T10:15:43Z"
+    },
+    {
+      "version": "1.3",
+      "displayName": "Cut the Rope",
+      "bundleId": "com.chillingo.cuttherope",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@yeah6Nine",
+        "url": "https://github.com/yeah6Nine"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.4",
+      "displayName": "Cut the Rope",
+      "bundleId": "com.chillingo.cuttherope",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@ciciplusplus",
+        "url": "https://github.com/ciciplusplus"
+      },
+      "androidReferenceBestRating": 4,
+      "androidReferenceLastUpdated": "2024-10-08T00:11:31Z"
+    },
+    {
+      "version": "1.5",
+      "displayName": "Cut the Rope",
+      "bundleId": "com.chillingo.cuttherope",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@TheAwesomeBlue",
+        "url": "https://github.com/TheAwesomeBlue"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    },
+    {
+      "version": "1.7.1",
+      "displayName": "Cut the Rope",
+      "bundleId": "com.chillingo.cuttherope",
+      "minimumIosVersion": "3.0",
+      "firstReportedBy": {
+        "name": "@nighto",
+        "url": "https://github.com/nighto"
+      },
+      "androidReferenceBestRating": null,
+      "androidReferenceLastUpdated": null
+    }
+  ],
+  "androidReferenceReports": [
+    {
+      "sourceReportId": "1913",
+      "version": "1.2.1",
+      "emulatorVersion": "v0.2.3-70-ga8071972",
+      "operatingSystem": "Android 14",
+      "gpu": "Mali-G57",
+      "scaleHack": "Yes",
+      "rating": 4,
+      "reported": "2026-02-01T10:15:43Z",
+      "reportedBy": {
+        "name": "@hr56g45678888eh-arch",
+        "url": "https://github.com/hr56g45678888eh-arch"
+      },
+      "remarks": null,
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1913/screenshot"
+    },
+    {
+      "sourceReportId": "1121",
+      "version": "1.1.1",
+      "emulatorVersion": "touchHLE PREVIEW v0.2.2-496-gada77ee",
+      "operatingSystem": "Android 11",
+      "gpu": "PowerVR Rogue GE8320",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-12-24T08:19:12Z",
+      "reportedBy": {
+        "name": "@gyattedass",
+        "url": "https://github.com/gyattedass"
+      },
+      "remarks": "The game works, there is a small issue upon clicking on some buttons.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/1121/screenshot"
+    },
+    {
+      "sourceReportId": "919",
+      "version": "1.2.1",
+      "emulatorVersion": "touchHLE PREVIEW v0.2.2-347-g8b3ffbf",
+      "operatingSystem": "Android 11",
+      "gpu": "I don't know",
+      "scaleHack": "Didn't test",
+      "rating": 4,
+      "reported": "2024-10-18T20:42:18Z",
+      "reportedBy": {
+        "name": "@JuanDaBoi",
+        "url": "https://github.com/JuanDaBoi"
+      },
+      "remarks": "Game runs fine, video intro is skipped and clicking on the crystal button or social media buttons will crash. Nothing much else.",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/919/screenshot"
+    },
+    {
+      "sourceReportId": "888",
+      "version": "1.4",
+      "emulatorVersion": "v0.2.2-331-g7bccc7c",
+      "operatingSystem": "Android",
+      "gpu": "PowerVR GE8320",
+      "scaleHack": "Partially",
+      "rating": 4,
+      "reported": "2024-10-08T00:11:31Z",
+      "reportedBy": {
+        "name": "@TheAwesomeBlue",
+        "url": "https://github.com/TheAwesomeBlue"
+      },
+      "remarks": "Star collect animation displays on the top left corner instead of where the star is. (see screenshot)",
+      "hasSourceScreenshot": true,
+      "sourceScreenshotUrl": "https://appdb.touchhle.org/reports/888/screenshot"
+    }
+  ]
+}
