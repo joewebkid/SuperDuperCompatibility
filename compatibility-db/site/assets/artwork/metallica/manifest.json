@@ -1,13 +1,18 @@
 {
   "schemaVersion": 1,
   "bundleId": "com.tapulous.metallica",
-  "updatedAt": "2026-07-31",
+  "updatedAt": "2026-08-01",
   "transport": {
     "format": "webp",
     "maxDimension": 512,
     "cacheFormat": "png"
   },
   "tracks": {
+    "0498FF97-0735-4931-92C6-EBBFAE23E4B0": {
+      "title": "Some Kind of Monster",
+      "album": "St. Anger",
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/st-anger.png"
+    },
     "0A67F7CD-3BB1-4617-8E55-8068E77D3DFF": {
       "title": "Sad But True",
       "album": "Metallica",
@@ -22,6 +27,11 @@
       "title": "King Nothing",
       "album": "Load",
       "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/load.webp"
+    },
+    "C57F3884-FE26-4A05-B271-EDFB3332DBDB": {
+      "title": "Fuel",
+      "album": "Reload",
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/reload.png"
     },
     "813F7FF5-EFE8-4A9F-966F-F712BCCA27AA": {
       "title": "Master of Puppets",
