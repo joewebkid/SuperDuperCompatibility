@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.tapulous.metallica",
+  "updatedAt": "2026-07-31",
+  "transport": {
+    "format": "webp",
+    "maxDimension": 512,
+    "cacheFormat": "png"
+  },
+  "tracks": {
+    "0A67F7CD-3BB1-4617-8E55-8068E77D3DFF": {
+      "title": "Sad But True",
+      "album": "Metallica",
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/metallica-black-album.webp"
+    },
+    "45A3DB14-92EB-4D09-AC8F-43DA23DDD4B6": {
+      "title": "All Nightmare Long",
+      "album": "Death Magnetic",
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/death-magnetic.webp"
+    },
+    "4CA962E5-F5F3-48C9-89C6-DCC576A40CC4": {
+      "title": "King Nothing",
+      "album": "Load",
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/load.webp"
+    },
+    "813F7FF5-EFE8-4A9F-966F-F712BCCA27AA": {
+      "title": "Master of Puppets",
+      "album": "Master of Puppets",
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/master-of-puppets.webp"
+    },
+    "A2EAE6E2-C441-4BEA-88C5-04A89DC25986": {
+      "title": "Seek & Destroy",
+      "album": "Kill 'Em All",
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/kill-em-all.webp"
+    },
+    "C6775D76-AF76-435E-A21F-36BDB1D02CE8": {
+      "title": "One",
+      "album": "One",
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/one.webp"
+    },
+    "DE9B7593-7719-4532-92AE-110AD2725B14": {
+      "title": "For Whom the Bell Tolls",
+      "album": "Ride the Lightning",
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/ride-the-lightning.webp"
+    },
+    "F78137F3-7711-4C5B-9323-08C658A0633F": {
+      "title": "Enter Sandman",
+      "album": "Metallica",
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/metallica-black-album.webp"
+    }
+  },
+  "catalog": [
+    {
+      "title": "72 Seasons",
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/72-seasons.webp"
+    },
+    {
+      "title": "Jump in the Fire",
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/jump-in-the-fire.webp"
+    },
+    {
+      "title": "...And Justice for All",
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/artwork/metallica/and-justice-for-all.webp"
+    }
+  ]
+}
