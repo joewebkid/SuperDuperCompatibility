@@ -56,6 +56,27 @@ function sourceReferenceTable(reports) {
   return `<div class="report-table-wrap"><table class="report-table"><thead><tr><th>Version</th><th>touchHLE build</th><th>GPU</th><th>Rating</th><th>Reported</th><th>Remarks</th></tr></thead><tbody>${reports.map((report) => `<tr><td>${escapeHtml(report.version || "—")}</td><td>${escapeHtml(report.emulatorVersion || "—")}</td><td>${escapeHtml(report.gpu || "—")}</td><td class="rating">${stars(report.rating)}</td><td>${escapeHtml(report.reported?.slice(0, 10) || "—")}</td><td>${escapeHtml(report.remarks || "—")}</td></tr>`).join("")}</tbody></table></div>`;
 }
 
+function communityStatusLabel(status) {
+  return {
+    "launch-confirmed": "Launch confirmed",
+    "gameplay-confirmed": "Gameplay confirmed",
+    "gameplay-with-issues": "Playable with issues",
+  }[status] ?? "Community report";
+}
+
+function communityStatusClass(status) {
+  return status === "gameplay-confirmed" ? "verified" : status === "gameplay-with-issues" ? "partial" : "issues";
+}
+
+function communityEvidenceTable(reports) {
+  if (reports.length === 0) return "";
+  return `<div class="report-table-wrap"><table class="report-table"><thead><tr><th>Version</th><th>Emulator</th><th>Result</th><th>Evidence</th><th>Remarks</th></tr></thead><tbody>${reports.map((report) => {
+    const evidenceUrl = report.publicEvidenceUrl || report.sourceUrl;
+    const evidence = evidenceUrl ? `<a href="${escapeHtml(evidenceUrl)}" rel="noopener noreferrer">Open evidence ↗</a>` : "Recorded observation";
+    return `<tr><td>${escapeHtml(report.version || "Unresolved")}</td><td>${escapeHtml(report.emulator)}</td><td><span class="status ${communityStatusClass(report.status)}">${escapeHtml(communityStatusLabel(report.status))}</span></td><td>${evidence}</td><td>${escapeHtml(report.remarks)}</td></tr>`;
+  }).join("")}</tbody></table></div>`;
+}
+
 function sourceVersionsTable(versions) {
   if (versions.length === 0) return "<p class=\"empty-section\">No source version metadata is available.</p>";
   return `<div class="report-table-wrap"><table class="report-table"><thead><tr><th>Version</th><th>Display name</th><th>Bundle identifier</th><th>Minimum iOS</th><th>Best Android reference rating</th><th>Last Android reference</th></tr></thead><tbody>${versions.map((version) => `<tr><td>${escapeHtml(version.version || "—")}</td><td>${escapeHtml(version.displayName || "—")}</td><td><code>${escapeHtml(version.bundleId || "—")}</code></td><td>${escapeHtml(version.minimumIosVersion || "—")}</td><td class="rating">${stars(version.androidReferenceBestRating)}</td><td>${escapeHtml(version.androidReferenceLastUpdated?.slice(0, 10) || "—")}</td></tr>`).join("")}</tbody></table></div>`;
@@ -89,10 +110,14 @@ async function load() {
     const app = index.apps?.find((item) => item.id === id);
     if (!app) throw new Error("The selected app does not exist in this catalogue.");
 
-    const [sourceRecord, ...androidRecords] = await Promise.all([
+    const [sourceRecord, androidRecords, communitySources] = await Promise.all([
       app.record ? json(new URL(app.record, dataRoot)) : Promise.resolve(null),
-      ...(app.android?.records ?? []).map((record) => json(new URL(record, dataRoot))),
+      Promise.all((app.android?.records ?? []).map((record) => json(new URL(record, dataRoot)))),
+      Promise.all((app.reference?.communityRecords ?? []).map((record) => json(new URL(record, dataRoot)))),
     ]);
+    const communityReports = communitySources
+      .flatMap((record) => record.reports ?? [])
+      .filter((report) => report.catalogueId === app.id);
     const defaultVersion = sourceRecord?.versions?.[0]?.version ?? androidRecords[0]?.version ?? "";
     const submitUrl = `${issueTemplate}&title=${encodeURIComponent(`[Android report]: ${app.title}${defaultVersion ? ` ${defaultVersion}` : ""}`)}`;
     document.title = `${app.title} · Super Duper Compatibility`;
@@ -115,6 +140,12 @@ async function load() {
         <p class="muted">Imported from touchHLE AppDB under CC BY 4.0. These are not Super Duper test results. Source screenshots are intentionally not mirrored.</p>
         ${sourceReferenceTable(sourceRecord.androidReferenceReports)}
       </section>` : "";
+    const communityBlock = communityReports.length ? `
+      <section class="content-section">
+        <div class="section-heading"><div><p class="section-kicker">EXTERNAL REFERENCE</p><h2>Community-confirmed launches</h2></div></div>
+        <p class="muted">These observations come from other emulator builds and are not Super Duper test results. They never change the Android status or rating shown above.</p>
+        ${communityEvidenceTable(communityReports)}
+      </section>` : "";
     const ipaReleases = androidRecords.filter((record) => record.ipaRelease);
 
     target.innerHTML = `
@@ -133,6 +164,7 @@ async function load() {
         <p class="muted">Use the report form to upload your own screenshot. It is shown here only after review.</p>
         ${screenshotGallery(androidRecords)}
       </section>
+      ${communityBlock}
       ${sourceBlock}`;
   } catch (error) {
     target.innerHTML = `<div class="error-state"><h1>Compatibility record unavailable</h1><p>${escapeHtml(error.message)}</p><a href="../">Return to the catalogue</a></div>`;

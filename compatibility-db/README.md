@@ -5,6 +5,9 @@ The catalogue follows the AppDB hierarchy: **app → version → report**.
 - `data/index.json` is the Android catalogue index used by the web site.
 - `data/source/touchhle/apps/<id>.json` holds imported app metadata, versions
   and Android-only touchHLE reference reports.
+- `data/source/community/*.json` records reviewed launch evidence from other
+  emulator communities. These records are reference-only and never affect the
+  Super Duper Android status, rating or launcher endpoint.
 - `data/games/<bundle-id>/<version>.json` holds a version-specific Super Duper
   Android test record.
 - `data/profiles/<profile-id>.json` contains a reusable recommended profile.
@@ -14,6 +17,12 @@ Do not infer that an untested IPA revision has the same result. Use `unknown`,
 `partial`, `verified`, `issues`, or `blocked` for a milestone and explain
 non-obvious results in `notes`. A numeric `androidRating` uses the five-star
 AppDB scale and may only be set for a tested Super Duper build.
+
+Community evidence may be attached to a catalogue page only when the app title
+is unambiguous. An unknown IPA revision or bundle identifier must remain null
+and be shown as unresolved. Ambiguous app identities stay in the source queue
+with a null `catalogueId`. Do not publish participant names, copied chat
+screenshots or IPA files.
 
 ## Local validation and site build
 

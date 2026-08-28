@@ -6,6 +6,7 @@ const directory = path.dirname(fileURLToPath(import.meta.url));
 const databaseRoot = path.resolve(directory, "..");
 const dataRoot = path.join(databaseRoot, "data");
 const statuses = new Set(["unknown", "partial", "verified", "issues", "blocked"]);
+const communityStatuses = new Set(["launch-confirmed", "gameplay-confirmed", "gameplay-with-issues"]);
 
 async function jsonFiles(root) {
   try {
@@ -109,6 +110,28 @@ for (const sourcePath of sourcePaths) {
   }
 }
 
+const communityPaths = await jsonFiles(path.join(dataRoot, "source", "community"));
+for (const communityPath of communityPaths) {
+  const record = JSON.parse(await readFile(communityPath, "utf8"));
+  const label = path.relative(databaseRoot, communityPath);
+  assert(record.schemaVersion === 1 && record.kind === "community-emulator-evidence", `${label}: invalid community evidence record`);
+  assert(typeof record.source?.name === "string" && record.source.name.length > 0, `${label}: missing source name`);
+  assert(typeof record.source?.retrieved === "string" && /^\d{4}-\d{2}-\d{2}$/.test(record.source.retrieved), `${label}: invalid retrieval date`);
+  assert(Array.isArray(record.reports) && record.reports.length > 0, `${label}: reports must be a non-empty array`);
+  for (const report of record.reports) {
+    assert(typeof report.title === "string" && report.title.length > 0, `${label}: report is missing title`);
+    assert(report.version === null || typeof report.version === "string", `${label}: invalid version`);
+    assert(report.bundleId === null || typeof report.bundleId === "string", `${label}: invalid bundleId`);
+    assert(typeof report.emulator === "string" && report.emulator.length > 0, `${label}: missing emulator`);
+    assert(report.platform === "Android", `${label}: community evidence must be Android-only`);
+    assert(communityStatuses.has(report.status), `${label}: invalid community status`);
+    assert(typeof report.remarks === "string" && report.remarks.length > 0, `${label}: report needs remarks`);
+    for (const key of ["sourceUrl", "publicEvidenceUrl"]) {
+      assert(report[key] === null || /^https:\/\//.test(report[key]), `${label}: invalid ${key}`);
+    }
+  }
+}
+
 const indexIds = new Set();
 for (const app of index.apps) {
   assert(typeof app.id === "string" && app.id.length > 0, "index app: missing id");
@@ -123,4 +146,4 @@ for (const app of index.apps) {
   if (app.record) await requireFile(app.record);
 }
 
-console.log(`Validated ${index.apps.length} catalogue app(s), ${sourcePaths.length} imported source record(s), ${gamePaths.length} Super Duper Android record(s), and ${profilePaths.length} profile(s).`);
+console.log(`Validated ${index.apps.length} catalogue app(s), ${sourcePaths.length} imported source record(s), ${communityPaths.length} community evidence source(s), ${gamePaths.length} Super Duper Android record(s), and ${profilePaths.length} profile(s).`);

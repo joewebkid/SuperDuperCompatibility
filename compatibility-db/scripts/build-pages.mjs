@@ -30,6 +30,12 @@ const gameEntries = await Promise.all((await jsonFiles(gameRoot)).map(async (gam
   const relative = path.relative(path.join(root, "data"), gamePath).replaceAll("\\", "/");
   return { record, relative };
 }));
+const communityRoot = path.join(root, "data", "source", "community");
+const communityEntries = await Promise.all((await jsonFiles(communityRoot)).map(async (recordPath) => {
+  const record = JSON.parse(await readFile(recordPath, "utf8"));
+  const relative = path.relative(path.join(root, "data"), recordPath).replaceAll("\\", "/");
+  return { record, relative };
+}));
 
 function slug(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -60,6 +66,19 @@ for (const entry of gameEntries) {
   app.searchTerms = [...new Set([...(app.searchTerms ?? []), entry.record.bundleId, entry.record.title, entry.record.version])];
   app.android ??= { overallStatus: "unknown", bestRating: null, lastUpdated: null, reportCount: 0, records: [] };
   app.android.records = [...new Set([...(app.android.records ?? []), entry.relative])];
+}
+
+// Community observations are reference-only. Attach their source file to an
+// app page only after the report has been resolved to an exact catalogue id;
+// incomplete reports stay in the source queue and cannot affect Android status.
+for (const entry of communityEntries) {
+  for (const report of entry.record.reports ?? []) {
+    if (!report.catalogueId) continue;
+    const app = catalogue.apps.find((candidate) => candidate.id === report.catalogueId);
+    if (!app) throw new Error(`${entry.relative}: unknown catalogueId ${report.catalogueId}`);
+    app.reference ??= { androidReports: 0 };
+    app.reference.communityRecords = [...new Set([...(app.reference.communityRecords ?? []), entry.relative])];
+  }
 }
 
 const gameByPath = new Map(gameEntries.map((entry) => [entry.relative, entry.record]));

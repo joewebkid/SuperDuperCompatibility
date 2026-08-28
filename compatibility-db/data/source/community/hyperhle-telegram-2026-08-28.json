@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "community-emulator-evidence",
+  "source": {
+    "name": "HyperHLE community chat",
+    "platform": "Telegram",
+    "retrieved": "2026-08-28",
+    "notes": "Compatibility observations only. User names, copied screenshots and IPA files are intentionally not published."
+  },
+  "reports": [
+    {
+      "catalogueId": "touchhle-487",
+      "title": "Angry Birds Rio",
+      "version": null,
+      "bundleId": null,
+      "emulator": "HyperHLE",
+      "platform": "Android",
+      "status": "launch-confirmed",
+      "sourceUrl": "https://t.me/c/3901315029/1864",
+      "publicEvidenceUrl": "https://youtu.be/m4nqCtMC5nA?si=_aK4Bjfx5SSHmk9q",
+      "remarks": "A community video and several independent replies confirm that Angry Birds Rio launches. The exact IPA revision is not shown, and no complete playthrough is claimed."
+    },
+    {
+      "catalogueId": null,
+      "title": "101-in-1 Games",
+      "version": "1.3.4",
+      "bundleId": null,
+      "emulator": "HyperHLE",
+      "platform": "Android",
+      "status": "gameplay-with-issues",
+      "sourceUrl": "https://t.me/c/3901315029/5680",
+      "publicEvidenceUrl": null,
+      "remarks": "The shared 1.3.4 IPA was reported playable. Background rendering is missing, music is cut short and sound effects work. Awaiting verified bundle metadata before catalogue attachment."
+    }
+  ]
+}
