@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.gameloft.NOVA",
+  "title": "N.O.V.A. Near Orbit Vanguard Alliance",
+  "version": "1.1.0",
+  "releaseYear": "2009",
+  "developerPublisher": "Gameloft",
+  "genres": ["Action", "First-person shooter"],
+  "overallStatus": "issues",
+  "androidRating": 3,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "cutscene": "issues",
+    "gameplay": "partial",
+    "graphics": "issues",
+    "input": "partial",
+    "audio": "verified",
+    "saves": "unknown",
+    "performance": "issues"
+  },
+  "notes": "Audio and a real 3D scene render after the earlier black-screen path. Presentation still flashes and a clean extended gameplay pass has not been completed, so the title remains usable only with significant visual instability.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno GPU",
+      "appBuild": "development",
+      "result": "issues"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-28"
+}

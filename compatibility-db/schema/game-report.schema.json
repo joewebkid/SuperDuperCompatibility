@@ -15,6 +15,18 @@
       "additionalProperties": { "enum": ["unknown", "partial", "verified", "issues", "blocked"] }
     },
     "recommendedProfile": { "type": "string" },
+    "ipaRelease": {
+      "type": "object",
+      "required": ["url", "fileName", "sha256", "rightsHolder", "authorizationNote"],
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "fileName": { "type": "string", "pattern": "(?i)\\.ipa$" },
+        "sha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+        "rightsHolder": { "type": "string", "minLength": 1 },
+        "authorizationNote": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
     "notes": { "type": "string" },
     "testedOn": { "type": "array" },
     "updated": { "type": "string", "format": "date" }

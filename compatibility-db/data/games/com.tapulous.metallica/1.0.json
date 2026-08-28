@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.tapulous.metallica",
+  "title": "Tap Tap Revenge: Metallica",
+  "version": "1.0",
+  "releaseYear": "2009",
+  "developerPublisher": "Tapulous",
+  "genres": ["Music", "Rhythm"],
+  "overallStatus": "partial",
+  "androidRating": 2,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "songList": "issues",
+    "songSelection": "verified",
+    "gameplay": "blocked",
+    "graphics": "blocked",
+    "input": "partial",
+    "audio": "issues",
+    "saves": "unknown",
+    "performance": "issues"
+  },
+  "notes": "Boot, the main menu, Career song list and selection delegate work. Selecting a song enters a live EAGL render loop, but the game surface remains white. Menu audio has also produced zero-filled buffers on the current build. This is a confirmed key-gameplay blocker, not a song-list navigation failure.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno 825",
+      "appBuild": "development, physical-device traces from 2026-08-03 and 2026-08-04",
+      "profile": "iPhone 3GS, render scale 1x, post-process off",
+      "result": "partial"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-28"
+}

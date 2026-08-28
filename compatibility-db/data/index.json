@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "project": "Super Duper Android Compatibility Database",
   "platform": "Android",
-  "updated": "2026-07-30",
+  "updated": "2026-08-05",
   "attribution": {
     "source": "touchHLE app compatibility database",
     "sourceUrl": "https://appdb.touchhle.org/",
@@ -1576,11 +1576,13 @@
         "androidReports": 0
       },
       "android": {
-        "overallStatus": "unknown",
-        "bestRating": null,
-        "lastUpdated": null,
-        "reportCount": 0,
-        "records": []
+        "overallStatus": "partial",
+        "bestRating": 3,
+        "lastUpdated": "2026-08-05",
+        "reportCount": 1,
+        "records": [
+          "games/com.turner.amateursurgeon/1.1.9.json"
+        ]
       }
     },
     {
@@ -11730,6 +11732,7 @@
       "title": "Infinity Blade I",
       "releaseYear": "2010",
       "developerPublisher": "Chair Entertainment/Epic Games",
+      "genres": ["Action RPG"],
       "source": {
         "appId": 139,
         "url": "https://appdb.touchhle.org/apps/139"
@@ -11759,12 +11762,13 @@
       "title": "Inotia 2",
       "releaseYear": null,
       "developerPublisher": "Com2uS",
+      "genres": ["Action RPG"],
       "source": {
         "appId": 298,
         "url": "https://appdb.touchhle.org/apps/298"
       },
       "record": "source/touchhle/apps/298.json",
-      "versions": 3,
+      "versions": 4,
       "searchTerms": [
         "com.com2us.inotia",
         "Inotia2",
@@ -11774,17 +11778,22 @@
         "1.1.3",
         "com.com2us.inotia",
         "Inotia2",
-        "1.1.41"
+        "1.1.41",
+        "com.com2us.inotia",
+        "Inotia 2",
+        "1.1.6"
       ],
       "reference": {
         "androidReports": 2
       },
       "android": {
-        "overallStatus": "unknown",
-        "bestRating": null,
-        "lastUpdated": null,
-        "reportCount": 0,
-        "records": []
+        "overallStatus": "partial",
+        "bestRating": 3,
+        "lastUpdated": "2026-07-31",
+        "reportCount": 1,
+        "records": [
+          "games/com.com2us.inotia/1.1.6.json"
+        ]
       }
     },
     {
@@ -24405,6 +24414,108 @@
         "lastUpdated": null,
         "reportCount": 0,
         "records": []
+      }
+    },
+    {
+      "id": "superduper-com-com2us-inotia3",
+      "title": "Inotia 3: Children of Carnia",
+      "releaseYear": null,
+      "developerPublisher": "Com2uS",
+      "genres": ["RPG"],
+      "versions": 1,
+      "searchTerms": ["com.com2us.inotia3", "Inotia 3", "Children of Carnia", "1.4.5"],
+      "reference": { "androidReports": 0 },
+      "android": {
+        "overallStatus": "blocked",
+        "bestRating": 1,
+        "lastUpdated": "2026-08-05",
+        "reportCount": 1,
+        "records": ["games/com.com2us.inotia3/1.4.5.json"]
+      }
+    },
+    {
+      "id": "superduper-com-tapulous-coldplay",
+      "title": "Tap Tap Revenge: Coldplay Edition",
+      "releaseYear": null,
+      "developerPublisher": "Tapulous",
+      "genres": ["Rhythm"],
+      "versions": 1,
+      "searchTerms": ["com.tapulous.coldplay", "Tap Tap Revenge", "Coldplay", "1.0"],
+      "reference": { "androidReports": 0 },
+      "android": {
+        "overallStatus": "issues",
+        "bestRating": 2,
+        "lastUpdated": "2026-08-05",
+        "reportCount": 1,
+        "records": ["games/com.tapulous.coldplay/1.0.json"]
+      }
+    },
+    {
+      "id": "superduper-hu-redshift-the-quest-hd",
+      "title": "The Quest HD",
+      "releaseYear": null,
+      "developerPublisher": "Redshift",
+      "genres": ["RPG"],
+      "versions": 1,
+      "searchTerms": ["hu.redshift.The-Quest-HD", "The Quest HD", "2.0.4"],
+      "reference": { "androidReports": 0 },
+      "android": {
+        "overallStatus": "issues",
+        "bestRating": 1,
+        "lastUpdated": "2026-08-05",
+        "reportCount": 1,
+        "records": ["games/hu.redshift.the-quest-hd/2.0.4.json"]
+      }
+    },
+    {
+      "id": "superduper-com-hip-683",
+      "title": "Rock Band",
+      "releaseYear": null,
+      "developerPublisher": "Electronic Arts",
+      "genres": ["Rhythm"],
+      "versions": 1,
+      "searchTerms": ["com.hip.683", "Rock Band", "1.3.55"],
+      "reference": { "androidReports": 0 },
+      "android": {
+        "overallStatus": "issues",
+        "bestRating": 2,
+        "lastUpdated": "2026-08-05",
+        "reportCount": 1,
+        "records": ["games/com.hip.683/1.3.55.json"]
+      }
+    },
+    {
+      "id": "superduper-com-tapulous-taptaptour",
+      "title": "Tap Tap Revenge Tour",
+      "releaseYear": null,
+      "developerPublisher": "Tapulous",
+      "genres": ["Rhythm"],
+      "versions": 1,
+      "searchTerms": ["com.tapulous.taptaptour", "Tap Tap Revenge Tour", "1.0"],
+      "reference": { "androidReports": 0 },
+      "android": {
+        "overallStatus": "blocked",
+        "bestRating": 1,
+        "lastUpdated": "2026-08-05",
+        "reportCount": 1,
+        "records": ["games/com.tapulous.taptaptour/1.0.json"]
+      }
+    },
+    {
+      "id": "superduper-com-tapulous-nirvana",
+      "title": "Tap Tap Revenge: Nirvana",
+      "releaseYear": null,
+      "developerPublisher": "Tapulous",
+      "genres": ["Rhythm"],
+      "versions": 1,
+      "searchTerms": ["com.tapulous.nirvana", "Tap Tap Revenge", "Nirvana", "1.0"],
+      "reference": { "androidReports": 0 },
+      "android": {
+        "overallStatus": "partial",
+        "bestRating": 3,
+        "lastUpdated": "2026-08-05",
+        "reportCount": 1,
+        "records": ["games/com.tapulous.nirvana/1.0.json"]
       }
     }
   ]

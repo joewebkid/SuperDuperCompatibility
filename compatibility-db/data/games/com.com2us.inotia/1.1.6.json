@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.com2us.inotia",
+  "title": "Inotia 2",
+  "version": "1.1.6",
+  "overallStatus": "issues",
+  "androidRating": 3,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "intro": "verified",
+    "firstDialogue": "verified",
+    "gameplay": "issues",
+    "input": "partial",
+    "audio": "verified",
+    "saves": "unknown",
+    "performance": "issues"
+  },
+  "notes": "Version 1.1.6 reaches the initial playable village on Super Duper Android. The synthetic movie-completion fallback removes the transient intro view so the first dialogue no longer traps touch input. Initial gameplay was observed around 17–19 FPS on the tested phone; longer playthrough, touch controls and saves still require verification.",
+  "testedOn": [
+    {
+      "device": "Android phone with Adreno GPU",
+      "appBuild": "development",
+      "result": "partial"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-07-31"
+}

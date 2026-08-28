@@ -4,7 +4,10 @@ Public Android compatibility database, recommended profiles and static
 catalogue for the Super Duper iPhone app emulator.
 
 The repository contains no IPA archives, game assets, decrypted files, product
-keys, personal save data or private diagnostic logs.
+keys, personal save data or private diagnostic logs. An IPA whose distribution
+has been explicitly authorised can be published separately as a GitHub Release
+asset and listed with its SHA-256 hash and rights-holder note; see
+[`authorized-ipa-releases.md`](compatibility-db/authorized-ipa-releases.md).
 
 ## Contributing
 

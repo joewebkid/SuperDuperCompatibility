@@ -27,6 +27,13 @@ node compatibility-db/scripts/build-pages.mjs
 The generated static site is written to `compatibility-db/dist/`. GitHub Actions
 validates the records and publishes this directory to GitHub Pages.
 
+Published app details use directory-style URLs such as
+`/game/?id=touchhle-139`. The legacy `/game.html?id=...` route is retained only
+as a redirect so existing links do not break. During the build, reviewed files
+from `data/games/` are merged into the published catalogue and into the compact
+`data/android-index.json` endpoint consumed by the Android launcher. The source
+catalogue remains generated data and does not need to be edited for every test.
+
 ## Reporting rules
 
 - Identify a game by its iOS bundle identifier and `CFBundleVersion`.
@@ -38,6 +45,12 @@ validates the records and publishes this directory to GitHub Pages.
   catalogue. It opens a GitHub Issue form; drag the screenshot into its
   Screenshot field. GitHub hosts the attachment, and a maintainer adds the
   approved URL to the matching report record.
+- The Android app can also prepare a report from its in-game menu. It exports
+  the captured screenshot through Android MediaStore, copies the Markdown
+  report to the clipboard and opens a prefilled GitHub Issue. Contributors use
+  their own GitHub account; no maintainer token or repository credential is
+  shipped in the APK. If no browser is available, Android's share sheet remains
+  available as a fallback.
 - Do not add screenshots copied from another compatibility database. Screens
   from an app remain the copyright of that app's rightsholders.
 
@@ -54,3 +67,20 @@ keeps only reports whose operating system is Android. It does not download or
 mirror source screenshots. Use `--refresh` to refetch cached pages and
 `--concurrency=8` to set request parallelism. The resulting data requires the
 attribution in [`../ATTRIBUTION.md`](../ATTRIBUTION.md).
+
+## Finding legal test copies
+
+`find-ipaarchive-candidates.mjs` searches the public metadata in Internet
+Archive's `ipaarchive` collection for titles from the compatibility catalogue:
+
+```sh
+node compatibility-db/scripts/find-ipaarchive-candidates.mjs --limit=12
+node compatibility-db/scripts/find-ipaarchive-candidates.mjs --title="Orions"
+```
+
+It writes an ignored metadata queue to `.cache/ipaarchive/candidates.json`.
+The result only links to archive item pages; it does not download IPA files,
+does not publish download links in the catalogue and does not prove that a
+candidate is the same application. Before any test, verify `CFBundleIdentifier`
+and `CFBundleVersion` from an IPA you are legally entitled to use. Never commit
+an IPA, decrypted assets, account data or a game screenshot you do not own.

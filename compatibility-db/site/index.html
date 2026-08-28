@@ -17,9 +17,12 @@
             <h1>Compatibility Database</h1>
             <p class="lead">App, version and Android report records for Super Duper. A catalogue is not a guarantee: each IPA revision is tested separately.</p>
           </div>
-          <a class="primary-action" href="https://github.com/joewebkid/SuperDuperCompatibility/issues/new?template=android-compatibility-report.yml">Submit Android report</a>
+          <div class="hero-actions">
+            <a class="primary-action" href="https://github.com/joewebkid/SuperDuperCompatibility/issues/new?template=android-compatibility-report.yml">Submit Android report</a>
+            <a class="secondary-action" href="https://github.com/joewebkid/SuperDuperCompatibility/blob/main/compatibility-db/authorized-ipa-releases.md">Publish authorised IPA</a>
+          </div>
         </div>
-        <p class="notice">No IPA archives, game assets, private saves, account data or private logs are stored here.</p>
+        <p class="notice">The catalogue stores compatibility data only. IPA files may be linked only when the rights holder has explicitly authorised a GitHub Release asset; private saves, account data and private logs are never published.</p>
       </header>
 
       <section class="summary" aria-label="Database summary">
@@ -31,6 +34,14 @@
       <section class="controls" aria-label="Catalogue filters">
         <label class="search-label" for="search">Search by app name, bundle identifier, developer or version</label>
         <input id="search" type="search" autocomplete="off" placeholder="For example, Infinity Blade" />
+        <div class="faceted-filters">
+          <label class="search-label" for="genre-filter">Genre
+            <select id="genre-filter"><option value="">All genres</option></select>
+          </label>
+          <label class="search-label" for="developer-filter">Developer / publisher
+            <input id="developer-filter" type="search" autocomplete="off" placeholder="For example, Chair" />
+          </label>
+        </div>
         <div id="filters" class="filters" aria-label="Android compatibility status"></div>
       </section>
 

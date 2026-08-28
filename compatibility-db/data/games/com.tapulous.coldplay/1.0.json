@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.tapulous.coldplay",
+  "title": "Tap Tap Revenge: Coldplay Edition",
+  "version": "1.0",
+  "overallStatus": "partial",
+  "androidRating": 2,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "partial",
+    "input": "issues",
+    "gameplay": "unknown",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "The Coldplay title screen and Tapulous welcome prompt render. The prompt's confirmation control was blank/unresponsive during the test, so the initial menu cannot be dismissed and gameplay was not reached.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno 825",
+      "appBuild": "Super Duper 72cb2795",
+      "profile": "iPhone 3GS, render scale 1x, post-process off",
+      "result": "issues"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-05"
+}

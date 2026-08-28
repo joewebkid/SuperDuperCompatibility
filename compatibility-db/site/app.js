@@ -12,6 +12,8 @@ let selectedStatus = "all";
 let apps = [];
 
 const search = document.querySelector("#search");
+const genreFilter = document.querySelector("#genre-filter");
+const developerFilter = document.querySelector("#developer-filter");
 const filtersNode = document.querySelector("#filters");
 const gamesNode = document.querySelector("#games");
 const countNode = document.querySelector("#count");
@@ -28,6 +30,10 @@ function escapeHtml(value) {
 
 function statusOf(app) {
   return app.android?.overallStatus ?? "unknown";
+}
+
+function genresOf(app) {
+  return Array.isArray(app.genres) ? app.genres : [];
 }
 
 function ratingText(rating) {
@@ -60,10 +66,17 @@ function renderFilters() {
   }));
 }
 
+function renderGenreFilter() {
+  const selected = genreFilter.value;
+  const genres = [...new Set(apps.flatMap(genresOf))].sort((a, b) => a.localeCompare(b));
+  genreFilter.replaceChildren(new Option("All genres", ""), ...genres.map((genre) => new Option(genre, genre)));
+  genreFilter.value = genres.includes(selected) ? selected : "";
+}
+
 function appRow(app) {
   const row = document.createElement("a");
   row.className = "catalogue-row";
-  row.href = `game.html?id=${encodeURIComponent(app.id)}`;
+  row.href = `game/?id=${encodeURIComponent(app.id)}`;
   const release = app.releaseYear || "—";
   const publisher = app.developerPublisher || "—";
   const lastUpdated = app.android?.lastUpdated || "—";
@@ -79,9 +92,14 @@ function appRow(app) {
 
 function renderApps() {
   const query = search.value.trim().toLocaleLowerCase();
+  const developerQuery = developerFilter.value.trim().toLocaleLowerCase();
+  const selectedGenre = genreFilter.value;
   const matching = apps.filter((app) => {
     const searchable = `${app.title} ${app.developerPublisher ?? ""} ${(app.searchTerms ?? []).join(" ")}`.toLocaleLowerCase();
-    return (selectedStatus === "all" || statusOf(app) === selectedStatus) && searchable.includes(query);
+    const developer = (app.developerPublisher ?? "").toLocaleLowerCase();
+    return (selectedStatus === "all" || statusOf(app) === selectedStatus) &&
+      (!selectedGenre || genresOf(app).includes(selectedGenre)) &&
+      developer.includes(developerQuery) && searchable.includes(query);
   });
   gamesNode.replaceChildren(...matching.map(appRow));
   countNode.textContent = `${matching.length.toLocaleString()} of ${apps.length.toLocaleString()} apps`;
@@ -104,6 +122,7 @@ async function load() {
     apps = database.apps ?? [];
     renderSummary();
     renderFilters();
+    renderGenreFilter();
     renderApps();
   } catch (error) {
     gamesNode.textContent = "The compatibility database could not be loaded.";
@@ -112,4 +131,6 @@ async function load() {
 }
 
 search.addEventListener("input", renderApps);
+developerFilter.addEventListener("input", renderApps);
+genreFilter.addEventListener("change", renderApps);
 load();

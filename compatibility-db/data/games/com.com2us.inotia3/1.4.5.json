@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.com2us.inotia3",
+  "title": "Inotia 3: Children of Carnia",
+  "version": "1.4.5",
+  "overallStatus": "blocked",
+  "androidRating": 1,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "splash": "verified",
+    "mainMenu": "blocked",
+    "orientation": "issues",
+    "input": "unknown",
+    "gameplay": "unknown",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "The application process remained alive and rendered the Com2uS splash, but it was still on the rotated splash after 60 seconds and never reached a menu. The failure is currently recorded as a startup/menu block; no claim is made about in-game compatibility.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno 825",
+      "appBuild": "Super Duper 72cb2795",
+      "profile": "iPhone 3GS, render scale 1x, post-process off",
+      "result": "blocked"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-05"
+}

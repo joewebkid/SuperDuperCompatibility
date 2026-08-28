@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.tapulous.taptaptour",
+  "title": "Tap Tap Revenge Tour",
+  "version": "1.0",
+  "overallStatus": "blocked",
+  "androidRating": 1,
+  "milestones": {
+    "import": "verified",
+    "launch": "partial",
+    "splash": "verified",
+    "mainMenu": "blocked",
+    "input": "unknown",
+    "gameplay": "unknown",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "The Tour loading artwork and spinners render, but the game remained on that loading view after 55 seconds and did not present a menu. The log also shows unimplemented AVAudioPlayer deviceCurrentTime calls; whether they are causal is not established.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno 825",
+      "appBuild": "Super Duper 72cb2795",
+      "profile": "iPhone 3GS, render scale 1x, post-process off",
+      "result": "blocked"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-05"
+}

@@ -1,4 +1,5 @@
 const issueTemplate = "https://github.com/joewebkid/SuperDuperCompatibility/issues/new?template=android-compatibility-report.yml";
+const dataRoot = new URL("data/", import.meta.url);
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -66,18 +67,31 @@ function screenshotGallery(records) {
   return `<div class="screenshot-grid">${screenshots.map((screenshot) => `<figure><a href="${escapeHtml(screenshot.url)}"><img src="${escapeHtml(screenshot.url)}" alt="${escapeHtml(screenshot.alt || "Super Duper compatibility screenshot")}" loading="lazy"></a><figcaption>${escapeHtml(screenshot.caption || `Version ${screenshot.version}`)}</figcaption></figure>`).join("")}</div>`;
 }
 
+function ipaReleaseCard(record) {
+  const release = record.ipaRelease;
+  if (!release) return "";
+  return `
+    <article class="ipa-release-card">
+      <div><p class="section-kicker">AUTHORISED IPA</p><h3>${escapeHtml(release.fileName)}</h3></div>
+      <a class="primary-action" href="${escapeHtml(release.url)}">Download authorised IPA</a>
+      <p>This archive is published by or with permission from <strong>${escapeHtml(release.rightsHolder)}</strong>.</p>
+      <p>${escapeHtml(release.authorizationNote)}</p>
+      <p class="hash"><strong>SHA-256</strong><code>${escapeHtml(release.sha256)}</code></p>
+    </article>`;
+}
+
 async function load() {
   const target = document.querySelector("#game");
   try {
     const id = new URLSearchParams(location.search).get("id");
     if (!id) throw new Error("No app was selected.");
-    const index = await json("data/index.json");
+    const index = await json(new URL("index.json", dataRoot));
     const app = index.apps?.find((item) => item.id === id);
     if (!app) throw new Error("The selected app does not exist in this catalogue.");
 
     const [sourceRecord, ...androidRecords] = await Promise.all([
-      app.record ? json(`data/${app.record}`) : Promise.resolve(null),
-      ...(app.android?.records ?? []).map((record) => json(`data/${record}`)),
+      app.record ? json(new URL(app.record, dataRoot)) : Promise.resolve(null),
+      ...(app.android?.records ?? []).map((record) => json(new URL(record, dataRoot))),
     ]);
     const defaultVersion = sourceRecord?.versions?.[0]?.version ?? androidRecords[0]?.version ?? "";
     const submitUrl = `${issueTemplate}&title=${encodeURIComponent(`[Android report]: ${app.title}${defaultVersion ? ` ${defaultVersion}` : ""}`)}`;
@@ -87,6 +101,7 @@ async function load() {
       ["App name", escapeHtml(app.title)],
       ["Release year", escapeHtml(app.releaseYear || "—")],
       ["Developer / Publisher", escapeHtml(app.developerPublisher || "—")],
+      ["Genres", escapeHtml((app.genres ?? []).join(", ") || "—")],
       ["Super Duper Android result", `<span class="status ${escapeHtml(app.android?.overallStatus ?? "unknown")}">${escapeHtml(statusLabel(app.android?.overallStatus))}</span> ${app.android?.bestRating ? `<span class="rating">${stars(app.android.bestRating)}</span>` : ""}`],
       ["Last Super Duper update", escapeHtml(app.android?.lastUpdated || "—")],
     ]);
@@ -100,6 +115,7 @@ async function load() {
         <p class="muted">Imported from touchHLE AppDB under CC BY 4.0. These are not Super Duper test results. Source screenshots are intentionally not mirrored.</p>
         ${sourceReferenceTable(sourceRecord.androidReferenceReports)}
       </section>` : "";
+    const ipaReleases = androidRecords.filter((record) => record.ipaRelease);
 
     target.innerHTML = `
       <header class="game-hero">
@@ -111,6 +127,7 @@ async function load() {
         <div class="section-heading"><div><p class="section-kicker">VERIFIED HERE</p><h2>Super Duper Android reports</h2></div></div>
         ${androidRecords.length ? `<div class="report-cards">${androidRecords.map(reportCard).join("")}</div>` : "<p class=\"empty-section\">Untested on Super Duper. Submit the first Android report for this app.</p>"}
       </section>
+      ${ipaReleases.length ? `<section class="content-section"><div class="section-heading"><div><p class="section-kicker">OFFICIAL OR AUTHORISED</p><h2>IPA downloads</h2></div></div><p class="muted">Verify the SHA-256 hash after downloading. Only archives whose distribution rights are documented are listed here.</p><div class="report-cards">${ipaReleases.map(ipaReleaseCard).join("")}</div></section>` : ""}
       <section class="content-section">
         <div class="section-heading"><div><p class="section-kicker">COMMUNITY MEDIA</p><h2>Screenshots</h2></div><a href="${submitUrl}">Add screenshot ↗</a></div>
         <p class="muted">Use the report form to upload your own screenshot. It is shown here only after review.</p>
@@ -118,7 +135,7 @@ async function load() {
       </section>
       ${sourceBlock}`;
   } catch (error) {
-    target.innerHTML = `<div class="error-state"><h1>Compatibility record unavailable</h1><p>${escapeHtml(error.message)}</p><a href="index.html">Return to the catalogue</a></div>`;
+    target.innerHTML = `<div class="error-state"><h1>Compatibility record unavailable</h1><p>${escapeHtml(error.message)}</p><a href="../">Return to the catalogue</a></div>`;
     console.error(error);
   }
 }

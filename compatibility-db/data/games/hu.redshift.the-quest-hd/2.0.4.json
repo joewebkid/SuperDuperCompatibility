@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "hu.redshift.The-Quest-HD",
+  "title": "The Quest HD",
+  "version": "2.0.4",
+  "overallStatus": "blocked",
+  "androidRating": 1,
+  "milestones": {
+    "import": "verified",
+    "launch": "blocked",
+    "mainMenu": "unknown",
+    "input": "unknown",
+    "gameplay": "unknown",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "The IPA imports and its library card is selectable. On the tested build, selecting the card returned to the Super Duper library rather than showing a Quest splash or menu; the emulator log did not contain the normal application startup banner. This is a launch-routing failure, not a gameplay verdict.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno 825",
+      "appBuild": "Super Duper 72cb2795",
+      "profile": "default profile",
+      "result": "issues"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-05"
+}

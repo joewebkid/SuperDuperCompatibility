@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.tapulous.nirvana",
+  "title": "Tap Tap Revenge: Nirvana",
+  "version": "1.0",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "input": "unknown",
+    "gameplay": "unknown",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "The application reaches a fully rendered Nirvana menu with Career, Battle Mode, Options and Help. A song launch, gameplay touch timing, audio and saves still require a separate test.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno 825",
+      "appBuild": "Super Duper 72cb2795",
+      "profile": "iPhone 3GS, render scale 1x, post-process off",
+      "result": "partial"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-05"
+}

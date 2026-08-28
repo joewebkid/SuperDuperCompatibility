@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.com2us.feanor2",
+  "title": "Chronicles of Inotia: Legend of Feanor",
+  "version": "1.0.4",
+  "releaseYear": "2009",
+  "developerPublisher": "Com2uS",
+  "genres": ["RPG"],
+  "overallStatus": "partial",
+  "androidRating": 2,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "partial",
+    "orientation": "issues",
+    "gameplay": "unknown",
+    "graphics": "issues",
+    "input": "blocked",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "issues"
+  },
+  "notes": "Launch, menu and orientation experiments were reproduced. The vertical mirror was corrected experimentally, but the latest tested combination regressed menu touch input and remained slow. The orientation patch is therefore not enough to call this version playable.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno GPU",
+      "appBuild": "development",
+      "result": "partial"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-28"
+}

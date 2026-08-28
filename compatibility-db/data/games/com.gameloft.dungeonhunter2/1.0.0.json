@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.gameloft.DungeonHunter2",
+  "title": "Dungeon Hunter 2 HD",
+  "version": "1.0.0",
+  "releaseYear": "2010",
+  "developerPublisher": "Gameloft",
+  "genres": ["Action RPG"],
+  "overallStatus": "blocked",
+  "androidRating": 1,
+  "milestones": {
+    "import": "verified",
+    "launch": "blocked",
+    "mainMenu": "unknown",
+    "gameplay": "unknown",
+    "graphics": "unknown",
+    "input": "unknown",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "The intended supplied IPA imports but does not launch into a visible application. No menu or gameplay compatibility claim is made until a clean startup trace identifies the blocker.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno GPU",
+      "appBuild": "development",
+      "result": "blocked"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-28"
+}

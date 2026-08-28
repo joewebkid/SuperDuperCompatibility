@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.chillingo.Orions",
+  "title": "Orions: Legend of Wizards",
+  "version": "1.1",
+  "releaseYear": "2009",
+  "developerPublisher": "Chillingo",
+  "genres": ["Card game", "Strategy"],
+  "overallStatus": "issues",
+  "androidRating": 3,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "gameplay": "partial",
+    "graphics": "issues",
+    "input": "partial",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "issues"
+  },
+  "notes": "The title renders and runs with the iPad 2 profile. The iPhone/fullscreen path has produced a small viewport or black output, so a specific device profile is still required and a complete playthrough has not been verified.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno GPU",
+      "appBuild": "development",
+      "profile": "iPad 2, render scale 1x, post-process off",
+      "result": "issues"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-28"
+}

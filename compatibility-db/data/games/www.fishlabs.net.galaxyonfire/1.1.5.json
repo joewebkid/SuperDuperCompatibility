@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "www.fishlabs.net.GalaxyOnFire",
+  "title": "Galaxy on Fire",
+  "version": "1.1.5",
+  "releaseYear": "2009",
+  "developerPublisher": "Fishlabs",
+  "genres": ["Action", "Space simulation"],
+  "overallStatus": "issues",
+  "androidRating": 4,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "gameplay": "verified",
+    "input": "issues",
+    "audio": "verified",
+    "saves": "unknown",
+    "performance": "issues"
+  },
+  "notes": "The game reaches flight and is usable with the current gamepad profile. The left stick can replace accelerometer steering, X fires and Y accelerates. D-pad menu navigation and complete long-session/save verification remain in progress, so this is not yet a fully verified result.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno GPU",
+      "appBuild": "development",
+      "profile": "iPhone landscape with gamepad-to-touch/accelerometer bindings",
+      "result": "issues"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-28"
+}

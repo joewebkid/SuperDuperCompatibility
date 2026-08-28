@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.turner.AmateurSurgeon",
+  "title": "Amateur Surgeon",
+  "version": "1.1.9",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "splash": "verified",
+    "mainMenu": "verified",
+    "input": "unknown",
+    "gameplay": "unknown",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "The IPA identifies itself as A.Surgeon. Version 1.1.9 booted on the default iPhone 3GS, 1x, post-process-off profile and reached the landscape title menu with New Game, Continue Game, More Games and Credits after about 32 seconds. A new-game session, sound, saving and longer performance have not yet been tested.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno 825",
+      "appBuild": "Super Duper 72cb2795",
+      "profile": "iPhone 3GS, render scale 1x, post-process off",
+      "result": "partial"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-05"
+}

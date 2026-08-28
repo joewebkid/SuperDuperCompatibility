@@ -69,6 +69,15 @@ for (const gamePath of gamePaths) {
     assert(statuses.has(status), `${label}: invalid ${milestone} status`);
   }
   if (game.androidRating !== undefined) assert(isRating(game.androidRating), `${label}: invalid androidRating`);
+  if (game.ipaRelease !== undefined) {
+    const release = game.ipaRelease;
+    assert(release && typeof release === "object", `${label}: ipaRelease must be an object`);
+    assert(typeof release.url === "string" && /^https:\/\/github\.com\/[^/]+\/[^/]+\/releases\/download\//.test(release.url), `${label}: IPA must be a GitHub Release asset URL`);
+    assert(typeof release.fileName === "string" && /\.ipa$/i.test(release.fileName), `${label}: ipaRelease fileName must end in .ipa`);
+    assert(typeof release.sha256 === "string" && /^[a-f0-9]{64}$/i.test(release.sha256), `${label}: ipaRelease sha256 must be a SHA-256 hash`);
+    assert(typeof release.rightsHolder === "string" && release.rightsHolder.trim().length > 0, `${label}: ipaRelease needs a rightsHolder`);
+    assert(typeof release.authorizationNote === "string" && release.authorizationNote.trim().length > 0, `${label}: ipaRelease needs an authorizationNote`);
+  }
   if (game.screenshots !== undefined) {
     assert(Array.isArray(game.screenshots), `${label}: screenshots must be an array`);
     for (const screenshot of game.screenshots) {

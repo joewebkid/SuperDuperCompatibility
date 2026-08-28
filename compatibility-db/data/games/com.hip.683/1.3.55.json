@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.hip.683",
+  "title": "Rock Band",
+  "version": "1.3.55",
+  "overallStatus": "partial",
+  "androidRating": 2,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "input": "issues",
+    "gameplay": "unknown",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "The title renders its language selection screen with complete artwork. A tap on English did not advance to the next screen, so the first interactive menu is presently blocked by input handling. No gameplay, audio or save result has been established.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno 825",
+      "appBuild": "Super Duper 72cb2795",
+      "profile": "iPhone 3GS, render scale 1x, post-process off",
+      "result": "issues"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-05"
+}
