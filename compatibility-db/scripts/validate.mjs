@@ -6,7 +6,13 @@ const directory = path.dirname(fileURLToPath(import.meta.url));
 const databaseRoot = path.resolve(directory, "..");
 const dataRoot = path.join(databaseRoot, "data");
 const statuses = new Set(["unknown", "partial", "verified", "issues", "blocked"]);
-const communityStatuses = new Set(["launch-confirmed", "gameplay-confirmed", "gameplay-with-issues"]);
+const communityStatuses = new Set([
+  "launch-failed",
+  "launch-confirmed",
+  "gameplay-blocked",
+  "gameplay-confirmed",
+  "gameplay-with-issues",
+]);
 
 async function jsonFiles(root) {
   try {

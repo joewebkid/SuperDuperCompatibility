@@ -24,6 +24,12 @@ and be shown as unresolved. Ambiguous app identities stay in the source queue
 with a null `catalogueId`. Do not publish participant names, copied chat
 screenshots or IPA files.
 
+Community evidence uses five conservative outcomes: `launch-failed`,
+`launch-confirmed`, `gameplay-blocked`, `gameplay-with-issues`, and
+`gameplay-confirmed`. A forum claim never changes the Super Duper status or
+rating. Preserve a public permalink to the exact post and paraphrase the
+observation instead of copying its text or publishing participant names.
+
 ## Local validation and site build
 
 Requires Node.js 20 or newer:

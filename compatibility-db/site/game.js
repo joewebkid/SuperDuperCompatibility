@@ -62,14 +62,19 @@ function sourceReferenceTable(reports) {
 
 function communityStatusLabel(status) {
   return {
+    "launch-failed": "Launch failed",
     "launch-confirmed": "Launch confirmed",
+    "gameplay-blocked": "Gameplay blocked",
     "gameplay-confirmed": "Gameplay confirmed",
     "gameplay-with-issues": "Playable with issues",
   }[status] ?? "Community report";
 }
 
 function communityStatusClass(status) {
-  return status === "gameplay-confirmed" ? "verified" : status === "gameplay-with-issues" ? "partial" : "issues";
+  if (status === "gameplay-confirmed") return "verified";
+  if (status === "gameplay-with-issues") return "partial";
+  if (status === "launch-failed" || status === "gameplay-blocked") return "blocked";
+  return "issues";
 }
 
 function communityEvidenceTable(reports) {
@@ -146,7 +151,7 @@ async function load() {
       </section>` : "";
     const communityBlock = communityReports.length ? `
       <section class="content-section">
-        <div class="section-heading"><div><p class="section-kicker">EXTERNAL REFERENCE</p><h2>Community-confirmed launches</h2></div></div>
+        <div class="section-heading"><div><p class="section-kicker">EXTERNAL REFERENCE</p><h2>Community compatibility evidence</h2></div></div>
         <p class="muted">These observations come from other emulator builds and are not Super Duper test results. They never change the Android status or rating shown above.</p>
         ${communityEvidenceTable(communityReports)}
       </section>` : "";
