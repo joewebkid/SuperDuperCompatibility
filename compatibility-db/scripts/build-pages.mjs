@@ -37,6 +37,21 @@ const communityEntries = await Promise.all((await jsonFiles(communityRoot)).map(
   return { record, relative };
 }));
 
+// Older imported indexes stored only the number of touchHLE references. Read
+// their detailed records here so the public catalogue can show the reference
+// rating and its real last-test date without treating it as a Super Duper run.
+for (const app of catalogue.apps) {
+  app.reference ??= { androidReports: 0, bestRating: null, lastUpdated: null };
+  if (!app.record) continue;
+  const source = JSON.parse(await readFile(path.join(root, "data", app.record), "utf8"));
+  const reports = source.androidReferenceReports ?? [];
+  const ratings = reports.filter((report) => Number.isInteger(report.rating)).map((report) => report.rating);
+  const latest = reports.toSorted((left, right) => String(right.reported).localeCompare(String(left.reported)))[0] ?? null;
+  app.reference.androidReports = reports.length;
+  app.reference.bestRating = ratings.length > 0 ? Math.max(...ratings) : null;
+  app.reference.lastUpdated = latest?.reported ?? null;
+}
+
 function slug(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
@@ -58,7 +73,7 @@ for (const entry of gameEntries) {
       genres: entry.record.genres ?? [],
       versions: 0,
       searchTerms: [],
-      reference: { androidReports: 0 },
+      reference: { androidReports: 0, bestRating: null, lastUpdated: null },
       android: { overallStatus: "unknown", bestRating: null, lastUpdated: null, reportCount: 0, records: [] },
     };
     catalogue.apps.push(app);
@@ -76,7 +91,7 @@ for (const entry of communityEntries) {
     if (!report.catalogueId) continue;
     const app = catalogue.apps.find((candidate) => candidate.id === report.catalogueId);
     if (!app) throw new Error(`${entry.relative}: unknown catalogueId ${report.catalogueId}`);
-    app.reference ??= { androidReports: 0 };
+    app.reference ??= { androidReports: 0, bestRating: null, lastUpdated: null };
     app.reference.communityRecords = [...new Set([...(app.reference.communityRecords ?? []), entry.relative])];
   }
 }

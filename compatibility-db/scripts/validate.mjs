@@ -139,6 +139,9 @@ for (const app of index.apps) {
   indexIds.add(app.id);
   assert(typeof app.title === "string" && app.title.length > 0, `index ${app.id}: missing title`);
   assert(Array.isArray(app.searchTerms), `index ${app.id}: missing search terms`);
+  assert(Number.isInteger(app.reference?.androidReports) && app.reference.androidReports >= 0, `index ${app.id}: invalid touchHLE Android report count`);
+  if (Object.hasOwn(app.reference, "bestRating")) assert(app.reference.bestRating === null || isRating(app.reference.bestRating), `index ${app.id}: invalid touchHLE Android rating`);
+  if (Object.hasOwn(app.reference, "lastUpdated")) assert(app.reference.lastUpdated === null || typeof app.reference.lastUpdated === "string", `index ${app.id}: invalid touchHLE last update`);
   assert(statuses.has(app.android?.overallStatus), `index ${app.id}: invalid Android status`);
   assert(app.android.bestRating === null || isRating(app.android.bestRating), `index ${app.id}: invalid Android rating`);
   assert(Array.isArray(app.android.records), `index ${app.id}: missing Android records`);

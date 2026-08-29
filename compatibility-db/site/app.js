@@ -36,8 +36,18 @@ function genresOf(app) {
   return Array.isArray(app.genres) ? app.genres : [];
 }
 
-function ratingText(rating) {
-  return Number.isInteger(rating) ? `${"★".repeat(rating)}${"☆".repeat(5 - rating)}` : "Untested";
+function starRating(rating, source) {
+  const value = Number.isInteger(rating) ? Math.max(0, Math.min(5, rating)) : 0;
+  const sourceLabel = source === "touchhle" ? "touchHLE" : "Super Duper";
+  const label = Number.isInteger(rating) ? `${sourceLabel}: ${value} of 5 stars` : `${sourceLabel}: tested without a numeric rating`;
+  const icons = Array.from({ length: 5 }, (_, index) => `<span class="star-icon ${index < value ? "filled" : "empty"}" aria-hidden="true"></span>`).join("");
+  return `<span class="star-rating ${source}" role="img" aria-label="${escapeHtml(label)}">${icons}</span>`;
+}
+
+function displayedLastUpdated(app) {
+  if ((app.android?.reportCount ?? 0) > 0) return app.android?.lastUpdated;
+  if ((app.reference?.androidReports ?? 0) > 0) return app.reference?.lastUpdated;
+  return null;
 }
 
 function resultMarkup(app) {
@@ -46,9 +56,12 @@ function resultMarkup(app) {
   const reports = app.android?.reportCount ?? 0;
   if (reports === 0) {
     const references = app.reference?.androidReports ?? 0;
-    return `<span class="status unknown">Untested</span>${references ? `<small>${references} touchHLE Android reference${references === 1 ? "" : "s"}</small>` : ""}`;
+    if (references > 0) {
+      return `<span class="rating">${starRating(app.reference?.bestRating, "touchhle")}</span><small>touchHLE · ${references} Android report${references === 1 ? "" : "s"}</small>`;
+    }
+    return `<span class="status unknown">Untested</span>`;
   }
-  return `<span class="rating" aria-label="${escapeHtml(rating ? `${rating} of 5 stars` : labels[status])}">${ratingText(rating)}</span><small><span class="status ${escapeHtml(status)}">${escapeHtml(labels[status])}</span> · ${reports} report${reports === 1 ? "" : "s"}</small>`;
+  return `<span class="rating">${starRating(rating, "superduper")}</span><small><span class="status ${escapeHtml(status)}">${escapeHtml(labels[status])}</span> · ${reports} Super Duper report${reports === 1 ? "" : "s"}</small>`;
 }
 
 function renderFilters() {
@@ -79,7 +92,7 @@ function appRow(app) {
   row.href = `game/?id=${encodeURIComponent(app.id)}`;
   const release = app.releaseYear || "—";
   const publisher = app.developerPublisher || "—";
-  const lastUpdated = app.android?.lastUpdated || "—";
+  const lastUpdated = displayedLastUpdated(app)?.slice(0, 10) || "—";
   row.innerHTML = `
     <span class="app-cell"><strong>${escapeHtml(app.title)}</strong><small>${app.versions} version${app.versions === 1 ? "" : "s"}</small></span>
     <span data-label="Release">${escapeHtml(release)}</span>

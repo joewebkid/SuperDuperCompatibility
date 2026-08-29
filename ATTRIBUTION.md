@@ -23,3 +23,10 @@ This repository does not copy touchHLE AppDB software. Its data layout is
 inspired by that project's public app/version/report model. The touchHLE AppDB
 software is available from
 [hikari-no-yume/app-compatibility-db](https://github.com/hikari-no-yume/app-compatibility-db).
+
+## Font Awesome icons
+
+The solid and regular star SVGs in `compatibility-db/site/assets/icons/` are
+from Font Awesome Free 6.7.2. Copyright 2024 Fonticons, Inc. The icons are
+licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Their original attribution comments are retained in the SVG files.

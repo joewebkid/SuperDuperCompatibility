@@ -266,6 +266,9 @@ const indexApps = importedApps.map((sourceApp) => {
   const ratingRecords = own.filter((record) => Number.isInteger(record.androidRating));
   const bestRating = ratingRecords.length > 0 ? Math.max(...ratingRecords.map((record) => record.androidRating)) : null;
   const latest = own.toSorted((left, right) => String(right.updated).localeCompare(String(left.updated)))[0] ?? null;
+  const referenceRatingRecords = sourceApp.androidReferenceReports.filter((record) => Number.isInteger(record.rating));
+  const referenceBestRating = referenceRatingRecords.length > 0 ? Math.max(...referenceRatingRecords.map((record) => record.rating)) : null;
+  const latestReference = sourceApp.androidReferenceReports.toSorted((left, right) => String(right.reported).localeCompare(String(left.reported)))[0] ?? null;
   return {
     id: `touchhle-${sourceApp.id}`,
     title: sourceApp.app.title,
@@ -275,7 +278,11 @@ const indexApps = importedApps.map((sourceApp) => {
     record: sourceApp.record,
     versions: sourceApp.versions.length,
     searchTerms: sourceApp.versions.flatMap((version) => [version.bundleId, version.displayName, version.version].filter(Boolean)),
-    reference: { androidReports: sourceApp.androidReferenceReports.length },
+    reference: {
+      androidReports: sourceApp.androidReferenceReports.length,
+      bestRating: referenceBestRating,
+      lastUpdated: latestReference?.reported ?? null,
+    },
     android: {
       overallStatus: latest?.overallStatus ?? "unknown",
       bestRating,
@@ -296,7 +303,7 @@ for (const record of superDuperRecords.filter((item) => !usedOwnRecords.has(item
     record: null,
     versions: 1,
     searchTerms: [record.bundleId, record.version],
-    reference: { androidReports: 0 },
+    reference: { androidReports: 0, bestRating: null, lastUpdated: null },
     android: {
       overallStatus: record.overallStatus,
       bestRating: Number.isInteger(record.androidRating) ? record.androidRating : null,

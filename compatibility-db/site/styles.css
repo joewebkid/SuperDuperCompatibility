@@ -57,7 +57,12 @@ button:hover, button.selected { border-color: #72e2c6; background: #72e2c620; co
 .status.partial { background: #825f1b; color: #fff0c3; }
 .status.blocked { background: #82333f; color: #ffe1e6; }
 .status.unknown { background: #3a4658; color: #dde7f5; }
-.rating { color: #ffcf63; font-weight: 800; letter-spacing: .04em; white-space: nowrap; }
+.rating { white-space: nowrap; }
+.star-rating { display: inline-flex; align-items: center; gap: 3px; color: #ffcf63; vertical-align: -.08em; white-space: nowrap; }
+.star-rating.touchhle { color: #929cab; }
+.star-icon { width: .95em; height: .95em; flex: 0 0 auto; background: currentColor; mask: center / contain no-repeat url("assets/icons/star-regular.svg"); -webkit-mask: center / contain no-repeat url("assets/icons/star-regular.svg"); }
+.star-icon.filled { mask-image: url("assets/icons/star-solid.svg"); -webkit-mask-image: url("assets/icons/star-solid.svg"); }
+.star-icon.empty { opacity: .72; }
 .empty, .empty-section { padding: 24px 0; color: #a8b4c6; }
 footer { width: min(1180px, calc(100% - 36px)); margin: 0 auto; padding: 16px 0 54px; color: #98a5b9; font-size: .84rem; line-height: 1.5; }
 footer p { margin-bottom: 7px; }

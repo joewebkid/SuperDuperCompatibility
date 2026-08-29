@@ -10,8 +10,12 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
-function stars(rating) {
-  return Number.isInteger(rating) ? `${"★".repeat(rating)}${"☆".repeat(5 - rating)}` : "—";
+function stars(rating, source = "superduper") {
+  if (!Number.isInteger(rating)) return "—";
+  const value = Math.max(0, Math.min(5, rating));
+  const sourceLabel = source === "touchhle" ? "touchHLE" : "Super Duper";
+  const icons = Array.from({ length: 5 }, (_, index) => `<span class="star-icon ${index < value ? "filled" : "empty"}" aria-hidden="true"></span>`).join("");
+  return `<span class="star-rating ${source}" role="img" aria-label="${sourceLabel}: ${value} of 5 stars">${icons}</span>`;
 }
 
 function statusLabel(status) {
@@ -53,7 +57,7 @@ function reportCard(record) {
 
 function sourceReferenceTable(reports) {
   if (reports.length === 0) return "<p class=\"empty-section\">No Android touchHLE reference reports were imported for this app.</p>";
-  return `<div class="report-table-wrap"><table class="report-table"><thead><tr><th>Version</th><th>touchHLE build</th><th>GPU</th><th>Rating</th><th>Reported</th><th>Remarks</th></tr></thead><tbody>${reports.map((report) => `<tr><td>${escapeHtml(report.version || "—")}</td><td>${escapeHtml(report.emulatorVersion || "—")}</td><td>${escapeHtml(report.gpu || "—")}</td><td class="rating">${stars(report.rating)}</td><td>${escapeHtml(report.reported?.slice(0, 10) || "—")}</td><td>${escapeHtml(report.remarks || "—")}</td></tr>`).join("")}</tbody></table></div>`;
+  return `<div class="report-table-wrap"><table class="report-table"><thead><tr><th>Version</th><th>touchHLE build</th><th>GPU</th><th>Rating</th><th>Reported</th><th>Remarks</th></tr></thead><tbody>${reports.map((report) => `<tr><td>${escapeHtml(report.version || "—")}</td><td>${escapeHtml(report.emulatorVersion || "—")}</td><td>${escapeHtml(report.gpu || "—")}</td><td class="rating">${stars(report.rating, "touchhle")}</td><td>${escapeHtml(report.reported?.slice(0, 10) || "—")}</td><td>${escapeHtml(report.remarks || "—")}</td></tr>`).join("")}</tbody></table></div>`;
 }
 
 function communityStatusLabel(status) {
@@ -79,7 +83,7 @@ function communityEvidenceTable(reports) {
 
 function sourceVersionsTable(versions) {
   if (versions.length === 0) return "<p class=\"empty-section\">No source version metadata is available.</p>";
-  return `<div class="report-table-wrap"><table class="report-table"><thead><tr><th>Version</th><th>Display name</th><th>Bundle identifier</th><th>Minimum iOS</th><th>Best Android reference rating</th><th>Last Android reference</th></tr></thead><tbody>${versions.map((version) => `<tr><td>${escapeHtml(version.version || "—")}</td><td>${escapeHtml(version.displayName || "—")}</td><td><code>${escapeHtml(version.bundleId || "—")}</code></td><td>${escapeHtml(version.minimumIosVersion || "—")}</td><td class="rating">${stars(version.androidReferenceBestRating)}</td><td>${escapeHtml(version.androidReferenceLastUpdated?.slice(0, 10) || "—")}</td></tr>`).join("")}</tbody></table></div>`;
+  return `<div class="report-table-wrap"><table class="report-table"><thead><tr><th>Version</th><th>Display name</th><th>Bundle identifier</th><th>Minimum iOS</th><th>Best Android reference rating</th><th>Last Android reference</th></tr></thead><tbody>${versions.map((version) => `<tr><td>${escapeHtml(version.version || "—")}</td><td>${escapeHtml(version.displayName || "—")}</td><td><code>${escapeHtml(version.bundleId || "—")}</code></td><td>${escapeHtml(version.minimumIosVersion || "—")}</td><td class="rating">${stars(version.androidReferenceBestRating, "touchhle")}</td><td>${escapeHtml(version.androidReferenceLastUpdated?.slice(0, 10) || "—")}</td></tr>`).join("")}</tbody></table></div>`;
 }
 
 function screenshotGallery(records) {
