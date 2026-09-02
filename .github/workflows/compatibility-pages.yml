@@ -27,6 +27,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Test compatibility badge aggregation
+        run: node --test compatibility-db/scripts/compatibility-status.test.mjs
       - name: Validate compatibility records
         run: node compatibility-db/scripts/validate.mjs
       - name: Build static catalogue

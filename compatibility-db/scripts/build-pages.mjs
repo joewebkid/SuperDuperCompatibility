@@ -1,6 +1,7 @@
 import { cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { aggregateCompatibility, validateAndroidIndex } from "./compatibility-status.mjs";
 
 const directory = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(directory, "..");
@@ -20,9 +21,9 @@ async function jsonFiles(directory) {
   }))).flat();
 }
 
-// Android only needs exact, reviewed Super Duper results. Keep this endpoint
-// deliberately small instead of making every launcher download the imported
-// touchHLE catalogue and its thousands of untested entries.
+// Android receives a compact, exact-version projection. Reviewed Super Duper
+// results remain authoritative; exact touchHLE and community observations may
+// supply only black/red/yellow fallback badges and can never produce green.
 const catalogue = JSON.parse(await readFile(path.join(root, "data", "index.json"), "utf8"));
 const gameRoot = path.join(root, "data", "games");
 const gameEntries = await Promise.all((await jsonFiles(gameRoot)).map(async (gamePath) => {
@@ -40,10 +41,12 @@ const communityEntries = await Promise.all((await jsonFiles(communityRoot)).map(
 // Older imported indexes stored only the number of touchHLE references. Read
 // their detailed records here so the public catalogue can show the reference
 // rating and its real last-test date without treating it as a Super Duper run.
+const touchSourceByCatalogueId = new Map();
 for (const app of catalogue.apps) {
   app.reference ??= { androidReports: 0, bestRating: null, lastUpdated: null };
   if (!app.record) continue;
   const source = JSON.parse(await readFile(path.join(root, "data", app.record), "utf8"));
+  touchSourceByCatalogueId.set(app.id, source);
   const reports = source.androidReferenceReports ?? [];
   const ratings = reports.filter((report) => Number.isInteger(report.rating)).map((report) => report.rating);
   const latest = reports.toSorted((left, right) => String(right.reported).localeCompare(String(left.reported)))[0] ?? null;
@@ -114,22 +117,97 @@ const catalogueIdByRecord = new Map();
 for (const app of catalogue.apps ?? []) {
   for (const record of app.android?.records ?? []) catalogueIdByRecord.set(record.replaceAll("\\", "/"), app.id);
 }
-const androidRecords = gameEntries.map(({ record, relative }) => {
+const exactVersions = new Map();
+function exactKey(bundleId, version) {
+  return `${bundleId.trim().toLowerCase()}\u0000${version.trim()}`;
+}
+function exactVersion(bundleId, version, title, catalogueId) {
+  if (typeof bundleId !== "string" || !bundleId.trim() || typeof version !== "string" || !version.trim()) return null;
+  const key = exactKey(bundleId, version);
+  if (!exactVersions.has(key)) {
+    exactVersions.set(key, {
+      bundleId: bundleId.trim(),
+      version: version.trim(),
+      title,
+      catalogueId,
+      superDuper: [],
+      touchHle: [],
+      community: [],
+    });
+  }
+  const value = exactVersions.get(key);
+  value.title ||= title;
+  value.catalogueId ||= catalogueId;
+  return value;
+}
+
+for (const { record, relative } of gameEntries) {
+  const target = exactVersion(
+    record.bundleId,
+    record.version,
+    record.title,
+    catalogueIdByRecord.get(relative) ?? null,
+  );
+  target?.superDuper.push({
+    status: record.overallStatus,
+    rating: record.androidRating ?? null,
+    updated: record.updated,
+  });
+}
+
+for (const app of catalogue.apps) {
+  const source = touchSourceByCatalogueId.get(app.id);
+  if (!source) continue;
+  for (const version of source.versions ?? []) {
+    const target = exactVersion(version.bundleId, version.version, app.title, app.id);
+    if (!target) continue;
+    target.touchHle.push(...(source.androidReferenceReports ?? [])
+      .filter((report) => report.version === version.version)
+      .map((report) => ({ rating: report.rating, reported: report.reported })));
+  }
+}
+
+for (const entry of communityEntries) {
+  for (const report of entry.record.reports ?? []) {
+    if (!report.version) continue;
+    let bundleId = report.bundleId;
+    if (!bundleId && report.catalogueId) {
+      const source = touchSourceByCatalogueId.get(report.catalogueId);
+      const matches = [...new Set((source?.versions ?? [])
+        .filter((version) => version.version === report.version)
+        .map((version) => version.bundleId)
+        .filter(Boolean))];
+      if (matches.length === 1) bundleId = matches[0];
+    }
+    const target = exactVersion(bundleId, report.version, report.title, report.catalogueId);
+    target?.community.push({
+      status: report.status,
+      reported: report.reported ?? entry.record.source?.retrieved ?? null,
+    });
+  }
+}
+
+const androidRecords = [...exactVersions.values()].map((record) => {
+  const aggregate = aggregateCompatibility(record);
   return {
     bundleId: record.bundleId,
     version: record.version,
     title: record.title,
-    status: record.overallStatus,
-    rating: record.androidRating ?? null,
-    updated: record.updated,
-    catalogueId: catalogueIdByRecord.get(relative) ?? null,
+    status: aggregate.status,
+    rating: aggregate.rating,
+    updated: aggregate.updated,
+    catalogueId: record.catalogueId,
+    source: aggregate.source,
+    evidenceSources: aggregate.evidenceSources,
+    evidenceCount: aggregate.evidenceCount,
   };
 });
 androidRecords.sort((left, right) => left.bundleId.localeCompare(right.bundleId) || left.version.localeCompare(right.version));
-await writeFile(path.join(dist, "data", "android-index.json"), JSON.stringify({
-  schemaVersion: 1,
+const androidIndex = validateAndroidIndex({
+  schemaVersion: 2,
   generatedAt: new Date().toISOString(),
   records: androidRecords,
-}, null, 2) + "\n", "utf8");
+});
+await writeFile(path.join(dist, "data", "android-index.json"), JSON.stringify(androidIndex, null, 2) + "\n", "utf8");
 
 console.log(`Built static site in ${dist}`);

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.gameloft.StarFrontiPad",
+  "title": "Starfront HD",
+  "version": "1.0.0",
+  "releaseYear": "2011",
+  "developerPublisher": "Gameloft",
+  "genres": ["Strategy", "Real-time strategy"],
+  "overallStatus": "partial",
+  "androidRating": 2,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "languageSelection": "verified",
+    "mainMenu": "verified",
+    "gameplay": "unknown",
+    "graphics": "partial",
+    "orientation": "partial",
+    "input": "partial",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "The exact IPA and exact-hash starfront-ipad-landscape patch passed an off-centre language-button tap on an ARM64 phone, completed the following load and rendered the Options menu. The game performs its own EAGLView coordinate rotation; the patch prevents the host from rotating touch a second time. An active 3D mission, audio, pause/resume and release performance remain unverified.",
+  "testedOn": [
+    {
+      "device": "25053RT47C (onyx), Adreno 825",
+      "appBuild": "Super Duper 72cb2795eb5b8b215a7e29af0cda152822a12355",
+      "profile": "Recommended, IPA default iPad, 1x, post-process off",
+      "result": "partial"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-09-01"
+}

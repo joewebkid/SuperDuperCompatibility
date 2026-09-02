@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.escalationstudios.ResurrectionDoom",
+  "title": "Doom Resurrection",
+  "version": "1.1",
+  "releaseYear": "2009",
+  "developerPublisher": "Escalation Studios / id Software",
+  "genres": ["Action", "Shooter"],
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "gameplay": "partial",
+    "graphics": "partial",
+    "orientation": "partial",
+    "input": "partial",
+    "audio": "verified",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "The exact supplied IPA reaches the game on an ARM64 phone with rendered output and audio. The accepted image remains rotated by 90 degrees and displaced, so active gameplay, inverse touch mapping and rollback of the exact orientation patch are not yet complete. A separate local muted launch used a process-only OpenAL null backend and is not treated as phone acceptance.",
+  "testedOn": [
+    {
+      "device": "Android phone with Qualcomm Adreno 825",
+      "appBuild": "Super Duper development build, physical-device observation",
+      "profile": "Exact Resurrection orientation/presentation patch",
+      "result": "partial"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-08-31"
+}

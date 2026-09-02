@@ -6,8 +6,9 @@ The catalogue follows the AppDB hierarchy: **app → version → report**.
 - `data/source/touchhle/apps/<id>.json` holds imported app metadata, versions
   and Android-only touchHLE reference reports.
 - `data/source/community/*.json` records reviewed launch evidence from other
-  emulator communities. These records are reference-only and never affect the
-  Super Duper Android status, rating or launcher endpoint.
+  emulator communities. These records never change the Super Duper result or
+  rating. Exact-version observations may provide a conservative black, red or
+  yellow fallback badge in the Android launcher; they can never produce green.
 - `data/games/<bundle-id>/<version>.json` holds a version-specific Super Duper
   Android test record.
 - `data/profiles/<profile-id>.json` contains a reusable recommended profile.
@@ -48,6 +49,9 @@ as a redirect so existing links do not break. During the build, reviewed files
 from `data/games/` are merged into the published catalogue and into the compact
 `data/android-index.json` endpoint consumed by the Android launcher. The source
 catalogue remains generated data and does not need to be edited for every test.
+That compact endpoint also contains exact-version touchHLE/community fallback
+evidence. Rating 1 maps to black, ratings 2–3 to red and ratings 4–5 to yellow;
+only a reviewed Super Duper `verified` result is green.
 
 ## Reporting rules
 

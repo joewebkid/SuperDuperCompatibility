@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "bundleId": "com.tapulous.metallica",
   "title": "Tap Tap Revenge: Metallica",
-  "version": "1.0",
+  "version": "1.0 iPhoneCake.com",
   "releaseYear": "2009",
   "developerPublisher": "Tapulous",
   "genres": ["Music", "Rhythm"],
@@ -12,16 +12,16 @@
     "import": "verified",
     "launch": "verified",
     "mainMenu": "verified",
-    "songList": "issues",
+    "songList": "verified",
     "songSelection": "verified",
-    "gameplay": "blocked",
-    "graphics": "blocked",
+    "gameplay": "partial",
+    "graphics": "partial",
     "input": "partial",
-    "audio": "issues",
+    "audio": "partial",
     "saves": "unknown",
     "performance": "issues"
   },
-  "notes": "Boot, the main menu, Career song list and selection delegate work. Selecting a song enters a live EAGL render loop, but the game surface remains white. Menu audio has also produced zero-filled buffers on the current build. This is a confirmed key-gameplay blocker, not a song-list navigation failure.",
+  "notes": "The exact supplied IPA now boots, starts its menu Audio Queue, lays out 75-point Career song cards, launches a selected track and continuously renders the gameplay highway, notes, HUD and score in the desktop reference run. The white surface was caused by the Metallica Lua scalar bridge mistaking real NSNumber objects for unboxed float bits; object identity is now checked first. Android remains partial until an ARM64 phone confirms audible music, touch lanes/holds, all difficulty layouts, results, remote artwork and clean exit with tracing disabled.",
   "testedOn": [
     {
       "device": "Android phone with Qualcomm Adreno 825",
@@ -31,5 +31,5 @@
     }
   ],
   "screenshots": [],
-  "updated": "2026-08-28"
+  "updated": "2026-08-31"
 }
