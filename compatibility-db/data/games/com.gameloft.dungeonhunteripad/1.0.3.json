@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.gameloft.DungeonHunterIPad",
+  "title": "Dungeon Hunter HD",
+  "version": "1.0.3",
+  "releaseYear": "2010",
+  "developerPublisher": "Gameloft",
+  "genres": ["Action RPG"],
+  "overallStatus": "issues",
+  "androidRating": 2,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "partial",
+    "gameplay": "unknown",
+    "graphics": "blocked",
+    "orientation": "unknown",
+    "input": "partial",
+    "audio": "verified",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "The supplied Dungeon Hunter HD IPA imports and launches on an ARM64 phone. Audio plays and controls respond, as confirmed by sound feedback, but the presented frame remains black. This is the iPad build of the first Dungeon Hunter and is distinct from Dungeon Hunter 2 HD.",
+  "testedOn": [
+    {
+      "device": "25053RT47C (onyx), Adreno 825",
+      "appBuild": "Super Duper development build, 2026-09-06",
+      "profile": "IPA default iPad profile",
+      "result": "issues"
+    }
+  ],
+  "screenshots": [],
+  "updated": "2026-09-06"
+}

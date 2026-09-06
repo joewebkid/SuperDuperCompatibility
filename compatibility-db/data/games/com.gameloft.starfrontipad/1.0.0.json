@@ -6,30 +6,36 @@
   "releaseYear": "2011",
   "developerPublisher": "Gameloft",
   "genres": ["Strategy", "Real-time strategy"],
-  "overallStatus": "partial",
-  "androidRating": 2,
+  "overallStatus": "verified",
+  "androidRating": 5,
   "milestones": {
     "import": "verified",
     "launch": "verified",
     "languageSelection": "verified",
     "mainMenu": "verified",
-    "gameplay": "unknown",
-    "graphics": "partial",
-    "orientation": "partial",
-    "input": "partial",
-    "audio": "unknown",
+    "gameplay": "verified",
+    "graphics": "verified",
+    "orientation": "verified",
+    "input": "verified",
+    "audio": "verified",
     "saves": "unknown",
     "performance": "unknown"
   },
-  "notes": "The exact IPA and exact-hash starfront-ipad-landscape patch passed an off-centre language-button tap on an ARM64 phone, completed the following load and rendered the Options menu. The game performs its own EAGLView coordinate rotation; the patch prevents the host from rotating touch a second time. An active 3D mission, audio, pause/resume and release performance remain unverified.",
+  "notes": "The exact IPA and exact-hash starfront-ipad-landscape patch were tested on an ARM64 phone. Language selection, menus, rendered gameplay, orientation, touch input and audio work normally. Save-state compatibility and formal release-performance measurements are tracked separately and are not required for this playable rating.",
   "testedOn": [
     {
       "device": "25053RT47C (onyx), Adreno 825",
       "appBuild": "Super Duper 72cb2795eb5b8b215a7e29af0cda152822a12355",
       "profile": "Recommended, IPA default iPad, 1x, post-process off",
       "result": "partial"
+    },
+    {
+      "device": "25053RT47C (onyx), Adreno 825",
+      "appBuild": "Super Duper development build, 2026-09-06",
+      "profile": "Exact-hash starfront-ipad-landscape patch, IPA default iPad profile",
+      "result": "verified"
     }
   ],
   "screenshots": [],
-  "updated": "2026-09-01"
+  "updated": "2026-09-06"
 }
