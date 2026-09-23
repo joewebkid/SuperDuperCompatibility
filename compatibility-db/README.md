@@ -10,7 +10,9 @@ The catalogue follows the AppDB hierarchy: **app → version → report**.
   rating. Exact-version observations may provide a conservative black, red or
   yellow fallback badge in the Android launcher; they can never produce green.
 - `data/games/<bundle-id>/<version>.json` holds a version-specific Super Duper
-  Android test record.
+  Android test record. Moderator-approved Telegram observations are stored in
+  its `reviewedUserReports` list; a new user-only record never becomes green
+  without a separate full-game verification.
 - `data/profiles/<profile-id>.json` contains a reusable recommended profile.
 - `schema/game-report.schema.json` documents a Super Duper game record.
 

@@ -43,6 +43,11 @@ function reportCard(record) {
     .map(([name, status]) => `<li><span>${escapeHtml(name)}</span><strong class="status ${escapeHtml(status)}">${escapeHtml(statusLabel(status))}</strong></li>`)
     .join("");
   const deviceRows = (record.testedOn ?? []).map((test) => `<li>${escapeHtml(test.device ?? "Android device")}${test.appBuild ? ` · ${escapeHtml(test.appBuild)}` : ""}</li>`).join("");
+  const playerReports = (record.reviewedUserReports ?? []).map((report) => `<li>
+    <strong>${stars(report.rating)}</strong> · ${escapeHtml(report.device)} · ${escapeHtml(report.emulator)} · ${escapeHtml(report.reviewed)}
+    <p>${escapeHtml(report.notes)}</p>
+    <a href="${escapeHtml(report.issueUrl)}" rel="noopener noreferrer">Reviewed GitHub report ↗</a>
+  </li>`).join("");
   const profile = record.recommendedProfile ? `<p><strong>Recommended profile:</strong> <code>${escapeHtml(record.recommendedProfile)}</code></p>` : "";
   return `
     <article class="report-card">
@@ -52,6 +57,7 @@ function reportCard(record) {
       ${profile}
       ${milestones ? `<h4>Milestones</h4><ul class="milestones">${milestones}</ul>` : ""}
       ${deviceRows ? `<h4>Tested on</h4><ul class="plain-list">${deviceRows}</ul>` : ""}
+      ${playerReports ? `<h4>Reviewed player reports</h4><ul class="plain-list">${playerReports}</ul>` : ""}
     </article>`;
 }
 

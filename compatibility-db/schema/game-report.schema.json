@@ -28,6 +28,22 @@
       "additionalProperties": false
     },
     "notes": { "type": "string" },
+    "reviewedUserReports": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["issueUrl", "rating", "device", "emulator", "notes", "reviewed"],
+        "properties": {
+          "issueUrl": { "type": "string", "format": "uri" },
+          "rating": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "device": { "type": "string" },
+          "emulator": { "type": "string" },
+          "notes": { "type": "string" },
+          "reviewed": { "type": "string", "format": "date" }
+        },
+        "additionalProperties": false
+      }
+    },
     "testedOn": { "type": "array" },
     "updated": { "type": "string", "format": "date" }
   },

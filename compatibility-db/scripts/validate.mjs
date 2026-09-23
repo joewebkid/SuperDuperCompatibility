@@ -76,6 +76,18 @@ for (const gamePath of gamePaths) {
     assert(statuses.has(status), `${label}: invalid ${milestone} status`);
   }
   if (game.androidRating !== undefined) assert(isRating(game.androidRating), `${label}: invalid androidRating`);
+  if (game.reviewedUserReports !== undefined) {
+    assert(Array.isArray(game.reviewedUserReports), `${label}: reviewedUserReports must be an array`);
+    const issueUrls = new Set();
+    for (const report of game.reviewedUserReports) {
+      assert(/^https:\/\/github\.com\/joewebkid\/SuperDuperCompatibility\/issues\/\d+$/.test(report.issueUrl), `${label}: invalid reviewed report issue`);
+      assert(!issueUrls.has(report.issueUrl), `${label}: duplicate reviewed report issue`);
+      issueUrls.add(report.issueUrl);
+      assert(isRating(report.rating), `${label}: invalid reviewed report rating`);
+      for (const field of ["device", "emulator", "notes"]) assert(typeof report[field] === "string", `${label}: invalid reviewed report ${field}`);
+      assert(/^\d{4}-\d{2}-\d{2}$/.test(report.reviewed), `${label}: invalid reviewed report date`);
+    }
+  }
   if (game.ipaRelease !== undefined) {
     const release = game.ipaRelease;
     assert(release && typeof release === "object", `${label}: ipaRelease must be an object`);
