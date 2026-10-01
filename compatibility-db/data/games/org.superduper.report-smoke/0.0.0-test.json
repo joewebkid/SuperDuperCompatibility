@@ -14,7 +14,7 @@
   "source": "community-reviewed",
   "reviewedUserReports": [
     {
-      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/5a553b120c07ca34e1cfff22",
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/3",
       "rating": 1,
       "device": "Synthetic API test (not a real game)",
       "emulator": "Super Duper report gateway smoke test",
