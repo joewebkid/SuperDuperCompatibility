@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "org.superduper.report-smoke",
+  "title": "Super Duper report pipeline SMOKE TEST",
+  "version": "0.0.0-test",
+  "overallStatus": "blocked",
+  "androidRating": 1,
+  "milestones": {
+    "reviewedUserReport": "blocked"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-01",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/5a553b120c07ca34e1cfff22",
+      "rating": 1,
+      "device": "Synthetic API test (not a real game)",
+      "emulator": "Super Duper report gateway smoke test",
+      "notes": "Synthetic integration test only. This is not a compatibility claim and must not be merged.",
+      "reviewed": "2026-10-01"
+    }
+  ]
+}
