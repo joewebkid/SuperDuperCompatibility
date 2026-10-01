@@ -1,4 +1,4 @@
-const issueTemplate = "https://github.com/joewebkid/SuperDuperCompatibility/issues/new?template=android-compatibility-report.yml";
+const reportForm = new URL("report/", new URL("./", import.meta.url));
 const dataRoot = new URL("data/", import.meta.url);
 
 function escapeHtml(value) {
@@ -134,7 +134,11 @@ async function load() {
       .flatMap((record) => record.reports ?? [])
       .filter((report) => report.catalogueId === app.id);
     const defaultVersion = sourceRecord?.versions?.[0]?.version ?? androidRecords[0]?.version ?? "";
-    const submitUrl = `${issueTemplate}&title=${encodeURIComponent(`[Android report]: ${app.title}${defaultVersion ? ` ${defaultVersion}` : ""}`)}`;
+    const submitUrl = new URL(reportForm);
+    submitUrl.searchParams.set("game", app.title);
+    if (defaultVersion) submitUrl.searchParams.set("version", defaultVersion);
+    const bundleId = androidRecords[0]?.bundleId ?? sourceRecord?.versions?.[0]?.bundleId;
+    if (bundleId) submitUrl.searchParams.set("bundle", bundleId);
     document.title = `${app.title} · Super Duper Compatibility`;
 
     const facts = rows([

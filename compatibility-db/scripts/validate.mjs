@@ -80,7 +80,7 @@ for (const gamePath of gamePaths) {
     assert(Array.isArray(game.reviewedUserReports), `${label}: reviewedUserReports must be an array`);
     const issueUrls = new Set();
     for (const report of game.reviewedUserReports) {
-      assert(/^https:\/\/github\.com\/joewebkid\/SuperDuperCompatibility\/issues\/\d+$/.test(report.issueUrl), `${label}: invalid reviewed report issue`);
+      assert(/^https:\/\/github\.com\/joewebkid\/SuperDuperCompatibility\/(?:issues|pull)\/\d+$/.test(report.issueUrl), `${label}: invalid reviewed report link`);
       assert(!issueUrls.has(report.issueUrl), `${label}: duplicate reviewed report issue`);
       issueUrls.add(report.issueUrl);
       assert(isRating(report.rating), `${label}: invalid reviewed report rating`);

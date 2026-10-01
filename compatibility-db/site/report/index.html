@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#12151c" />
+    <title>Отправить отчёт · Super Duper</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <main class="shell game-shell">
+      <a class="back-link" href="../">← База совместимости</a>
+      <header class="hero">
+        <p class="eyebrow">SUPER DUPER · ANDROID</p>
+        <h1>Отчёт о совместимости</h1>
+        <p class="lead">Опиши проверенную версию IPA. Отчёт сначала попадёт в черновой Pull Request и появится в базе только после проверки человеком.</p>
+      </header>
+      <form id="report-form" class="report-form" enctype="multipart/form-data">
+        <label>Название игры <input name="game" required maxlength="120" autocomplete="off" /></label>
+        <label>Bundle ID <input name="bundle" required maxlength="200" placeholder="com.example.game" autocomplete="off" /></label>
+        <label>Версия IPA <input name="version" required maxlength="40" placeholder="1.0.0" autocomplete="off" /></label>
+        <label>Оценка
+          <select name="rating" required>
+            <option value="">Выбери результат</option>
+            <option value="1">1 — не запускается</option>
+            <option value="2">2 — только заставка или меню</option>
+            <option value="3">3 — частично играбельна</option>
+            <option value="4">4 — играбельна с небольшими проблемами</option>
+            <option value="5">5 — работает полностью</option>
+          </select>
+        </label>
+        <label>Устройство и версия Android <input name="device" required maxlength="120" placeholder="Модель, Android 15, GPU" /></label>
+        <label>Версия Super Duper <input name="emulator" required maxlength="80" /></label>
+        <label>Что проверено, что работает и что нет
+          <textarea name="notes" required minlength="20" maxlength="3000" rows="7" placeholder="Запуск, меню, изображение, звук, управление, сохранения; конкретные проблемы"></textarea>
+        </label>
+        <label>Скриншот, по желанию (PNG, JPG или WebP, до 5 МБ)
+          <input name="screenshot" type="file" accept="image/png,image/jpeg,image/webp" />
+        </label>
+        <label class="report-consent"><input name="consent" type="checkbox" value="yes" required /> Разрешаю опубликовать текст отчёта и выбранный скриншот в открытом Pull Request и базе после проверки.</label>
+        <label class="report-honeypot" aria-hidden="true">Сайт <input name="website" tabindex="-1" autocomplete="off" /></label>
+        <button class="primary-action" type="submit">Отправить на проверку</button>
+        <p id="report-result" role="status" aria-live="polite"></p>
+      </form>
+      <p class="notice">Не прикладывай личные данные, приватные логи, сохранения или IPA. Вход в GitHub не требуется.</p>
+    </main>
+    <script type="module" src="../report.js"></script>
+  </body>
+</html>

@@ -98,6 +98,14 @@ code { color: #aef5e4; overflow-wrap: anywhere; }
 .screenshot-grid figcaption { padding: 10px; color: #aebbd0; font-size: .82rem; }
 .error-state { padding: 30px; border: 1px solid #853643; border-radius: 14px; background: #3a1921; }
 .loading { color: #a9b7cb; }
+.report-form { display: grid; gap: 18px; max-width: 760px; padding: 24px; border: 1px solid #334157; border-radius: 14px; background: #171c27; }
+.report-form label { display: grid; gap: 8px; color: #d7deea; font-weight: 650; }
+.report-form select, .report-form textarea { width: 100%; padding: 14px 15px; border: 1px solid #4c5b73; border-radius: 10px; background: #0e121a; color: inherit; font: inherit; }
+.report-form .report-consent { display: flex; align-items: flex-start; font-size: .86rem; line-height: 1.5; }
+.report-consent input { width: auto; margin: 4px 8px 0 0; }
+.report-honeypot { position: absolute; left: -10000px; }
+.report-form button.primary-action { width: fit-content; font-size: 1rem; }
+.report-form button:disabled { opacity: .55; cursor: wait; }
 
 @media (max-width: 760px) {
   .shell, footer { width: min(100% - 28px, 1180px); }
