@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "org.superduper.image-smoke",
+  "title": "Super Duper image pipeline SMOKE TEST",
+  "version": "0.0.0-test",
+  "overallStatus": "blocked",
+  "androidRating": 1,
+  "milestones": {
+    "reviewedUserReport": "blocked"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-01",
+  "source": "community-reviewed",
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/312b280a326efb3ea5f3c4b6.jpg",
+      "alt": "Community screenshot: Super Duper image pipeline SMOKE TEST",
+      "caption": "Community report, 0.0.0-test"
+    }
+  ],
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/312b280a326efb3ea5f3c4b6",
+      "rating": 1,
+      "device": "Synthetic API test (not a real game)",
+      "emulator": "Super Duper report gateway smoke test",
+      "notes": "Synthetic screenshot test only. The attached file is an app icon, not a game screenshot. Do not merge.",
+      "reviewed": "2026-10-01"
+    }
+  ]
+}
