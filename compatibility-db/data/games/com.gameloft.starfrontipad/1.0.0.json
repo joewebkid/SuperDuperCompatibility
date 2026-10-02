@@ -43,7 +43,7 @@
   "updated": "2026-09-06",
   "reviewedUserReports": [
     {
-      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/cdbcbb4a1e8fa6969879fcf0",
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/5",
       "rating": 5,
       "device": "25053RT47C (onyx), Adreno 825; Android version not recorded",
       "emulator": "Super Duper development build, 2026-09-06",
