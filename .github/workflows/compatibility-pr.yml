@@ -2,9 +2,6 @@ name: Validate compatibility report
 
 on:
   pull_request:
-    paths:
-      - "compatibility-db/**"
-      - ".github/workflows/compatibility-pr.yml"
 
 permissions:
   contents: read
