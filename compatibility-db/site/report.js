@@ -1,3 +1,5 @@
+import { knownGames, suggestedIdentity } from "./report-lookup.mjs";
+
 const form = document.querySelector("#report-form");
 const result = document.querySelector("#report-result");
 const params = new URLSearchParams(location.search);
@@ -14,6 +16,38 @@ for (const [field, names] of Object.entries(aliases)) {
   const value = names.map((name) => params.get(name)).find(Boolean);
   if (value) form.elements.namedItem(field).value = value;
 }
+
+fetch(new URL("./data/android-index.json", import.meta.url))
+  .then((response) => response.ok ? response.json() : Promise.reject(new Error("catalogue unavailable")))
+  .then((index) => {
+    const games = knownGames(index.records ?? []);
+    const suggestions = document.querySelector("#known-games");
+    let autoBundle = "";
+    let autoVersion = "";
+    for (const { title } of games.values()) {
+      const option = document.createElement("option");
+      option.value = title;
+      suggestions.append(option);
+    }
+    form.elements.namedItem("game").addEventListener("change", () => {
+      const identity = suggestedIdentity(games, form.elements.namedItem("game").value);
+      const bundle = form.elements.namedItem("bundle");
+      const version = form.elements.namedItem("version");
+      if (!identity) {
+        if (autoBundle && bundle.value === autoBundle) bundle.value = "";
+        if (autoVersion && version.value === autoVersion) version.value = "";
+        autoBundle = autoVersion = "";
+        return;
+      }
+      if (!bundle.value || bundle.value === autoBundle) {
+        bundle.value = autoBundle = identity.bundle;
+      }
+      if (!version.value || version.value === autoVersion) {
+        version.value = autoVersion = identity.version;
+      }
+    });
+  })
+  .catch(() => { /* The manual form remains usable when the catalogue is offline. */ });
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();

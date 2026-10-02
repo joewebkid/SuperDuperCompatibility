@@ -62,16 +62,15 @@ only a reviewed Super Duper `verified` result is green.
   milestones in a contribution.
 - Do not upload the IPA, decrypted assets, account tokens, save data, or logs
   containing private paths or personal data.
-- To attach a screenshot, use **Submit Android report** in the published
-  catalogue. It opens a GitHub Issue form; drag the screenshot into its
-  Screenshot field. GitHub hosts the attachment, and a maintainer adds the
-  approved URL to the matching report record.
-- The Android app can also prepare a report from its in-game menu. It exports
-  the captured screenshot through Android MediaStore, copies the Markdown
-  report to the clipboard and opens a prefilled GitHub Issue. Contributors use
-  their own GitHub account; no maintainer token or repository credential is
-  shipped in the APK. If no browser is available, Android's share sheet remains
-  available as a fallback.
+- **Submit Android report** opens the form on this compatibility site. The
+  form sends the game identity, observed result and optional screenshot to the
+  Super Duper server, which creates a draft GitHub Pull Request for review.
+  The report enters the published catalogue only after a maintainer merges it.
+  Contributors do not need a GitHub account; repository credentials remain on
+  the server, never in this site or the Android APK.
+- The Android app may prepare a prefilled report, but it should open this same
+  form rather than create a separate GitHub Issue or report database entry.
+  Historical reports remain available for manual reconciliation.
 - Do not add screenshots copied from another compatibility database. Screens
   from an app remain the copyright of that app's rightsholders.
 

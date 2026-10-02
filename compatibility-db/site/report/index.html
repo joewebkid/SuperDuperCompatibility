@@ -16,7 +16,9 @@
         <p class="lead">Опиши проверенную версию IPA. Отчёт сначала попадёт в черновой Pull Request и появится в базе только после проверки человеком.</p>
       </header>
       <form id="report-form" class="report-form" enctype="multipart/form-data">
-        <label>Название игры <input name="game" required maxlength="120" autocomplete="off" /></label>
+        <label>Название игры <input name="game" list="known-games" required maxlength="120" autocomplete="off" /></label>
+        <datalist id="known-games"></datalist>
+        <p id="game-hint" class="muted">Выбери игру из подсказок — Bundle ID заполнится автоматически, если он есть в базе. Сверь версию со своей IPA.</p>
         <label>Bundle ID <input name="bundle" required maxlength="200" placeholder="com.example.game" autocomplete="off" /></label>
         <label>Версия IPA <input name="version" required maxlength="40" placeholder="1.0.0" autocomplete="off" /></label>
         <label>Оценка
