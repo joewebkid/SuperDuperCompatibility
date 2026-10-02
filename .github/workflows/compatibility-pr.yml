@@ -1,0 +1,25 @@
+name: Validate compatibility report
+
+on:
+  pull_request:
+    paths:
+      - "compatibility-db/**"
+      - ".github/workflows/compatibility-pr.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Test compatibility badge aggregation
+        run: node --test compatibility-db/scripts/compatibility-status.test.mjs compatibility-db/scripts/report-lookup.test.mjs
+      - name: Validate compatibility records
+        run: node compatibility-db/scripts/validate.mjs
+      - name: Build static catalogue
+        run: node compatibility-db/scripts/build-pages.mjs
