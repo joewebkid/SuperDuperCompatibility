@@ -5,7 +5,10 @@
   "version": "1.0.0",
   "releaseYear": "2011",
   "developerPublisher": "Gameloft",
-  "genres": ["Strategy", "Real-time strategy"],
+  "genres": [
+    "Strategy",
+    "Real-time strategy"
+  ],
   "overallStatus": "verified",
   "androidRating": 5,
   "milestones": {
@@ -37,5 +40,15 @@
     }
   ],
   "screenshots": [],
-  "updated": "2026-09-06"
+  "updated": "2026-09-06",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/cdbcbb4a1e8fa6969879fcf0",
+      "rating": 5,
+      "device": "25053RT47C (onyx), Adreno 825; Android version not recorded",
+      "emulator": "Super Duper development build, 2026-09-06",
+      "notes": "Owner-confirmed ARM64 phone test on 2026-09-06 with the exact-hash starfront-ipad-landscape patch and IPA-default iPad profile. Language selection, menus, rendered gameplay, orientation, touch input and audio worked. Save states and formal sustained performance were not tested. Evidence: SuperDuperHyperHle/docs/CURRENT_STATUS.md and the existing Starfront compatibility record.",
+      "reviewed": "2026-10-02"
+    }
+  ]
 }
