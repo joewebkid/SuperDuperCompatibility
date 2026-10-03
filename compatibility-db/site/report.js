@@ -1,4 +1,5 @@
 import { knownGames, suggestedIdentity } from "./report-lookup.mjs";
+import { acceptedReport } from "./report-submission.mjs";
 
 const form = document.querySelector("#report-form");
 const result = document.querySelector("#report-result");
@@ -59,21 +60,29 @@ form.addEventListener("submit", async (event) => {
   }
   button.disabled = true;
   result.textContent = "Отправляем отчёт…";
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 90_000);
   try {
     const response = await fetch("https://superduper.188-120-224-148.sslip.io/api/compatibility-reports", {
-      method: "POST", body: new FormData(form),
+      method: "POST", body: new FormData(form), signal: controller.signal,
     });
-    const data = await response.json();
-    if (!response.ok) throw new Error(typeof data.detail === "string" ? data.detail : "Не удалось отправить отчёт");
+    const data = await response.json().catch(() => ({}));
+    const accepted = acceptedReport(response.ok, data);
     const link = document.createElement("a");
-    link.href = data.pullRequestUrl;
-    link.textContent = "Открыть черновой Pull Request";
+    link.href = accepted.url;
+    link.textContent = "Открыть Pull Request";
     link.rel = "noopener noreferrer";
-    result.replaceChildren(document.createTextNode("Отчёт принят. После проверки он появится в базе. "), link);
+    result.replaceChildren(document.createTextNode(accepted.duplicate
+      ? "Этот отчёт уже принят; повторная отправка не создала новую заявку. "
+      : "Отчёт принят. После проверки он появится в базе. "), link);
     form.reset();
   } catch (error) {
-    result.textContent = error instanceof Error ? error.message : "Не удалось отправить отчёт";
+    const reason = controller.signal.aborted
+      ? "Сервер не ответил за 90 секунд."
+      : error instanceof Error ? error.message : "Не удалось отправить отчёт.";
+    result.textContent = `${reason} Поля и скриншот остались в форме. Можно отправить ещё раз: сервер проверит, не создан ли уже Pull Request для этого отчёта.`;
   } finally {
+    clearTimeout(timeout);
     button.disabled = false;
   }
 });
