@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.donutgames.trafficrush",
+  "title": "Traffic Rush",
+  "version": "1.32",
+  "developerPublisher": "Donut Games",
+  "overallStatus": "blocked",
+  "androidRating": 1,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "unknown",
+    "newGame": "unknown",
+    "gameplay": "blocked",
+    "graphics": "blocked",
+    "input": "unknown",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "Physical ARM64 test on 2026-10-07 with IPA SHA-256 5bf90565cb31cfa3c00da4743dd6cdd4fc3d5cc3cb935f0b19a27f729fa20bb3. The game process stays alive and initially shows score text and a swipe tutorial, but nearly the entire playfield consists of colored dotted artifacts. Within seconds the view becomes black except for BEST: 0 and score 0. A swipe did not restore the image. No distinct main menu or visible playable traffic scene was observed. This is a rendering-blocked launch, not verified gameplay; input, audio and saves remain untested.",
+  "testedOn": [
+    {
+      "device": "POCO M2007J20CG (surya), Android 12, ARM64",
+      "appBuild": "Super Duper debug f8d2fecb",
+      "profile": "recommended profile",
+      "result": "blocked"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/traffic-rush-1.32/corrupted-startup.png",
+      "alt": "Traffic Rush startup with colored dotted artifacts over most of the screen",
+      "caption": "Startup tutorial: playfield corrupted by colored dots"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/traffic-rush-1.32/black-playfield.png",
+      "alt": "Traffic Rush black playfield with only score labels visible",
+      "caption": "After startup: only the score labels remain visible"
+    }
+  ],
+  "updated": "2026-10-07"
+}
