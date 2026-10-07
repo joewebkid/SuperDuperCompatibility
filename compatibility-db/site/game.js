@@ -45,6 +45,7 @@ function reportCard(record) {
   const deviceRows = (record.testedOn ?? []).map((test) => `<li>${escapeHtml(test.device ?? "Android device")}${test.appBuild ? ` · ${escapeHtml(test.appBuild)}` : ""}</li>`).join("");
   const playerReports = (record.reviewedUserReports ?? []).map((report) => `<li>
     <strong>${stars(report.rating)}</strong> · ${escapeHtml(report.device)} · ${escapeHtml(report.emulator)} · ${escapeHtml(report.reviewed)}
+    ${report.ipaSha256 ? `<p>IPA SHA-256: <code>${escapeHtml(report.ipaSha256)}</code></p>` : ""}
     <p>${escapeHtml(report.notes)}</p>
     <a href="${escapeHtml(report.issueUrl)}" rel="noopener noreferrer">Reviewed GitHub report ↗</a>
   </li>`).join("");
