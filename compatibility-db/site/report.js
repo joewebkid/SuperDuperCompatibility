@@ -8,6 +8,7 @@ const aliases = {
   game: ["game", "new_app_name", "display_name"],
   bundle: ["bundle", "bundle_identifier"],
   version: ["version", "version_number"],
+  ipaSha256: ["ipaSha256", "ipa_sha256"],
   rating: ["rating"],
   device: ["device", "operating_system"],
   emulator: ["emulator", "touchhle_version"],
