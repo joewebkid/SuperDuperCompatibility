@@ -14,7 +14,7 @@
   "source": "community-reviewed",
   "reviewedUserReports": [
     {
-      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/3322795992451eb68ed87c47",
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/10",
       "rating": 3,
       "device": "Xiaomi M2007J20CG, Android 12, ARM64",
       "emulator": "Super Duper Debug, 2026-10-08",
