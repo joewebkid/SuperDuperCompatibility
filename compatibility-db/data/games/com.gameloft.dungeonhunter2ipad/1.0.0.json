@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.gameloft.dungeonhunter2iPad",
+  "title": "Dungeon Hunter 2 HD",
+  "version": "1.0.0",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-08",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/3322795992451eb68ed87c47",
+      "rating": 3,
+      "device": "Xiaomi M2007J20CG, Android 12, ARM64",
+      "emulator": "Super Duper Debug, 2026-10-08",
+      "notes": "Tested the exact HD 1.0.0 IPA on Xiaomi M2007J20CG (Android 12, ARM64). Language selection, main menu, character creation and the first level rendered. The virtual stick moved the character and attack produced a sword slash. A diagnostic disk state captured and restored in the first level, Undo restored the prior scene, and a fresh Android process loaded the level again; the restored scene stayed live for about 11 mostly idle minutes. This is partial compatibility only: extended combat, audio quality and sustained performance were not verified. Earlier save restore hit a WebView/JNI crash; it did not recur in this bounded later run. Shader errors remain under investigation. Do not treat this as a full playthrough or universal save-state support.",
+      "reviewed": "2026-10-08",
+      "ipaSha256": "1c0ef56b5c288a1e4be9d3a7944212552c459b802f7cced82e4ca5ffd12db89a"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/3322795992451eb68ed87c47.jpg",
+      "alt": "Community screenshot: Dungeon Hunter 2 HD",
+      "caption": "Community report, 1.0.0"
+    }
+  ]
+}
