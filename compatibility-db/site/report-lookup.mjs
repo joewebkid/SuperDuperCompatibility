@@ -11,9 +11,14 @@ export function knownGames(records) {
   return byTitle;
 }
 
+export function suggestedBundles(games, title) {
+  const matches = games.get(title.trim().toLocaleLowerCase())?.records ?? [];
+  return [...new Map(matches.map((record) => [record.bundleId.toLowerCase(), record.bundleId])).values()];
+}
+
 export function suggestedIdentity(games, title) {
   const matches = games.get(title.trim().toLocaleLowerCase())?.records ?? [];
-  const bundles = [...new Set(matches.map((record) => record.bundleId.toLowerCase()))];
+  const bundles = suggestedBundles(games, title);
   if (bundles.length !== 1) return null;
   const versions = [...new Set(matches.map((record) => record.version).filter(Boolean))];
   return { bundle: matches[0].bundleId, version: versions.length === 1 ? versions[0] : "" };

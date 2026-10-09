@@ -19,7 +19,8 @@
         <label>Название игры <input name="game" list="known-games" required maxlength="120" autocomplete="off" /></label>
         <datalist id="known-games"></datalist>
         <p id="game-hint" class="muted">Выбери игру из подсказок — Bundle ID заполнится автоматически, если он есть в базе. Сверь версию со своей IPA.</p>
-        <label>Bundle ID <input name="bundle" required maxlength="200" placeholder="com.example.game" autocomplete="off" /></label>
+        <label>Bundle ID <input name="bundle" list="known-bundles" aria-describedby="game-hint" required maxlength="200" placeholder="com.example.game" autocomplete="off" /></label>
+        <datalist id="known-bundles"></datalist>
         <label>Версия IPA <input name="version" required maxlength="40" placeholder="1.0.0" autocomplete="off" /></label>
         <label>SHA-256 IPA, если известен <input name="ipaSha256" maxlength="64" pattern="[A-Fa-f0-9]{64}" placeholder="Автоматически заполнится из эмулятора" autocomplete="off" /></label>
         <label>Оценка
