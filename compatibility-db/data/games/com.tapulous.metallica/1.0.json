@@ -5,7 +5,10 @@
   "version": "1.0 iPhoneCake.com",
   "releaseYear": "2009",
   "developerPublisher": "Tapulous",
-  "genres": ["Music", "Rhythm"],
+  "genres": [
+    "Music",
+    "Rhythm"
+  ],
   "overallStatus": "partial",
   "androidRating": 2,
   "milestones": {
@@ -30,6 +33,23 @@
       "result": "partial"
     }
   ],
-  "screenshots": [],
-  "updated": "2026-08-31"
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/bc2ab8216a91c9f386e0b1e4.jpg",
+      "alt": "Community screenshot: Tap Tap Revenge: Metallica",
+      "caption": "Community report, 1.0 iPhoneCake.com"
+    }
+  ],
+  "updated": "2026-08-31",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/bc2ab8216a91c9f386e0b1e4",
+      "rating": 3,
+      "device": "25053RT47C (onyx), Android 16, Adreno 825",
+      "emulator": "f8d2fecb, ARM64 Release 2026-09-09",
+      "notes": "На физическом ARM64-телефоне открываются главное меню, список Arcade/Easy и трек For Whom the Bell Tolls. Дорожка и движущиеся ноты видны; раунд завершился экраном Game Stats со счётом 13 260. Пользователь подтвердил музыку во время песни. Меню-музыка отдельно не подтверждена (ранее пользователь её не слышал). Точность/задержка нажатий, повторные раунды, все сложности, ориентация обложек и сохранения не проверены. В логе остаются предупреждения AudioQueue/Objective-C, причину звуковой проблемы не доказали. Оценка 3/5 — только этот проверенный путь, не полная играбельность.",
+      "reviewed": "2026-10-09",
+      "ipaSha256": "b0054fadfc42b0a8f6276e5abba52e0626aa4e7d1a05a260935fb07a92eed52a"
+    }
+  ]
 }
