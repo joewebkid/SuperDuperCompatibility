@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "net.hexage.radiant",
+  "title": "Radiant",
+  "version": "2.4",
+  "overallStatus": "partial",
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "newGame": "verified",
+    "gameplay": "partial",
+    "graphics": "partial",
+    "input": "partial",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "Physical ARM64 smoke test on 2026-10-09, IPA SHA-256 ED119FEA93FC65845795F1BD71D48DF12FE5B45C6A12FA7E2CC7AD505D911A4C. Main menu, difficulty selection, tutorial and first live space-shooter scene render. Taps navigate into the scene and dismiss the tutorial. Movement, shooting, audio, saves and sustained gameplay were not tested.",
+  "testedOn": [
+    {
+      "device": "POCO M2007J20CG (surya), Android 12, ARM64, Adreno 618",
+      "appBuild": "Super Duper Debug, tree f8d2fecb, APK SHA-256 B12DD556EB86270E33E5DC4AD31356CABB774C9D6BAFD2E62F7B0F59581DEAA4",
+      "profile": "recommended profile",
+      "result": "partial"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/radiant-2.4/menu.png",
+      "alt": "Radiant main menu on Android",
+      "caption": "Main menu"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/radiant-2.4/tutorial.png",
+      "alt": "Radiant tutorial on Android",
+      "caption": "First scene tutorial"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/radiant-2.4/scene.png",
+      "alt": "Radiant space-shooter scene on Android",
+      "caption": "Rendered gameplay scene"
+    }
+  ],
+  "updated": "2026-10-09"
+}

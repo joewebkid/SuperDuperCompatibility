@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.rovio.angrybirdsstarwarsii",
+  "title": "Angry Birds Star Wars II",
+  "version": "1.0.1",
+  "overallStatus": "partial",
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "newGame": "verified",
+    "gameplay": "partial",
+    "graphics": "partial",
+    "input": "partial",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "Physical ARM64 smoke test on 2026-10-09. Exact IPA SHA-256 D1858BB439E992DE6950446C64DDFDB9DD04EB9DBC44BB4F4CB080B5720F9EDE. The supplied filename and display name say only Angry Birds, but the bundle identifier and executable identify Angry Birds Star Wars II. Splash, menu, episode/level selection and first level render. A touch drag fires a bird and the score reaches 360. Audio, saves, later levels and sustained performance were not tested; this is not a full-game approval.",
+  "testedOn": [
+    {
+      "device": "POCO M2007J20CG (surya), Android 12, ARM64, Adreno 618",
+      "appBuild": "Super Duper Debug, tree f8d2fecb, APK SHA-256 B12DD556EB86270E33E5DC4AD31356CABB774C9D6BAFD2E62F7B0F59581DEAA4",
+      "profile": "recommended profile",
+      "result": "partial"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/angry-birds-star-wars-ii-1.0.1/menu.png",
+      "alt": "Angry Birds Star Wars II menu on Android",
+      "caption": "Main menu"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/angry-birds-star-wars-ii-1.0.1/level.png",
+      "alt": "Angry Birds Star Wars II first level",
+      "caption": "First level"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/angry-birds-star-wars-ii-1.0.1/shot.png",
+      "alt": "Angry Birds Star Wars II shot and score",
+      "caption": "Bird fired; score increased"
+    }
+  ],
+  "updated": "2026-10-09"
+}
