@@ -4,27 +4,27 @@
   "title": "Snowboard Hero",
   "version": "1.6",
   "developerPublisher": "Fishlabs",
-  "overallStatus": "issues",
-  "androidRating": 2,
+  "overallStatus": "partial",
+  "androidRating": 3,
   "milestones": {
     "import": "verified",
     "launch": "verified",
     "mainMenu": "verified",
-    "newGame": "blocked",
-    "gameplay": "blocked",
+    "newGame": "verified",
+    "gameplay": "partial",
     "graphics": "partial",
     "input": "partial",
     "audio": "unknown",
     "saves": "unknown",
     "performance": "unknown"
   },
-  "notes": "Physical ARM64 retest on 2026-10-06 with IPA SHA-256 74efc6f5ea00502df2dfbaa243472daa013d0ee209edcbc373880b2af5761fab. Loading completes, the main menu renders correctly, and tapping Play opens the mode-selection screen. Tapping Career reproducibly terminates the emulator before a race appears. The native tombstone reports SIGSEGV at null in libc __memcpy, called through the Adreno GLES1 glDrawElements path and Super Duper's GLES guest bridge. A prior manual attempt by the owner also reached the start of a race before crashing. No race screenshot or verified in-game controls are available from this retest.",
+  "notes": "Physical ARM64 retest on 2026-10-09 with IPA SHA-256 74efc6f5ea00502df2dfbaa243472daa013d0ee209edcbc373880b2af5761fab. The previous Career crash in native GLES1 glDrawElements stopped recurring after the emulator forwarded the four GL_OES_matrix_palette entry points on the host Adreno driver. Loading, upright menu, Career, character/challenge selection and a rendered race work. Jump and pause/resume were observed, and a sample race reached its results screen. Steering/accelerometer, audio quality, later career, saves and sustained performance remain untested. This supersedes the earlier crash report for this specific APK and build; it is not a full-game approval.",
   "testedOn": [
     {
       "device": "POCO M2007J20CG (surya), Android 12, ARM64, Adreno",
-      "appBuild": "Super Duper debug f8d2fecb",
+      "appBuild": "Super Duper Debug, tree f8d2fecb, APK SHA-256 B12DD556EB86270E33E5DC4AD31356CABB774C9D6BAFD2E62F7B0F59581DEAA4",
       "profile": "recommended profile",
-      "result": "issues"
+      "result": "partial"
     }
   ],
   "screenshots": [
@@ -41,8 +41,23 @@
     {
       "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/snowboard-hero-1.6/mode-selection.png",
       "alt": "Snowboard Hero mode selection with Career and Podium",
-      "caption": "Mode selection: Career tap leads to a graphics crash"
+      "caption": "Mode selection: Career now advances to a race"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/snowboard-hero-1.6/race.png",
+      "alt": "Snowboard Hero 3D race on ARM64 Android",
+      "caption": "First 3D race and jump tutorial after the GLES1 fix"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/snowboard-hero-1.6/pause.png",
+      "alt": "Snowboard Hero pause menu during a race",
+      "caption": "Pause and resume respond in the race"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/snowboard-hero-1.6/results.png",
+      "alt": "Snowboard Hero result screen after a sample race",
+      "caption": "Sample race reached results without the previous crash"
     }
   ],
-  "updated": "2026-10-06"
+  "updated": "2026-10-09"
 }
