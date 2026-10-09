@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.ea.sims3inc",
+  "title": "The Sims 3",
+  "version": "1.0.85",
+  "developerPublisher": "Electronic Arts",
+  "overallStatus": "issues",
+  "androidRating": 2,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "newGame": "partial",
+    "gameplay": "blocked",
+    "graphics": "partial",
+    "input": "issues",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "Physical ARM64 test on 2026-10-07 with IPA SHA-256 1d3ab41e9ff939bb1dbef78a8e094b4be37cb55e276546a3836da31a86ea2476. EA splash and main menu render. Start Game responds, a New Game slot opens Create A Sim, and touch selection of a persona and five traits works. The next step asks for the Sim's name. The Android keyboard opens and injected letters reach SDL TextInput according to the log, but the visible in-game name field remains empty after typing, Return, and closing the keyboard; a playable world was not reached. This suggests a text-entry handoff problem, but its exact cause is unverified. Audio, saves and gameplay were not tested.",
+  "testedOn": [
+    {
+      "device": "POCO M2007J20CG (surya), Android 12, ARM64",
+      "appBuild": "Super Duper debug f8d2fecb",
+      "profile": "recommended profile",
+      "result": "issues"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/the-sims-3-1.0.85/loading.png",
+      "alt": "The Sims 3 EA logo during startup",
+      "caption": "Startup: EA splash"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/the-sims-3-1.0.85/main-menu.png",
+      "alt": "The Sims 3 main menu with Start Game button",
+      "caption": "Main menu: Start Game responds"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/the-sims-3-1.0.85/create-sim.png",
+      "alt": "The Sims 3 Create A Sim screen with character model",
+      "caption": "New Game: character creation opens and touch choices respond"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/the-sims-3-1.0.85/name-block.png",
+      "alt": "The Sims 3 name entry screen with an empty white field",
+      "caption": "Blocked: typed name does not appear in the in-game field"
+    }
+  ],
+  "updated": "2026-10-07"
+}

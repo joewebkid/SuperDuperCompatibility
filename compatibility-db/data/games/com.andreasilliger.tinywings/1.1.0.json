@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.andreasilliger.tinywings",
+  "title": "Tiny Wings",
+  "version": "1.1.0",
+  "developerPublisher": "Andreas Illiger",
+  "overallStatus": "issues",
+  "androidRating": 4,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "newGame": "verified",
+    "gameplay": "verified",
+    "graphics": "issues",
+    "input": "partial",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "Physical ARM64 test on 2026-10-07 with IPA SHA-256 fe96bb0b8be295b4031fdee05dadff8f86cf503ee08b6841982cda29a6132499. Startup shows a black frame before the menu. Play and tutorial Next respond to touch. A touch starts the day; a held touch moves the bird down the hill and the score increases. The first day reached a Day Over result with score 1266, and Play Again opened another day. The menu has a large opaque white rectangle over its upper-left text/art, and small colored pixels are visible in gameplay. These rendering defects remain. Only basic touch was checked; sound, saves, longer play and performance were not verified.",
+  "testedOn": [
+    {
+      "device": "POCO M2007J20CG (surya), Android 12, ARM64",
+      "appBuild": "Super Duper debug f8d2fecb",
+      "profile": "recommended profile",
+      "result": "issues"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/tiny-wings-1.1.0/startup.png",
+      "alt": "Tiny Wings black startup frame before the menu",
+      "caption": "Startup: black frame before the menu"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/tiny-wings-1.1.0/main-menu.png",
+      "alt": "Tiny Wings main menu with a large opaque white rectangle",
+      "caption": "Main menu: Play works, but a white rectangle obscures content"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/tiny-wings-1.1.0/gameplay.png",
+      "alt": "Tiny Wings bird moving down a hill with score 1081",
+      "caption": "Gameplay: touch moved the bird and the score rose"
+    }
+  ],
+  "updated": "2026-10-07"
+}

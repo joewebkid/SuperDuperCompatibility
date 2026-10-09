@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "jp.co.capcom.residentevil.en",
+  "title": "Resident Evil Degeneration",
+  "version": "1.03.00",
+  "releaseYear": "2009",
+  "developerPublisher": "Capcom/Ideaworks",
+  "overallStatus": "issues",
+  "androidRating": 2,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "newGame": "verified",
+    "gameplay": "partial",
+    "graphics": "issues",
+    "input": "issues",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "Physical ARM64 test on 2026-10-06 with IPA SHA-256 987e29fd4ba6d64312907ae5c3c9526d160a419a5720d2501a1f15fbaa197a31. The intro reaches the main menu after about 75 seconds; part of the cutscene is cropped to a narrow strip at the bottom. New Game reaches Leon's first in-game tutorial scene with 3D world and HUD visible. A tap at the visible New Game button did not activate it, while a tap at a displaced position did; the input trace shows the screen touch being rotated into a portrait 320x480 GLView. Movement, shooting, audio quality and saving were not verified. Do not treat this as fully playable.",
+  "testedOn": [
+    {
+      "device": "POCO M2007J20CG (surya), Android 12, ARM64",
+      "appBuild": "Super Duper debug f8d2fecb",
+      "profile": "recommended profile",
+      "result": "issues"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/resident-evil-degeneration-1.03.00/intro-crop.png",
+      "alt": "Resident Evil Degeneration intro cutscene cropped to a bottom strip",
+      "caption": "Intro cutscene: image cropped to the bottom strip"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/resident-evil-degeneration-1.03.00/main-menu.png",
+      "alt": "Resident Evil Degeneration main menu on Android",
+      "caption": "Main menu reached after approximately 75 seconds"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/resident-evil-degeneration-1.03.00/first-scene.png",
+      "alt": "Resident Evil Degeneration first tutorial scene with Leon and HUD",
+      "caption": "New Game: first 3D tutorial scene, controls not yet verified"
+    }
+  ],
+  "updated": "2026-10-06"
+}
