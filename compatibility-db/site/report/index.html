@@ -19,8 +19,10 @@
         <label>Название игры <input name="game" list="known-games" required maxlength="120" autocomplete="off" /></label>
         <datalist id="known-games"></datalist>
         <p id="game-hint" class="muted">Выбери игру из подсказок — Bundle ID заполнится автоматически, если он есть в базе. Сверь версию со своей IPA.</p>
-        <label>Bundle ID <input name="bundle" required maxlength="200" placeholder="com.example.game" autocomplete="off" /></label>
+        <label>Bundle ID <input name="bundle" list="known-bundles" aria-describedby="game-hint" required maxlength="200" placeholder="com.example.game" autocomplete="off" /></label>
+        <datalist id="known-bundles"></datalist>
         <label>Версия IPA <input name="version" required maxlength="40" placeholder="1.0.0" autocomplete="off" /></label>
+        <label>SHA-256 IPA, если известен <input name="ipaSha256" maxlength="64" pattern="[A-Fa-f0-9]{64}" placeholder="Автоматически заполнится из эмулятора" autocomplete="off" /></label>
         <label>Оценка
           <select name="rating" required>
             <option value="">Выбери результат</option>
@@ -39,7 +41,7 @@
         <label>Скриншот, по желанию (PNG, JPG или WebP, до 5 МБ)
           <input name="screenshot" type="file" accept="image/png,image/jpeg,image/webp" />
         </label>
-        <label class="report-consent"><input name="consent" type="checkbox" value="yes" required /> Разрешаю опубликовать текст отчёта и выбранный скриншот в открытом Pull Request и базе после проверки.</label>
+        <label class="report-consent"><input name="consent" type="checkbox" value="yes" required /> Разрешаю опубликовать данные отчёта, включая указанный SHA-256 IPA, и выбранный скриншот в открытом Pull Request и базе после проверки.</label>
         <label class="report-honeypot" aria-hidden="true">Сайт <input name="website" tabindex="-1" autocomplete="off" /></label>
         <button class="primary-action" type="submit">Отправить на проверку</button>
         <p id="report-result" role="status" aria-live="polite"></p>

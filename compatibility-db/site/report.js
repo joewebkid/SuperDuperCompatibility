@@ -1,4 +1,4 @@
-import { knownGames, suggestedIdentity } from "./report-lookup.mjs";
+import { knownGames, suggestedBundles, suggestedIdentity } from "./report-lookup.mjs";
 import { acceptedReport } from "./report-submission.mjs";
 
 const form = document.querySelector("#report-form");
@@ -8,6 +8,7 @@ const aliases = {
   game: ["game", "new_app_name", "display_name"],
   bundle: ["bundle", "bundle_identifier"],
   version: ["version", "version_number"],
+  ipaSha256: ["ipaSha256", "ipa_sha256"],
   rating: ["rating"],
   device: ["device", "operating_system"],
   emulator: ["emulator", "touchhle_version"],
@@ -23,6 +24,8 @@ fetch(new URL("./data/android-index.json", import.meta.url))
   .then((index) => {
     const games = knownGames(index.records ?? []);
     const suggestions = document.querySelector("#known-games");
+    const bundleSuggestions = document.querySelector("#known-bundles");
+    const gameHint = document.querySelector("#game-hint");
     let autoBundle = "";
     let autoVersion = "";
     for (const { title } of games.values()) {
@@ -31,7 +34,17 @@ fetch(new URL("./data/android-index.json", import.meta.url))
       suggestions.append(option);
     }
     form.elements.namedItem("game").addEventListener("change", () => {
-      const identity = suggestedIdentity(games, form.elements.namedItem("game").value);
+      const title = form.elements.namedItem("game").value;
+      const bundles = suggestedBundles(games, title);
+      bundleSuggestions.replaceChildren(...bundles.map((value) => {
+        const option = document.createElement("option");
+        option.value = value;
+        return option;
+      }));
+      gameHint.textContent = bundles.length > 1
+        ? `У этой игры несколько Bundle ID: ${bundles.length <= 4 ? bundles.join(" или ") : `${bundles.length} вариантов`}. Выбери ID своей IPA; версия не подставляется.`
+        : "Выбери игру из подсказок — Bundle ID заполнится автоматически, если он есть в базе. Сверь версию со своей IPA.";
+      const identity = suggestedIdentity(games, title);
       const bundle = form.elements.namedItem("bundle");
       const version = form.elements.namedItem("version");
       if (!identity) {

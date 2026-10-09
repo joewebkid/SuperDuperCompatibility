@@ -38,6 +38,7 @@
           "rating": { "type": "integer", "minimum": 1, "maximum": 5 },
           "device": { "type": "string" },
           "emulator": { "type": "string" },
+          "ipaSha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
           "notes": { "type": "string" },
           "reviewed": { "type": "string", "format": "date" }
         },

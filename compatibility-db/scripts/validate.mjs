@@ -84,6 +84,7 @@ for (const gamePath of gamePaths) {
       assert(!issueUrls.has(report.issueUrl), `${label}: duplicate reviewed report issue`);
       issueUrls.add(report.issueUrl);
       assert(isRating(report.rating), `${label}: invalid reviewed report rating`);
+      if (report.ipaSha256 !== undefined) assert(typeof report.ipaSha256 === "string" && /^[a-f0-9]{64}$/i.test(report.ipaSha256), `${label}: invalid reviewed report IPA SHA-256`);
       for (const field of ["device", "emulator", "notes"]) assert(typeof report[field] === "string", `${label}: invalid reviewed report ${field}`);
       assert(/^\d{4}-\d{2}-\d{2}$/.test(report.reviewed), `${label}: invalid reviewed report date`);
     }
