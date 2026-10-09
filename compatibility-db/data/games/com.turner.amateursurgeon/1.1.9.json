@@ -10,13 +10,13 @@
     "launch": "verified",
     "splash": "verified",
     "mainMenu": "verified",
-    "input": "unknown",
-    "gameplay": "unknown",
+    "input": "partial",
+    "gameplay": "partial",
     "audio": "unknown",
     "saves": "unknown",
     "performance": "unknown"
   },
-  "notes": "The IPA identifies itself as A.Surgeon. Version 1.1.9 booted on the default iPhone 3GS, 1x, post-process-off profile and reached the landscape title menu with New Game, Continue Game, More Games and Credits after about 32 seconds. A new-game session, sound, saving and longer performance have not yet been tested.",
+  "notes": "On an ARM64 Android 16 phone, New Game, tutorial and saw selection worked. A swipe along the yellow guide produced an aligned first incision, score 6 and the next rib-cage instruction. The older touch offset did not recur for this cut. The rest of the operation, other tools, zoom/pan, audio, saves and sustained performance remain untested.",
   "testedOn": [
     {
       "device": "Android phone with Qualcomm Adreno 825",
@@ -32,7 +32,7 @@
       "caption": "Community report, 1.1.9"
     }
   ],
-  "updated": "2026-08-05",
+  "updated": "2026-10-09",
   "reviewedUserReports": [
     {
       "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/12",
