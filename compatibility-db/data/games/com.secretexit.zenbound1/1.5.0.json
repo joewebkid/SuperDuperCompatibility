@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.secretexit.zenbound1",
+  "title": "Zen Bound",
+  "version": "1.5.0",
+  "overallStatus": "partial",
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "newGame": "verified",
+    "gameplay": "partial",
+    "graphics": "partial",
+    "input": "partial",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "Physical ARM64 smoke test on 2026-10-09, IPA SHA-256 631BFD730339DD8F9AB37FF3A404CC49A30C85CC5DA418267D102D98B72A3D0E. Headphone splash, tree menu, level selection and first wrapping scene render. A touch swipe changes the object and advances completion from 0% to 3%. Full-level progression, audio, saves and sustained performance were not tested.",
+  "testedOn": [
+    {
+      "device": "POCO M2007J20CG (surya), Android 12, ARM64, Adreno 618",
+      "appBuild": "Super Duper Debug, tree f8d2fecb, APK SHA-256 B12DD556EB86270E33E5DC4AD31356CABB774C9D6BAFD2E62F7B0F59581DEAA4",
+      "profile": "recommended profile",
+      "result": "partial"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/zen-bound-1.5.0/loading.png",
+      "alt": "Zen Bound headphone splash on Android",
+      "caption": "Loading screen"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/zen-bound-1.5.0/menu.png",
+      "alt": "Zen Bound tree menu on Android",
+      "caption": "Tree menu"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/zen-bound-1.5.0/gameplay.png",
+      "alt": "Zen Bound first wrapping level at three percent completion",
+      "caption": "First level; touch raised completion to 3%"
+    }
+  ],
+  "updated": "2026-10-09"
+}
