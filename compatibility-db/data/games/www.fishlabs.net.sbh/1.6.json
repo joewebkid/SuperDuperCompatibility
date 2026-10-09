@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "www.fishlabs.net.sbh",
+  "title": "Snowboard Hero",
+  "version": "1.6",
+  "developerPublisher": "Fishlabs",
+  "overallStatus": "issues",
+  "androidRating": 2,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "newGame": "blocked",
+    "gameplay": "blocked",
+    "graphics": "partial",
+    "input": "partial",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "Physical ARM64 retest on 2026-10-06 with IPA SHA-256 74efc6f5ea00502df2dfbaa243472daa013d0ee209edcbc373880b2af5761fab. Loading completes, the main menu renders correctly, and tapping Play opens the mode-selection screen. Tapping Career reproducibly terminates the emulator before a race appears. The native tombstone reports SIGSEGV at null in libc __memcpy, called through the Adreno GLES1 glDrawElements path and Super Duper's GLES guest bridge. A prior manual attempt by the owner also reached the start of a race before crashing. No race screenshot or verified in-game controls are available from this retest.",
+  "testedOn": [
+    {
+      "device": "POCO M2007J20CG (surya), Android 12, ARM64, Adreno",
+      "appBuild": "Super Duper debug f8d2fecb",
+      "profile": "recommended profile",
+      "result": "issues"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/snowboard-hero-1.6/loading.png",
+      "alt": "Snowboard Hero loading screen with progress bar",
+      "caption": "Loading screen"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/snowboard-hero-1.6/main-menu.png",
+      "alt": "Snowboard Hero main menu on Android",
+      "caption": "Main menu: Play button responds"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/snowboard-hero-1.6/mode-selection.png",
+      "alt": "Snowboard Hero mode selection with Career and Podium",
+      "caption": "Mode selection: Career tap leads to a graphics crash"
+    }
+  ],
+  "updated": "2026-10-06"
+}
