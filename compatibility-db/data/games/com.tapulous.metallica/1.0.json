@@ -10,7 +10,7 @@
     "Rhythm"
   ],
   "overallStatus": "partial",
-  "androidRating": 2,
+  "androidRating": 3,
   "milestones": {
     "import": "verified",
     "launch": "verified",
@@ -24,11 +24,17 @@
     "saves": "unknown",
     "performance": "issues"
   },
-  "notes": "The exact supplied IPA now boots, starts its menu Audio Queue, lays out 75-point Career song cards, launches a selected track and continuously renders the gameplay highway, notes, HUD and score in the desktop reference run. The white surface was caused by the Metallica Lua scalar bridge mistaking real NSNumber objects for unboxed float bits; object identity is now checked first. Android remains partial until an ARM64 phone confirms audible music, touch lanes/holds, all difficulty layouts, results, remote artwork and clean exit with tracing disabled.",
+  "notes": "The exact IPA reached the main menu, Arcade/Easy song list, moving gameplay notes and Game Stats for For Whom the Bell Tolls (score 13,260) on a physical ARM64 phone in the 2026-09-09 Release build. The user confirmed music during the song. Menu music, lane timing/latency, repeated rounds, other difficulties, artwork orientation, saves and sustained stability remain unverified; AudioQueue/Objective-C warnings persist. Rating 3/5 covers only this observed path, not complete playability.",
   "testedOn": [
     {
       "device": "Android phone with Qualcomm Adreno 825",
       "appBuild": "development, physical-device traces from 2026-08-03 and 2026-08-04",
+      "profile": "iPhone 3GS, render scale 1x, post-process off",
+      "result": "partial"
+    },
+    {
+      "device": "25053RT47C (onyx), Android 16, Adreno 825",
+      "appBuild": "f8d2fecb, ARM64 Release 2026-09-09",
       "profile": "iPhone 3GS, render scale 1x, post-process off",
       "result": "partial"
     }
@@ -40,7 +46,7 @@
       "caption": "Community report, 1.0 iPhoneCake.com"
     }
   ],
-  "updated": "2026-08-31",
+  "updated": "2026-10-10",
   "reviewedUserReports": [
     {
       "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/15",
