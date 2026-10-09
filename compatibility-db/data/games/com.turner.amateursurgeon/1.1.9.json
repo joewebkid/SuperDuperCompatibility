@@ -25,6 +25,23 @@
       "result": "partial"
     }
   ],
-  "screenshots": [],
-  "updated": "2026-08-05"
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/47a6b864a7fa733074482dd3.jpg",
+      "alt": "Community screenshot: Amateur Surgeon",
+      "caption": "Community report, 1.1.9"
+    }
+  ],
+  "updated": "2026-08-05",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/47a6b864a7fa733074482dd3",
+      "rating": 3,
+      "device": "25053RT47C (onyx), Android 16, ARM64, Adreno 825",
+      "emulator": "Super Duper f8d2fecb, ARM64 Release, 2026-09-09",
+      "notes": "On a physical Android 16 ARM64 phone, New Game, tutorial and saw selection worked. A swipe along the yellow guide produced an aligned first incision, score 6 and the next rib-cage instruction. The previously observed touch offset did not recur for this cut. The rest of the operation, other tools, zoom/pan, audio, game saves and sustained performance were not tested.",
+      "reviewed": "2026-10-09",
+      "ipaSha256": "6cf2d2e1ec7abe460cd782c736c1c7883cf0b1fb30ef88926dc828a5650c91ea"
+    }
+  ]
 }
