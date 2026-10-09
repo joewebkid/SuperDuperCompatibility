@@ -43,7 +43,7 @@
   "updated": "2026-08-31",
   "reviewedUserReports": [
     {
-      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/bc2ab8216a91c9f386e0b1e4",
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/15",
       "rating": 3,
       "device": "25053RT47C (onyx), Android 16, Adreno 825",
       "emulator": "f8d2fecb, ARM64 Release 2026-09-09",
