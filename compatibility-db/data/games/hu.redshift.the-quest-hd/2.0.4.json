@@ -3,19 +3,19 @@
   "bundleId": "hu.redshift.The-Quest-HD",
   "title": "The Quest HD",
   "version": "2.0.4",
-  "overallStatus": "blocked",
-  "androidRating": 1,
+  "overallStatus": "partial",
+  "androidRating": 3,
   "milestones": {
     "import": "verified",
-    "launch": "blocked",
-    "mainMenu": "unknown",
-    "input": "unknown",
-    "gameplay": "unknown",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "input": "partial",
+    "gameplay": "partial",
     "audio": "unknown",
     "saves": "unknown",
     "performance": "unknown"
   },
-  "notes": "The IPA imports and its library card is selectable. On the tested build, selecting the card returned to the Super Duper library rather than showing a Quest splash or menu; the emulator log did not contain the normal application startup banner. This is a launch-routing failure, not a gameplay verdict.",
+  "notes": "The exact 2.0.4/build 8 IPA now reaches the menu, introduction, character creation, textured town and Bryl dialogue on an ARM64 Android 16 phone. Movement was not proved because input was attempted during dialogue; combat, audio, manual saves, sustained play and emulator disk states remain untested. The older launch-routing failure applied to an earlier build.",
   "testedOn": [
     {
       "device": "Android phone with Qualcomm Adreno 825",
@@ -24,6 +24,23 @@
       "result": "issues"
     }
   ],
-  "screenshots": [],
-  "updated": "2026-08-05"
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/22c2f6a5b183e08a75ae0013.jpg",
+      "alt": "Community screenshot: The Quest HD",
+      "caption": "Community report, 2.0.4"
+    }
+  ],
+  "updated": "2026-10-09",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/13",
+      "rating": 3,
+      "device": "25053RT47C (onyx), Android 16, ARM64, Adreno 825",
+      "emulator": "Super Duper f8d2fecb, ARM64 Release, 2026-09-09",
+      "notes": "On a physical Android 16 ARM64 phone, the exact The Quest HD 2.0.4 (build 8) IPA reached the menu, introduction, character creation, textured town and Bryl dialogue without returning to the emulator library. Movement was not proved: the attempted input happened during NPC dialogue. Combat, audio, manual saves, sustained play and emulator disk states were not tested.",
+      "reviewed": "2026-10-09",
+      "ipaSha256": "d19ce786cd743b9008f41ccbdbcf22aa5a657d9bf89c22cd23f3869ec70d822e"
+    }
+  ]
 }
