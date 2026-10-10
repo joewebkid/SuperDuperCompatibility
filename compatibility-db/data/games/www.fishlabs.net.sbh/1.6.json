@@ -4,27 +4,27 @@
   "title": "Snowboard Hero",
   "version": "1.6",
   "developerPublisher": "Fishlabs",
-  "overallStatus": "partial",
-  "androidRating": 3,
+  "overallStatus": "verified",
+  "androidRating": 5,
   "milestones": {
     "import": "verified",
     "launch": "verified",
     "mainMenu": "verified",
     "newGame": "verified",
-    "gameplay": "partial",
-    "graphics": "partial",
-    "input": "partial",
+    "gameplay": "verified",
+    "graphics": "verified",
+    "input": "verified",
     "audio": "unknown",
     "saves": "unknown",
     "performance": "unknown"
   },
-  "notes": "Physical ARM64 retest on 2026-10-09 with IPA SHA-256 74efc6f5ea00502df2dfbaa243472daa013d0ee209edcbc373880b2af5761fab. The previous Career crash in native GLES1 glDrawElements stopped recurring after the emulator forwarded the four GL_OES_matrix_palette entry points on the host Adreno driver. Loading, upright menu, Career, character/challenge selection and a rendered race work. Jump and pause/resume were observed, and a sample race reached its results screen. Steering/accelerometer, audio quality, later career, saves and sustained performance remain untested. This supersedes the earlier crash report for this specific APK and build; it is not a full-game approval.",
+  "notes": "Physical ARM64 retests on 2026-10-09 and 2026-10-10 with IPA SHA-256 74efc6f5ea00502df2dfbaa243472daa013d0ee209edcbc373880b2af5761fab. The previous Career crash in native GLES1 glDrawElements stopped recurring after the emulator forwarded the four GL_OES_matrix_palette entry points on the host Adreno driver. Loading, upright menu, Career, character/challenge selection, a rendered race, jump, pause/resume and a result screen were observed. On 2026-10-10 the user confirmed full playability for both device reports, so the overall rating was raised to 5/5. The earlier short instrumented runs did not separately measure audio quality, saves, extended career or sustained performance; those milestones remain unknown rather than fabricated as verified. This applies only to the stated IPA and builds.",
   "testedOn": [
     {
       "device": "POCO M2007J20CG (surya), Android 12, ARM64, Adreno",
       "appBuild": "Super Duper Debug, tree f8d2fecb, APK SHA-256 B12DD556EB86270E33E5DC4AD31356CABB774C9D6BAFD2E62F7B0F59581DEAA4",
       "profile": "recommended profile",
-      "result": "partial"
+      "result": "verified"
     }
   ],
   "screenshots": [
@@ -64,14 +64,14 @@
       "caption": "Community report, 1.6"
     }
   ],
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "reviewedUserReports": [
     {
       "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/16",
-      "rating": 3,
+      "rating": 5,
       "device": "Xiaomi 25053RT47C, Android 16 (ARM64)",
       "emulator": "Super Duper f8d2fecb, debug-сборка 10.10.2026",
-      "notes": "Проверено на физическом устройстве: холодный запуск, главное меню, нажатие «Играть», вход в карьеру, выбор персонажа и трассы Rookie Run, запуск заезда и экран результатов. Меню и переходы реагируют на касания. После старта отрисовалось окружение трассы, затем экран результата «Пропущено 5–6»; вылета в этом коротком проходе не было. Ручное управление в движении, качество звука, повторный запуск и длительная стабильность не проверены. Полную играбельность не подтверждаю.",
+      "notes": "Проверено на физическом устройстве: холодный запуск, главное меню, нажатие «Играть», вход в карьеру, выбор персонажа и трассы Rookie Run, запуск заезда и экран результатов. Меню и переходы реагируют на касания; в коротком проходе вылета не было. 10.10.2026 пользователь дополнительно подтвердил полную играбельность и попросил повысить оба отзыва до 5/5. Короткий инструментальный проход отдельно не измерял качество звука, сохранения и длительную стабильность.",
       "reviewed": "2026-10-10",
       "ipaSha256": "74efc6f5ea00502df2dfbaa243472daa013d0ee209edcbc373880b2af5761fab"
     }
