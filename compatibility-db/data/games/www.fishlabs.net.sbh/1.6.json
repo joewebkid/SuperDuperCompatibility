@@ -57,7 +57,23 @@
       "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/snowboard-hero-1.6/results.png",
       "alt": "Snowboard Hero result screen after a sample race",
       "caption": "Sample race reached results without the previous crash"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/0164a9630597ecf65e6433f2.jpg",
+      "alt": "Community screenshot: Snowboard Hero",
+      "caption": "Community report, 1.6"
     }
   ],
-  "updated": "2026-10-09"
+  "updated": "2026-10-09",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/0164a9630597ecf65e6433f2",
+      "rating": 3,
+      "device": "Xiaomi 25053RT47C, Android 16 (ARM64)",
+      "emulator": "Super Duper f8d2fecb, debug-сборка 10.10.2026",
+      "notes": "Проверено на физическом устройстве: холодный запуск, главное меню, нажатие «Играть», вход в карьеру, выбор персонажа и трассы Rookie Run, запуск заезда и экран результатов. Меню и переходы реагируют на касания. После старта отрисовалось окружение трассы, затем экран результата «Пропущено 5–6»; вылета в этом коротком проходе не было. Ручное управление в движении, качество звука, повторный запуск и длительная стабильность не проверены. Полную играбельность не подтверждаю.",
+      "reviewed": "2026-10-10",
+      "ipaSha256": "74efc6f5ea00502df2dfbaa243472daa013d0ee209edcbc373880b2af5761fab"
+    }
+  ]
 }
