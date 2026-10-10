@@ -67,7 +67,7 @@
   "updated": "2026-10-09",
   "reviewedUserReports": [
     {
-      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/0164a9630597ecf65e6433f2",
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/16",
       "rating": 3,
       "device": "Xiaomi 25053RT47C, Android 16 (ARM64)",
       "emulator": "Super Duper f8d2fecb, debug-сборка 10.10.2026",
