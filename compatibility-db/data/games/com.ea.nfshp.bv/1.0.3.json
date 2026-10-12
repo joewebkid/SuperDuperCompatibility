@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.ea.nfshp.bv",
+  "title": "Need for Speed: Hot Pursuit",
+  "version": "1.0.3",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-12",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/7aa8d10b2ac7555456d52911",
+      "rating": 3,
+      "device": "POCO X3 NFC (M2007J20CG), Android 12, ARM64",
+      "emulator": "Super Duper f8d2fecb Release",
+      "notes": "ARM64 Release build on POCO X3 NFC (Android 12). Upright intro and TAP TO CONTINUE led to an interactive 3D tutorial race, with visible police car, road, speed HUD and changing frames for at least 100 seconds after Nitro. Holding lower-left brake and upward swipe advanced tutorial prompts; upper-left pause/resume worked. Earlier grey screen did not recur. Tilt steering, handbrake, race completion, audible sound, long play and optional true-widescreen patch were NOT verified; the widescreen intro can clip text and remains disabled by default. Partial, not full-game approval.",
+      "reviewed": "2026-10-12",
+      "ipaSha256": "023d477f407ade2320be66c6ac973ece86a07bc00195a239238f1862623f4bf1"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/7aa8d10b2ac7555456d52911.jpg",
+      "alt": "Community screenshot: Need for Speed: Hot Pursuit",
+      "caption": "Community report, 1.0.3"
+    }
+  ]
+}
