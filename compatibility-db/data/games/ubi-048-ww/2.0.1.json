@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "UBI-048-WW",
+  "title": "Prince of Persia Classic HD",
+  "version": "2.0.1",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-12",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/27",
+      "rating": 3,
+      "device": "POCO X3 NFC (M2007J20CG), Android 12, ARM64",
+      "emulator": "Super Duper Android ARM64, 2026-10-11",
+      "notes": "On a physical POCO X3 NFC, the main menu, Quickstart, intro and first playable level rendered. A rightward virtual-control touch moved the Prince. Timestamp-checked two-finger movement plus crouch (both press orders) and movement plus jump highlighted both buttons while held and cleared on release. The first level loaded slowly. Combat, save/load, extended play, audio quality and every touch sequence were not verified; the original intermittent sticky-button report is not comprehensively cleared. Partial, not full-game approval.",
+      "reviewed": "2026-10-12",
+      "ipaSha256": "747175141f2f24fbbccd9a7606333b703ffc652582ecf28b4182484f3a43971b"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/ccb76bf3623714393df63b6a.jpg",
+      "alt": "Community screenshot: Prince of Persia Classic HD",
+      "caption": "Community report, 2.0.1"
+    }
+  ]
+}
