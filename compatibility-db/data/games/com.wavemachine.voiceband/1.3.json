@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.wavemachine.voiceband",
+  "title": "Voice Band",
+  "version": "1.3",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-12",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/22",
+      "rating": 3,
+      "device": "POCO X3 NFC M2007J20CG",
+      "emulator": "Super Duper Release f8d2fecb",
+      "notes": "На POCO M2007J20CG (Android 12, ARM64) версия 1.3 открывает эффекты, гаммы и элементы записи. Подтверждены вход 44,1 кГц stereo RemoteIO, шестиминутный запуск без underrun, Record/Stop/Play, сохранение непустого WAV, повторная загрузка и воспроизведение выбранной записи. Снимок показывает 00:02 и кнопки записи. Акустическое качество, задержка обработанного голоса, платные инструменты и длительный стресс-тест не подтверждены. Поэтому только partial, 3/5.",
+      "reviewed": "2026-10-12",
+      "ipaSha256": "716979734ed979e529214c0e8e7a89c2b7b7f030207021ddc6d20727fc0e0fcf"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/b5d9a41f614add93c74b10b0.jpg",
+      "alt": "Community screenshot: Voice Band",
+      "caption": "Community report, 1.3"
+    }
+  ]
+}
