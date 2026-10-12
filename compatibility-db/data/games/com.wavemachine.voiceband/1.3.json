@@ -14,7 +14,7 @@
   "source": "community-reviewed",
   "reviewedUserReports": [
     {
-      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/b5d9a41f614add93c74b10b0",
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/22",
       "rating": 3,
       "device": "POCO X3 NFC M2007J20CG",
       "emulator": "Super Duper Release f8d2fecb",
