@@ -40,7 +40,23 @@
       "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/radiant-2.4/scene.png",
       "alt": "Radiant space-shooter scene on Android",
       "caption": "Rendered gameplay scene"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/6f649b4ad310bd44f7cf6740.jpg",
+      "alt": "Community screenshot: Radiant",
+      "caption": "Community report, 2.4"
     }
   ],
-  "updated": "2026-10-09"
+  "updated": "2026-10-09",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/24",
+      "rating": 3,
+      "device": "POCO M2007J20CG, Android 12, ARM64, Adreno 618",
+      "emulator": "Super Duper Release f8d2fecb",
+      "notes": "POCO M2007J20CG (Android 12, ARM64/Adreno 618), Super Duper Release f8d2fecb. Exact IPA SHA-256 verified. Cold launch reaches main menu, difficulty selection, tutorial and a live shooter scene. Holding the left/right screen halves moves the ship both directions; the ship visibly auto-fires and score rose 85 to 265. In-game emulator pause froze an identical frame across 4 seconds; Continue resumed changing frames. This is an initial playable interaction, not a full-game pass. Acoustic sound, level progression, ordinary saves, long-session stability and additional device profiles remain unverified.",
+      "reviewed": "2026-10-12",
+      "ipaSha256": "ed119fea93fc65845795f1bd71d48df12fe5b45c6a12fa7e2cc7ad505d911a4c"
+    }
+  ]
 }
