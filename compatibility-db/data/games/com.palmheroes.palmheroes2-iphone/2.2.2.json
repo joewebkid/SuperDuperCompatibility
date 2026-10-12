@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.palmheroes.PalmHeroes2-iPhone",
+  "title": "Palm Heroes 2 Deluxe",
+  "version": "2.2.2",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-12",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/1183dd02b4a1f4e403266677",
+      "rating": 3,
+      "device": "POCO X3 NFC (M2007J20CG), Android 12, ARM64",
+      "emulator": "Super Duper f8d2fecb Release",
+      "notes": "ARM64 Release build on POCO X3 NFC (Android 12). Upright main menu; Single Player -> New Game -> Break reached adventure map. Tapping a road tile and horse moved the hero; enemy encounter opened tactical battle, and tapping a unit moved it on the grid. Emulator pause/resume returned to battle. Intro can be inverted. Battle completion, audio, saves, sustained play, other scenarios and widescreen were NOT verified. Partial, not full-game approval.",
+      "reviewed": "2026-10-12",
+      "ipaSha256": "bcf67f091ae856a617502160dfd4a8e8f4c6a1bcb725a641d1676cf94053f2dd"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/1183dd02b4a1f4e403266677.jpg",
+      "alt": "Community screenshot: Palm Heroes 2 Deluxe",
+      "caption": "Community report, 2.2.2"
+    }
+  ]
+}
