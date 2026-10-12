@@ -5,7 +5,10 @@
   "version": "1.1.4",
   "releaseYear": "2010",
   "developerPublisher": "Fishlabs",
-  "genres": ["Action", "Space simulation"],
+  "genres": [
+    "Action",
+    "Space simulation"
+  ],
   "overallStatus": "issues",
   "androidRating": 3,
   "milestones": {
@@ -29,6 +32,23 @@
       "result": "issues"
     }
   ],
-  "screenshots": [],
-  "updated": "2026-08-27"
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/b2b68db4f205b1a3396879f3.jpg",
+      "alt": "Community screenshot: Galaxy on Fire 2 HD",
+      "caption": "Community report, 1.1.4"
+    }
+  ],
+  "updated": "2026-08-27",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/b2b68db4f205b1a3396879f3",
+      "rating": 3,
+      "device": "25053RT47C, Android 16, ARM64, Adreno 825",
+      "emulator": "Super Duper f8d2fecb Release 2026-09-09",
+      "notes": "Physical ARM64 Release run on 25053RT47C (Android 16), 2026-09-09. Main menu, new Normal game and space scene rendered; the player ship hull is now textured instead of invisible, and virtual-stick input changed ship/view position. Screenshot is an actual phone frame from that run. Earlier catalogue note about absent ship is superseded for this exact IPA and patch. One sample was 24.9 FPS; sustained combat, audio quality, long play, save/reload and true widescreen were NOT verified. Partial, not full-game approval.",
+      "reviewed": "2026-10-12",
+      "ipaSha256": "db4c28f9b4494a5e6f27979aa6bb7a9f49fb4c90896d8ed87fbb35f0e8801e02"
+    }
+  ]
 }
