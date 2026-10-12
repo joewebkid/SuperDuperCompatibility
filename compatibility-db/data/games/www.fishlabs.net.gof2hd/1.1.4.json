@@ -42,7 +42,7 @@
   "updated": "2026-08-27",
   "reviewedUserReports": [
     {
-      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/b2b68db4f205b1a3396879f3",
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/20",
       "rating": 3,
       "device": "25053RT47C, Android 16, ARM64, Adreno 825",
       "emulator": "Super Duper f8d2fecb Release 2026-09-09",
