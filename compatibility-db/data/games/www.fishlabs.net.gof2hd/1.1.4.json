@@ -9,27 +9,33 @@
     "Action",
     "Space simulation"
   ],
-  "overallStatus": "issues",
+  "overallStatus": "partial",
   "androidRating": 3,
   "milestones": {
     "import": "verified",
     "launch": "verified",
     "mainMenu": "verified",
     "newGame": "verified",
-    "gameplay": "issues",
-    "textures": "issues",
+    "gameplay": "partial",
+    "textures": "partial",
     "input": "partial",
     "audio": "verified",
     "saves": "unknown",
     "performance": "issues"
   },
-  "notes": "A clean physical-device run reaches the title, menu and a fresh combat scene. The skybox, planets, HUD, dialogue and engine exhaust render, but the player ship body is absent. The observed scene ran at roughly 17–18 FPS. Program-binary and PVRTC RGBA8 disk caches load without a crash, rejected binary or out-of-memory error; the remaining fault is being traced in the ship material/draw path.",
+  "notes": "The earlier August 2026 ARM64 run had an invisible player ship and roughly 17–18 FPS. In the exact 1.1.4 IPA with the sampler-array fix, a September 9 ARM64 Release retest reached space with a textured player ship and responsive virtual stick. This resolves the missing-hull symptom on that tested path; sustained combat, audio quality, saves, performance stability and true widescreen remain unverified. See the reviewed report and phone screenshot below.",
   "testedOn": [
     {
       "device": "Redmi onyx with Qualcomm Adreno 825",
       "appBuild": "development build, 2026-08-27",
       "profile": "iPhone 3GS, render scale 1x, post-process off",
       "result": "issues"
+    },
+    {
+      "device": "25053RT47C, Android 16, Adreno 825",
+      "appBuild": "Super Duper f8d2fecb Release, 2026-09-09",
+      "profile": "iPhone 3GS / 4x resources, render scale 1x",
+      "result": "partial"
     }
   ],
   "screenshots": [
@@ -39,7 +45,7 @@
       "caption": "Community report, 1.1.4"
     }
   ],
-  "updated": "2026-08-27",
+  "updated": "2026-10-12",
   "reviewedUserReports": [
     {
       "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/20",
