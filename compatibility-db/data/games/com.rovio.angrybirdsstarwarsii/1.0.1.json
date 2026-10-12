@@ -40,7 +40,23 @@
       "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/angry-birds-star-wars-ii-1.0.1/shot.png",
       "alt": "Angry Birds Star Wars II shot and score",
       "caption": "Bird fired; score increased"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/152cf6be2d66608f00415ec1.jpg",
+      "alt": "Community screenshot: Angry Birds Star Wars II",
+      "caption": "Community report, 1.0.1"
     }
   ],
-  "updated": "2026-10-09"
+  "updated": "2026-10-09",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/23",
+      "rating": 3,
+      "device": "POCO X3 NFC M2007J20CG",
+      "emulator": "Super Duper Debug f8d2fecb",
+      "notes": "Файл назван Angry_Birds_1.0.1_ios_4.3.ipa, но bundle com.rovio.angrybirdsstarwarsii однозначно определяет Angry Birds Star Wars II. На POCO M2007J20CG (Android 12, ARM64) в Debug-сборке f8d2fecb открылись заставка, меню, выбор эпизода и первый уровень. Касанием птица запущена из рогатки, счёт вырос до 360; приложен снимок игровой сцены. Звук, сохранение и длительная игра не проверены. Это только partial, 3/5.",
+      "reviewed": "2026-10-12",
+      "ipaSha256": "d1858bb439e992de6950446c64ddfdb9dd04eb9dbc44bb4f4cb080b5720f9ede"
+    }
+  ]
 }
