@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.justcoolapps.heroes2ipad",
+  "title": "Heroes 2 HD",
+  "version": "1.2.4118",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-12",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/1c31b3e2aa85243ecd4d0634",
+      "rating": 3,
+      "device": "POCO X3 NFC M2007J20CG",
+      "emulator": "Super Duper Release f8d2fecb",
+      "notes": "На POCO M2007J20CG (Android 12, ARM64) в Release-сборке f8d2fecb игра открыла меню, создание Standard Game и карту Beltway. Выбор доступной клетки сначала показал маркер назначения, повторное касание переместило героя и сдвинуло камеру. Это подтверждает начальный игровой ввод, но не прохождение: бой, звук, сохранения и длительная стабильность не проверены. Статус partial, 3/5.",
+      "reviewed": "2026-10-12",
+      "ipaSha256": "9d3cece06964e7cb9373cbf7064d6b219dbdd700a7bfdd033f422a2111b053db"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/1c31b3e2aa85243ecd4d0634.jpg",
+      "alt": "Community screenshot: Heroes 2 HD",
+      "caption": "Community report, 1.2.4118"
+    }
+  ]
+}
