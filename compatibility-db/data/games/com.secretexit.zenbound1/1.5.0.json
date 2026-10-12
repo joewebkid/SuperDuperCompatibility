@@ -40,7 +40,23 @@
       "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/zen-bound-1.5.0/gameplay.png",
       "alt": "Zen Bound first wrapping level at three percent completion",
       "caption": "First level; touch raised completion to 3%"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/60ae9c7cd6e868c5f8eac0c5.jpg",
+      "alt": "Community screenshot: Zen Bound",
+      "caption": "Community report, 1.5.0"
     }
   ],
-  "updated": "2026-10-09"
+  "updated": "2026-10-09",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/25",
+      "rating": 3,
+      "device": "POCO M2007J20CG, Android 12, ARM64, Adreno 618",
+      "emulator": "Super Duper Release f8d2fecb",
+      "notes": "POCO M2007J20CG (Android 12, ARM64/Adreno 618), Super Duper Release f8d2fecb. Exact IPA SHA-256 verified. Cold launch opens the Tree of Reflection menu, selects Humility and reaches the first 3D string-wrapping level. Swipes rotate the wooden object, string use changes, and completion increased from 0% to 3% on this Release retest. This confirms first-level rendering and touch interaction, not completion of the level or whole game. Acoustic audio, ordinary save/reload, later levels, long-session stability and other device profiles remain unverified.",
+      "reviewed": "2026-10-12",
+      "ipaSha256": "631bfd730339dd8f9ab37ff3a404cc49a30c85cc5da418267d102d98b72a3d0e"
+    }
+  ]
 }
