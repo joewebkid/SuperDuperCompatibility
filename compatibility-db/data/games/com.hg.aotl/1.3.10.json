@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.hg.aotl",
+  "title": "Aces of the Luftwaffe",
+  "version": "1.3.10",
+  "overallStatus": "partial",
+  "androidRating": 2,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-12",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/26",
+      "rating": 2,
+      "device": "POCO M2007J20CG, Android 12, ARM64, Adreno 618",
+      "emulator": "Super Duper Debug f8d2fecb",
+      "notes": "Physical ARM64 smoke test on 2026-10-10 with the exact IPA, POCO M2007J20CG (Android 12, Adreno 618), Super Duper Debug tree f8d2fecb. Splash and resource load complete; chapter, pilot and upgrade selections respond to 320-450 ms holds or swipes, and mission 1 Battle of Britain renders and continues for the bounded observation. The screenshot is from that live mission. Short menu taps did not always register. In-mission steering/fire, acoustic audio, pause/exit, saves, mission completion and long-session stability were not accepted. This is partial compatibility only, not a full-playthrough claim.",
+      "reviewed": "2026-10-12",
+      "ipaSha256": "9b6a036f468119b4f92c9c8083a76b6b3bee57bcd117274d2fd8b3ab44e882a6"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/425816b744eadec7159275af.jpg",
+      "alt": "Community screenshot: Aces of the Luftwaffe",
+      "caption": "Community report, 1.3.10"
+    }
+  ]
+}
