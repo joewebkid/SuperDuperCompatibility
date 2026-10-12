@@ -14,7 +14,7 @@
   "source": "community-reviewed",
   "reviewedUserReports": [
     {
-      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/ccb76bf3623714393df63b6a",
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/27",
       "rating": 3,
       "device": "POCO X3 NFC (M2007J20CG), Android 12, ARM64",
       "emulator": "Super Duper Android ARM64, 2026-10-11",
