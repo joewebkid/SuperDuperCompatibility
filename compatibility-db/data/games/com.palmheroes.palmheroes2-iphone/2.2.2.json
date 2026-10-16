@@ -8,9 +8,16 @@
   "milestones": {
     "reviewedUserReport": "partial"
   },
-  "notes": "Reviewed community evidence; not a complete playthrough verification.",
-  "testedOn": [],
-  "updated": "2026-10-12",
+  "notes": "On the exact IPA and POCO ARM64 build, the upright menu, adventure-map movement, a rendered tactical battle and unit movement were observed. The game's native save loaded after a fresh emulator process; after ending a turn with exhausted movement points, the loaded hero moved to an adjacent tile. This is not a complete playthrough: combat completion, audible sound, sustained stability, other maps and true widescreen remain unverified. The intro may be inverted.",
+  "testedOn": [
+    {
+      "device": "POCO X3 NFC M2007J20CG, Android 12, ARM64",
+      "appBuild": "Super Duper f8d2fecb",
+      "profile": "Exact-hash palm-heroes-landscape-layout patch",
+      "result": "partial"
+    }
+  ],
+  "updated": "2026-10-16",
   "source": "community-reviewed",
   "reviewedUserReports": [
     {
@@ -28,6 +35,16 @@
       "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/1183dd02b4a1f4e403266677.jpg",
       "alt": "Community screenshot: Palm Heroes 2 Deluxe",
       "caption": "Community report, 2.2.2"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/palm-heroes-2-20261016/main-menu.png",
+      "alt": "Palm Heroes 2 Deluxe upright main menu on POCO",
+      "caption": "ARM64: upright main menu"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/palm-heroes-2-20261016/postload-move.png",
+      "alt": "Palm Heroes 2 Deluxe snowy map after loading and moving the hero",
+      "caption": "ARM64: native save loaded, turn advanced and hero moved"
     }
   ]
 }
