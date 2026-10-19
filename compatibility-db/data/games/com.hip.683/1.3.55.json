@@ -34,7 +34,7 @@
   "updated": "2026-08-05",
   "reviewedUserReports": [
     {
-      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/8f04758ca261eee3f835b539",
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/30",
       "rating": 3,
       "device": "POCO M2007J20CG, Android 12, Adreno 618",
       "emulator": "Super Duper f8d2fecb ARM64 Debug (APK cb4f4d34)",
