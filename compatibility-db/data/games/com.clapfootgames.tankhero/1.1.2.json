@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.clapfootgames.tankhero",
+  "title": "Tank Hero",
+  "version": "1.1.2",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-20",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/a875293eb7ed8861e6f44583",
+      "rating": 3,
+      "device": "POCO X3 NFC (M2007J20CG), Android 12",
+      "emulator": "Super Duper ARM64 Debug v1.0.5-42-gf8d2fecb, 2026-10-20",
+      "notes": "Проверено на реальном ARM64-устройстве с точным патчем касаний: заставка, главное меню, Play, оба обучающих окна и первый 3D-уровень открылись. Удержание экранного D-pad двигает зелёный танк вправо и вверх, карта прокручивается. Враг атакует, здоровье уменьшается, при поражении появляется штатный экран Total Failure с Retry/Menu; Retry перезапускает уровень. При проверке через ADB врага убить не удалось; выстрел по цели, звук, пауза, завершение уровня, сохранения и долговременная стабильность пока не подтверждены. Это частичный результат, не полная играбельность.",
+      "reviewed": "2026-10-20",
+      "ipaSha256": "bfcb83edf3a55b6ca000fa5e8cb2d7d4821d58411067eb3a522d410a38140823"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/a875293eb7ed8861e6f44583.jpg",
+      "alt": "Community screenshot: Tank Hero",
+      "caption": "Community report, 1.1.2"
+    }
+  ]
+}
