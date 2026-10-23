@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.ea.simsmedieval.bv",
+  "title": "The Sims Medieval",
+  "version": "1.0.1",
+  "overallStatus": "partial",
+  "androidRating": 2,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-23",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/37",
+      "rating": 2,
+      "device": "POCO M2007J20CG, Android 12, ARM64",
+      "emulator": "Super Duper ARM64 Debug, 2026-10-23",
+      "notes": "Exact clean IPA tested on POCO ARM64. It reached the main menu, character selection, 3D character creation, name and kingdom entry, and the live outdoor world. A held touch changed the character appearance; the world camera zoom and horizontal drag changed the visible scene. In-game pause, Save and quit, the populated character slot and loading back to the world worked, including after force-stopping and cold relaunching the emulator. Very brief synthetic ADB taps sometimes missed the character-selection button while 300 ms holds worked; this does not prove a real-finger input defect. Character walking, quests, audible music, frame pacing, longer play and emulator save states remain unverified. Repeated old advertising/server requests fail, but they did not block this path. Partial, not a full-playthrough claim.",
+      "reviewed": "2026-10-23",
+      "ipaSha256": "d17cb1d032ba13a0af688aeb59325bfd791b8944ec73f0e0a5c28c534c8b3449"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/fc841e34393e6a69a53a6c8c.jpg",
+      "alt": "Community screenshot: The Sims Medieval",
+      "caption": "Community report, 1.0.1"
+    }
+  ]
+}
