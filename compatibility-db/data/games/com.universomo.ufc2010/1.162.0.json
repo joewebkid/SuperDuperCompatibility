@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.universomo.ufc2010",
+  "title": "UFC Undisputed",
+  "version": "1.162.0",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-23",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/902386f723067e77449eb142",
+      "rating": 3,
+      "device": "POCO X3 NFC (M2007J20CG), Android 12, ARM64",
+      "emulator": "Super Duper f8d2fecbe Debug (2026-10-23)",
+      "notes": "Clean exact IPA on POCO X3 NFC/Android 12 with Super Duper ARM64 Debug. A core main-thread NSTimer frame-boundary fix delivered offline Game Center authentication and UIView transition completions",
+      "reviewed": "2026-10-23",
+      "ipaSha256": "a78b17a7f80d109bcdcc4a7b816ecb54864ea3aca1b0793ace3f5f50558543b6"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/902386f723067e77449eb142.jpg",
+      "alt": "Community screenshot: UFC Undisputed",
+      "caption": "Community report, 1.162.0"
+    }
+  ]
+}
