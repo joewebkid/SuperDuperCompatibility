@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.chillingo.orions2",
+  "title": "Orions 2: The Deckmasters",
+  "version": "1.0",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-23",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/36",
+      "rating": 3,
+      "device": "POCO M2007J20CG, Android 12, ARM64",
+      "emulator": "Super Duper ARM64 Debug, 2026-10-23",
+      "notes": "Exact IPA tested on POCO ARM64. Main menu and fresh-campaign greeting/OK respond. Tutorial card battle reached victory; campaign map, city and construction worked. Built Blue Crystals: resource 500 to 480. Native slot 1 saved and reloaded after emulator process restart. A second map attack entered a non-tutorial battle; repeated card plays and turns ended in ordinary defeat and return to the map. Exact executable-SHA forceComposition patch restores missing city and text layers and auto-applies in Baseline. Audio quality, frame pacing, longer campaign and emulator save states are unverified. Partial result, not a full-playthrough claim.",
+      "reviewed": "2026-10-23",
+      "ipaSha256": "cfe6a18b1111dab38424bb991d6021a9227fb7b843a9b06088e195d41415f07f"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/a7aada5e5dd627a68b3905c5.jpg",
+      "alt": "Community screenshot: Orions 2: The Deckmasters",
+      "caption": "Community report, 1.0"
+    }
+  ]
+}
