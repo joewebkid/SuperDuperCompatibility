@@ -14,7 +14,7 @@
   "source": "community-reviewed",
   "reviewedUserReports": [
     {
-      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/a7aada5e5dd627a68b3905c5",
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/36",
       "rating": 3,
       "device": "POCO M2007J20CG, Android 12, ARM64",
       "emulator": "Super Duper ARM64 Debug, 2026-10-23",
