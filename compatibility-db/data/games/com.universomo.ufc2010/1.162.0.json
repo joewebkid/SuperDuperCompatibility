@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.universomo.ufc2010",
+  "title": "UFC Undisputed",
+  "version": "1.162.0",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Clean exact IPA reached offline account setup, main menu, Options, fighter selection and a live 3D Exhibition bout on ARM64 after the emulator's main-thread timer fix. The test profile survived a fresh-process relaunch. Actual striking, movement, knockdown recovery, pause/resume, audio, completed bout, career saves and sustained play are not verified. Five synthetic taps did not visibly advance the knockdown TAP prompt. Partial only; no full-playability or widescreen claim.",
+  "testedOn": [],
+  "updated": "2026-10-23",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/35",
+      "rating": 3,
+      "device": "POCO X3 NFC (M2007J20CG), Android 12, ARM64",
+      "emulator": "Super Duper f8d2fecbe Debug (2026-10-23)",
+      "notes": "Clean exact IPA on POCO X3 NFC/Android 12 with Super Duper ARM64 Debug, APK SHA-256 f4eca6049dd4f1213f0bfa91ae25fd664578c9060a32cb03079271b276199a8f. A core main-thread NSTimer frame-boundary fix delivered offline Game Center authentication and UIView transition completions; no UFC executable patch. A fresh local test profile enabled the menu. Exhibition reached fighter selection, then a live 3D bout with changing clock/health and CPU knockdown. After force-stop/relaunch, the profile persisted and Options opened. Rating 3/5 only: five synthetic taps did not visibly advance the knockdown TAP prompt. Strike/movement/ground controls, pause/resume, audible audio, completed bout, career saves, long stability and true widescreen remain unverified; startup splash orientation may still be wrong.",
+      "reviewed": "2026-10-23",
+      "ipaSha256": "a78b17a7f80d109bcdcc4a7b816ecb54864ea3aca1b0793ace3f5f50558543b6"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/902386f723067e77449eb142.jpg",
+      "alt": "Community screenshot: UFC Undisputed",
+      "caption": "Live Exhibition bout on POCO X3 NFC; partial gameplay, not full-game verification"
+    }
+  ]
+}
