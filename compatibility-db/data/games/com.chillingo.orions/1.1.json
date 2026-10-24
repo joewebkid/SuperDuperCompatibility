@@ -19,7 +19,7 @@
     "saves": "unknown",
     "performance": "issues"
   },
-  "notes": "The title renders and runs with the iPad 2 profile. The iPhone/fullscreen path has produced a small viewport or black output. On 2026-10-24 the project owner reported Orions 1 fully playable on his devices; the exact tested revision, full-playthrough scope, audio and save evidence were not supplied, so this user report does not override the reviewed 3/5 result. A bundle-wide optional controller patch is prepared in emulator source for a future build; other versions have not been independently tested.",
+  "notes": "The title renders and runs with the iPad 2 profile. The iPhone/fullscreen path has produced a small viewport or black output. On 2026-10-24 the project owner reported Orions 1 fully playable on his devices; the exact tested revision, full-playthrough scope, audio and save evidence were not supplied, so this user report does not override the reviewed 3/5 result. A bundle-wide optional controller patch was packaged in a new Debug APK and installed on a second phone, but Orions 1 was not rerun afterward; other versions have not been independently tested.",
   "testedOn": [
     {
       "device": "Android phone with Qualcomm Adreno GPU",
