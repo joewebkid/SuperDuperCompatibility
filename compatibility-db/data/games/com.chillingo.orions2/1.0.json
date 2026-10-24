@@ -3,12 +3,13 @@
   "bundleId": "com.chillingo.orions2",
   "title": "Orions 2: The Deckmasters",
   "version": "1.0",
-  "overallStatus": "partial",
-  "androidRating": 3,
+  "overallStatus": "verified",
+  "androidRating": 5,
   "milestones": {
-    "reviewedUserReport": "partial"
+    "reviewedUserReport": "partial",
+    "ownerFullPlaythrough": "verified"
   },
-  "notes": "Reviewed ARM64 gameplay evidence; not a complete playthrough verification. On 2026-10-24 the project owner reported both Orions games fully playable; the exact scope of that user test was not supplied, so the reviewed rating remains 3/5. A bundle-wide force-composition patch was packaged in a new Debug APK and installed on the second phone; no Orions gameplay was rerun after that installation. Only version 1.0 has device evidence, and other versions are experimental.",
+  "notes": "Owner-confirmed 5/5 for the available 1.0 IPA on 2026-10-24: the owner reports both Orions games and all levels fully playable and requests no further tests. This supersedes the earlier short-test 3/5 aggregate, while the older partial milestone and device notes remain historical evidence, not a new assistant full-game test. The bundle-wide force-composition patch was installed on the second phone; no assistant gameplay rerun followed that installation. Other IPA revisions have not been individually verified and do not inherit this rating.",
   "testedOn": [
     {
       "device": "25053RT47C, Android ARM64",
@@ -28,6 +29,15 @@
       "emulator": "Super Duper ARM64 Debug, 2026-10-23",
       "notes": "Exact IPA tested on POCO ARM64. Main menu and fresh-campaign greeting/OK respond. Tutorial card battle reached victory; campaign map, city and construction worked. Built Blue Crystals: resource 500 to 480. Native slot 1 saved and reloaded after emulator process restart. A second map attack entered a non-tutorial battle; repeated card plays and turns ended in ordinary defeat and return to the map. Exact executable-SHA forceComposition patch restores missing city and text layers and auto-applies in Baseline. Audio quality, frame pacing, longer campaign and emulator save states are unverified. Partial result, not a full-playthrough claim.",
       "reviewed": "2026-10-23",
+      "ipaSha256": "cfe6a18b1111dab38424bb991d6021a9227fb7b843a9b06088e195d41415f07f"
+    },
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/38",
+      "rating": 5,
+      "device": "Project owner's Android device (model not stated for this confirmation)",
+      "emulator": "Super Duper, owner test reported 2026-10-24",
+      "notes": "Owner reports Orions 2 fully playable across levels after the renderer patch. Exact 1.0 IPA is the available local revision; build, audio and save details were not separately documented. No new assistant full-game run was made.",
+      "reviewed": "2026-10-24",
       "ipaSha256": "cfe6a18b1111dab38424bb991d6021a9227fb7b843a9b06088e195d41415f07f"
     }
   ],

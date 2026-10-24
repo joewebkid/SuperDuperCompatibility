@@ -6,9 +6,10 @@
   "releaseYear": "2009",
   "developerPublisher": "Chillingo",
   "genres": ["Card game", "Strategy"],
-  "overallStatus": "issues",
-  "androidRating": 3,
+  "overallStatus": "verified",
+  "androidRating": 5,
   "milestones": {
+    "ownerFullPlaythrough": "verified",
     "import": "verified",
     "launch": "verified",
     "mainMenu": "verified",
@@ -19,7 +20,17 @@
     "saves": "unknown",
     "performance": "issues"
   },
-  "notes": "The title renders and runs with the iPad 2 profile. The iPhone/fullscreen path has produced a small viewport or black output. On 2026-10-24 the project owner reported Orions 1 fully playable on his devices; the exact tested revision, full-playthrough scope, audio and save evidence were not supplied, so this user report does not override the reviewed 3/5 result. A bundle-wide optional controller patch was packaged in a new Debug APK and installed on a second phone, but Orions 1 was not rerun afterward; other versions have not been independently tested.",
+  "notes": "Owner-confirmed 5/5 for the available 1.1 IPA on 2026-10-24: the owner reports both Orions games and all levels fully playable and requests no further tests. This supersedes the earlier short-test 3/5 aggregate, but the older milestone observations below remain historical evidence, not newly verified audio/save measurements. The optional controller patch matches this bundle across versions; other IPA revisions have not been individually verified and do not inherit this rating. Earlier iPad 2 tests saw a small or black iPhone/fullscreen viewport.",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/38",
+      "rating": 5,
+      "device": "Project owner's Android device (model not stated for this confirmation)",
+      "emulator": "Super Duper, owner test reported 2026-10-24",
+      "notes": "Owner reports Orions 1 fully playable across levels. Exact 1.1 IPA is the available local revision; build, audio and save details were not separately documented. No new assistant gameplay run was made.",
+      "reviewed": "2026-10-24"
+    }
+  ],
   "testedOn": [
     {
       "device": "Android phone with Qualcomm Adreno GPU",
