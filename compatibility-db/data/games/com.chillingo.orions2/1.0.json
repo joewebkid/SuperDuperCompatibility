@@ -8,9 +8,17 @@
   "milestones": {
     "reviewedUserReport": "partial"
   },
-  "notes": "Reviewed community evidence; not a complete playthrough verification.",
-  "testedOn": [],
-  "updated": "2026-10-23",
+  "notes": "Reviewed ARM64 gameplay evidence; not a complete playthrough verification. On 2026-10-24 the project owner reported both Orions games fully playable; the exact scope of that user test was not supplied, so the reviewed rating remains 3/5. A bundle-wide force-composition patch is prepared in emulator source for a future build; only version 1.0 is device-tested, and other versions are experimental.",
+  "testedOn": [
+    {
+      "device": "25053RT47C, Android ARM64",
+      "appBuild": "Debug APK SHA-256 d4d75df62abab98c6f417a42baf04f0f14de459c9b1e029efbed77de50b20cbc",
+      "profile": "existing device profile (not changed)",
+      "result": "partial",
+      "notes": "Exact 1.0 IPA SHA-256 matched after transfer. Built-in exact patch auto-applied by executable SHA. Main menu, New Game and live tutorial battle rendered; this short second-device check did not establish long-play stability, audio quality or a save roundtrip."
+    }
+  ],
+  "updated": "2026-10-24",
   "source": "community-reviewed",
   "reviewedUserReports": [
     {
