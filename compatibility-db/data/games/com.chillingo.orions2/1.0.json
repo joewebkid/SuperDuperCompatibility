@@ -8,7 +8,7 @@
   "milestones": {
     "reviewedUserReport": "partial"
   },
-  "notes": "Reviewed ARM64 gameplay evidence; not a complete playthrough verification. On 2026-10-24 the project owner reported both Orions games fully playable; the exact scope of that user test was not supplied, so the reviewed rating remains 3/5. A bundle-wide force-composition patch is prepared in emulator source for a future build; only version 1.0 is device-tested, and other versions are experimental.",
+  "notes": "Reviewed ARM64 gameplay evidence; not a complete playthrough verification. On 2026-10-24 the project owner reported both Orions games fully playable; the exact scope of that user test was not supplied, so the reviewed rating remains 3/5. A bundle-wide force-composition patch was packaged in a new Debug APK and installed on the second phone; no Orions gameplay was rerun after that installation. Only version 1.0 has device evidence, and other versions are experimental.",
   "testedOn": [
     {
       "device": "25053RT47C, Android ARM64",
