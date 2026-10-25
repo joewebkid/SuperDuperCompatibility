@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.joybits.doodlecreatures-ipad",
+  "title": "Doodle Creatures",
+  "version": "2.0.5",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-25",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/75fcdb9bff8d01afa6c31eef",
+      "rating": 3,
+      "device": "POCO 25053RT47C, Android 16, ARM64, Adreno",
+      "emulator": "Super Duper Debug cdcdce69, 2026-10-25",
+      "notes": "На POCO 25053RT47C (Android 16, ARM64, Adreno) точная IPA с SHA-256 из отчёта запускается с версионным патчем ABI. Проверены заставка, меню, Game, игровая доска, касания и перенос попугая в ДНК-сканер. Сканирование завершилось, получены гены «Разноцветный» и «Летающий». После принудительного закрытия и нового запуска сохранение восстановило 1% прогресса и оба гена. Ограничение: один возврат после блокировки экрана вызвал сбой эмулятора в NSLock",
+      "reviewed": "2026-10-25",
+      "ipaSha256": "4a8d825b7079884ea74833e14d59ea27d74038402d50e4016182e985391c974f"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/75fcdb9bff8d01afa6c31eef.jpg",
+      "alt": "Community screenshot: Doodle Creatures",
+      "caption": "Community report, 2.0.5"
+    }
+  ]
+}
