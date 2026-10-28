@@ -24,6 +24,23 @@
       "result": "issues"
     }
   ],
-  "screenshots": [],
-  "updated": "2026-08-05"
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/99781df8074e789bae43c25e.jpg",
+      "alt": "Community screenshot: Tap Tap Revenge: Coldplay Edition",
+      "caption": "Community report, 1.0"
+    }
+  ],
+  "updated": "2026-08-05",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/33",
+      "rating": 3,
+      "device": "POCO M2007J20CG, Android 12",
+      "emulator": "Super Duper ARM64 Debug, 2026-10-20",
+      "notes": "Exact IPA reached the main menu, difficulty and song selection, then Speed of Sound gameplay with descending notes and changing score on a real ARM64 phone. Touch advanced the first-run prompt and game tutorial. A previous launch crash and missing Lua theme columns were fixed in this test build. Audible music quality, accurate note hits, full-song completion, pause/resume and long-term stability are NOT verified. Partial compatibility only, not fully playable.",
+      "reviewed": "2026-10-20",
+      "ipaSha256": "030636bf54facfb0d3d1dfd55fcb10011f771cb03adfaa4485a30354c9bd7d96"
+    }
+  ]
 }
