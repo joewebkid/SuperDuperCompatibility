@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.clickgamer.AngryBirds",
+  "title": "Angry Birds Classic",
+  "version": "3.0.0",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "newGame": "verified",
+    "gameplay": "partial",
+    "graphics": "partial",
+    "input": "partial",
+    "pauseResume": "verified",
+    "audio": "unknown",
+    "saves": "unknown",
+    "performance": "issues"
+  },
+  "notes": "POCO X3 ARM64 test on 2026-11-02. Exact IPA SHA-256 3780905c2746f91311450f24829c7cdcd44d2af011d9815465d1c85ed131416a. Identical Loading frames at 120, 180 and 240 seconds advanced to the Play menu by 300 seconds in a Debug build. Play -> Poached Eggs -> level 1 reached live slingshot gameplay. Two touch drags launched birds and moved the camera; Pause and Resume returned to the same level. Score remained zero, so a hit, level clear and full playability are not claimed. Acoustic audio, native saves and sustained play were not checked.",
+  "testedOn": [
+    {
+      "device": "POCO X3 NFC (M2007J20CG), Android 12, ARM64, Adreno 618",
+      "appBuild": "Super Duper Debug, APK SHA-256 c8dcb2a1f06101d10fb9b9e2f2f545871976f1d8bf423709eb8f3deaedf81885",
+      "profile": "default",
+      "result": "partial"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/angry-birds-3.0.0/loading.jpg",
+      "alt": "Angry Birds Classic loading screen on POCO X3",
+      "caption": "Loading persisted for at least four minutes"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/angry-birds-3.0.0/menu.jpg",
+      "alt": "Angry Birds Classic Play menu on POCO X3",
+      "caption": "Play menu after approximately five minutes"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/angry-birds-3.0.0/gameplay.jpg",
+      "alt": "Angry Birds Classic level 1 slingshot on POCO X3",
+      "caption": "Level 1 live gameplay before launching a bird"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/angry-birds-3.0.0/pause.jpg",
+      "alt": "Angry Birds Classic in-game pause menu on POCO X3",
+      "caption": "Pause menu; Resume returned to level 1"
+    }
+  ],
+  "updated": "2026-11-02"
+}
