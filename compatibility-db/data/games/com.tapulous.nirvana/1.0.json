@@ -17,7 +17,7 @@
     "saves": "partial",
     "performance": "issues"
   },
-  "notes": "Physical ARM64 test on 2026-11-03 with exact IPA SHA-256 bd3d74b23c94bc5da1afe8b99bc6e6902dafd0ec061295d24ecbaaf52e86ac88. Career lists bundled Breed and Lithium. Breed reached live notes and Game Stats in three bounded runs; two complete-song result files recorded is_complete=true. A no-input control scored 0/520 hits. In a separate run, 144 injected touches across three fret centers scored 58/520 hits (11.15% accuracy), proving note input reaches gameplay, not calibrated human timing. The result-screen High Scores tab displayed the completed run and Home returned to the menu; a fresh process launch reached the menu again. The test-created score-submission file survived that restart with the same SHA-256, but visual reloading of the old score after restart was not checked. Song loading can exceed 100 seconds. Audible music/quality, in-song pause/resume, Lithium, other modes and long-run stability remain unverified. Rating 3/5 is for this bounded Breed path only, not complete playability.",
+  "notes": "Physical ARM64 test on 2026-11-03 with exact IPA SHA-256 bd3d74b23c94bc5da1afe8b99bc6e6902dafd0ec061295d24ecbaaf52e86ac88. Career lists bundled Breed and Lithium. Breed reached live notes and Game Stats in three bounded runs; two complete-song result files recorded is_complete=true. A no-input control scored 0/520 hits. In a separate run, 144 injected touches across three fret centers scored 58/520 hits (11.15% accuracy), proving note input reaches gameplay, not calibrated human timing. The result-screen High Scores tab displayed the completed run and Home returned to the menu; a fresh process launch reached the menu again. The test-created score-submission file survived that restart with the same SHA-256, but visual reloading of the old score after restart was not checked. On 2026-11-04 a fresh ARM64 run on the current APK reached Breed again: after Super Duper Pause, the guest displayed Game Paused; guest Resume, followed by Super Duper Continue, returned to live notes. Scores at 10 and 22 seconds after Continue changed from -4,080 to -5,520, with different note positions, proving continued rendering and game progression. This is a combined guest/native pause-resume path, not proof of native-only pause behavior. Original guest preferences were restored after the test; the test-created score file was archived locally and removed from the phone. Song loading can exceed 100 seconds. Audible music/quality, Lithium, other modes, visual reloading of old scores and long-run stability remain unverified. Rating 3/5 is for this bounded Breed path only, not complete playability.",
   "testedOn": [
     {
       "device": "Android phone with Qualcomm Adreno 825",
@@ -29,6 +29,12 @@
       "device": "POCO X3 NFC M2007J20CG (surya), Android 12, ARM64",
       "appBuild": "Super Duper Debug APK SHA-256 BBF64733D36C077B4F419DE886A9A37D49BEFC168B76CCB42CFDC3E283B617DF",
       "profile": "Existing Nirvana game profile; unchanged during test",
+      "result": "partial"
+    },
+    {
+      "device": "POCO X3 NFC M2007J20CG (surya), Android 12, ARM64",
+      "appBuild": "Super Duper Debug APK SHA-256 DA561B266F287EF58EBE4000C1DAC8F48536C3496ECC50886BBBF9797BE74552",
+      "profile": "Existing Nirvana game profile; unchanged during pause/continue test",
       "result": "partial"
     }
   ],
@@ -52,7 +58,22 @@
       "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/nirvana-1.0-20261103/breed-high-scores.png",
       "alt": "Nirvana Revenge High Scores tab after a separate complete Breed run",
       "caption": "High Scores tab opens from Game Stats; this image is from a separate no-input control run"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/nirvana-1.0-20261104/native-paused.jpg",
+      "alt": "Nirvana Revenge guest Game Paused dialog during an emulator pause test",
+      "caption": "The guest showed Game Paused after Super Duper Pause; both layers were resumed in sequence"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/nirvana-1.0-20261104/resumed-10s.jpg",
+      "alt": "Breed gameplay ten seconds after guest and emulator resume, score minus 4080",
+      "caption": "Live fretboard ten seconds after the combined resume sequence"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/nirvana-1.0-20261104/resumed-22s.jpg",
+      "alt": "Breed gameplay 22 seconds after guest and emulator resume, score minus 5520",
+      "caption": "Score and note positions changed twelve seconds later, showing that gameplay continued"
     }
   ],
-  "updated": "2026-11-03"
+  "updated": "2026-11-04"
 }
