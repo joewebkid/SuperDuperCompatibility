@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.gameloft.CastleofMagic",
+  "title": "Castle of Magic",
+  "version": "1.0.4",
+  "developerPublisher": "Gameloft",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "newGame": "verified",
+    "gameplay": "partial",
+    "input": "partial",
+    "graphics": "partial",
+    "audio": "unknown",
+    "pause": "unknown",
+    "saves": "unknown",
+    "performance": "unknown"
+  },
+  "notes": "Clean IPA SHA-256 6cf0dfdd91534f19e58c06ea577dbb7aa4d6fd4cf915f654fa98c8df270f4f44. On a physical POCO X3 ARM64 phone, English selection, Play Game, New Game, the intro and Green Labyrinth opened. Holding right moved the hero and collected a gem (10 to 11); holding left moved him back. The owner separately reports that the game works excellently. This short independent check does not verify jump/attack, audible sound, pause, save/reload, sustained play or true widescreen, so the catalogue remains partial rather than claiming a fully verified game.",
+  "testedOn": [
+    {
+      "device": "POCO X3 NFC (M2007J20CG), Android 12, ARM64",
+      "appBuild": "Super Duper Debug f8d2fecbe, APK SHA-256 99a546f743666b4c10cfbb21cdaf362677e96a4320b8d46a71bbd80caee8dcec",
+      "profile": "Recommended iPhone profile, no title-specific rendering patch",
+      "result": "partial"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/castle-of-magic-1.0.4/menu.png",
+      "alt": "Castle of Magic Play Game menu on POCO",
+      "caption": "Main menu after language selection"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/castle-of-magic-1.0.4/gameplay.png",
+      "alt": "Castle of Magic Green Labyrinth gameplay on POCO",
+      "caption": "First-level HUD before movement, 10 gems"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/castle-of-magic-1.0.4/movement.png",
+      "alt": "Castle of Magic hero after moving right and collecting a gem",
+      "caption": "Right movement and collection, 11 gems"
+    }
+  ],
+  "updated": "2026-11-05"
+}
