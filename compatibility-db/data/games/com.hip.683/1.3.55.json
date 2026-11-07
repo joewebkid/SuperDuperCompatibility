@@ -24,6 +24,23 @@
       "result": "issues"
     }
   ],
-  "screenshots": [],
-  "updated": "2026-08-05"
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/8f04758ca261eee3f835b539.jpg",
+      "alt": "Community screenshot: Rock Band",
+      "caption": "Community report, 1.3.55"
+    }
+  ],
+  "updated": "2026-08-05",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/30",
+      "rating": 3,
+      "device": "POCO M2007J20CG, Android 12, Adreno 618",
+      "emulator": "Super Duper f8d2fecb ARM64 Debug (APK cb4f4d34)",
+      "notes": "Проверено на реальном ARM64-устройстве 20.10.2026. После исправления JNI-пути запускаются выбор языка, главное меню и Quick Play. Открыта песня Hanging on the Telephone: Drums/Easy, отображаются движущиеся ноты и шкала. Без попаданий по нотам игра штатно завершила попытку как Failed на 44% — это не вылет. Работают Retry (возврат к выбору инструмента), пауза и холодный перезапуск приложения; выбранный язык сохранился. В логе рендер дошёл до 3600-го кадра. Попадания/точность ввода по нотам, слышимое качество музыки, прохождение полной песни, другие режимы и долговременная производительность не проверены. Этот результат не означает полную совместимость.",
+      "reviewed": "2026-10-19",
+      "ipaSha256": "f4adc83c33b377f70bc62f8e1a9edf56d7c12353987c39edbc799ca414dda819"
+    }
+  ]
 }
