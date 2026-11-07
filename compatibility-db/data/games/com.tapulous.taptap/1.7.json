@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.tapulous.TapTap",
+  "title": "Tap Tap Revenge",
+  "version": "1.7",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-10-20",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/31",
+      "rating": 3,
+      "device": "POCO X3 NFC (M2007J20CG), Android 12",
+      "emulator": "Super Duper ARM64 Debug v1.0.5-42-gf8d2fecb, 2026-10-20",
+      "notes": "Проверено на реальном ARM64-устройстве: после исправления UIKit открываются обе кнопки диалога Welcome to Tapulous, Continue ведёт в главное меню. One Player → Easy Tracks → Turn Yourself Around запустил игровой экран и завершился экраном результата. Меню и выбор трека реагируют на касания. Звук, точность попаданий по нотам, пауза и другие треки ещё не проверены; оценка предварительная, не статус полной играбельности.",
+      "reviewed": "2026-10-20",
+      "ipaSha256": "2064dae49b3bbca10c029a8862141c0d3da9418ff3d0430c11111f278bfb4ceb"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/469f0b52ce22bfa3d5fbad38.jpg",
+      "alt": "Community screenshot: Tap Tap Revenge",
+      "caption": "Community report, 1.7"
+    }
+  ]
+}
