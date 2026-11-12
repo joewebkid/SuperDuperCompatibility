@@ -6,11 +6,28 @@
   "overallStatus": "partial",
   "androidRating": 3,
   "milestones": {
+    "import": "verified",
+    "launch": "verified",
+    "mainMenu": "verified",
+    "newGame": "verified",
+    "gameplay": "partial",
+    "graphics": "partial",
+    "input": "partial",
+    "audio": "unknown",
+    "saves": "partial",
+    "performance": "partial",
     "reviewedUserReport": "partial"
   },
-  "notes": "Reviewed community evidence; not a complete playthrough verification.",
-  "testedOn": [],
-  "updated": "2026-10-12",
+  "notes": "Exact IPA SHA-256 023d477f407ade2320be66c6ac973ece86a07bc00195a239238f1862623f4bf1. On POCO ARM64, the upright intro, tutorial, pause and Career menus responded. Cop Events > Priority Target started a real Interceptor race; the timer and bounty changed, a touch deployed Roadblock, and the event reached a normal FAILED result after time expired. Tap to Continue returned to Career with $3,210 earned. After Android force-stop and fresh launch, Resume Cop Career reopened the event map. This is partial: physical tilt steering, successful interception, audible audio, exact bounty persistence after relaunch, long-session performance and complete optional true-widescreen HUD are not proven. The optional wide patch remains off by default; this is the iPhone 1.0.3 IPA, not the HD iPad version.",
+  "testedOn": [
+    {
+      "device": "POCO M2007J20CG (surya), Android 12, ARM64, Adreno 618",
+      "appBuild": "Super Duper Debug APK SHA-256 d7367633a1cf7beab17854dbc2b3426120ba727ed54e90bfe0bd96b36addc8cc",
+      "profile": "iPhone 3GS; exact landscape-left patch; true widescreen off",
+      "result": "partial"
+    }
+  ],
+  "updated": "2026-10-15",
   "source": "community-reviewed",
   "reviewedUserReports": [
     {
@@ -28,6 +45,31 @@
       "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/7aa8d10b2ac7555456d52911.jpg",
       "alt": "Community screenshot: Need for Speed: Hot Pursuit",
       "caption": "Community report, 1.0.3"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/hot-pursuit-1.0.3/loading.jpg",
+      "alt": "Hot Pursuit iPhone loading tip on POCO",
+      "caption": "Loading screen after launch"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/hot-pursuit-1.0.3/career.jpg",
+      "alt": "Hot Pursuit Cop and Racer career menu on POCO",
+      "caption": "Career menu responds to touch"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/hot-pursuit-1.0.3/gameplay.jpg",
+      "alt": "Hot Pursuit Interceptor event in progress",
+      "caption": "Live career race with timer, speed and bounty"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/hot-pursuit-1.0.3/roadblock.jpg",
+      "alt": "Roadblock deployed by touch during Hot Pursuit career race",
+      "caption": "Roadblock touch activated during gameplay"
+    },
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/hot-pursuit-1.0.3/result.jpg",
+      "alt": "Hot Pursuit Interceptor event failed result screen",
+      "caption": "Timed race ended normally; no successful interception claimed"
     }
   ]
 }
