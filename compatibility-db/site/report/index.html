@@ -3,51 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#12151c" />
-    <title>Отправить отчёт · Super Duper</title>
+    <meta name="referrer" content="no-referrer" />
+    <title>Отчёт об игре · Шарлотка</title>
     <link rel="stylesheet" href="../styles.css" />
+    <link rel="canonical" href="https://sdemul.nbmit.ru/report/" />
+    <script src="redirect.js" defer></script>
   </head>
   <body>
     <main class="shell game-shell">
       <a class="back-link" href="../">← База совместимости</a>
       <header class="hero">
-        <p class="eyebrow">SUPER DUPER · ANDROID</p>
-        <h1>Отчёт о совместимости</h1>
-        <p class="lead">Опиши проверенную версию IPA. Отчёт сначала попадёт в черновой Pull Request и появится в базе только после проверки человеком.</p>
+        <h1>Отчёт об игре</h1>
+        <p class="lead">Форма отчёта переехала на сайт «Шарлотки».</p>
+        <p><a href="https://sdemul.nbmit.ru/report/">Открыть форму отчёта</a></p>
       </header>
-      <form id="report-form" class="report-form" enctype="multipart/form-data">
-        <label>Название игры <input name="game" list="known-games" required maxlength="120" autocomplete="off" /></label>
-        <datalist id="known-games"></datalist>
-        <p id="game-hint" class="muted">Выбери игру из подсказок — Bundle ID заполнится автоматически, если он есть в базе. Сверь версию со своей IPA.</p>
-        <label>Bundle ID <input name="bundle" list="known-bundles" aria-describedby="game-hint" required maxlength="200" placeholder="com.example.game" autocomplete="off" /></label>
-        <datalist id="known-bundles"></datalist>
-        <label>Версия IPA <input name="version" required maxlength="40" placeholder="1.0.0" autocomplete="off" /></label>
-        <label>SHA-256 IPA, если известен <input name="ipaSha256" maxlength="64" pattern="[A-Fa-f0-9]{64}" placeholder="Автоматически заполнится из эмулятора" autocomplete="off" /></label>
-        <label>Оценка
-          <select name="rating" required>
-            <option value="">Выбери результат</option>
-            <option value="1">1 — не запускается</option>
-            <option value="2">2 — только заставка или меню</option>
-            <option value="3">3 — частично играбельна</option>
-            <option value="4">4 — играбельна с небольшими проблемами</option>
-            <option value="5">5 — работает полностью</option>
-          </select>
-        </label>
-        <label>Устройство и версия Android <input name="device" required maxlength="120" placeholder="Модель, Android 15, GPU" /></label>
-        <label>Версия Super Duper <input name="emulator" required maxlength="80" /></label>
-        <label>Что проверено, что работает и что нет
-          <textarea name="notes" required minlength="20" maxlength="3000" rows="7" placeholder="Запуск, меню, изображение, звук, управление, сохранения; конкретные проблемы"></textarea>
-        </label>
-        <label>Скриншот, по желанию (PNG, JPG или WebP, до 5 МБ)
-          <input name="screenshot" type="file" accept="image/png,image/jpeg,image/webp" />
-        </label>
-        <label class="report-consent"><input name="consent" type="checkbox" value="yes" required /> Разрешаю опубликовать данные отчёта, включая указанный SHA-256 IPA, и выбранный скриншот в открытом Pull Request и базе после проверки.</label>
-        <label class="report-honeypot" aria-hidden="true">Сайт <input name="website" tabindex="-1" autocomplete="off" /></label>
-        <button class="primary-action" type="submit">Отправить на проверку</button>
-        <p id="report-result" role="status" aria-live="polite"></p>
-      </form>
-      <p class="notice">Не прикладывай личные данные, приватные логи, сохранения или IPA. Вход в GitHub не требуется.</p>
     </main>
-    <script type="module" src="../report.js"></script>
   </body>
 </html>
