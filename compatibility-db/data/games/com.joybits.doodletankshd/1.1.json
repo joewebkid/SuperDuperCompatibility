@@ -14,7 +14,7 @@
   "source": "community-reviewed",
   "reviewedUserReports": [
     {
-      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/bb94a5a2a222c33a54b82735",
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/pull/46",
       "rating": 3,
       "device": "REDMI Turbo 4 Pro (25053RT47C), Android 16, ARM64",
       "emulator": "Шарлотка ARM64 Release f8d2fecbe",
