@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "com.joybits.doodletankshd",
+  "title": "Doodle Tanks",
+  "version": "1.1",
+  "overallStatus": "partial",
+  "androidRating": 3,
+  "milestones": {
+    "reviewedUserReport": "partial"
+  },
+  "notes": "Reviewed community evidence; not a complete playthrough verification.",
+  "testedOn": [],
+  "updated": "2026-11-26",
+  "source": "community-reviewed",
+  "reviewedUserReports": [
+    {
+      "issueUrl": "https://github.com/joewebkid/SuperDuperCompatibility/tree/reports/bb94a5a2a222c33a54b82735",
+      "rating": 3,
+      "device": "REDMI Turbo 4 Pro (25053RT47C), Android 16, ARM64",
+      "emulator": "Шарлотка ARM64 Release f8d2fecbe",
+      "notes": "Проверка 26.11.2026 на REDMI Turbo 4 Pro, Android 16, ARM64, в штатной Release-сборке Шарлотки f8d2fecbe. IPA Doodle Tanks 1.1, сборка игры 1.0.20. С автоматическим патчем и локальным nation_1.unity3d игра прошла загрузку из пустого кэша и открыла главное меню, выбор нации и поле СССР. Unity записала файл с SHA-256, совпадающим с содержимым локального AssetBundle. На поле отображались иконки групп и элементов. Первая реакция «Инструменты» + «Гочкисс» дала «Б-3 37 мм». После перезапуска сохранились 5/105 элементов и запись в истории. Приложен скриншот истории с обеими исходными карточками и результатом. Проверен начальный сценарий СССР. Германия, звук, FPS и длительная игра остаются за пределами этой проверки.",
+      "reviewed": "2026-11-26",
+      "ipaSha256": "3bc4e4adfdd552bfabf91267b483d9a0a0f74e222793380d7d5898b452915533"
+    }
+  ],
+  "screenshots": [
+    {
+      "url": "https://joewebkid.github.io/SuperDuperCompatibility/assets/reports/bb94a5a2a222c33a54b82735.jpg",
+      "alt": "Community screenshot: Doodle Tanks",
+      "caption": "Community report, 1.1"
+    }
+  ]
+}
